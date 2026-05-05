@@ -1,18 +1,23 @@
-name: Run YouTube Shorts Bot
+name: Run Turkey News Shorts Bot
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "5 3 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,6 +28,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg imagemagick fonts-dejavu-core
+          if [ -f /etc/ImageMagick-6/policy.xml ]; then
+            sudo sed -i 's#rights="none" pattern="@\*"#rights="read|write" pattern="@*"#' /etc/ImageMagick-6/policy.xml || true
+          fi
 
       - name: Install Python dependencies
         run: |
@@ -31,7 +39,16 @@ jobs:
 
       - name: Run bot
         env:
+          TZ: Europe/Istanbul
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           CLIENT_SECRETS_JSON: ${{ secrets.CLIENT_SECRETS_JSON }}
         run: python main.py
+
+      - name: Commit history files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news_history.json selected_news.json video_plan.json
+          git diff --cached --quiet || git commit -m "Update news history and video plan"
+          git push
