@@ -1,41 +1,62 @@
 #!/usr/bin/env python3
 """
-VIRAL YOUTUBE SHORTS GENERATOR - FINAL STABLE VERSION
-GitHub Actions ile otomatik calisacak sekilde hazirlanmistir.
+Turkey news YouTube Shorts bot.
 
-Gerekli GitHub Secrets:
-- PEXELS_API_KEY
-- YOUTUBE_REFRESH_TOKEN
-- CLIENT_SECRETS_JSON
+Akis:
+- Son 20 saatteki Turkiye haberlerini tarar
+- Viral potansiyeli en yuksek 3 farkli haberi secer
+- Daha once kullanilan haberleri kontrol eder
+- Secilen haberleri once JSON dosyasina yazar
+- Her haber icin aciklayici metin olusturur
+- Habere uygun Pexels arka plan videosu bulur
+- 3 Shorts videosu uretir
+- YouTube'a 07:00 / 12:00 / 18:00 saatlerine zamanli yukler
 """
 
+from __future__ import annotations
+
 import asyncio
+import calendar
+import hashlib
+import html
 import json
 import logging
 import os
-import random
 import re
 import sys
-import time
 import traceback
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
-from typing import List, Tuple
+from typing import Any
+from urllib.parse import quote_plus
+from zoneinfo import ZoneInfo
 
+import edge_tts
+import feedparser
+import requests
+from difflib import SequenceMatcher
 from dotenv import load_dotenv
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload
+from moviepy.audio.fx.all import audio_loop, volumex
+from moviepy.editor import AudioFileClip, CompositeAudioClip, CompositeVideoClip, TextClip, VideoFileClip
+from moviepy.video.fx.all import crop
 
 load_dotenv()
 
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY")
 YOUTUBE_REFRESH_TOKEN = os.getenv("YOUTUBE_REFRESH_TOKEN")
+CLIENT_SECRETS_FILE = "client_secrets.json"
+YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+YOUTUBE_CATEGORY_ID = "25"
+TIMEZONE = ZoneInfo("Europe/Istanbul")
 
 if not PEXELS_API_KEY:
     sys.exit("PEXELS_API_KEY tanimli degil.")
 if not YOUTUBE_REFRESH_TOKEN:
     sys.exit("YOUTUBE_REFRESH_TOKEN tanimli degil.")
-
-CLIENT_SECRETS_FILE = "client_secrets.json"
-YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
-YOUTUBE_CATEGORY_ID = "22"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -44,162 +65,350 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-import edge_tts
-import g4f
-import requests
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-from moviepy.audio.fx.all import audio_loop, volumex
-from moviepy.editor import (
-    AudioFileClip,
-    CompositeAudioClip,
-    CompositeVideoClip,
-    TextClip,
-    VideoFileClip,
-)
-from moviepy.video.fx.all import crop
-
-OUTPUT_VIDEO = "final_shorts.mp4"
-VOICEOVER_FILE = "voiceover.mp3"
-BACKGROUND_FILE = "background_video.mp4"
-VIDEO_SIZE = (1080, 1920)
-DEFAULT_VOICE = "tr-TR-EmelNeural"
-RATE = "+15%"
-PITCH = "-5Hz"
-FONT_URL = "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-Bold.ttf"
-FONT_DIR = Path("fonts")
-FONT_PATH = FONT_DIR / "Montserrat-Bold.ttf"
-MAX_CAPTION_WORDS = 2
-MAX_CAPTION_DURATION = 0.62
-FONT_SIZE = 56
-STROKE_WIDTH = 4
-
-NICHE_POOL = [
-    "Komplo Teorileri ve Gizli Planlar",
-    "Korkunc Gercekler",
-    "Korkunc Tarihi Olaylar",
-    "Cozulmemis Davalar",
-    "Kaybolan Insanlarin Gizemli Hikayeleri",
-    "Tuyler Urperten Suc Dosyalari",
-    "Lanetli Yerler ve Korku Hikayeleri",
-    "Aciklanamayan Paranormal Olaylar",
-    "Karanlik Internet ve Teknoloji Sirlari",
-    "Dunyanin En Rahatsiz Edici Gizemleri",
+NEWS_QUERIES = [
+    "son dakika Turkiye",
+    "gundem Turkiye",
+    "ekonomi Turkiye",
+    "siyaset Turkiye",
+    "spor Turkiye",
+    "deprem Turkiye",
+    "adliye Turkiye",
 ]
 
-NICHE_PEXELS_QUERIES = {
-    "Komplo Teorileri ve Gizli Planlar": ["secret files", "dark documents", "surveillance camera", "mysterious meeting", "classified papers"],
-    "Korkunc Gercekler": ["dark forest", "abandoned hallway", "scary shadow", "eerie night", "creepy room"],
-    "Korkunc Tarihi Olaylar": ["old abandoned building", "war ruins", "dark history", "old newspaper", "historic ruins night"],
-    "Cozulmemis Davalar": ["detective board", "crime scene", "police investigation", "evidence board", "mystery documents"],
-    "Kaybolan Insanlarin Gizemli Hikayeleri": ["missing person", "empty road night", "dark forest path", "abandoned car", "foggy road"],
-    "Tuyler Urperten Suc Dosyalari": ["crime scene tape", "detective investigation", "dark alley", "police lights night", "evidence photos"],
-    "Lanetli Yerler ve Korku Hikayeleri": ["haunted house", "abandoned mansion", "dark corridor", "creepy basement", "old cemetery fog"],
-    "Aciklanamayan Paranormal Olaylar": ["paranormal activity", "ghostly shadow", "dark room", "foggy cemetery", "mysterious light"],
-    "Karanlik Internet ve Teknoloji Sirlari": ["dark web", "hacker code", "cyber security dark", "server room dark", "phone screen night"],
-    "Dunyanin En Rahatsiz Edici Gizemleri": ["mysterious place", "foggy forest", "abandoned place", "dark tunnel", "eerie landscape"],
+BACKGROUND_HINTS = {
+    "deprem": ["earthquake city damage", "rescue workers", "emergency city"],
+    "yangin": ["fire smoke city", "firefighters emergency", "building fire smoke"],
+    "sel": ["flood city street", "storm rain city", "water on road"],
+    "kaza": ["traffic road night", "police lights road", "highway traffic"],
+    "operasyon": ["police investigation", "courthouse exterior", "police lights night"],
+    "gozalti": ["police car city", "courthouse exterior", "investigation room"],
+    "tutuk": ["courthouse exterior", "law building", "justice scales"],
+    "ekonomi": ["financial graph", "business district skyline", "stock market screen"],
+    "enflasyon": ["grocery shopping", "money close up", "financial graph"],
+    "faiz": ["financial chart", "bank building", "business skyline"],
+    "dolar": ["money close up", "stock market screen", "business district skyline"],
+    "borsa": ["stock market screen", "financial graph", "business trading floor"],
+    "meclis": ["parliament building", "government building", "press conference podium"],
+    "bakan": ["press conference podium", "government building", "meeting table"],
+    "cumhurbaskan": ["government building", "press conference", "meeting hall"],
+    "secim": ["ballot box", "election crowd", "press conference podium"],
+    "spor": ["football stadium crowd", "sports arena lights", "stadium field"],
+    "mac": ["football stadium crowd", "soccer field", "sports arena"],
+    "transfer": ["football stadium crowd", "sports press conference", "soccer field"],
 }
 
+OUTPUT_DIR = Path("output")
+FONT_DIR = Path("fonts")
+FONT_PATH = FONT_DIR / "Montserrat-Bold.ttf"
+FONT_URL = "https://github.com/google/fonts/raw/main/ofl/montserrat/static/Montserrat-Bold.ttf"
+HISTORY_FILE = Path("news_history.json")
+SELECTED_FILE = Path("selected_news.json")
+PLAN_FILE = Path("video_plan.json")
+VIDEO_SIZE = (1080, 1920)
+DEFAULT_VOICE = "tr-TR-EmelNeural"
+RATE = "+10%"
+PITCH = "-2Hz"
+MAX_CAPTION_WORDS = 3
+MAX_CAPTION_DURATION = 0.75
+FONT_SIZE = 58
+STROKE_WIDTH = 4
 
-def generate_script(niche: str) -> str:
-    logger.info("Senaryo uretiliyor: %s", niche)
-    prompt = f"""
-Sen Turkce viral YouTube Shorts icin korku, gizem ve true-crime tarzi metinler yazan bir uzmansin.
-Konu: {niche}
-Asagidaki kurallara uygun, 30-40 saniyelik bir TURKCE metin yaz:
-1. Ilk cumle tuyler urperten bir soru veya rahatsiz edici bir gercekle baslasin.
-2. Komplo teorisi, korkunc gercek, cozulmemis dava, kayip olay veya karanlik gizem havasi tasisin.
-3. Siddeti grafik anlatma; kanli detaylara girme. Merak, gerilim ve gizem kur.
-4. Cumleler kisa, vurucu ve seslendirmeye uygun olsun.
-5. Son cumle guclu ve dogal bir takip cagrisi icersin.
-6. Emoji, sahne yonu, efekt, baslik ve madde isareti YOK. Sadece konusulacak metin.
-Yalnizca metni dondur.
-"""
-    from g4f.client import Client
 
-    client = Client()
-    for attempt in range(3):
-        try:
-            response = client.chat.completions.create(
-                model="gpt-4",
-                messages=[{"role": "user", "content": prompt}],
-                timeout=60,
-            )
-            script = response.choices[0].message.content.strip().strip('"').strip("'")
-            if len(script) < 30:
-                logger.warning("Senaryo cok kisa, tekrar deneniyor.")
-                time.sleep(2)
+def now_tr() -> datetime:
+    return datetime.now(TIMEZONE)
+
+
+def load_json(path: Path, default: Any) -> Any:
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def save_json(path: Path, data: Any) -> None:
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def strip_html(text: str) -> str:
+    text = html.unescape(text or "")
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def normalize_text(text: str) -> str:
+    text = strip_html(text).lower()
+    text = re.sub(r"\s*-\s*[^-]+$", "", text)
+    text = re.sub(r"[^a-z0-9çğıöşü\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, normalize_text(a), normalize_text(b)).ratio()
+
+
+def fingerprint(title: str, summary: str = "") -> str:
+    value = normalize_text(title) + "|" + normalize_text(summary)[:200]
+    return hashlib.sha1(value.encode("utf-8")).hexdigest()
+
+
+def google_news_rss_url(query: str) -> str:
+    return f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=tr&gl=TR&ceid=TR:tr"
+
+
+def parse_entry_datetime(entry: Any) -> datetime | None:
+    for key in ("published_parsed", "updated_parsed"):
+        value = getattr(entry, key, None)
+        if value:
+            try:
+                return datetime.fromtimestamp(calendar.timegm(value), tz=UTC)
+            except Exception:
+                pass
+    return None
+
+
+def fetch_news_pool(hours_back: int = 20) -> list[dict[str, Any]]:
+    cutoff = datetime.now(UTC) - timedelta(hours=hours_back)
+    collected: list[dict[str, Any]] = []
+
+    for query in NEWS_QUERIES:
+        logger.info("RSS cekiliyor: %s", query)
+        feed = feedparser.parse(google_news_rss_url(query))
+        for entry in feed.entries:
+            published_at = parse_entry_datetime(entry)
+            if not published_at or published_at < cutoff:
                 continue
-            logger.info("Senaryo hazir.")
-            return script
-        except Exception as exc:
-            logger.warning("Senaryo deneme %s basarisiz: %s", attempt + 1, exc)
-            time.sleep(3)
-    raise RuntimeError("Senaryo uretilemedi.")
+
+            title = strip_html(getattr(entry, "title", ""))
+            summary = strip_html(getattr(entry, "summary", "")) or strip_html(getattr(entry, "description", ""))
+            link = getattr(entry, "link", "")
+            if not title or not link:
+                continue
+
+            collected.append(
+                {
+                    "title": title,
+                    "summary": summary[:900],
+                    "url": link,
+                    "query": query,
+                    "source": "Google News RSS",
+                    "published_at": published_at.astimezone(TIMEZONE).isoformat(),
+                    "fingerprint": fingerprint(title, summary),
+                }
+            )
+
+    unique = []
+    seen = set()
+    for item in collected:
+        if item["fingerprint"] in seen:
+            continue
+        seen.add(item["fingerprint"])
+        unique.append(item)
+
+    logger.info("Toplanan benzersiz haber sayisi: %s", len(unique))
+    return unique
 
 
-async def create_voiceover(script: str) -> Tuple[str, List[Tuple[float, float, str]]]:
-    logger.info("Seslendirme olusturuluyor.")
+def keyword_score(text: str) -> int:
+    text_n = normalize_text(text)
+    weights = {
+        "son dakika": 10,
+        "deprem": 9,
+        "yangin": 7,
+        "gozalti": 6,
+        "tutuk": 6,
+        "operasyon": 6,
+        "enflasyon": 7,
+        "faiz": 7,
+        "dolar": 6,
+        "borsa": 6,
+        "cumhurbaskan": 5,
+        "bakan": 4,
+        "meclis": 4,
+        "secim": 5,
+        "karar": 4,
+        "aciklama": 3,
+        "spor": 3,
+        "mac": 3,
+        "transfer": 4,
+        "istanbul": 3,
+        "ankara": 2,
+        "izmir": 2,
+        "turkiye": 2,
+    }
+    return sum(weight for word, weight in weights.items() if word in text_n)
+
+
+def recency_score(published_iso: str) -> float:
+    published = datetime.fromisoformat(published_iso)
+    hours_old = max((now_tr() - published).total_seconds() / 3600, 0.0)
+    return max(0.0, 40.0 - hours_old * 1.6)
+
+
+def enrich_and_rank(news: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    for item in news:
+        score = 0.0
+        score += recency_score(item["published_at"])
+        score += keyword_score(item["title"] + " " + item.get("summary", ""))
+        title_words = len(item["title"].split())
+        if 5 <= title_words <= 16:
+            score += 3
+        if len(item.get("summary", "")) > 120:
+            score += 2
+        item["viral_score"] = round(score, 2)
+    return sorted(news, key=lambda x: x["viral_score"], reverse=True)
+
+
+def in_history(item: dict[str, Any], history_items: list[dict[str, Any]]) -> bool:
+    for old in history_items:
+        if item["fingerprint"] == old.get("fingerprint"):
+            return True
+        if similarity(item["title"], old.get("title", "")) >= 0.78:
+            return True
+    return False
+
+
+def too_similar_to_selected(item: dict[str, Any], selected: list[dict[str, Any]]) -> bool:
+    for other in selected:
+        if item["fingerprint"] == other["fingerprint"]:
+            return True
+        if similarity(item["title"], other["title"]) >= 0.74:
+            return True
+    return False
+
+
+def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
+    history_items = history.get("processed_news", [])
+    selected: list[dict[str, Any]] = []
+
+    for item in enrich_and_rank(news):
+        if in_history(item, history_items):
+            continue
+        if too_similar_to_selected(item, selected):
+            continue
+        selected.append(item)
+        if len(selected) == 3:
+            break
+
+    if len(selected) < 3:
+        raise RuntimeError("3 farkli haber secilemedi.")
+    return selected
+
+
+def fallback_script(item: dict[str, Any]) -> str:
+    return (
+        f"Turkiye gundeminde dikkat ceken bir gelisme var. {item['title']}. "
+        f"Bu haberin kisa ozeti soyle: {item.get('summary', '')[:240]}. "
+        "Detaylar netlestikce bu baslik daha da onem kazanabilir. Gelismeler icin takipte kal."
+    )
+
+
+def generate_news_script(item: dict[str, Any]) -> str:
+    prompt = f"""
+Sen Turkce YouTube Shorts icin haber anlatimi yazan bir editorsun.
+Asagidaki haber bilgisini kullanarak 35-45 saniyelik aciklayici, akici ve merak uyandirici bir metin yaz.
+
+Kurallar:
+- Sadece verilen bilgiye dayan.
+- Uydurma detay ve spekulasyon kullanma.
+- Ilk cumle dikkat cekici olsun.
+- Son cumlede gelismeler icin takipte kal benzeri dogal bir kapanis yap.
+- Emoji, madde isareti ve sahne notu yazma.
+- Tek parca metin ver.
+
+Baslik: {item['title']}
+Ozet: {item.get('summary', '')}
+Kaynak: {item.get('source', '')}
+"""
+    try:
+        import g4f
+        from g4f.client import Client
+
+        _ = g4f
+        client = Client()
+        response = client.chat.completions.create(
+            model="gpt-4",
+            messages=[{"role": "user", "content": prompt}],
+            timeout=90,
+        )
+        script = response.choices[0].message.content.strip().strip('"').strip("'")
+        if len(script) < 120:
+            raise RuntimeError("Metin cok kisa")
+        return script
+    except Exception as exc:
+        logger.warning("AI metni olusmadi, fallback kullaniliyor: %s", exc)
+        return fallback_script(item)
+
+
+async def create_voiceover(script: str, audio_path: Path) -> list[tuple[float, float, str]]:
     communicate = edge_tts.Communicate(script, DEFAULT_VOICE, rate=RATE, pitch=PITCH)
-    word_timestamps = []
+    word_timestamps: list[tuple[float, float, str]] = []
 
-    with open(VOICEOVER_FILE, "wb") as file:
+    with open(audio_path, "wb") as file:
         async for chunk in communicate.stream():
             if chunk["type"] == "audio":
                 file.write(chunk["data"])
             elif chunk["type"] == "WordBoundary":
                 word_timestamps.append((chunk["offset"] / 10_000_000, chunk["duration"] / 10_000_000, chunk["text"]))
 
-    if not os.path.exists(VOICEOVER_FILE) or os.path.getsize(VOICEOVER_FILE) == 0:
-        raise RuntimeError("Ses dosyasi olusturulamadi.")
+    if not audio_path.exists() or audio_path.stat().st_size == 0:
+        raise RuntimeError("Ses dosyasi olusmadi")
 
-    if not word_timestamps:
-        logger.warning("Kelime zamanlamasi yok, ses suresine gore hizalama yapiliyor.")
-        audio_clip = AudioFileClip(VOICEOVER_FILE)
-        total_duration = max(float(audio_clip.duration), 1.0)
-        audio_clip.close()
-        words = [word for word in script.split() if word.strip()]
-        if not words:
-            raise RuntimeError("Senaryo bos, altyazi uretilemez.")
-        total_chars = sum(max(len(word), 1) for word in words)
-        current = 0.05
-        usable_duration = max(total_duration - 0.10, 0.5)
-        for word in words:
-            duration = usable_duration * (max(len(word), 1) / total_chars)
-            duration = max(duration, 0.16)
-            word_timestamps.append((current, duration, word))
-            current += duration
+    if word_timestamps:
+        return word_timestamps
 
-    logger.info("%s kelime zamanlandi.", len(word_timestamps))
-    return VOICEOVER_FILE, word_timestamps
+    audio_clip = AudioFileClip(str(audio_path))
+    total_duration = max(float(audio_clip.duration), 1.0)
+    audio_clip.close()
+    words = [word for word in script.split() if word.strip()]
+    total_chars = sum(max(len(word), 1) for word in words) or 1
+    current = 0.05
+    usable_duration = max(total_duration - 0.1, 0.5)
+    for word in words:
+        duration = max(usable_duration * (max(len(word), 1) / total_chars), 0.16)
+        word_timestamps.append((current, duration, word))
+        current += duration
+    return word_timestamps
 
 
-def extract_keywords(script: str, count: int = 5) -> list[str]:
-    stop_words = {
-        "icin", "gibi", "kadar", "ama", "fakat", "ancak", "degil", "evet", "hayir",
-        "cok", "daha", "bir", "iki", "uc", "dort", "bes", "the", "and", "for", "with",
-        "that", "this", "from", "are", "was", "were", "been", "being", "have", "has", "had",
-    }
-    words = re.findall(r"\b\w{4,}\b", script.lower())
-    filtered = [word for word in words if word not in stop_words]
-    filtered.sort(key=len, reverse=True)
-    return filtered[:count]
+def extract_keywords(text: str, count: int = 5) -> list[str]:
+    words = [w for w in normalize_text(text).split() if len(w) >= 4]
+    stop = {"haber", "turkiye", "gundem", "son", "dakika", "icin", "olan", "ile", "gore"}
+    words = [w for w in words if w not in stop]
+    words = sorted(set(words), key=len, reverse=True)
+    return words[:count]
 
 
-def search_pexels_query(query: str) -> str | None:
+def build_background_queries(item: dict[str, Any]) -> list[str]:
+    text = normalize_text(item["title"] + " " + item.get("summary", ""))
+    queries: list[str] = []
+    for key, mapped in BACKGROUND_HINTS.items():
+        if key in text:
+            queries.extend(mapped)
+    keywords = extract_keywords(item["title"] + " " + item.get("summary", ""))
+    if len(keywords) >= 2:
+        queries.append(f"{keywords[0]} {keywords[1]} news")
+    if keywords:
+        queries.append(f"{keywords[0]} news background")
+    queries.extend(["news studio background", "city aerial turkey", "press conference"])
+    return list(dict.fromkeys(queries))
+
+
+def search_pexels_video(query: str) -> str | None:
     headers = {"Authorization": PEXELS_API_KEY}
     try:
         response = requests.get(
             "https://api.pexels.com/videos/search",
             headers=headers,
-            params={"query": query, "per_page": 8, "orientation": "portrait", "size": "large"},
+            params={"query": query, "per_page": 10, "orientation": "portrait", "size": "large"},
             timeout=20,
         )
         response.raise_for_status()
         videos = response.json().get("videos", [])
-        candidates = []
+        candidates: list[tuple[int, str]] = []
         for video in videos:
             for video_file in video.get("video_files", []):
                 width = int(video_file.get("width") or 0)
@@ -207,73 +416,60 @@ def search_pexels_query(query: str) -> str | None:
                 link = video_file.get("link")
                 if not link or width <= 0 or height <= 0:
                     continue
-                vertical_bonus = 10_000_000 if height >= width else 0
-                quality_score = width * height + vertical_bonus
-                candidates.append((quality_score, link))
+                score = width * height + (10_000_000 if height >= width else 0)
+                candidates.append((score, link))
         if candidates:
             candidates.sort(reverse=True)
-            logger.info("Pexels arka plan secildi: %s", query)
             return candidates[0][1]
     except Exception as exc:
-        logger.warning("Pexels aramasi basarisiz (%s): %s", query, exc)
+        logger.warning("Pexels arka plan hatasi (%s): %s", query, exc)
     return None
 
 
-def fetch_background_video(script: str, niche: str | None = None) -> str:
-    queries = []
-    if niche and niche in NICHE_PEXELS_QUERIES:
-        queries.extend(NICHE_PEXELS_QUERIES[niche])
-
-    keywords = extract_keywords(script)
-    if keywords:
-        queries.extend([" ".join(keywords[:2]), keywords[0]])
-    queries.extend(["horror atmosphere", "dark mystery", "scary cinematic", "foggy abandoned place"])
-
+def download_background_video(item: dict[str, Any], output_path: Path) -> None:
     url = None
-    for query in dict.fromkeys(queries):
-        url = search_pexels_query(query)
+    chosen_query = None
+    for query in build_background_queries(item):
+        url = search_pexels_video(query)
         if url:
+            chosen_query = query
             break
-
     if not url:
-        raise RuntimeError("Pexels'te uygun arka plan videosu bulunamadi.")
+        raise RuntimeError("Uygun Pexels arka plan videosu bulunamadi")
+    logger.info("Arka plan secildi: %s", chosen_query)
 
     with requests.get(url, stream=True, timeout=90) as response:
         response.raise_for_status()
-        with open(BACKGROUND_FILE, "wb") as file:
+        with open(output_path, "wb") as file:
             for chunk in response.iter_content(8192):
                 if chunk:
                     file.write(chunk)
-
-    if os.path.getsize(BACKGROUND_FILE) < 200_000:
-        raise RuntimeError("Indirilen arka plan videosu bozuk veya cok kucuk.")
-    return BACKGROUND_FILE
+    if output_path.stat().st_size < 200_000:
+        raise RuntimeError("Arka plan videosu cok kucuk veya bozuk")
 
 
 def ensure_font() -> str:
     if FONT_PATH.exists():
         return str(FONT_PATH.resolve())
+    FONT_DIR.mkdir(exist_ok=True)
     try:
-        FONT_DIR.mkdir(exist_ok=True)
-        with requests.get(FONT_URL, timeout=15) as response:
+        with requests.get(FONT_URL, timeout=20) as response:
             response.raise_for_status()
-            with open(FONT_PATH, "wb") as file:
-                file.write(response.content)
+            FONT_PATH.write_bytes(response.content)
         return str(FONT_PATH.resolve())
     except Exception:
         return "Arial-Bold"
 
 
 def clean_caption_word(word: str) -> str:
-    return re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿ]+", "", str(word)).strip()
+    return re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ]+", "", str(word)).strip()
 
 
-def chunk_timestamps(word_ts):
+def chunk_timestamps(word_ts: list[tuple[float, float, str]]) -> list[tuple[float, float, str]]:
     if not word_ts:
         return []
-
-    chunks = []
-    current_words = []
+    chunks: list[tuple[float, float, str]] = []
+    current_words: list[str] = []
     chunk_start = word_ts[0][0]
     chunk_end = word_ts[0][0]
 
@@ -283,7 +479,6 @@ def chunk_timestamps(word_ts):
             continue
         word_end = max(start + duration, start + 0.14)
         projected_duration = word_end - chunk_start
-
         if current_words and (len(current_words) >= MAX_CAPTION_WORDS or projected_duration > MAX_CAPTION_DURATION):
             chunks.append((chunk_start, max(chunk_end - chunk_start, 0.16), " ".join(current_words)))
             current_words = [word]
@@ -296,23 +491,22 @@ def chunk_timestamps(word_ts):
     if current_words:
         chunks.append((chunk_start, max(chunk_end - chunk_start, 0.16), " ".join(current_words)))
 
-    fixed = []
-    for index, (start, duration, text) in enumerate(chunks):
+    fixed: list[tuple[float, float, str]] = []
+    for i, (start, duration, text) in enumerate(chunks):
         end = start + duration
-        if index + 1 < len(chunks):
-            next_start = chunks[index + 1][0]
-            end = min(end, next_start - 0.015)
+        if i + 1 < len(chunks):
+            end = min(end, chunks[i + 1][0] - 0.015)
         fixed.append((start, max(end - start, 0.12), text))
     return fixed
 
 
-def generate_captions(chunked_ts):
+def generate_captions(chunked_ts: list[tuple[float, float, str]]) -> list[Any]:
     if not chunked_ts:
         return []
     font = ensure_font()
-    clips = []
+    clips: list[Any] = []
     for start, duration, text in chunked_ts:
-        text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿ ]+", "", str(text)).strip()
+        text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ ]+", "", text).strip()
         if not text:
             continue
         clip = (
@@ -334,21 +528,20 @@ def generate_captions(chunked_ts):
     return clips
 
 
-def mix_background_music(audio_clip, music_path: str = "bg_music.mp3"):
+def mix_background_music(audio_clip: AudioFileClip, music_path: str = "bg_music.mp3"):
     if not os.path.exists(music_path):
         return None
     try:
-        background = AudioFileClip(music_path).fx(volumex, 0.06)
-        background = audio_loop(background, duration=audio_clip.duration)
-        return CompositeAudioClip([audio_clip, background])
+        bg = AudioFileClip(music_path).fx(volumex, 0.06)
+        bg = audio_loop(bg, duration=audio_clip.duration)
+        return CompositeAudioClip([audio_clip, bg])
     except Exception:
         return None
 
 
-def assemble_video(bg_path: str, audio_path: str, chunked_ts, music_path: str | None = None) -> str:
-    logger.info("Montaj basliyor.")
-    bg_clip = VideoFileClip(bg_path)
-    audio_clip = AudioFileClip(audio_path)
+def assemble_video(background_path: Path, audio_path: Path, video_path: Path, word_ts: list[tuple[float, float, str]]) -> None:
+    bg_clip = VideoFileClip(str(background_path))
+    audio_clip = AudioFileClip(str(audio_path))
     target_duration = audio_clip.duration
 
     width, height = bg_clip.size
@@ -365,17 +558,13 @@ def assemble_video(bg_path: str, audio_path: str, chunked_ts, music_path: str | 
     else:
         bg_clip = bg_clip.subclip(0, target_duration)
 
-    final_audio = audio_clip
-    if music_path:
-        mixed = mix_background_music(audio_clip, music_path)
-        if mixed:
-            final_audio = mixed
+    final_audio = mix_background_music(audio_clip, "bg_music.mp3") or audio_clip
     bg_clip = bg_clip.set_audio(final_audio)
 
-    captions = generate_captions(chunked_ts)
+    captions = generate_captions(chunk_timestamps(word_ts))
     final = CompositeVideoClip([bg_clip] + captions, size=VIDEO_SIZE)
     final.write_videofile(
-        OUTPUT_VIDEO,
+        str(video_path),
         codec="libx264",
         audio_codec="aac",
         fps=30,
@@ -384,21 +573,20 @@ def assemble_video(bg_path: str, audio_path: str, chunked_ts, music_path: str | 
         verbose=False,
         logger=None,
     )
-    return OUTPUT_VIDEO
+
+
+def load_client_config() -> dict[str, Any]:
+    client_secrets_json = os.getenv("CLIENT_SECRETS_JSON")
+    if client_secrets_json:
+        return json.loads(client_secrets_json)
+    if Path(CLIENT_SECRETS_FILE).exists():
+        return json.loads(Path(CLIENT_SECRETS_FILE).read_text(encoding="utf-8"))
+    raise RuntimeError("CLIENT_SECRETS_JSON bulunamadi")
 
 
 def get_youtube_service():
-    client_secrets_json = os.getenv("CLIENT_SECRETS_JSON")
-    if client_secrets_json:
-        config = json.loads(client_secrets_json)
-    elif Path(CLIENT_SECRETS_FILE).exists():
-        with open(CLIENT_SECRETS_FILE, "r", encoding="utf-8") as file:
-            config = json.load(file)
-    else:
-        raise RuntimeError("CLIENT_SECRETS_JSON bulunamadi.")
-
+    config = load_client_config()
     client_config = config.get("installed") or config.get("web") or next(iter(config.values()))
-
     credentials = Credentials(
         token=None,
         refresh_token=YOUTUBE_REFRESH_TOKEN,
@@ -411,65 +599,143 @@ def get_youtube_service():
     return build("youtube", "v3", credentials=credentials)
 
 
-def upload_to_youtube(video_path: str, title: str, description: str, tags=None) -> str:
-    if not os.path.exists(video_path):
-        raise FileNotFoundError(video_path)
+def compute_publish_times() -> list[datetime]:
+    slots = [(7, 0), (12, 0), (18, 0)]
+    current = now_tr()
+    results: list[datetime] = []
+    for hour, minute in slots:
+        candidate = current.replace(hour=hour, minute=minute, second=0, microsecond=0)
+        if candidate <= current:
+            candidate = candidate + timedelta(days=1)
+        results.append(candidate)
+    return results
+
+
+def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
+    youtube = get_youtube_service()
+    title = item["title"].strip()
     if "#shorts" not in title.lower():
         title = f"{title} #shorts"
-
-    youtube = get_youtube_service()
+    description = (
+        f"{item['script']}\n\n"
+        f"Kaynak link: {item['url']}\n"
+        f"Kaynak: {item.get('source', 'Google News RSS')}\n"
+        f"Yayin zamani: {publish_at.isoformat()}\n\n"
+        "#shorts #haber #turkiye #gundem"
+    )
     body = {
         "snippet": {
             "title": title[:100],
             "description": description[:5000],
-            "tags": tags or ["shorts", "youtubeshorts", "viral", "korku", "gizem", "komplo teorileri", "cozulmemis dava"],
+            "tags": ["shorts", "haber", "turkiye", "gundem", "news", "breaking news"],
             "categoryId": YOUTUBE_CATEGORY_ID,
         },
         "status": {
-            "privacyStatus": "public",
+            "privacyStatus": "private",
+            "publishAt": publish_at.astimezone(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
             "selfDeclaredMadeForKids": False,
         },
     }
-    logger.info("Yukleniyor: %s", title)
-    media = MediaFileUpload(video_path, mimetype="video/mp4", resumable=True, chunksize=5 * 1024 * 1024)
+    media = MediaFileUpload(str(video_path), mimetype="video/mp4", resumable=True, chunksize=5 * 1024 * 1024)
     request = youtube.videos().insert(part="snippet,status", body=body, media_body=media)
 
     response = None
     while response is None:
         status, response = request.next_chunk()
         if status:
-            logger.info("Yukleme: %s%%", int(status.progress() * 100))
+            logger.info("YouTube yukleme: %s%%", int(status.progress() * 100))
 
     video_id = response["id"]
-    url = f"https://youtu.be/{video_id}"
-    logger.info("Yayinda: %s", url)
-    return url
+    return {
+        "video_id": video_id,
+        "youtube_url": f"https://youtu.be/{video_id}",
+        "publish_at_local": publish_at.isoformat(),
+        "publish_at_utc": body["status"]["publishAt"],
+    }
 
 
-async def run_pipeline(niche: str):
-    try:
-        logger.info("Nis: %s", niche)
-        script = generate_script(niche)
-        logger.info("Senaryo:\n%s", script)
-        audio, word_ts = await create_voiceover(script)
-        chunked = chunk_timestamps(word_ts)
-        background = fetch_background_video(script, niche)
-        music = "bg_music.mp3" if os.path.exists("bg_music.mp3") else None
-        final_path = assemble_video(background, audio, chunked, music)
-        first_sentence = re.split(r"[.!?]", script)[0].strip()[:50]
-        title = f"{niche}: {first_sentence}"
-        description = (
-            "Karanlik gercekler, komplo teorileri, cozulmemis davalar ve tuyler urperten gizemler.\n"
-            "Yeni korku ve gizem Shorts videolari icin takipte kal.\n\n"
-            "#shorts #korku #gizem #komplo #truecrime"
+def build_video_for_item(item: dict[str, Any], index: int) -> dict[str, Any]:
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    audio_path = OUTPUT_DIR / f"voiceover_{index}.mp3"
+    background_path = OUTPUT_DIR / f"background_{index}.mp4"
+    video_path = OUTPUT_DIR / f"short_{index}.mp4"
+
+    logger.info("Video uretiliyor: %s", item["title"])
+    word_ts = asyncio.run(create_voiceover(item["script"], audio_path))
+    download_background_video(item, background_path)
+    assemble_video(background_path, audio_path, video_path, word_ts)
+    return {
+        "audio_path": str(audio_path),
+        "background_path": str(background_path),
+        "video_path": str(video_path),
+    }
+
+
+def update_history(history: dict[str, Any], selected: list[dict[str, Any]]) -> dict[str, Any]:
+    history.setdefault("processed_news", [])
+    for item in selected:
+        history["processed_news"].append(
+            {
+                "title": item["title"],
+                "summary": item.get("summary", ""),
+                "url": item["url"],
+                "source": item.get("source", ""),
+                "published_at": item["published_at"],
+                "fingerprint": item["fingerprint"],
+                "viral_score": item.get("viral_score"),
+                "scheduled_slot": item.get("scheduled_slot"),
+                "youtube_url": item.get("youtube_url"),
+                "processed_at": now_tr().isoformat(),
+            }
         )
-        upload_to_youtube(final_path, title, description=description)
-        logger.info("Tamamlandi.")
-    except Exception as exc:
-        logger.error("Hata: %s\n%s", exc, traceback.format_exc())
-        sys.exit(1)
+    history["processed_news"] = history["processed_news"][-400:]
+    return history
+
+
+def main() -> None:
+    logger.info("Turkiye haber botu basladi")
+    history = load_json(HISTORY_FILE, {"processed_news": []})
+    news_pool = fetch_news_pool(hours_back=20)
+    selected = choose_top_three(news_pool, history)
+
+    save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
+
+    for item in selected:
+        item["script"] = generate_news_script(item)
+
+    publish_times = compute_publish_times()
+    plan_rows = []
+
+    for index, (item, publish_at) in enumerate(zip(selected, publish_times), start=1):
+        item["scheduled_slot"] = publish_at.strftime("%H:%M")
+        build_info = build_video_for_item(item, index)
+        item.update(build_info)
+        upload_info = upload_to_youtube(Path(build_info["video_path"]), item, publish_at)
+        item.update(upload_info)
+
+        plan_rows.append(
+            {
+                "index": index,
+                "title": item["title"],
+                "url": item["url"],
+                "viral_score": item["viral_score"],
+                "scheduled_slot": item["scheduled_slot"],
+                "publish_at_local": upload_info["publish_at_local"],
+                "youtube_url": upload_info["youtube_url"],
+            }
+        )
+        logger.info("Planlandi: %s -> %s", item["scheduled_slot"], item["title"])
+
+    save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
+    history = update_history(history, selected)
+    save_json(HISTORY_FILE, history)
+    save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
+    logger.info("Tamamlandi. 3 video planlandi ve history guncellendi")
 
 
 if __name__ == "__main__":
-    selected_niche = random.choice(NICHE_POOL)
-    asyncio.run(run_pipeline(selected_niche))
+    try:
+        main()
+    except Exception as exc:
+        logger.error("Calisma hatasi: %s\n%s", exc, traceback.format_exc())
+        sys.exit(1)
