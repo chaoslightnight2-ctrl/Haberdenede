@@ -46,26 +46,15 @@ jobs:
           VOICE_PITCH: -4Hz
         run: python edge_tts_healthcheck.py
 
-      - name: Apply news quality patch
-        run: python patch_news_quality.py
-
-      - name: Apply professional news script patch
-        run: python patch_clickbait_hooks.py
-
-      - name: Apply TTS fallback patch
-        run: python patch_tts.py
-
-      - name: Apply exact denede subtitle sync patch
-        run: python patch_subtitles_denede.py
-
-      - name: Preserve Turkish subtitle letters
-        run: python patch_turkish_subtitle_chars.py
-
-      - name: Apply viral tags patch
-        run: python patch_viral_tags.py
-
-      - name: Disable YouTube upload
-        run: python patch_disable_youtube_upload.py
+      - name: Apply patches
+        run: |
+          python patch_news_quality.py
+          python patch_clickbait_hooks.py
+          python patch_tts.py
+          python patch_subtitles_denede.py
+          python patch_turkish_subtitle_chars.py
+          python patch_viral_tags.py
+          python patch_disable_youtube_upload.py
 
       - name: Run bot
         env:
@@ -78,13 +67,31 @@ jobs:
           VOICE_PITCH: -4Hz
         run: python main.py
 
-      - name: Upload generated videos
+      - name: Save rendered shorts in repo
+        if: success()
+        run: |
+          mkdir -p generated_videos
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          src = Path('output')
+          dst = Path('generated_videos')
+          dst.mkdir(exist_ok=True)
+          for old in dst.glob('*.mp4'):
+              old.unlink()
+          for item in sorted(src.glob('*.mp4')):
+              shutil.copy2(item, dst / item.name)
+              print(dst / item.name)
+          PY
+
+      - name: Upload artifact backup
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: generated-news-shorts
           path: |
             output/*.mp4
+            generated_videos/*.mp4
             selected_news.json
             video_plan.json
             bot.log
@@ -92,11 +99,11 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
 
-      - name: Commit history files
+      - name: Commit rendered shorts and history
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news_history.json selected_news.json video_plan.json
-          git diff --cached --quiet || git commit -m "Update news history and video plan"
+          git add generated_videos selected_news.json video_plan.json news_history.json
+          git diff --cached --quiet || git commit -m "Save generated Shorts videos"
           git push
