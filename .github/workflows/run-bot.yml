@@ -1,9 +1,6 @@
 name: Run Turkey News Shorts Bot
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   schedule:
     - cron: "5 3 * * *"
@@ -40,34 +37,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Validate YouTube OAuth
-        env:
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          CLIENT_SECRETS_JSON: ${{ secrets.CLIENT_SECRETS_JSON }}
-        run: |
-          python - <<'PY'
-          import json, os, sys
-          from google.oauth2.credentials import Credentials
-          from google.auth.transport.requests import Request
-          cfg = json.loads(os.environ["CLIENT_SECRETS_JSON"])
-          cc = cfg.get("installed") or cfg.get("web") or next(iter(cfg.values()))
-          creds = Credentials(
-              token=None,
-              refresh_token=os.environ["YOUTUBE_REFRESH_TOKEN"],
-              token_uri="https://oauth2.googleapis.com/token",
-              client_id=cc["client_id"],
-              client_secret=cc["client_secret"],
-              scopes=["https://www.googleapis.com/auth/youtube.upload"],
-          )
-          try:
-              creds.refresh(Request())
-              print("YouTube OAuth OK")
-          except Exception as e:
-              print("YouTube OAuth FAILED:", repr(e))
-              print("Refresh token must be generated using the exact same OAuth client_id/client_secret stored in CLIENT_SECRETS_JSON.")
-              sys.exit(1)
-          PY
-
       - name: Apply news quality patch
         run: python patch_news_quality.py
 
@@ -86,6 +55,9 @@ jobs:
       - name: Apply viral tags patch
         run: python patch_viral_tags.py
 
+      - name: Disable YouTube upload
+        run: python patch_disable_youtube_upload.py
+
       - name: Run bot
         env:
           TZ: Europe/Istanbul
@@ -94,7 +66,21 @@ jobs:
           CLIENT_SECRETS_JSON: ${{ secrets.CLIENT_SECRETS_JSON }}
         run: python main.py
 
+      - name: Upload generated videos
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: generated-news-shorts
+          path: |
+            output/*.mp4
+            selected_news.json
+            video_plan.json
+            bot.log
+          if-no-files-found: warn
+          retention-days: 7
+
       - name: Commit history files
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
