@@ -4,10 +4,12 @@ p = Path("main.py")
 s = p.read_text(encoding="utf-8")
 
 s = s.replace('DEFAULT_VOICE = os.getenv("VOICE", "tr-TR-AhmetNeural")', 'DEFAULT_VOICE = os.getenv("VOICE", "tr-TR-AhmetNeural")')
-s = s.replace('RATE = os.getenv("VOICE_RATE", "+8%")', 'RATE = os.getenv("VOICE_RATE", "+18%")')
-s = s.replace('PITCH = os.getenv("VOICE_PITCH", "-3Hz")', 'PITCH = os.getenv("VOICE_PITCH", "-4Hz")')
-s = s.replace('RATE = os.getenv("VOICE_RATE", "+15%")', 'RATE = os.getenv("VOICE_RATE", "+18%")')
-s = s.replace('PITCH = os.getenv("VOICE_PITCH", "-5Hz")', 'PITCH = os.getenv("VOICE_PITCH", "-4Hz")')
+s = s.replace('RATE = os.getenv("VOICE_RATE", "+8%")', 'RATE = os.getenv("VOICE_RATE", "+0%")')
+s = s.replace('RATE = os.getenv("VOICE_RATE", "+15%")', 'RATE = os.getenv("VOICE_RATE", "+0%")')
+s = s.replace('RATE = os.getenv("VOICE_RATE", "+18%")', 'RATE = os.getenv("VOICE_RATE", "+0%")')
+s = s.replace('PITCH = os.getenv("VOICE_PITCH", "-3Hz")', 'PITCH = os.getenv("VOICE_PITCH", "-2Hz")')
+s = s.replace('PITCH = os.getenv("VOICE_PITCH", "-5Hz")', 'PITCH = os.getenv("VOICE_PITCH", "-2Hz")')
+s = s.replace('PITCH = os.getenv("VOICE_PITCH", "-4Hz")', 'PITCH = os.getenv("VOICE_PITCH", "-2Hz")')
 
 start = s.index("async def create_voiceover(")
 end = s.index("\ndef extract_keywords(", start)
@@ -68,4 +70,4 @@ replacement = '''async def create_voiceover(script: str, audio_path: Path) -> li
 '''
 
 p.write_text(s[:start] + replacement + s[end + 1 :], encoding="utf-8")
-print("Edge-only male TTS patch applied")
+print("Edge-only male TTS normal speed patch applied")
