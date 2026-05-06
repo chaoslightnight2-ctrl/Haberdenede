@@ -27,10 +27,26 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends ffmpeg imagemagick fonts-dejavu-core
-          if [ -f /etc/ImageMagick-6/policy.xml ]; then
-            sudo sed -i 's#rights="none" pattern="@\*"#rights="read|write" pattern="@*"#' /etc/ImageMagick-6/policy.xml || true
-          fi
+          sudo apt-get install -y ffmpeg imagemagick fonts-dejavu-core fontconfig
+          sudo fc-cache -fv
+
+          for f in /etc/ImageMagick-6/policy.xml /etc/ImageMagick-7/policy.xml; do
+            if [ -f "$f" ]; then
+              sudo sed -i 's#rights="none" pattern="@\*"#rights="read|write" pattern="@*"#' "$f" || true
+              sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<policy domain="path" rights="read|write" pattern="@*"/>#' "$f" || true
+              sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*" />#<policy domain="path" rights="read|write" pattern="@*" />#' "$f" || true
+            fi
+          done
+
+          which convert || true
+          convert -version || true
+          fc-match "DejaVu Sans Bold" || true
+
+      - name: ImageMagick text healthcheck
+        run: |
+          convert -background none -fill yellow -stroke black -strokewidth 3 -font "DejaVu-Sans-Bold" -pointsize 64 label:'TEST TÜRKÇE İĞÜŞÖÇ' PNG32:/tmp/im_text_test.png
+          test -s /tmp/im_text_test.png
+          ls -lh /tmp/im_text_test.png
 
       - name: Install Python dependencies
         run: |
@@ -69,6 +85,8 @@ jobs:
           VOICE: tr-TR-AhmetNeural
           VOICE_RATE: +0%
           VOICE_PITCH: -2Hz
+          IMAGEMAGICK_BINARY: /usr/bin/convert
+          SUBTITLE_FONT: DejaVu-Sans-Bold
         run: python main.py
 
       - name: Save rendered shorts in repo
