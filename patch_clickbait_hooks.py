@@ -31,7 +31,7 @@ def clean_news_summary_for_script(summary: str) -> str:
     for source in blocked_sources:
         summary = re.sub(re.escape(source), "", summary, flags=re.I)
     summary = re.sub(r"\s+", " ", summary).strip(" .-|:")
-    return summary[:1200]
+    return summary[:5000]
 
 
 def get_best_news_content_for_script(item: dict[str, Any]) -> str:
@@ -39,9 +39,9 @@ def get_best_news_content_for_script(item: dict[str, Any]) -> str:
     summary = clean_news_summary_for_script(item.get("summary", ""))
     title = clean_news_title_for_script(item.get("title", ""))
     if article and len(article.split()) >= 45:
-        return article[:1400]
+        return article[:5000]
     if summary and len(summary.split()) >= 35 and normalize_text(summary) != normalize_text(title):
-        return summary[:900]
+        return summary[:2000]
     return ""
 
 
@@ -49,60 +49,25 @@ def make_clickbait_hook(title: str) -> str:
     title = clean_news_title_for_script(title)
     title = re.sub(r"[.!?]+$", "", title).strip()
     if not title:
-        return "Bu olayın arkasındaki detaylar dikkat çekiyor."
-    return f"Bu olayın arkasındaki detaylar dikkat çekiyor: {title}."
+        return "Bu gelişme sosyal medyada çok konuşulabilir."
+    return f"Bu gelişme sosyal medyada çok konuşulabilir: {title}."
 
 
-def split_clean_sentences(text: str) -> list[str]:
-    raw = re.split(r"(?<=[.!?])\s+", text or "")
-    result = []
-    for sentence in raw:
-        sentence = re.sub(r"\s+", " ", sentence).strip(" .")
-        if len(sentence) < 18:
-            continue
-        low = normalize_text(sentence)
-        banned = [
-            "google haber", "google news", "rss", "derlenen", "kapsamlı haber", "haber içeriğine göre",
-            "yeni açıklamalar", "detaylar netleşecek", "gelişmeleri takip", "gelişmeleri aktarmaya devam",
-            "konuya ilişkin", "ayrıntılar sınırlı", "resmi açıklamalar"
-        ]
-        if any(x in low for x in banned):
-            continue
-        result.append(sentence + ".")
-    return result
+def clean_generated_text(text: str) -> str:
+    text = strip_html(text or "")
+    blocked = [
+        "Google News", "Google Haberler", "RSS", "derlenen", "kapsamlı haber", "Haberin içeriğine göre",
+        "Son dakika", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet",
+        "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı", "Kaynak", "Özet:"
+    ]
+    for source in blocked:
+        text = re.sub(re.escape(source), "", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip(" .-|:")
+    return text
 
 
-def dedupe_sentences(sentences: list[str], limit: int = 5) -> list[str]:
-    chosen = []
-    seen_keys = set()
-    for sentence in sentences:
-        key_words = [w for w in normalize_text(sentence).split() if len(w) > 3]
-        key = " ".join(key_words[:10])
-        if not key or key in seen_keys:
-            continue
-        if any(similarity(sentence, old) >= 0.70 for old in chosen):
-            continue
-        seen_keys.add(key)
-        chosen.append(sentence)
-        if len(chosen) >= limit:
-            break
-    return chosen
-
-
-def build_body_from_content(content: str, title: str) -> str:
-    sentences = dedupe_sentences(split_clean_sentences(content), limit=5)
-    title_norm = normalize_text(title)
-    filtered = []
-    for sentence in sentences:
-        if title_norm and similarity(sentence, title) >= 0.82:
-            continue
-        filtered.append(sentence)
-    if len(filtered) < 2:
-        filtered = sentences
-    body = " ".join(filtered[:4]).strip()
-    if len(body.split()) < 28:
-        raise RuntimeError("Haber gövdesi tekrarsız ve yeterli değil")
-    return body
+def word_count_tr(text: str) -> int:
+    return len([w for w in re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşü0-9]+", text or "") if w.strip()])
 
 
 def is_generic_or_empty_script(script: str) -> bool:
@@ -114,42 +79,58 @@ def is_generic_or_empty_script(script: str) -> bool:
     ]
     if any(x in low for x in banned):
         return True
-    sentences = split_clean_sentences(script)
-    if len(sentences) >= 2:
-        for i, sentence in enumerate(sentences):
-            for other in sentences[i+1:]:
-                if similarity(sentence, other) >= 0.78:
-                    return True
-    meaningful_words = [w for w in low.split() if len(w) > 4]
-    return len(meaningful_words) < 35
+    return word_count_tr(script) < 35
 
 
-def cleanup_generated_script(script: str, title: str) -> str:
-    blocked = [
-        "Google News", "Google Haberler", "RSS", "derlenen", "kapsamlı haber", "Haberin içeriğine göre",
-        "Son dakika", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet",
-        "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı"
-    ]
-    for source in blocked:
-        script = re.sub(re.escape(source), "", script, flags=re.I)
-    script = re.sub(r"\s+", " ", script).strip(" .")
-    sentences = dedupe_sentences(split_clean_sentences(script), limit=6)
-    if len(sentences) < 3:
-        raise RuntimeError("AI metni yeterli sayıda farklı cümle üretmedi")
-    final = " ".join(sentences[:5]).strip()
-    if not final.endswith("."):
-        final += "."
-    return final
+def summarize_article_with_groq(title: str, content: str) -> str:
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY GitHub Secrets içinde yok")
+    model = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+    prompt = f"""
+Aşağıdaki haber metnini Türkçe olarak 45-50 kelimelik tek paragraf halinde özetle.
+
+Kurallar:
+- Sadece haber içeriğindeki bilgileri kullan.
+- Uydurma bilgi, yorum, tahmin ekleme.
+- Kaynak/site adı söyleme.
+- Google News, RSS, derlenen haber, kapsamlı haber, haberin içeriğine göre ifadelerini kullanma.
+- Aynı cümleyi veya aynı anlamı tekrar etme.
+- Kim, ne yaptı, nerede oldu, varsa sayı/karar/iddia ne, net anlat.
+- Clickbait hook yazma; sadece haber özetini yaz.
+- 45 kelimeden kısa, 50 kelimeden uzun olmasın.
+
+Başlık: {title}
+Haber metni: {content[:5000]}
+"""
+    response = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        json={
+            "model": model,
+            "messages": [
+                {"role": "system", "content": "Sen Türkçe haber özetleyen profesyonel bir editörsün."},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.2,
+            "max_tokens": 180,
+        },
+        timeout=45,
+    )
+    response.raise_for_status()
+    data = response.json()
+    summary = clean_generated_text(data["choices"][0]["message"]["content"])
+    wc = word_count_tr(summary)
+    if wc < 35:
+        raise RuntimeError(f"Groq özeti çok kısa: {wc} kelime")
+    if wc > 65:
+        words = re.findall(r"\S+", summary)
+        summary = " ".join(words[:50]).strip(" .")
+    return summary.strip(" .") + "."
 
 
 def fallback_script(item: dict[str, Any]) -> str:
-    title = clean_news_title_for_script(item.get("title", ""))
-    content = get_best_news_content_for_script(item)
-    if not content:
-        raise RuntimeError(f"Gerçek haber içeriği yok, boş/genel metin üretilmeyecek: {title}")
-    hook = make_clickbait_hook(title)
-    body = build_body_from_content(content, title)
-    return f"{hook} {body} Daha fazlası için takipte kal."
+    raise RuntimeError("Groq olmadan metin üretilmeyecek; kalite için GROQ_API_KEY gerekli")
 
 '''
 s = s[:fallback_start] + new_fallback + s[fallback_end + 1:]
@@ -162,57 +143,17 @@ new_generate = r'''def generate_news_script(item: dict[str, Any]) -> str:
     if not content:
         raise RuntimeError(f"Haber içeriği yetersiz, video metni üretilmeyecek: {title}")
 
-    prompt = f"""
-Sen deneyimli bir Türkçe haber spikerisin. YouTube Shorts için tek parça, düzgün ve akıcı konuşma metni yaz.
-
-Metin yapısı kesinlikle şu sırada olacak:
-[İlgi çekici clickbait başlık]
-[Haber içeriği detaylı ama kısa]
-[Takip mesajı]
-
-Kurallar:
-- Aynı cümleyi veya aynı anlamı tekrar etme.
-- Her cümle yeni bir bilgi taşısın.
-- Köşeli parantezleri yazma, başlık yazma, maddeleme yapma.
-- İlk cümle haberle ilgili merak uyandıran clickbait başlık cümlesi olsun.
-- İkinci bölümde gerçek haber içeriğini kısa ama detaylı anlat: kim, ne yaptı, nerede oldu, varsa sayı/karar/iddia ne?
-- Son cümle doğal takip mesajı olsun.
-- Google News, RSS, derlenen haber, kapsamlı haber, haberin içeriğine göre gibi ifadeleri ASLA kullanma.
-- Site/kaynak adı okuma.
-- Yeni açıklamalar bekleniyor, detaylar netleşecek, gelişmeleri takip edeceğiz gibi boş cümleler kullanma.
-- Verilen içerik dışında bilgi, tarih, kişi, sayı veya iddia uydurma.
-- Kaynakta kesin olmayan şeyi kesinmiş gibi söyleme.
-- Cümleler kısa, akıcı ve seslendirmeye uygun olsun.
-- Deprem, afet, kaza, ölüm ve adliye haberlerinde saygılı ve ölçülü kal.
-- 35-45 saniyelik tek parça konuşma metni üret.
-
-Haber başlığı: {title}
-Gerçek haber içeriği: {content}
-"""
-    try:
-        from g4f.client import Client
-        client = Client()
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": prompt}],
-            timeout=90,
-        )
-        script = cleanup_generated_script(response.choices[0].message.content.strip().strip('"').strip("'"), title)
-        if len(script) < 200:
-            raise RuntimeError("Metin çok kısa")
-        if script.count(".") < 3:
-            raise RuntimeError("Metin haber akışı için zayıf")
-        if is_generic_or_empty_script(script):
-            raise RuntimeError("AI genel/tekrarlı haber metni üretti")
-        return script
-    except Exception as exc:
-        logger.warning("AI metni oluşmadı veya tekrarlı kaldı, tekrarsız fallback kullanılıyor: %s", exc)
-        script = fallback_script(item)
-        if is_generic_or_empty_script(script):
-            raise RuntimeError("Fallback de genel veya tekrarlı kaldı, video metni iptal edildi")
-        return script
+    hook = make_clickbait_hook(title)
+    summary = summarize_article_with_groq(title, content)
+    follow = "Daha fazlası için takipte kal."
+    script = f"{hook} {summary} {follow}"
+    script = clean_generated_text(script)
+    if is_generic_or_empty_script(script):
+        raise RuntimeError("Groq sonrası metin genel veya boş kaldı")
+    logger.info("Groq ile haber metni üretildi: %s kelime", word_count_tr(script))
+    return script
 '''
 s = s[:gen_start] + new_generate + s[gen_end:]
 
 p.write_text(s, encoding="utf-8")
-print("No-repeat script patch applied")
+print("Groq 45-50 word article summary script patch applied")
