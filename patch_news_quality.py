@@ -6,14 +6,31 @@ s = p.read_text(encoding="utf-8")
 news_start = s.index("NEWS_QUERIES = [")
 news_end = s.index("]\n\nBACKGROUND_HINTS", news_start) + 1
 new_news_queries = '''NEWS_QUERIES = [
-    "Türkiye son dakika flaş gelişme",
-    "Türkiye gündem sıcak gelişme",
-    "Türkiye ekonomi kriz enflasyon zam dolar",
-    "Türkiye siyaset Erdoğan meclis bakan karar",
-    "Türkiye adliye operasyon gözaltı tutuklama dava",
-    "Türkiye afet yangın sel kaza deprem",
-    "Türkiye spor transfer derbi maç son dakika",
-    "Türkiye sosyal medya gündem viral olay",
+    "son dakika",
+    "gündem",
+    "Türkiye haberleri",
+    "Türkiye gündem",
+    "ekonomi",
+    "enflasyon",
+    "zam",
+    "dolar",
+    "siyaset",
+    "meclis",
+    "Erdoğan",
+    "bakan",
+    "operasyon",
+    "gözaltı",
+    "tutuklama",
+    "mahkeme",
+    "deprem",
+    "yangın",
+    "sel",
+    "kaza",
+    "spor",
+    "futbol",
+    "transfer",
+    "sosyal medya",
+    "viral olay",
 ]
 '''
 s = s[:news_start] + new_news_queries + s[news_end:]
@@ -42,7 +59,7 @@ new_keyword_score = r'''def is_low_value_news(item: dict[str, Any]) -> bool:
     title = normalize_text(item.get("title", ""))
     if title.count("?") >= 2:
         return True
-    if len(title.split()) > 24:
+    if len(title.split()) > 28:
         return True
     return False
 
@@ -89,10 +106,8 @@ def keyword_score(text: str) -> int:
         "türkiye": 2,
     }
     score = sum(weight for word, weight in weights.items() if word in text_n)
-
     curiosity_words = ["neden", "nasıl", "ne oldu", "ortaya çıktı", "ilk kez", "dakika dakika", "kritik"]
     score += sum(3 for word in curiosity_words if word in text_n)
-
     boring_words = ["listesi", "kaçta", "hangi kanalda", "hava durumu", "namaz", "burç", "son depremler"]
     score -= sum(10 for word in boring_words if word in text_n)
     return score
@@ -105,9 +120,11 @@ new_choose = r'''def choose_top_three(news: list[dict[str, Any]], history: dict[
     selected: list[dict[str, Any]] = []
     ranked = enrich_and_rank(news)
 
-    # Önce SEO/çok sıkıcı haberleri at. Yeterli haber kalmazsa aşağıda gevşetiriz.
+    if len(ranked) < 3:
+        raise RuntimeError(f"Yeterli haber bulunamadı. Bulunan haber sayısı: {len(ranked)}")
+
     quality_ranked = [item for item in ranked if not is_low_value_news(item)]
-    if len(quality_ranked) < 8:
+    if len(quality_ranked) < 3:
         quality_ranked = ranked
 
     for item in quality_ranked:
@@ -115,17 +132,14 @@ new_choose = r'''def choose_top_three(news: list[dict[str, Any]], history: dict[
             continue
         if too_similar_to_selected(item, selected):
             continue
-        if item.get("viral_score", 0) < 10 and len(selected) < 2:
-            continue
         selected.append(item)
         if len(selected) == 3:
             break
 
+    # History çok sıkıysa aynı gün eski haberlerden kaçınmayı gevşet, ama birbirine benzer olanları yine ele.
     if len(selected) < 3:
-        for item in ranked:
+        for item in quality_ranked:
             if item in selected:
-                continue
-            if in_history(item, history.get("processed_news", [])):
                 continue
             if too_similar_to_selected(item, selected):
                 continue
@@ -133,8 +147,17 @@ new_choose = r'''def choose_top_three(news: list[dict[str, Any]], history: dict[
             if len(selected) == 3:
                 break
 
+    # Son çare: 3 video çıkarabilmek için ranked listesinden doldur.
     if len(selected) < 3:
-        raise RuntimeError("3 farklı ve yeterince güçlü haber seçilemedi.")
+        for item in ranked:
+            if item in selected:
+                continue
+            selected.append(item)
+            if len(selected) == 3:
+                break
+
+    if len(selected) < 3:
+        raise RuntimeError("3 farklı haber seçilemedi.")
     return selected
 '''
 s = s[:choose_start] + new_choose + s[choose_end:]
