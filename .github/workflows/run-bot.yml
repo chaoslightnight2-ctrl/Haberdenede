@@ -74,6 +74,9 @@ jobs:
       - name: Apply TTS fallback patch
         run: python patch_tts.py
 
+      - name: Apply exact denede subtitle sync patch
+        run: python patch_subtitles_denede.py
+
       - name: Run bot
         env:
           TZ: Europe/Istanbul
