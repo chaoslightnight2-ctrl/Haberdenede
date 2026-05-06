@@ -65,6 +65,9 @@ jobs:
               sys.exit(1)
           PY
 
+      - name: Apply news quality patch
+        run: python patch_news_quality.py
+
       - name: Apply TTS fallback patch
         run: python patch_tts.py
 
