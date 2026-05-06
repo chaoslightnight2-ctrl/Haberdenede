@@ -20,6 +20,8 @@ s = s.replace("FONT_SIZE = 58", "FONT_SIZE = 64")
 s = s.replace("FONT_SIZE = 56", "FONT_SIZE = 64")
 s = s.replace("STROKE_WIDTH = 4", "STROKE_WIDTH = 6")
 s = s.replace("STROKE_WIDTH = 5", "STROKE_WIDTH = 6")
+s = s.replace("color=\"yellow\"", "color=\"white\"")
+s = s.replace("color='yellow'", "color='white'")
 s = s.replace("max(usable_duration * (max(len(word), 1) / total_chars), 0.14)", "max(usable_duration * (max(len(word), 1) / total_chars), 0.16)")
 
 clean_start = s.index("def clean_caption_word(")
@@ -75,7 +77,7 @@ def generate_captions(chunked_ts):
         text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ ]+", "", str(text)).strip()
         if not text:
             continue
-        txt = (TextClip(turkish_upper(text), fontsize=FONT_SIZE, color="yellow", font=SUBTITLE_FONT,
+        txt = (TextClip(turkish_upper(text), fontsize=FONT_SIZE, color="white", font=SUBTITLE_FONT,
                        stroke_color="black", stroke_width=STROKE_WIDTH,
                        method="caption", size=caption_box, align="center")
                .set_start(start).set_duration(dur).set_position(("center", "center")))
@@ -86,4 +88,4 @@ def generate_captions(chunked_ts):
 
 s = s[:clean_start] + clean_func + chunk_func + generate_func + s[mix_start + 1:]
 p.write_text(s, encoding="utf-8")
-print("ImageMagick TextClip subtitle font patch applied")
+print("ImageMagick TextClip subtitle color restored to white")
