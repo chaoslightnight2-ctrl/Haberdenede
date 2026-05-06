@@ -3,11 +3,12 @@ from pathlib import Path
 p = Path("main.py")
 s = p.read_text(encoding="utf-8")
 
-# Sabit altyazı parametreleri: tüm caption'lar aynı boyutta ve aynı stilde görünsün.
+# Daha okunabilir altyazı parametreleri.
 s = s.replace("MAX_CAPTION_WORDS = 3", "MAX_CAPTION_WORDS = 2")
 s = s.replace("MAX_CAPTION_DURATION = 0.75", "MAX_CAPTION_DURATION = 0.62")
-s = s.replace("FONT_SIZE = 58", "FONT_SIZE = 56")
-s = s.replace("STROKE_WIDTH = 4", "STROKE_WIDTH = 4")
+s = s.replace("FONT_SIZE = 58", "FONT_SIZE = 64")
+s = s.replace("FONT_SIZE = 56", "FONT_SIZE = 64")
+s = s.replace("STROKE_WIDTH = 4", "STROKE_WIDTH = 5")
 s = s.replace("max(usable_duration * (max(len(word), 1) / total_chars), 0.14)", "max(usable_duration * (max(len(word), 1) / total_chars), 0.16)")
 
 clean_start = s.index("def clean_caption_word(")
@@ -54,13 +55,12 @@ generate_func = r'''def generate_captions(chunked_ts):
     if not chunked_ts: return []
     font = ensure_font()
     clips = []
-    caption_box = (VIDEO_SIZE[0] - 180, 170)
+    caption_box = (VIDEO_SIZE[0] - 140, 210)
     for start, dur, text in chunked_ts:
         text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ ]+", "", str(text)).strip()
         if not text:
             continue
-        # Hep aynı TextClip modu, aynı kutu, aynı font ve aynı pozisyon.
-        # Böylece bazı altyazılar büyük bazıları küçük görünmez.
+        # Sabit büyük font + kalın stroke + sabit kutu.
         txt = (TextClip(text.upper(), fontsize=FONT_SIZE, color="white", font=font,
                        stroke_color="black", stroke_width=STROKE_WIDTH,
                        method="caption", size=caption_box, align="center")
@@ -72,4 +72,4 @@ generate_func = r'''def generate_captions(chunked_ts):
 
 s = s[:clean_start] + clean_func + chunk_func + generate_func + s[mix_start + 1:]
 p.write_text(s, encoding="utf-8")
-print("Consistent subtitle size/style patch applied")
+print("Larger readable subtitle style patch applied")
