@@ -36,6 +36,15 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          python -m pip install --upgrade edge-tts
+          python -m pip show edge-tts
+
+      - name: Check Edge TTS before rendering
+        env:
+          VOICE: tr-TR-AhmetNeural
+          VOICE_RATE: +18%
+          VOICE_PITCH: -4Hz
+        run: python edge_tts_healthcheck.py
 
       - name: Apply news quality patch
         run: python patch_news_quality.py
@@ -64,6 +73,9 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           CLIENT_SECRETS_JSON: ${{ secrets.CLIENT_SECRETS_JSON }}
+          VOICE: tr-TR-AhmetNeural
+          VOICE_RATE: +18%
+          VOICE_PITCH: -4Hz
         run: python main.py
 
       - name: Upload generated videos
@@ -76,6 +88,7 @@ jobs:
             selected_news.json
             video_plan.json
             bot.log
+            edge_tts_healthcheck.mp3
           if-no-files-found: warn
           retention-days: 7
 
