@@ -1,0 +1,1 @@
+Generated output files should be placed in the generated_videos folder.
