@@ -49,8 +49,8 @@ def is_generic_or_empty_script(script: str) -> bool:
     low = normalize_text(script)
     banned = [
         "google haber", "google news", "rss", "derlenen", "kapsamlı haber", "kapsamlı bilgiler",
-        "ayrıntılar sınırlı", "yeni açıklamalar", "resmi açıklamalar", "gelişmeler takip",
-        "gelişmeleri aktarmaya devam", "konuya ilişkin detaylar", "detaylar netleşecek",
+        "haber içeriğine göre", "ayrıntılar sınırlı", "yeni açıklamalar", "resmi açıklamalar",
+        "gelişmeler takip", "gelişmeleri aktarmaya devam", "konuya ilişkin detaylar", "detaylar netleşecek",
     ]
     if any(x in low for x in banned):
         return True
@@ -63,11 +63,13 @@ def fallback_script(item: dict[str, Any]) -> str:
     content = get_best_news_content_for_script(item)
     if not content:
         raise RuntimeError(f"Gerçek haber içeriği yok, boş/genel metin üretilmeyecek: {title}")
+    sentences = re.split(r"(?<=[.!?])\s+", content)
+    body = " ".join(sentences[:4]).strip() or content
     return (
         f"Son dakika. {title}. "
         f"Bu gelişme gündemde dikkat çekebilir. "
-        f"Haberin içeriğine göre {content}. "
-        "Daha fazla gelişme için takipte kal."
+        f"{body} "
+        "Detaylar için takipte kal."
     )
 
 '''
@@ -90,15 +92,16 @@ Zorunlu yapı:
 2. İkinci cümle haberle ilgili clickbait ama mantıklı bir başlık cümlesi olsun.
 3. Sonra haberin somut içeriğini anlat: kim, ne yaptı, nerede oldu, neden önemli, varsa sayı/karar/iddia ne?
 4. Google News, Google Haberler, RSS, derlenen haber, kapsamlı haber gibi ifadeleri ASLA kullanma.
-5. Site/kaynak adı okuma. Habertürk, Sabah, Yeni Şafak, NTV gibi medya isimlerini metne koyma.
-6. Başlığı aynen tekrar edip durma; anlamı haber metnine çevir.
-7. "Yeni açıklamalar bekleniyor", "detaylar netleşecek", "gelişmeleri takip edeceğiz" gibi boş cümleler kullanma.
-8. Anlatım bozukluğu, tekrar, yarım cümle ve gereksiz abartı kullanma.
-9. Verilen içerik dışında bilgi, tarih, kişi, sayı veya iddia uydurma.
-10. Kaynakta kesin olmayan şeyi kesinmiş gibi söyleme.
-11. Cümleler kısa, akıcı ve seslendirmeye uygun olsun.
-12. Deprem, afet, kaza, ölüm ve adliye haberlerinde saygılı ve ölçülü kal.
-13. Son cümle kısa ve doğal bir takip çağrısı olsun.
+5. "Haberin içeriğine göre" ifadesini ASLA kullanma.
+6. Site/kaynak adı okuma. Habertürk, Sabah, Yeni Şafak, NTV gibi medya isimlerini metne koyma.
+7. Başlığı aynen tekrar edip durma; anlamı haber metnine çevir.
+8. "Yeni açıklamalar bekleniyor", "detaylar netleşecek", "gelişmeleri takip edeceğiz" gibi boş cümleler kullanma.
+9. Anlatım bozukluğu, tekrar, yarım cümle ve gereksiz abartı kullanma.
+10. Verilen içerik dışında bilgi, tarih, kişi, sayı veya iddia uydurma.
+11. Kaynakta kesin olmayan şeyi kesinmiş gibi söyleme.
+12. Cümleler kısa, akıcı ve seslendirmeye uygun olsun.
+13. Deprem, afet, kaza, ölüm ve adliye haberlerinde saygılı ve ölçülü kal.
+14. Son cümle kısa ve doğal bir takip çağrısı olsun.
 
 Haber başlığı: {title}
 Gerçek haber içeriği: {content}
@@ -113,7 +116,7 @@ Gerçek haber içeriği: {content}
         )
         script = response.choices[0].message.content.strip().strip('"').strip("'")
         script = re.sub(r"\s+", " ", script).strip()
-        blocked = ["Google News", "Google Haberler", "RSS", "derlenen", "kapsamlı haber", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet", "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı"]
+        blocked = ["Google News", "Google Haberler", "RSS", "derlenen", "kapsamlı haber", "Haberin içeriğine göre", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet", "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı"]
         for source in blocked:
             script = re.sub(re.escape(source), "", script, flags=re.I)
         script = re.sub(r"\s+", " ", script).strip()
@@ -136,4 +139,4 @@ Gerçek haber içeriği: {content}
 s = s[:gen_start] + new_generate + s[gen_end:]
 
 p.write_text(s, encoding="utf-8")
-print("Strict real-content script patch applied")
+print("No generic phrase script patch applied")
