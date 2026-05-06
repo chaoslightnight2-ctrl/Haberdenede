@@ -3,7 +3,8 @@ name: Run Turkey News Shorts Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 3 * * *"
+    # GitHub cron UTC çalışır. 21:00 UTC = Türkiye saatiyle 00:00.
+    - cron: "0 21 * * *"
 
 permissions:
   contents: write
@@ -72,7 +73,6 @@ jobs:
           python patch_pause_sync.py
           python patch_turkish_subtitle_chars.py
           python patch_viral_tags.py
-          python patch_disable_youtube_upload.py
 
       - name: Run bot
         env:
