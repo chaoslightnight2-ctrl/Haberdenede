@@ -31,7 +31,7 @@ def clean_news_summary_for_script(summary: str) -> str:
     for source in blocked_sources:
         summary = re.sub(re.escape(source), "", summary, flags=re.I)
     summary = re.sub(r"\s+", " ", summary).strip(" .-|:")
-    return summary[:1000]
+    return summary[:1200]
 
 
 def get_best_news_content_for_script(item: dict[str, Any]) -> str:
@@ -39,7 +39,7 @@ def get_best_news_content_for_script(item: dict[str, Any]) -> str:
     summary = clean_news_summary_for_script(item.get("summary", ""))
     title = clean_news_title_for_script(item.get("title", ""))
     if article and len(article.split()) >= 45:
-        return article[:1300]
+        return article[:1400]
     if summary and len(summary.split()) >= 35 and normalize_text(summary) != normalize_text(title):
         return summary[:900]
     return ""
@@ -49,8 +49,60 @@ def make_clickbait_hook(title: str) -> str:
     title = clean_news_title_for_script(title)
     title = re.sub(r"[.!?]+$", "", title).strip()
     if not title:
-        return "Bu gelişme gündemi sarsabilir."
-    return f"Bu gelişme gündemi sarsabilir: {title}."
+        return "Bu olayın arkasındaki detaylar dikkat çekiyor."
+    return f"Bu olayın arkasındaki detaylar dikkat çekiyor: {title}."
+
+
+def split_clean_sentences(text: str) -> list[str]:
+    raw = re.split(r"(?<=[.!?])\s+", text or "")
+    result = []
+    for sentence in raw:
+        sentence = re.sub(r"\s+", " ", sentence).strip(" .")
+        if len(sentence) < 18:
+            continue
+        low = normalize_text(sentence)
+        banned = [
+            "google haber", "google news", "rss", "derlenen", "kapsamlı haber", "haber içeriğine göre",
+            "yeni açıklamalar", "detaylar netleşecek", "gelişmeleri takip", "gelişmeleri aktarmaya devam",
+            "konuya ilişkin", "ayrıntılar sınırlı", "resmi açıklamalar"
+        ]
+        if any(x in low for x in banned):
+            continue
+        result.append(sentence + ".")
+    return result
+
+
+def dedupe_sentences(sentences: list[str], limit: int = 5) -> list[str]:
+    chosen = []
+    seen_keys = set()
+    for sentence in sentences:
+        key_words = [w for w in normalize_text(sentence).split() if len(w) > 3]
+        key = " ".join(key_words[:10])
+        if not key or key in seen_keys:
+            continue
+        if any(similarity(sentence, old) >= 0.70 for old in chosen):
+            continue
+        seen_keys.add(key)
+        chosen.append(sentence)
+        if len(chosen) >= limit:
+            break
+    return chosen
+
+
+def build_body_from_content(content: str, title: str) -> str:
+    sentences = dedupe_sentences(split_clean_sentences(content), limit=5)
+    title_norm = normalize_text(title)
+    filtered = []
+    for sentence in sentences:
+        if title_norm and similarity(sentence, title) >= 0.82:
+            continue
+        filtered.append(sentence)
+    if len(filtered) < 2:
+        filtered = sentences
+    body = " ".join(filtered[:4]).strip()
+    if len(body.split()) < 28:
+        raise RuntimeError("Haber gövdesi tekrarsız ve yeterli değil")
+    return body
 
 
 def is_generic_or_empty_script(script: str) -> bool:
@@ -62,8 +114,32 @@ def is_generic_or_empty_script(script: str) -> bool:
     ]
     if any(x in low for x in banned):
         return True
+    sentences = split_clean_sentences(script)
+    if len(sentences) >= 2:
+        for i, sentence in enumerate(sentences):
+            for other in sentences[i+1:]:
+                if similarity(sentence, other) >= 0.78:
+                    return True
     meaningful_words = [w for w in low.split() if len(w) > 4]
     return len(meaningful_words) < 35
+
+
+def cleanup_generated_script(script: str, title: str) -> str:
+    blocked = [
+        "Google News", "Google Haberler", "RSS", "derlenen", "kapsamlı haber", "Haberin içeriğine göre",
+        "Son dakika", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet",
+        "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı"
+    ]
+    for source in blocked:
+        script = re.sub(re.escape(source), "", script, flags=re.I)
+    script = re.sub(r"\s+", " ", script).strip(" .")
+    sentences = dedupe_sentences(split_clean_sentences(script), limit=6)
+    if len(sentences) < 3:
+        raise RuntimeError("AI metni yeterli sayıda farklı cümle üretmedi")
+    final = " ".join(sentences[:5]).strip()
+    if not final.endswith("."):
+        final += "."
+    return final
 
 
 def fallback_script(item: dict[str, Any]) -> str:
@@ -71,9 +147,9 @@ def fallback_script(item: dict[str, Any]) -> str:
     content = get_best_news_content_for_script(item)
     if not content:
         raise RuntimeError(f"Gerçek haber içeriği yok, boş/genel metin üretilmeyecek: {title}")
-    sentences = [x.strip() for x in re.split(r"(?<=[.!?])\s+", content) if x.strip()]
-    body = " ".join(sentences[:4]).strip() or content[:900]
-    return f"{make_clickbait_hook(title)} {body} Daha fazlası için takipte kal."
+    hook = make_clickbait_hook(title)
+    body = build_body_from_content(content, title)
+    return f"{hook} {body} Daha fazlası için takipte kal."
 
 '''
 s = s[:fallback_start] + new_fallback + s[fallback_end + 1:]
@@ -95,13 +171,14 @@ Metin yapısı kesinlikle şu sırada olacak:
 [Takip mesajı]
 
 Kurallar:
+- Aynı cümleyi veya aynı anlamı tekrar etme.
+- Her cümle yeni bir bilgi taşısın.
 - Köşeli parantezleri yazma, başlık yazma, maddeleme yapma.
-- "Son dakika" diye başlamak zorunda değilsin; doğrudan ilgi çekici hook ile başla.
 - İlk cümle haberle ilgili merak uyandıran clickbait başlık cümlesi olsun.
 - İkinci bölümde gerçek haber içeriğini kısa ama detaylı anlat: kim, ne yaptı, nerede oldu, varsa sayı/karar/iddia ne?
 - Son cümle doğal takip mesajı olsun.
 - Google News, RSS, derlenen haber, kapsamlı haber, haberin içeriğine göre gibi ifadeleri ASLA kullanma.
-- Site/kaynak adı okuma. Habertürk, Sabah, Yeni Şafak, NTV gibi medya isimlerini metne koyma.
+- Site/kaynak adı okuma.
 - Yeni açıklamalar bekleniyor, detaylar netleşecek, gelişmeleri takip edeceğiz gibi boş cümleler kullanma.
 - Verilen içerik dışında bilgi, tarih, kişi, sayı veya iddia uydurma.
 - Kaynakta kesin olmayan şeyi kesinmiş gibi söyleme.
@@ -120,27 +197,22 @@ Gerçek haber içeriği: {content}
             messages=[{"role": "user", "content": prompt}],
             timeout=90,
         )
-        script = response.choices[0].message.content.strip().strip('"').strip("'")
-        script = re.sub(r"\s+", " ", script).strip()
-        blocked = ["Google News", "Google Haberler", "RSS", "derlenen", "kapsamlı haber", "Haberin içeriğine göre", "Son dakika", "Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet", "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı"]
-        for source in blocked:
-            script = re.sub(re.escape(source), "", script, flags=re.I)
-        script = re.sub(r"\s+", " ", script).strip(" .")
+        script = cleanup_generated_script(response.choices[0].message.content.strip().strip('"').strip("'"), title)
         if len(script) < 200:
             raise RuntimeError("Metin çok kısa")
         if script.count(".") < 3:
             raise RuntimeError("Metin haber akışı için zayıf")
         if is_generic_or_empty_script(script):
-            raise RuntimeError("AI genel/boş haber metni üretti")
+            raise RuntimeError("AI genel/tekrarlı haber metni üretti")
         return script
     except Exception as exc:
-        logger.warning("AI metni oluşmadı veya genel kaldı, içerikli fallback deneniyor: %s", exc)
+        logger.warning("AI metni oluşmadı veya tekrarlı kaldı, tekrarsız fallback kullanılıyor: %s", exc)
         script = fallback_script(item)
         if is_generic_or_empty_script(script):
-            raise RuntimeError("Fallback de genel kaldı, video metni iptal edildi")
+            raise RuntimeError("Fallback de genel veya tekrarlı kaldı, video metni iptal edildi")
         return script
 '''
 s = s[:gen_start] + new_generate + s[gen_end:]
 
 p.write_text(s, encoding="utf-8")
-print("Hook content follow-message script format patch applied")
+print("No-repeat script patch applied")
