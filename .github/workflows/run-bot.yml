@@ -53,6 +53,7 @@ jobs:
           python patch_clickbait_hooks.py
           python patch_tts.py
           python patch_subtitles_denede.py
+          python patch_pause_sync.py
           python patch_turkish_subtitle_chars.py
           python patch_viral_tags.py
           python patch_disable_youtube_upload.py
