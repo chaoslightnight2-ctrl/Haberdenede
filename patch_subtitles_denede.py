@@ -3,13 +3,11 @@ from pathlib import Path
 p = Path("main.py")
 s = p.read_text(encoding="utf-8")
 
-# denede ile birebir altyazı parametreleri
+# Sabit altyazı parametreleri: tüm caption'lar aynı boyutta ve aynı stilde görünsün.
 s = s.replace("MAX_CAPTION_WORDS = 3", "MAX_CAPTION_WORDS = 2")
 s = s.replace("MAX_CAPTION_DURATION = 0.75", "MAX_CAPTION_DURATION = 0.62")
 s = s.replace("FONT_SIZE = 58", "FONT_SIZE = 56")
 s = s.replace("STROKE_WIDTH = 4", "STROKE_WIDTH = 4")
-
-# TTS fallback tahmini de denede ile aynı minimum süreye çekilsin.
 s = s.replace("max(usable_duration * (max(len(word), 1) / total_chars), 0.14)", "max(usable_duration * (max(len(word), 1) / total_chars), 0.16)")
 
 clean_start = s.index("def clean_caption_word(")
@@ -18,7 +16,8 @@ generate_start = s.index("\ndef generate_captions(", chunk_start)
 mix_start = s.index("\ndef mix_background_music(", generate_start)
 
 clean_func = r'''def clean_caption_word(word: str) -> str:
-    return re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿ]+", "", str(word)).strip()
+    # Türkçe karakterleri koru, sadece gereksiz noktalama/emoji temizle.
+    return re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ]+", "", str(word)).strip()
 
 '''
 
@@ -55,14 +54,16 @@ generate_func = r'''def generate_captions(chunked_ts):
     if not chunked_ts: return []
     font = ensure_font()
     clips = []
+    caption_box = (VIDEO_SIZE[0] - 180, 170)
     for start, dur, text in chunked_ts:
-        text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿ ]+", "", str(text)).strip()
+        text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ ]+", "", str(text)).strip()
         if not text:
             continue
-        txt = (TextClip(text, fontsize=FONT_SIZE, color="white", font=font,
+        # Hep aynı TextClip modu, aynı kutu, aynı font ve aynı pozisyon.
+        # Böylece bazı altyazılar büyük bazıları küçük görünmez.
+        txt = (TextClip(text.upper(), fontsize=FONT_SIZE, color="white", font=font,
                        stroke_color="black", stroke_width=STROKE_WIDTH,
-                       method="caption" if len(text)>12 else "label",
-                       size=(VIDEO_SIZE[0]-180, None))
+                       method="caption", size=caption_box, align="center")
                .set_start(start).set_duration(dur).set_position(("center", "center")))
         clips.append(txt)
     return clips
@@ -71,4 +72,4 @@ generate_func = r'''def generate_captions(chunked_ts):
 
 s = s[:clean_start] + clean_func + chunk_func + generate_func + s[mix_start + 1:]
 p.write_text(s, encoding="utf-8")
-print("Denede subtitle sync patch applied")
+print("Consistent subtitle size/style patch applied")
