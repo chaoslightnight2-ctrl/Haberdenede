@@ -2,6 +2,7 @@ python-dotenv==1.1.0
 requests==2.32.3
 feedparser==6.0.11
 edge-tts==7.0.2
+gtts==2.5.4
 g4f==0.5.2.3
 moviepy==1.0.3
 google-api-python-client==2.169.0
