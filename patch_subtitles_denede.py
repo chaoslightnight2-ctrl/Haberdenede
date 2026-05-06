@@ -3,12 +3,23 @@ from pathlib import Path
 p = Path("main.py")
 s = p.read_text(encoding="utf-8")
 
+# MoviePy TextClip için ImageMagick binary ve font adını sabitle.
+if "from moviepy.config import change_settings" not in s:
+    s = s.replace("from moviepy.editor import", "from moviepy.config import change_settings\nfrom moviepy.editor import")
+if "change_settings({\"IMAGEMAGICK_BINARY\"" not in s:
+    marker = "logger = logging.getLogger"
+    idx = s.find(marker)
+    if idx != -1:
+        s = s[:idx] + "change_settings({\"IMAGEMAGICK_BINARY\": os.getenv(\"IMAGEMAGICK_BINARY\", \"/usr/bin/convert\")})\nSUBTITLE_FONT = os.getenv(\"SUBTITLE_FONT\", \"DejaVu-Sans-Bold\")\n" + s[idx:]
+
 # Daha okunabilir altyazı parametreleri.
 s = s.replace("MAX_CAPTION_WORDS = 3", "MAX_CAPTION_WORDS = 2")
-s = s.replace("MAX_CAPTION_DURATION = 0.75", "MAX_CAPTION_DURATION = 0.62")
+s = s.replace("MAX_CAPTION_DURATION = 0.75", "MAX_CAPTION_DURATION = 0.68")
+s = s.replace("MAX_CAPTION_DURATION = 0.62", "MAX_CAPTION_DURATION = 0.68")
 s = s.replace("FONT_SIZE = 58", "FONT_SIZE = 64")
 s = s.replace("FONT_SIZE = 56", "FONT_SIZE = 64")
-s = s.replace("STROKE_WIDTH = 4", "STROKE_WIDTH = 5")
+s = s.replace("STROKE_WIDTH = 4", "STROKE_WIDTH = 6")
+s = s.replace("STROKE_WIDTH = 5", "STROKE_WIDTH = 6")
 s = s.replace("max(usable_duration * (max(len(word), 1) / total_chars), 0.14)", "max(usable_duration * (max(len(word), 1) / total_chars), 0.16)")
 
 clean_start = s.index("def clean_caption_word(")
@@ -51,17 +62,20 @@ chunk_func = r'''def chunk_timestamps(word_ts):
 
 '''
 
-generate_func = r'''def generate_captions(chunked_ts):
+generate_func = r'''def turkish_upper(text: str) -> str:
+    table = str.maketrans({"i": "İ", "ı": "I", "ğ": "Ğ", "ü": "Ü", "ş": "Ş", "ö": "Ö", "ç": "Ç"})
+    return text.translate(table).upper()
+
+
+def generate_captions(chunked_ts):
     if not chunked_ts: return []
-    font = ensure_font()
     clips = []
     caption_box = (VIDEO_SIZE[0] - 140, 210)
     for start, dur, text in chunked_ts:
         text = re.sub(r"[^A-Za-z0-9'\-À-ÖØ-öø-ÿçğıöşüÇĞİÖŞÜ ]+", "", str(text)).strip()
         if not text:
             continue
-        # Sabit büyük font + kalın stroke + sabit kutu.
-        txt = (TextClip(text.upper(), fontsize=FONT_SIZE, color="white", font=font,
+        txt = (TextClip(turkish_upper(text), fontsize=FONT_SIZE, color="yellow", font=SUBTITLE_FONT,
                        stroke_color="black", stroke_width=STROKE_WIDTH,
                        method="caption", size=caption_box, align="center")
                .set_start(start).set_duration(dur).set_position(("center", "center")))
@@ -72,4 +86,4 @@ generate_func = r'''def generate_captions(chunked_ts):
 
 s = s[:clean_start] + clean_func + chunk_func + generate_func + s[mix_start + 1:]
 p.write_text(s, encoding="utf-8")
-print("Larger readable subtitle style patch applied")
+print("ImageMagick TextClip subtitle font patch applied")
