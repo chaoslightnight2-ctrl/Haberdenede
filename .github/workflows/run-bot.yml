@@ -71,7 +71,7 @@ jobs:
       - name: Apply news quality patch
         run: python patch_news_quality.py
 
-      - name: Apply clickbait hook patch
+      - name: Apply professional news script patch
         run: python patch_clickbait_hooks.py
 
       - name: Apply TTS fallback patch
@@ -79,6 +79,9 @@ jobs:
 
       - name: Apply exact denede subtitle sync patch
         run: python patch_subtitles_denede.py
+
+      - name: Preserve Turkish subtitle letters
+        run: python patch_turkish_subtitle_chars.py
 
       - name: Apply viral tags patch
         run: python patch_viral_tags.py
