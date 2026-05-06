@@ -30,21 +30,32 @@ def clean_news_summary_for_script(summary: str) -> str:
     for source in blocked_sources:
         summary = summary.replace(source, "")
     summary = re.sub(r"\s+", " ", summary).strip(" .-|:")
-    return summary[:380]
+    return summary[:700]
+
+
+def get_best_news_content_for_script(item: dict[str, Any]) -> str:
+    article = clean_news_summary_for_script(item.get("article_text", ""))
+    summary = clean_news_summary_for_script(item.get("summary", ""))
+    title = clean_news_title_for_script(item.get("title", ""))
+    if article and len(article) >= 140:
+        return article[:1200]
+    if summary and normalize_text(summary) != normalize_text(title):
+        return summary[:700]
+    return ""
 
 
 def fallback_script(item: dict[str, Any]) -> str:
     title = clean_news_title_for_script(item.get("title", ""))
-    summary = clean_news_summary_for_script(item.get("summary", ""))
-    if summary and normalize_text(summary) != normalize_text(title):
-        detail = f"Haberde öne çıkan bilgiye göre {summary}."
+    content = get_best_news_content_for_script(item)
+    if content:
+        detail = f"Haberin içeriğine göre {content}."
     else:
-        detail = "Ayrıntılar geldikçe olayın etkisi daha net anlaşılacak."
+        detail = "Habere ilişkin ayrıntılar sınırlı olduğu için gelişmenin resmi açıklamalarla netleşmesi bekleniyor."
     return (
         f"Son dakika. {title}. "
-        f"Bu gelişme gündemde geniş yankı uyandırabilir. "
+        f"Bu gelişme gündemde dikkat çekebilir. "
         f"{detail} "
-        "Şimdi gözler konuyla ilgili yapılacak yeni açıklamalarda. Gelişmeleri aktarmaya devam edeceğiz. Takipte kal."
+        "Gelişmeleri aktarmaya devam edeceğiz. Takipte kal."
     )
 
 '''
@@ -54,19 +65,19 @@ gen_start = s.index("def generate_news_script(")
 gen_end = s.index("\n\nasync def create_voiceover(", gen_start)
 new_generate = r'''def generate_news_script(item: dict[str, Any]) -> str:
     title = clean_news_title_for_script(item.get("title", ""))
-    summary = clean_news_summary_for_script(item.get("summary", ""))
+    content = get_best_news_content_for_script(item)
     prompt = f"""
 Sen deneyimli bir Türkçe haber spikerisin. YouTube Shorts için düzgün, mantıklı ve profesyonel haber metni yaz.
-Aşağıdaki haberden 35-45 saniyelik tek parça konuşma metni üret.
+Aşağıdaki haber içeriğinden 35-45 saniyelik tek parça konuşma metni üret.
 
 Zorunlu yapı:
 1. Metin kesinlikle "Son dakika." diye başlasın.
 2. İkinci cümle haberle ilgili clickbait ama mantıklı bir başlık cümlesi olsun.
-3. Sonra haberi açık, düzgün ve anlaşılır Türkçeyle anlat.
+3. Sonra haberin gerçek içeriğini anlat. Sadece "yeni açıklamalar bekleniyor" gibi boş cümlelerle geçiştirme.
 4. Site/kaynak adı okuma. Habertürk, Sabah, Yeni Şafak, NTV gibi medya isimlerini metne koyma.
 5. Başlığı aynen tekrar edip durma; anlamı haber metnine çevir.
 6. Anlatım bozukluğu, tekrar, yarım cümle ve gereksiz abartı kullanma.
-7. Verilen başlık ve özet dışında bilgi, tarih, kişi, sayı veya iddia uydurma.
+7. Verilen içerik dışında bilgi, tarih, kişi, sayı veya iddia uydurma.
 8. Kaynakta kesin olmayan şeyi kesinmiş gibi söyleme.
 9. Olayın neden önemli olabileceğini mantık çerçevesinde açıkla.
 10. Cümleler kısa, akıcı ve seslendirmeye uygun olsun.
@@ -74,13 +85,12 @@ Zorunlu yapı:
 12. Emoji, madde işareti, başlık, sahne notu ve tırnak kullanma.
 13. Son cümle kısa bir takip çağrısı olsun.
 
-Örnek yapı:
-Son dakika. Bu gelişme gündemde geniş yankı uyandırabilir. ... Takipte kal.
-
 Haber başlığı: {title}
-Haber özeti: {summary}
+Haber içeriği: {content}
 """
     try:
+        if not content or len(content) < 80:
+            raise RuntimeError("Haber içeriği yetersiz")
         from g4f.client import Client
         client = Client()
         response = client.chat.completions.create(
@@ -90,7 +100,7 @@ Haber özeti: {summary}
         )
         script = response.choices[0].message.content.strip().strip('"').strip("'")
         script = re.sub(r"\s+", " ", script).strip()
-        blocked = ["Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet", "Odatv", "Gerçek İzmir", "Konya Postası"]
+        blocked = ["Habertürk", "Sabah", "Yeni Şafak", "NTV", "CNN Türk", "Hürriyet", "Milliyet", "Odatv", "Gerçek İzmir", "Konya Postası", "Anadolu Ajansı"]
         for source in blocked:
             script = script.replace(source, "")
         script = re.sub(r"\s+", " ", script).strip()
@@ -102,10 +112,10 @@ Haber özeti: {summary}
             raise RuntimeError("Metin haber akışı için zayıf")
         return script
     except Exception as exc:
-        logger.warning("AI metni oluşmadı, profesyonel haber fallback kullanılıyor: %s", exc)
+        logger.warning("AI metni oluşmadı, içerikli haber fallback kullanılıyor: %s", exc)
         return fallback_script(item)
 '''
 s = s[:gen_start] + new_generate + s[gen_end:]
 
 p.write_text(s, encoding="utf-8")
-print("Son dakika professional script patch applied")
+print("Article-based professional script patch applied")
