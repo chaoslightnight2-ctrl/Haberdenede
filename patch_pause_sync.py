@@ -26,7 +26,6 @@ new_func = r'''def chunk_timestamps(word_ts):
     for i, (start, dur, word) in enumerate(cleaned):
         word_end = start + dur
         next_start = cleaned[i + 1][0] if i + 1 < len(cleaned) else None
-        next_gap = 0.0 if next_start is None else max(next_start - word_end, 0.0)
         projected_duration = word_end - chunk_start
 
         should_break_before_word = False
@@ -76,8 +75,13 @@ new_func = r'''def chunk_timestamps(word_ts):
         fixed.append((start, max(end - start, 0.16), text))
     return fixed
 
+
+def turkish_upper(text: str) -> str:
+    table = str.maketrans({"i": "İ", "ı": "I", "ğ": "Ğ", "ü": "Ü", "ş": "Ş", "ö": "Ö", "ç": "Ç"})
+    return text.translate(table).upper()
+
 '''
 
 s = s[:start] + new_func + s[end:]
 p.write_text(s, encoding='utf-8')
-print('Improved voice-pause subtitle sync patch applied')
+print('Improved voice-pause subtitle sync patch applied without deleting turkish_upper')
