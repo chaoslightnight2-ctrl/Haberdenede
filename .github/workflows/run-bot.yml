@@ -68,6 +68,9 @@ jobs:
       - name: Apply news quality patch
         run: python patch_news_quality.py
 
+      - name: Apply clickbait hook patch
+        run: python patch_clickbait_hooks.py
+
       - name: Apply TTS fallback patch
         run: python patch_tts.py
 
