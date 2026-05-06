@@ -70,12 +70,10 @@ def is_generic_or_empty_script(script: str) -> bool:
         "haber içeriğine göre", "ayrıntılar sınırlı", "yeni açıklamalar", "resmi açıklamalar",
         "gelişmeler takip", "gelişmeleri aktarmaya devam", "konuya ilişkin detaylar", "detaylar netleşecek",
     ]
-    if any(x in low for x in banned):
-        return True
-    return word_count_tr(script) < 30
+    return any(x in low for x in banned)
 
 
-def groq_chat(prompt: str, max_tokens: int = 260, temperature: float = 0.25) -> str:
+def groq_chat(prompt: str, max_tokens: int = 360, temperature: float = 0.25) -> str:
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY GitHub Secrets içinde yok")
@@ -108,20 +106,20 @@ def parse_groq_json(raw: str) -> tuple[str, str]:
 
 def repair_summary_with_groq(title: str, content: str, short_summary: str) -> str:
     repair_prompt = f"""
-Aşağıdaki kısa özeti, aynı habere sadık kalarak Türkçe 30-40 kelimelik tek paragraf haber özetine genişlet.
+Aşağıdaki kısa özeti, aynı habere sadık kalarak Türkçe 50-60 kelimelik tek paragraf haber özetine genişlet.
 
 Kesin kurallar:
 - Sadece haber metnindeki bilgileri kullan.
 - Yeni iddia, yorum veya tahmin ekleme.
 - Kaynak/site adı söyleme.
-- 30 kelimeden kısa olmasın, 45 kelimeyi geçmesin.
+- Hedef uzunluk 50-60 kelime olsun.
 - Tek paragraf yaz, başlık veya madde yazma.
 
 Başlık: {title}
 Kısa özet: {short_summary}
 Tam haber metni: {content[:5000]}
 """
-    repaired = clean_generated_text(groq_chat(repair_prompt, max_tokens=180, temperature=0.15)).strip(" .")
+    repaired = clean_generated_text(groq_chat(repair_prompt, max_tokens=260, temperature=0.15)).strip(" .")
     return repaired
 
 
@@ -134,8 +132,7 @@ Aşağıdaki haberden YouTube Shorts metni için iki parça üret.
 
 Kurallar:
 - hook: Haberle doğrudan ilgili, merak uyandıran, clickbait ama yalan/abartı olmayan 8-14 kelimelik tek cümle olsun.
-- summary: Haber metnini Türkçe olarak 30-40 kelimelik tek paragraf halinde özetlesin.
-- Summary kesinlikle 30 kelimeden kısa olmasın.
+- summary: Haber metnini Türkçe olarak 50-60 kelimelik tek paragraf halinde özetlesin.
 - Sadece haber içeriğindeki bilgileri kullan.
 - Uydurma bilgi, yorum, tahmin ekleme.
 - Kaynak/site adı söyleme.
@@ -146,27 +143,36 @@ Kurallar:
 Başlık: {title}
 Haber metni: {content[:5000]}
 """
-    last_error = None
-    for attempt in range(2):
+    hook = ""
+    summary = ""
+    try:
+        raw = groq_chat(prompt, max_tokens=360, temperature=0.25)
+        hook, summary = parse_groq_json(raw)
+    except Exception as exc:
+        logger.warning("Groq JSON hook/özet üretimi başarısız, metin fallback deneniyor: %s", exc)
+        raw = clean_generated_text(groq_chat(prompt + "\nJSON veremezsen sadece özet cümlesi yaz.", max_tokens=260, temperature=0.2))
+        hook = clean_news_title_for_script(title)
+        summary = raw
+
+    if not hook or word_count_tr(hook) < 5:
+        hook = clean_news_title_for_script(title) or "Bu gelişme gündemde dikkat çekiyor"
+
+    wc = word_count_tr(summary)
+    if wc < 50:
+        logger.warning("Groq özeti hedefin altında geldi: %s kelime; 50-60 kelimeye tamamlama deneniyor ama bot durmayacak", wc)
         try:
-            raw = groq_chat(prompt, max_tokens=260, temperature=0.2 + attempt * 0.05)
-            hook, summary = parse_groq_json(raw)
-            if not hook or word_count_tr(hook) < 5:
-                raise RuntimeError("Groq hook çok kısa veya boş")
-            wc = word_count_tr(summary)
-            if wc < 30:
-                logger.warning("Groq özeti kısa geldi: %s kelime; 30+ kelimeye tamamlama deneniyor", wc)
-                summary = repair_summary_with_groq(title, content, summary)
+            repaired = repair_summary_with_groq(title, content, summary)
+            if repaired:
+                summary = repaired
                 wc = word_count_tr(summary)
-            if wc < 28:
-                raise RuntimeError(f"Groq özeti çok kısa kaldı: {wc} kelime")
-            if wc > 50:
-                summary = " ".join(re.findall(r"\S+", summary)[:45]).strip(" .")
-            return hook.strip(" .") + ".", summary.strip(" .") + "."
         except Exception as exc:
-            last_error = exc
-            logger.warning("Groq hook/özet denemesi başarısız: %s", exc)
-    raise RuntimeError(f"Groq hook/özet üretimi başarısız: {last_error}")
+            logger.warning("Groq özet tamamlama başarısız, kısa özetle devam ediliyor: %s", exc)
+    if word_count_tr(summary) == 0:
+        summary = clean_generated_text(content[:700])
+    if word_count_tr(summary) > 75:
+        summary = " ".join(re.findall(r"\S+", summary)[:60]).strip(" .")
+    logger.info("Groq çıktı uzunluğu: hook=%s kelime, summary=%s kelime", word_count_tr(hook), word_count_tr(summary))
+    return hook.strip(" .") + ".", summary.strip(" .") + "."
 
 
 def fallback_script(item: dict[str, Any]) -> str:
@@ -188,11 +194,11 @@ new_generate = r'''def generate_news_script(item: dict[str, Any]) -> str:
     script = f"{hook} {summary} {follow}"
     script = clean_generated_text(script)
     if is_generic_or_empty_script(script):
-        raise RuntimeError("Groq sonrası metin genel veya boş kaldı")
+        logger.warning("Groq sonrası metin genel ifadeler içeriyor ama bot durmayacak: %s", title)
     logger.info("Groq ile hook + özet üretildi: %s kelime", word_count_tr(script))
     return script
 '''
 s = s[:gen_start] + new_generate + s[gen_end:]
 
 p.write_text(s, encoding="utf-8")
-print("Groq 30+ word summary patch applied")
+print("Groq 50-60 word summary without length-stop patch applied")
