@@ -11,7 +11,6 @@ start = s.index('def chunk_timestamps(')
 end = s.index('\ndef generate_captions(', start)
 
 new_func = r'''def detect_speech_bounds_from_audio(audio_path: Path) -> tuple[float | None, float | None, float | None]:
-    # Final MP3 dosyasının gerçek dalga formundan konuşma başlangıç/bitişini bul.
     try:
         audio_clip = AudioFileClip(str(audio_path))
         duration = float(audio_clip.duration)
@@ -49,29 +48,22 @@ new_func = r'''def detect_speech_bounds_from_audio(audio_path: Path) -> tuple[fl
 
 
 def normalize_word_timestamps_to_audio(word_ts, audio_path: Path):
-    # En stabil yöntem: Edge kelime aralıklarını koru, sadece MP3 encoder başlangıç kaymasını düzelt.
-    # Ölçekleme iç boşlukları bozabildiği için sadece çok küçük süre farkında kullanılır.
     if not word_ts:
         return word_ts
     try:
         speech_start, speech_end, audio_duration = detect_speech_bounds_from_audio(audio_path)
         first_start = min(float(start) for start, _, _ in word_ts)
-        last_start = max(float(start) for start, _, _ in word_ts)
         last_end = max(float(start) + max(float(dur), 0.0) for start, dur, _ in word_ts)
-
         shift = 0.0
         if speech_start is not None:
             shift = speech_start - first_start
-
         scale = 1.0
         if speech_start is not None and speech_end is not None and last_end > first_start:
             source_span = last_end - first_start
             target_span = speech_end - speech_start
             candidate_scale = target_span / source_span if source_span > 0 else 1.0
-            # Sadece minik global drift varsa ölçekle; büyük scale kelime içi senkronu bozar.
             if 0.985 <= candidate_scale <= 1.015:
                 scale = candidate_scale
-
         logger.info("Altyazı sesle hizalandı: shift=%.3f scale=%.5f", shift, scale)
         return [
             (max((float(start) - first_start) * scale + first_start + shift, 0.0), max(float(dur) * scale, 0.04), word)
@@ -83,8 +75,8 @@ def normalize_word_timestamps_to_audio(word_ts, audio_path: Path):
 
 
 def chunk_timestamps(word_ts):
-    # Tam senkron için caption bitişi kelime duration'a göre değil,
-    # sonraki kelimenin gerçek başlangıcına göre ayarlanır.
+    # Kelime başlangıcı gerçek TTS zamanıdır.
+    # Kısa boşluklarda caption biraz kalsın; uzun durakta mutlaka kesilsin.
     if not word_ts:
         return []
 
@@ -92,6 +84,14 @@ def chunk_timestamps(word_ts):
         sync_offset = float(os.getenv("SUBTITLE_SYNC_OFFSET_SECONDS", "0"))
     except Exception:
         sync_offset = 0.0
+    try:
+        pause_cutoff = float(os.getenv("SUBTITLE_PAUSE_CUTOFF_SECONDS", "0.18"))
+    except Exception:
+        pause_cutoff = 0.18
+    try:
+        max_hold = float(os.getenv("SUBTITLE_MAX_HOLD_AFTER_WORD_SECONDS", "0.10"))
+    except Exception:
+        max_hold = 0.10
 
     cleaned = []
     for start, dur, word in word_ts:
@@ -104,12 +104,20 @@ def chunk_timestamps(word_ts):
 
     chunks = []
     for i, (start, dur, word) in enumerate(cleaned):
+        word_end = start + dur
         if i + 1 < len(cleaned):
             next_start = cleaned[i + 1][0]
-            # Bu kelime, bir sonraki kelime başlamadan 1 frame kadar önce biter.
-            end = max(start + 0.06, next_start - 0.002)
+            gap = max(next_start - word_end, 0.0)
+            if gap > pause_cutoff:
+                # Ses duruyorsa altyazı da dursun.
+                end = word_end + min(max_hold, gap * 0.25)
+            else:
+                # Küçük doğal boşluklarda bir sonraki kelimeye kadar kalabilir.
+                end = next_start - 0.004
+            end = max(end, start + 0.06)
+            end = min(end, next_start - 0.004) if next_start > start else end
         else:
-            end = start + max(dur, 0.20)
+            end = word_end + max_hold
         chunks.append((start, max(end - start, 0.06), word))
     return chunks
 
@@ -127,4 +135,4 @@ new = "word_ts = normalize_word_timestamps_to_audio(word_ts, audio_path)\n    ca
 s = s.replace(old, new)
 
 p.write_text(s, encoding='utf-8')
-print('Exact next-word-boundary subtitle sync patch applied')
+print('Subtitle pauses now stop during longer voice gaps')
