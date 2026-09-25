@@ -73,6 +73,7 @@ jobs:
           python patch_pause_sync.py
           python patch_turkish_subtitle_chars.py
           python patch_viral_tags.py
+          python patch_channel_growth.py
 
       - name: Run bot
         env:
