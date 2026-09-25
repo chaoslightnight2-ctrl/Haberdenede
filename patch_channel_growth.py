@@ -33,6 +33,7 @@ queries = '''NEWS_QUERIES = [
 source, count = re.subn(r"NEWS_QUERIES\s*=\s*\[[\s\S]*?\]\s*", queries + "\n", source, count=1)
 if count != 1:
     raise RuntimeError("NEWS_QUERIES alanı bulunamadı; kapsam güncellemesi uygulanmadı.")
+source = source.replace('"llama-3.3-70b-versatile"', '"openai/gpt-oss-120b"')
 
 marker = "# HABERDENEDE_CHANNEL_GROWTH_PATCH"
 if marker not in source:
@@ -137,28 +138,45 @@ def choose_top_three(news, history):
     return selected
 
 
-def _growth_fallback_script(item, title, content):
-    summary = clean_news_summary_for_script(item.get("summary", "") or "")
-    if len(summary.split()) < 18:
-        summary = clean_news_summary_for_script(content or "")
-    if not summary:
-        raise RuntimeError("Groq yanıt vermedi ve doğrulanabilir haber özeti bulunamadı; içerik uydurulmadı.")
-    sentences = re.split(r"(?<=[.!?])\s+", summary)
-    body = " ".join(sentences[:3]).strip()
-    words = body.split()
-    if len(words) > 62:
-        body = " ".join(words[:62]).rstrip(" ,;:")
-    script = clean_generated_text(f"Öne çıkan gelişme: {title}. {body}")
-    if len(script.split()) > 76:
-        script = " ".join(script.split()[:76]).rstrip(" ,;:")
-    return script
+def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY GitHub Actions secret'ında yok.")
+    model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+    response = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        json={
+            "model": model,
+            "messages": [
+                {"role": "system", "content": "Sen Türkiye'den Haber kanalı için kaynaklara bağlı, dikkatli bir Türkçe haber editörüsün."},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": temperature,
+            "max_completion_tokens": max_tokens,
+            "response_format": {"type": "json_object"},
+        },
+        timeout=90,
+    )
+    try:
+        response.raise_for_status()
+    except requests.HTTPError as exc:
+        details = re.sub(r"\s+", " ", response.text or "")[:600]
+        raise RuntimeError(
+            f"Groq isteği başarısız: HTTP {response.status_code}, model={model}, yanıt={details}"
+        ) from exc
+    payload = response.json()
+    choices = payload.get("choices") or []
+    if not choices:
+        raise RuntimeError(f"Groq boş choices döndürdü; model={model}.")
+    return choices[0].get("message", {}).get("content", "")
 
 
 def generate_news_script(item):
     source_title = clean_news_title_for_script(item.get("title", ""))
     content = get_best_news_content_for_script(item)
     if not content:
-        raise RuntimeError(f"Doğrulanabilir haber metni yetersiz; video üretilmedi: {source_title}")
+        raise RuntimeError(f"Doğrulanabilir haber metni yetersiz; Groq'a gönderilmedi: {source_title}")
     topic = detect_topic_bucket(item)
     prompt = f"""
 Türkiye’den Haber adlı geniş kapsamlı haber kanalı için kısa video metadatası ve anlatımı üret.
@@ -175,36 +193,29 @@ Kaynak başlığı: {source_title}
 Haber metni: {content[:4200]}
 """
     try:
-        raw = groq_chat(prompt, max_tokens=420, temperature=0.2)
+        raw = _groq_json_chat(prompt, max_tokens=480, temperature=0.2)
         match = re.search(r"\{[\s\S]*\}", raw)
         if not match:
-            raise ValueError("Model geçerli JSON döndürmedi.")
+            raise ValueError("Groq JSON nesnesi döndürmedi.")
         data = json.loads(match.group(0))
         new_title = clean_generated_text(str(data.get("title", ""))).strip(" .-|:")
         narration = clean_generated_text(str(data.get("narration", ""))).strip()
         description = clean_generated_text(str(data.get("description", ""))).strip()
         if not new_title or not narration or not description:
-            raise ValueError("Model başlık/anlatım/açıklama alanlarından birini boş bıraktı.")
+            raise ValueError("Groq title, narration veya description alanını boş bıraktı.")
         if len(new_title) > 90 or not 28 <= len(narration.split()) <= 78:
-            raise ValueError("Model çıktısı uzunluk denetimini geçemedi.")
-        item["source_headline"] = item.get("title", "")
-        item["youtube_description"] = description
-        logger.info("Kanal için özgün başlık ve anlatım üretildi: %s", new_title)
+            raise ValueError("Groq çıktısı uzunluk denetimini geçemedi.")
     except Exception as exc:
-        response = getattr(exc, "response", None)
-        detail = ""
-        if response is not None:
-            detail = re.sub(r"\s+", " ", str(getattr(response, "text", "")))[:350]
-        logger.warning("Groq içerik üretimi başarısız; kaynakla sınırlı yedek anlatım kullanılıyor: %s %s", exc, detail)
-        new_title = source_title[:90]
-        item["source_headline"] = item.get("title", "")
-        item["youtube_description"] = f"{source_title}. Haber ayrıntıları kaynak bağlantısında; bu kısa video mevcut kaynak metnini özetler."
-        narration = _growth_fallback_script(item, source_title, content)
+        logger.error("Groq üretimi başarısız; yedek anlatıma geçilmeden çalışma durduruluyor: %s", exc)
+        raise
 
+    item["source_headline"] = item.get("title", "")
+    item["youtube_description"] = description
     item["title"] = new_title
     resolved = item.get("resolved_url", "")
     if resolved.startswith("https://") and "news.google.com" not in resolved:
         item["url"] = resolved
+    logger.info("Groq (%s) ile kanal uyumlu başlık ve anlatım üretildi: %s", os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"), new_title)
     return narration
 
 
