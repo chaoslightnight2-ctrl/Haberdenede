@@ -35,6 +35,16 @@ if count != 1:
     raise RuntimeError("NEWS_QUERIES alanı bulunamadı; kapsam güncellemesi uygulanmadı.")
 source = source.replace('"llama-3.3-70b-versatile"', '"openai/gpt-oss-120b"')
 
+# Preserve the editorial inputs beside each upload so topic-level results can be compared later.
+plan_anchor = '"viral_score": item["viral_score"],'
+plan_fields = '''"viral_score": item["viral_score"],
+            "topic_bucket": item.get("topic_bucket", "gündem_genel"),
+            "source_headline": item.get("source_headline", ""),
+            "narration": item.get("script", ""),
+            "description": item.get("youtube_description", ""),'''
+if plan_anchor in source:
+    source = source.replace(plan_anchor, plan_fields, 1)
+
 marker = "# HABERDENEDE_CHANNEL_GROWTH_PATCH"
 if marker not in source:
     block = r'''
@@ -178,15 +188,34 @@ def generate_news_script(item):
     if not content:
         raise RuntimeError(f"Doğrulanabilir haber metni yetersiz; Groq'a gönderilmedi: {source_title}")
     topic = detect_topic_bucket(item)
+    angle_guidance = {
+        "ekonomi_yasam": "Önce değişen fiyatı, kuralı veya kararı ve açıkça belirtilen etkilenen grubu anlat.",
+        "sağlık_eğitim": "Önce kararın ya da gelişmenin hangi hasta, öğrenci veya kurumu ilgilendirdiğini söyle.",
+        "bilim_teknoloji": "Önce keşif/ürün/güvenlik gelişmesinin ne olduğunu ve kaynakta belirtilen kullanım etkisini açıkla.",
+        "iklim_enerji": "Önce yer, olay ve doğrulanmış ölçü/değişikliği aktar; tehlike abartısı ekleme.",
+        "ulaşım_şehir": "Önce hangi yerde hangi hat, yol veya hizmetin nasıl değiştiğini söyle.",
+        "dünya_diplomasi": "Önce tarafları ve alınan kararı/sonraki adımı açıkla; taraf tutan dil kullanma.",
+        "kültür_sanat": "Önce eser, etkinlik ya da kişiyle ilgili somut yeniliği ve tarihi/yer bilgisini ver.",
+        "spor": "Önce takım/sporcu ve maçın/kararın sonucunu, kaynakta varsa skorla söyle.",
+        "adliye_toplum": "Önce yargı aşamasını ve ilgili kişilerin statüsünü doğru aktar; iddiayı hüküm gibi sunma.",
+        "siyaset_kamu": "Önce karar/açıklama ve kimleri ilgilendirdiğini, kaynakta açıklandığı kadarıyla anlat.",
+        "afet_güvenlik": "Önce teyit edilmiş yer, olay ve resmi durum bilgisini ver; doğrulanmamış sayı kullanma.",
+        "gündem_genel": "Önce en yeni somut gelişmeyi ve kaynakta belirtilen doğrudan etkisini aktar.",
+    }.get(topic, "Önce en yeni somut gelişmeyi aktar.")
     prompt = f"""
 Türkiye’den Haber adlı geniş kapsamlı haber kanalı için kısa video metadatası ve anlatımı üret.
-Yalnızca aşağıdaki başlık ve haber metninde açıkça bulunan olguları kullan. İddiaları iddia olarak belirt;
-kesinleşmemiş bilgiyi kesin hüküm gibi yazma. Kaynakta olmayan neden, sonuç, sayı, tarih veya yorum ekleme.
-Giriş ilk cümlede somut gelişmeyi söylesin. Merak uyandır, fakat yanıltıcı/sansasyonel olma.
-Anlatım 45-70 Türkçe kelime, tek paragraf ve doğal seslendirmeye uygun olsun. Açıklama 1-2 kısa,
-özgün cümle olsun; haberi arayan kişinin konuyu anlayacağı ana terimleri doğal biçimde içersin.
+Açılışta selam, kanal tanıtımı, soru, “şok/olay” gibi boş merak kancası kullanma; ilk cümlede somut gelişmeyi
+ve haberin ana kişisini/kurumunu söyle. Başlığın vaat ettiği bilgiyi açılışta hemen ver.
+Yalnızca başlık ve kaynak metninde açıkça bulunan olguları kullan. İddiaları iddia olarak belirt; kesinleşmemiş
+bilgiyi kesin hüküm gibi yazma. Kaynakta olmayan neden, sonuç, sayı, tarih veya yorum ekleme.
+Kategoriye uygun anlatım yönü: {angle_guidance}
+Anlatım 35-60 Türkçe kelime, tek paragraf ve doğal seslendirmeye uygun olsun. Her cümle yeni bir bilgi taşısın;
+tekrar, dolgu, genel takip/abone çağrısı ve yapay cliffhanger ekleme.
+Başlık doğru, özgün ve en fazla 70 karakter olsun; en önemli kişi/konu başta yer alsın. #shorts, ALL CAPS ve
+yanıltıcı kesinlik kullanma. Açıklama her haber için farklı, ilk cümlesi haberi doğrudan özetleyen 1-2 cümle olsun;
+ana kişi/konu terimlerinden 1-2 tanesini doğal biçimde içersin. Hashtag veya etiket listesi yazma.
 Geçerli JSON dışında hiçbir şey döndürme:
-{{"title":"en fazla 90 karakter, özgün ve doğru başlık","narration":"...","description":"..."}}
+{{"title":"...","narration":"...","description":"..."}}
 
 Kanal kapsamı/kategori: {topic}
 Kaynak başlığı: {source_title}
@@ -203,7 +232,7 @@ Haber metni: {content[:4200]}
         description = clean_generated_text(str(data.get("description", ""))).strip()
         if not new_title or not narration or not description:
             raise ValueError("Groq title, narration veya description alanını boş bıraktı.")
-        if len(new_title) > 90 or not 28 <= len(narration.split()) <= 78:
+        if len(new_title) > 70 or not 35 <= len(narration.split()) <= 65:
             raise ValueError("Groq çıktısı uzunluk denetimini geçemedi.")
     except Exception as exc:
         logger.error("Groq üretimi başarısız; yedek anlatıma geçilmeden çalışma durduruluyor: %s", exc)
@@ -217,6 +246,35 @@ Haber metni: {content[:4200]}
         item["url"] = resolved
     logger.info("Groq (%s) ile kanal uyumlu başlık ve anlatım üretildi: %s", os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"), new_title)
     return narration
+
+
+def build_background_queries(item):
+    topic = detect_topic_bucket(item)
+    topic_queries = {
+        "bilim_teknoloji": ["technology lab innovation", "data center servers", "scientist laboratory", "satellite earth"],
+        "ekonomi_yasam": ["grocery shopping market prices", "small business shop", "financial district street", "house construction city"],
+        "sağlık_eğitim": ["doctor hospital hallway", "medical research laboratory", "students classroom university", "school campus"],
+        "iklim_enerji": ["wind turbines renewable energy", "solar panels power", "drought dry lake", "forest conservation"],
+        "ulaşım_şehir": ["city public transport metro", "train station commute", "urban traffic aerial", "city infrastructure construction"],
+        "dünya_diplomasi": ["international diplomacy flags", "world city skyline", "united nations building", "global shipping port"],
+        "kültür_sanat": ["museum art gallery", "cinema audience screen", "live music concert stage", "library books"],
+        "spor": ["football stadium action", "basketball game arena", "volleyball match court", "sports training athlete"],
+        "adliye_toplum": ["courthouse exterior", "justice scales legal documents", "community city people"],
+        "siyaset_kamu": ["parliament building exterior", "government press briefing", "city hall public meeting"],
+        "afet_güvenlik": ["emergency responders training", "storm weather city", "firefighters emergency response", "earthquake preparedness"],
+        "gündem_genel": ["turkey city street news", "people watching news television", "urban life Istanbul"],
+    }
+    text = normalize_text(item.get("title", "") + " " + item.get("summary", ""))
+    queries = list(topic_queries.get(topic, topic_queries["gündem_genel"]))
+    for key, mapped in BACKGROUND_HINTS.items():
+        if key in text:
+            queries.extend(mapped)
+    stop = {"turkiye", "haber", "haberleri", "gundem", "son", "dakika", "bugun", "aciklama", "karar", "oldu"}
+    title_words = [word for word in normalize_text(item.get("title", "")).split() if len(word) >= 4 and word not in stop]
+    if len(title_words) >= 2:
+        queries.append(f"{title_words[0]} {title_words[1]} news context")
+    queries.extend(["news studio background", "city aerial turkey"])
+    return list(dict.fromkeys(queries))
 
 
 def make_viral_tags(item):
