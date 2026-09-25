@@ -74,6 +74,7 @@ jobs:
           python patch_turkish_subtitle_chars.py
           python patch_viral_tags.py
           python patch_channel_growth.py
+          python patch_external_distribution.py
 
       - name: Run bot
         env:
@@ -117,6 +118,7 @@ jobs:
             generated_videos/*.mp4
             selected_news.json
             video_plan.json
+            distribution_pack.md
             bot.log
             edge_tts_healthcheck.mp3
           if-no-files-found: warn
@@ -128,6 +130,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f generated_videos/*.mp4
-          git add selected_news.json video_plan.json news_history.json
+          git add selected_news.json video_plan.json news_history.json distribution_pack.md
           git diff --cached --quiet || git commit -m "Save generated Shorts videos"
           git push
