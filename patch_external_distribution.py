@@ -63,7 +63,7 @@ def write_external_distribution_pack(plan_rows):
 
 save_anchor = 'save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})'
 call = save_anchor + '\n    write_external_distribution_pack(plan_rows)'
-if "write_external_distribution_pack(plan_rows)" not in source:
+if "\n    write_external_distribution_pack(plan_rows)" not in source:
     if save_anchor not in source:
         raise RuntimeError("video_plan kaydetme satırı bulunamadı; dış dağıtım paketi uygulanmadı.")
     source = source.replace(save_anchor, call, 1)
