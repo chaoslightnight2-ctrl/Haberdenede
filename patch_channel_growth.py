@@ -218,8 +218,9 @@ Hook + anlatım + CTA toplamı 35-65 Türkçe kelime olsun.
 Başlık doğru, merak uyandırıcı ve en fazla 70 karakter olsun. En önemli kişi/konu başlarda geçsin; kaynakta
 karşılığı olan sonuç veya merak unsurunu öne çıkar. Clickbait tarzında güçlü paketle ama yanıltma, abartma,
 ALL CAPS veya #shorts kullanma.
-Açıklama her videoya özgü 1-2 kısa cümle olsun; ilk cümle haberi ve ana arama terimini hemen anlatsın.
-Kaynakta bulunmayan vaat veya genel hashtag/etiket listesi yazma.
+Açıklama her videoya özgü 1-2 kısa cümle olsun. İlk cümlede haberin ne olduğunu hemen açıkla ve
+başlıkta geçen 1-2 ana arama terimini doğal biçimde kullan; başlığı aynen tekrar etme. Bu bilgi açıklamanın
+ilk 120 karakterinde anlaşılabilsin. Kaynakta bulunmayan vaat veya hashtag/etiket listesi yazma.
 Geçerli JSON dışında hiçbir şey döndürme:
 {{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
 
@@ -288,53 +289,81 @@ def build_background_queries(item):
 
 
 def make_viral_tags(item):
-    text = normalize_text(item.get("title", "") + " " + item.get("summary", ""))
-    tags = ["Türkiye'den Haber", "Türkiye haberleri"]
-    for bucket, words in [
-        ("bilim_teknoloji", ["teknoloji", "bilim", "yapay zeka", "siber güvenlik"]),
-        ("ekonomi_yasam", ["ekonomi", "tüketici", "maaş", "enflasyon"]),
-        ("sağlık_eğitim", ["sağlık", "eğitim"]),
-        ("iklim_enerji", ["iklim", "çevre", "enerji"]),
-        ("ulaşım_şehir", ["ulaşım", "şehir", "belediye"]),
-        ("dünya_diplomasi", ["dünya", "diplomasi"]),
-        ("kültür_sanat", ["kültür", "sanat", "sinema"]),
-        ("spor", ["spor", "futbol", "basketbol"]),
-        ("adliye_toplum", ["hukuk", "mahkeme", "toplum"]),
-        ("siyaset_kamu", ["siyaset", "meclis"]),
-        ("afet_güvenlik", ["afet", "deprem", "güvenlik"]),
-    ]:
-        if any(term in text for term in words):
-            tags.extend(words[:2])
-            break
-    stop = {"türkiyeden", "türkiye", "haberleri", "haber", "son", "dakika", "gündem", "olan", "için", "bugün"}
-    for word in re.findall(r"[a-z0-9çğıöşü]{5,}", text):
-        if word not in stop:
+    bucket = item.get("topic_bucket") or detect_topic_bucket(item)
+    topic_tags = {
+        "bilim_teknoloji": ["teknoloji haberleri", "bilim haberleri"],
+        "ekonomi_yasam": ["ekonomi haberleri", "tüketici haberleri"],
+        "sağlık_eğitim": ["sağlık haberleri", "eğitim haberleri"],
+        "iklim_enerji": ["iklim haberleri", "enerji haberleri"],
+        "ulaşım_şehir": ["ulaşım haberleri", "şehir haberleri"],
+        "dünya_diplomasi": ["dünya haberleri", "diplomasi"],
+        "kültür_sanat": ["kültür sanat", "sinema haberleri"],
+        "spor": ["spor haberleri", "Türkiye spor"],
+        "adliye_toplum": ["hukuk haberleri", "toplum haberleri"],
+        "siyaset_kamu": ["Türkiye siyaseti", "kamu politikası"],
+        "afet_güvenlik": ["afet haberleri", "güvenlik haberleri"],
+        "gündem_genel": ["Türkiye gündemi"],
+    }
+    tags = ["Türkiye'den Haber"]
+    tags.extend(topic_tags.get(bucket, topic_tags["gündem_genel"]))
+
+    title_text = normalize_text(item.get("title", ""))
+    stop = {
+        "türkiye", "haber", "haberleri", "gündem", "son", "dakika", "bugün", "olan",
+        "için", "hakkında", "açıklama", "açıklaması", "yeni", "önemli", "dikkat",
+        "sonrası", "öncesi", "karşı", "göre", "dedi", "oldu",
+    }
+    for word in re.findall(r"[a-z0-9çğıöşü]{4,}", title_text):
+        if word not in stop and word not in {x.lower() for x in tags}:
             tags.append(word)
+        if len(tags) >= 7:
+            break
     unique = []
     for tag in tags:
-        tag = tag.strip()[:45]
+        tag = re.sub(r"\s+", " ", tag.strip())[:45]
         if tag and tag.lower() not in {x.lower() for x in unique}:
             unique.append(tag)
-        if len(unique) >= 8:
-            break
-    return unique
+    return unique[:7]
 
 
-def make_viral_hashtags(tags):
-    return "#shorts #TürkiyeGündemi"
+def make_viral_hashtags(tags, item=None):
+    bucket = detect_topic_bucket(item or {})
+    topic_hashtags = {
+        "bilim_teknoloji": "#Teknoloji",
+        "ekonomi_yasam": "#Ekonomi",
+        "sağlık_eğitim": "#Sağlık",
+        "iklim_enerji": "#İklim",
+        "ulaşım_şehir": "#Ulaşım",
+        "dünya_diplomasi": "#Dünya",
+        "kültür_sanat": "#KültürSanat",
+        "spor": "#Spor",
+        "adliye_toplum": "#Hukuk",
+        "siyaset_kamu": "#TürkiyeSiyaseti",
+        "afet_güvenlik": "#Gündem",
+        "gündem_genel": "#TürkiyeGündemi",
+    }
+    specific = topic_hashtags.get(bucket, "#TürkiyeGündemi")
+    return f"#shorts {specific} #TürkiyeGündemi"
 
 
 def upload_to_youtube(video_path, item, publish_at):
     youtube = get_youtube_service()
-    title = item.get("title", "").strip()[:90]
+    title = item.get("title", "").strip()[:70]
     tags = make_viral_tags(item)
     summary = item.get("youtube_description", "").strip()
+    if not summary:
+        raise RuntimeError("Groq video açıklaması üretmedi; açıklama yedeği kullanılmadan çalışma durduruluyor.")
+    from urllib.parse import urlparse
+    source_url = item.get("resolved_url") or item.get("url", "")
+    publisher = (item.get("source_name") or "").strip()
+    if not publisher or publisher.lower() == "google news rss":
+        hostname = urlparse(source_url).hostname or ""
+        publisher = hostname.removeprefix("www.") or "Yayıncı"
     description = (
         f"{summary}\n\n"
-        f"Kaynak: {item.get('source', item.get('source_name', 'Yayıncı kaynak'))}\n"
-        f"Haber bağlantısı: {item.get('url', '')}\n"
-        f"Yayın zamanı: {publish_at.isoformat()}\n\n"
-        f"{make_viral_hashtags(tags)}"
+        f"Kaynak: {publisher}\n"
+        f"Haber bağlantısı: {source_url}\n\n"
+        f"{make_viral_hashtags(tags, item)}"
     )
     body = {
         "snippet": {
@@ -364,7 +393,7 @@ def upload_to_youtube(video_path, item, publish_at):
         "publish_at_local": publish_at.isoformat(),
         "publish_at_utc": body["status"]["publishAt"],
         "tags": tags,
-        "hashtags": make_viral_hashtags(tags),
+        "hashtags": make_viral_hashtags(tags, item),
     }
 
 
