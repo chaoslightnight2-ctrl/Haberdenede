@@ -269,7 +269,7 @@ def build_background_queries(item):
     for key, mapped in BACKGROUND_HINTS.items():
         if key in text:
             queries.extend(mapped)
-    stop = {"turkiye", "haber", "haberleri", "gundem", "son", "dakika", "bugun", "aciklama", "karar", "oldu"}
+    stop = {"türkiye", "haber", "haberleri", "gündem", "son", "dakika", "bugün", "açıklama", "karar", "oldu"}
     title_words = [word for word in normalize_text(item.get("title", "")).split() if len(word) >= 4 and word not in stop]
     if len(title_words) >= 2:
         queries.append(f"{title_words[0]} {title_words[1]} news context")
