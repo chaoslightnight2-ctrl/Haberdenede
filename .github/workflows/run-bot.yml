@@ -73,6 +73,7 @@ jobs:
           python patch_pause_sync.py
           python patch_turkish_subtitle_chars.py
           python patch_viral_tags.py
+          python patch_channel_growth.py
 
       - name: Run bot
         env:
@@ -81,7 +82,7 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           CLIENT_SECRETS_JSON: ${{ secrets.CLIENT_SECRETS_JSON }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: openai/gpt-oss-120b
           VOICE: tr-TR-AhmetNeural
           VOICE_RATE: +0%
           VOICE_PITCH: -2Hz
