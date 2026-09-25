@@ -203,19 +203,25 @@ def generate_news_script(item):
         "gündem_genel": "Önce en yeni somut gelişmeyi ve kaynakta belirtilen doğrudan etkisini aktar.",
     }.get(topic, "Önce en yeni somut gelişmeyi aktar.")
     prompt = f"""
-Türkiye’den Haber adlı geniş kapsamlı haber kanalı için kısa video metadatası ve anlatımı üret.
-Açılışta selam, kanal tanıtımı, soru, “şok/olay” gibi boş merak kancası kullanma; ilk cümlede somut gelişmeyi
-ve haberin ana kişisini/kurumunu söyle. Başlığın vaat ettiği bilgiyi açılışta hemen ver.
+Türkiye’den Haber adlı geniş kapsamlı haber kanalı için yüksek tıklanma ve abone kazanımına yönelik kısa video metadatası ve anlatımı üret.
+HOOK: 6-12 kelimelik güçlü ve dürüst bir merak kancası yaz. Kaynaktaki en çarpıcı somut ayrıntıyı,
+şaşırtıcı farkı veya yanıtı haberde bulunan doğal bir soruyu kullan. İzleyiciye “ne değişti / kimi etkiliyor /
+sonuç ne?” merakı ver; haber gövdesi bu vaadi hemen yanıtlasın. Boş “şok”, “inanamayacaksınız”,
+“herkes bunu konuşuyor” kalıpları ve kaynakta olmayan gerilim ekleme.
 Yalnızca başlık ve kaynak metninde açıkça bulunan olguları kullan. İddiaları iddia olarak belirt; kesinleşmemiş
 bilgiyi kesin hüküm gibi yazma. Kaynakta olmayan neden, sonuç, sayı, tarih veya yorum ekleme.
 Kategoriye uygun anlatım yönü: {angle_guidance}
-Anlatım 35-60 Türkçe kelime, tek paragraf ve doğal seslendirmeye uygun olsun. Her cümle yeni bir bilgi taşısın;
-tekrar, dolgu, genel takip/abone çağrısı ve yapay cliffhanger ekleme.
-Başlık doğru, özgün ve en fazla 70 karakter olsun; en önemli kişi/konu başta yer alsın. #shorts, ALL CAPS ve
-yanıltıcı kesinlik kullanma. Açıklama her haber için farklı, ilk cümlesi haberi doğrudan özetleyen 1-2 cümle olsun;
-ana kişi/konu terimlerinden 1-2 tanesini doğal biçimde içersin. Hashtag veya etiket listesi yazma.
+Anlatım gövdesi kısa, akıcı ve seslendirmeye uygun olsun; her cümle yeni bir bilgi taşısın. En sonda
+Türkiye’den Haber’e abone olmaya çağıran kısa, doğal ve kanalın geniş gündem vaadine uygun bir CTA ekle.
+CTA’yı her videoda kelimesi kelimesine aynı kurma; “takipte kal” gibi belirsiz çağrılar kullanma.
+Hook + anlatım + CTA toplamı 35-65 Türkçe kelime olsun.
+Başlık doğru, merak uyandırıcı ve en fazla 70 karakter olsun. En önemli kişi/konu başlarda geçsin; kaynakta
+karşılığı olan sonuç veya merak unsurunu öne çıkar. Clickbait tarzında güçlü paketle ama yanıltma, abartma,
+ALL CAPS veya #shorts kullanma.
+Açıklama her videoya özgü 1-2 kısa cümle olsun; ilk cümle haberi ve ana arama terimini hemen anlatsın.
+Kaynakta bulunmayan vaat veya genel hashtag/etiket listesi yazma.
 Geçerli JSON dışında hiçbir şey döndürme:
-{{"title":"...","narration":"...","description":"..."}}
+{{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
 
 Kanal kapsamı/kategori: {topic}
 Kaynak başlığı: {source_title}
@@ -228,24 +234,28 @@ Haber metni: {content[:4200]}
             raise ValueError("Groq JSON nesnesi döndürmedi.")
         data = json.loads(match.group(0))
         new_title = clean_generated_text(str(data.get("title", ""))).strip(" .-|:")
+        hook = clean_generated_text(str(data.get("hook", ""))).strip()
         narration = clean_generated_text(str(data.get("narration", ""))).strip()
+        cta = clean_generated_text(str(data.get("cta", ""))).strip()
         description = clean_generated_text(str(data.get("description", ""))).strip()
-        if not new_title or not narration or not description:
-            raise ValueError("Groq title, narration veya description alanını boş bıraktı.")
-        if len(new_title) > 70 or not 35 <= len(narration.split()) <= 65:
+        full_narration = " ".join(part for part in [hook, narration, cta] if part)
+        if not new_title or not hook or not narration or not cta or not description:
+            raise ValueError("Groq title, hook, narration, CTA veya description alanını boş bıraktı.")
+        if len(new_title) > 70 or not 5 <= len(hook.split()) <= 13 or not 35 <= len(full_narration.split()) <= 65:
             raise ValueError("Groq çıktısı uzunluk denetimini geçemedi.")
     except Exception as exc:
         logger.error("Groq üretimi başarısız; yedek anlatıma geçilmeden çalışma durduruluyor: %s", exc)
         raise
 
     item["source_headline"] = item.get("title", "")
+    item["shorts_hook"] = hook
     item["youtube_description"] = description
     item["title"] = new_title
     resolved = item.get("resolved_url", "")
     if resolved.startswith("https://") and "news.google.com" not in resolved:
         item["url"] = resolved
-    logger.info("Groq (%s) ile kanal uyumlu başlık ve anlatım üretildi: %s", os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"), new_title)
-    return narration
+    logger.info("Groq (%s) ile merak kancası, anlatım, CTA ve başlık üretildi: %s", os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"), new_title)
+    return full_narration
 
 
 def build_background_queries(item):
