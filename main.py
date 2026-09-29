@@ -536,13 +536,16 @@ def compute_publish_times() -> list[datetime]:
     # Do not assign an already reserved YouTube publishAt again after a partial run.
     previous_plan = load_json(PLAN_FILE, {})
     reserved: set[datetime] = set()
-    for row in previous_plan.get("videos", []) if isinstance(previous_plan, dict) else []:
-        value = row.get("publish_at_local")
-        if value:
-            try:
-                reserved.add(datetime.fromisoformat(value).astimezone(TIMEZONE))
-            except (TypeError, ValueError):
-                continue
+    # Manual recovery runs must avoid duplicate future uploads. The daily scheduled
+    # batch owns its regular six slots and therefore does not inherit a catch-up queue.
+    if os.getenv("GITHUB_EVENT_NAME", "") != "schedule":
+        for row in previous_plan.get("videos", []) if isinstance(previous_plan, dict) else []:
+            value = row.get("publish_at_local")
+            if value:
+                try:
+                    reserved.add(datetime.fromisoformat(value).astimezone(TIMEZONE))
+                except (TypeError, ValueError):
+                    continue
 
     candidates: list[datetime] = []
     for day_offset in range(31):
