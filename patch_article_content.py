@@ -238,28 +238,36 @@ def has_enough_article_content(item: dict[str, Any]) -> bool:
     return item.get("article_score", -999) >= 25 and len(text.split()) >= 45
 
 
-def choose_top_three_with_content(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
+def choose_six_with_content(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
     ranked = enrich_and_rank(news)
     selected: list[dict[str, Any]] = []
-    for item in ranked[:160]:
-        if is_low_value_news(item):
-            continue
-        if in_history(item, history.get("processed_news", [])):
-            continue
-        if too_similar_to_selected(item, selected):
-            continue
-        article_text = fetch_article_content(item)
-        item["article_text"] = article_text
-        item["content_quality"] = "article_text" if has_enough_article_content(item) else "weak_content"
-        if not has_enough_article_content(item):
-            logger.warning("İçerik zayıf olduğu için haber atlandı: %s", item.get("title", "")[:100])
-            continue
-        selected.append(item)
-        logger.info("İçerikli haber seçildi: score=%s article_score=%s title=%s", item.get("viral_score"), item.get("article_score"), item.get("title"))
-        if len(selected) == 3:
+    topic_counts: dict[str, int] = {}
+    for topic_cap in (1, 2, 99):
+        for item in ranked[:160]:
+            if is_low_value_news(item):
+                continue
+            if in_history(item, history.get("processed_news", [])):
+                continue
+            if too_similar_to_selected(item, selected):
+                continue
+            topic = detect_topic_bucket(item)
+            if topic_counts.get(topic, 0) >= topic_cap:
+                continue
+            article_text = item.get("article_text") or fetch_article_content(item)
+            item["article_text"] = article_text
+            item["content_quality"] = "article_text" if has_enough_article_content(item) else "weak_content"
+            if not has_enough_article_content(item):
+                logger.warning("İçerik zayıf olduğu için haber atlandı: %s", item.get("title", "")[:100])
+                continue
+            selected.append(item)
+            topic_counts[topic] = topic_counts.get(topic, 0) + 1
+            logger.info("İçerikli haber seçildi: score=%s article_score=%s title=%s", item.get("viral_score"), item.get("article_score"), item.get("title"))
+            if len(selected) == 6:
+                break
+        if len(selected) == 6:
             break
-    if len(selected) < 3:
-        raise RuntimeError(f"Gerçek içeriği yeterli 3 haber bulunamadı. Seçilen: {len(selected)}")
+    if len(selected) < 6:
+        raise RuntimeError(f"Gerçek içeriği yeterli 6 farklı haber bulunamadı. Seçilen: {len(selected)}")
     return selected
 
 
@@ -275,7 +283,7 @@ def enrich_selected_with_article_content(selected: list[dict[str, Any]]) -> None
 s = s[:insert_at] + article_block + s[insert_at:]
 
 old = "selected = choose_top_three(news_pool, history)\n    save_json(SELECTED_FILE, {\"generated_at\": now_tr().isoformat(), \"selected_news\": selected})"
-new = "selected = choose_top_three_with_content(news_pool, history)\n    save_json(SELECTED_FILE, {\"generated_at\": now_tr().isoformat(), \"selected_news\": selected})"
+new = "selected = choose_six_with_content(news_pool, history)\n    save_json(SELECTED_FILE, {\"generated_at\": now_tr().isoformat(), \"selected_news\": selected})"
 s = s.replace(old, new)
 
 p.write_text(s, encoding="utf-8")
