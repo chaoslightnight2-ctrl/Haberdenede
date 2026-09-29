@@ -46,6 +46,27 @@ groq_fix = r'''
 # HABERDENEDE_GROQ_JSON_FIX
 _groq_last_request_at = None
 
+def _groq_retry_delay_seconds(response, attempt):
+    candidates = [
+        response.headers.get("Retry-After", ""),
+        response.headers.get("x-ratelimit-reset-tokens", ""),
+        response.text or "",
+    ]
+    for value in candidates:
+        if not value:
+            continue
+        try:
+            return min(180.0, max(5.0, float(value) + 1.0))
+        except (TypeError, ValueError):
+            pass
+        parts = re.findall(r"([0-9]+(?:\.[0-9]+)?)\s*(ms|s|m|h)", str(value).lower())
+        if parts:
+            seconds = sum(float(amount) * {"ms": 0.001, "s": 1, "m": 60, "h": 3600}[unit] for amount, unit in parts)
+            if seconds > 0:
+                return min(180.0, max(5.0, seconds + 1.0))
+    return min(180.0, 65.0 + attempt * 15.0)
+
+
 def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
     global _groq_last_request_at
     api_key = os.getenv("GROQ_API_KEY")
@@ -53,8 +74,8 @@ def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
         raise RuntimeError("GROQ_API_KEY GitHub Actions secret'ında yok.")
 
     model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
-    min_interval = 23.0
-    for attempt in range(3):
+    min_interval = 45.0
+    for attempt in range(6):
         now = __import__("time").monotonic()
         if _groq_last_request_at is not None:
             wait = max(0.0, min_interval - (now - _groq_last_request_at))
@@ -79,18 +100,11 @@ def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
             },
             timeout=90,
         )
-        if response.status_code != 429 or attempt == 2:
+        if response.status_code != 429 or attempt == 5:
             break
-        retry_after = response.headers.get("Retry-After", "")
-        if not retry_after:
-            retry_match = re.search(r"try again in ([0-9.]+)s", response.text or "", re.IGNORECASE)
-            retry_after = retry_match.group(1) if retry_match else str(5 * (attempt + 1))
-        try:
-            delay = min(30.0, max(1.0, float(retry_after) + 0.5))
-        except ValueError:
-            delay = float(5 * (attempt + 1))
+        delay = _groq_retry_delay_seconds(response, attempt)
         _groq_last_request_at = __import__("time").monotonic() - min_interval + delay
-        logger.warning("Groq 429 sınırı; aynı istek %.1f saniye sonra yeniden denenecek (%s/3)", delay, attempt + 1)
+        logger.warning("Groq 429 sınırı; aynı model %s/6, %.1f saniye bekleyip aynı isteği yeniden deniyor", attempt + 1, delay)
     try:
         response.raise_for_status()
     except requests.HTTPError as exc:
