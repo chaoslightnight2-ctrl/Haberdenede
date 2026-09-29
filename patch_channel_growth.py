@@ -253,8 +253,37 @@ Haber metni: {content[:4200]}
         full_narration = " ".join(part for part in [hook, narration, cta] if part)
         if not new_title or not hook or not narration or not cta or not description:
             raise ValueError("Groq title, hook, narration, CTA veya description alanını boş bıraktı.")
-        if len(new_title) > 70 or not 5 <= len(hook.split()) <= 13 or not 35 <= len(full_narration.split()) <= 65:
-            raise ValueError("Groq çıktısı uzunluk denetimini geçemedi.")
+        hook_words = len(hook.split())
+        total_words = len(full_narration.split())
+        if len(new_title) > 70 or not 6 <= hook_words <= 12 or not 35 <= total_words <= 65:
+            repair_prompt = prompt + f"""
+
+ÖNCEKİ JSON çıktın uzunluk denetimini geçemedi. Yeni bilgi eklemeden ve olguları değiştirmeden
+yalnızca metni kurallara uyacak şekilde yeniden düzenle. Hook 6-12 kelime, Hook + anlatım + CTA
+toplamı 45-55 kelime olsun; başlık en fazla 70 karakter kalsın. Tüm cümleler kaynakta doğrulanabilsin.
+Yalnızca geçerli JSON nesnesi döndür, aynı beş alanı koru.
+
+Mevcut ölçümler: hook={hook_words}, toplam={total_words}, başlık karakteri={len(new_title)}.
+Önceki JSON:
+{json.dumps({"title": new_title, "hook": hook, "narration": narration, "cta": cta, "description": description}, ensure_ascii=False)}
+"""
+            raw = _groq_json_chat(repair_prompt, max_tokens=480, temperature=0.1)
+            match = re.search(r"\{[\s\S]*\}", raw)
+            if not match:
+                raise ValueError("Groq düzeltme JSON nesnesi döndürmedi.")
+            data = json.loads(match.group(0))
+            new_title = clean_generated_text(str(data.get("title", ""))).strip(" .-|:")
+            hook = clean_generated_text(str(data.get("hook", ""))).strip()
+            narration = clean_generated_text(str(data.get("narration", ""))).strip()
+            cta = clean_generated_text(str(data.get("cta", ""))).strip()
+            description = clean_generated_text(str(data.get("description", ""))).strip()
+            full_narration = " ".join(part for part in [hook, narration, cta] if part)
+            hook_words = len(hook.split())
+            total_words = len(full_narration.split())
+        if not new_title or not hook or not narration or not cta or not description:
+            raise ValueError("Groq düzeltme title, hook, narration, CTA veya description alanını boş bıraktı.")
+        if len(new_title) > 70 or not 6 <= hook_words <= 12 or not 35 <= total_words <= 65:
+            raise ValueError(f"Groq çıktısı uzunluk denetimini geçemedi (başlık={len(new_title)}, hook={hook_words}, toplam={total_words}).")
     except Exception as exc:
         logger.error("Groq üretimi başarısız; yedek anlatıma geçilmeden çalışma durduruluyor: %s", exc)
         raise
