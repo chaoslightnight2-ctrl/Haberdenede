@@ -50,24 +50,36 @@ def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
         raise RuntimeError("GROQ_API_KEY GitHub Actions secret'ında yok.")
 
     model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
-    response = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
-        json={
-            "model": model,
-            "messages": [
-                {"role": "system", "content": "Sen Türkiye’den Haber için kaynak metnine bağlı, dikkatli bir Türkçe haber editörüsün. İstenen alanları içeren tek bir JSON nesnesi döndür."},
-                {"role": "user", "content": prompt},
-            ],
-            "temperature": temperature,
-            # GPT-OSS reasoning tokens use the completion budget too; 480 was too small
-            # and Groq rejected the empty generated JSON with json_validate_failed.
-            "max_completion_tokens": max(2048, int(max_tokens)),
-            "reasoning_effort": "low",
-            "response_format": {"type": "json_object"},
-        },
-        timeout=90,
-    )
+    for attempt in range(3):
+        response = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json={
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": "Sen Türkiye’den Haber için kaynak metnine bağlı, dikkatli bir Türkçe haber editörüsün. İstenen alanları içeren tek bir JSON nesnesi döndür."},
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": temperature,
+                # Enough room for reasoning and JSON while keeping three daily topics within TPM.
+                "max_completion_tokens": max(1024, int(max_tokens)),
+                "reasoning_effort": "low",
+                "response_format": {"type": "json_object"},
+            },
+            timeout=90,
+        )
+        if response.status_code != 429 or attempt == 2:
+            break
+        retry_after = response.headers.get("Retry-After", "")
+        if not retry_after:
+            retry_match = re.search(r"try again in ([0-9.]+)s", response.text or "", re.IGNORECASE)
+            retry_after = retry_match.group(1) if retry_match else str(5 * (attempt + 1))
+        try:
+            delay = min(30.0, max(1.0, float(retry_after) + 0.5))
+        except ValueError:
+            delay = float(5 * (attempt + 1))
+        logger.warning("Groq 429 sınırı; aynı istek %.1f saniye sonra yeniden denenecek (%s/3)", delay, attempt + 1)
+        __import__("time").sleep(delay)
     try:
         response.raise_for_status()
     except requests.HTTPError as exc:
