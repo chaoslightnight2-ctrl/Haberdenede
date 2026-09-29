@@ -44,13 +44,24 @@ if anchor not in source:
 groq_fix = r'''
 
 # HABERDENEDE_GROQ_JSON_FIX
+_groq_last_request_at = None
+
 def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
+    global _groq_last_request_at
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY GitHub Actions secret'ında yok.")
 
     model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+    min_interval = 23.0
     for attempt in range(3):
+        now = __import__("time").monotonic()
+        if _groq_last_request_at is not None:
+            wait = max(0.0, min_interval - (now - _groq_last_request_at))
+            if wait:
+                logger.info("Groq istekleri kota için %.1f saniye aralıkla gönderiliyor", min_interval)
+                __import__("time").sleep(wait)
+        _groq_last_request_at = __import__("time").monotonic()
         response = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
@@ -61,8 +72,8 @@ def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
                     {"role": "user", "content": prompt},
                 ],
                 "temperature": temperature,
-                # Enough room for reasoning and JSON while keeping three daily topics within TPM.
-                "max_completion_tokens": max(1024, int(max_tokens)),
+                # GPT-OSS needs enough completion budget to finish a JSON document.
+                "max_completion_tokens": max(2048, int(max_tokens)),
                 "reasoning_effort": "low",
                 "response_format": {"type": "json_object"},
             },
@@ -78,8 +89,8 @@ def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
             delay = min(30.0, max(1.0, float(retry_after) + 0.5))
         except ValueError:
             delay = float(5 * (attempt + 1))
+        _groq_last_request_at = __import__("time").monotonic() - min_interval + delay
         logger.warning("Groq 429 sınırı; aynı istek %.1f saniye sonra yeniden denenecek (%s/3)", delay, attempt + 1)
-        __import__("time").sleep(delay)
     try:
         response.raise_for_status()
     except requests.HTTPError as exc:
