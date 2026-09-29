@@ -13,16 +13,23 @@ queries = '''NEWS_QUERIES = [
     "Türkiye konut kira şehircilik belediye",
     "Türkiye eğitim okul üniversite sınav",
     "Türkiye sağlık hastane ilaç halk sağlığı",
+    "Türkiye tarım çiftçi gıda üretim fiyatları",
+    "Türkiye iş dünyası istihdam çalışma hayatı",
+    "Türkiye tüketici hakları ürün güvenliği rekabet",
     "Türkiye bilim araştırma uzay keşif",
     "Türkiye teknoloji yapay zeka dijital siber güvenlik",
+    "Türkiye internet platformları veri gizliliği siber saldırı",
     "Türkiye enerji elektrik doğal gaz yenilenebilir",
     "Türkiye iklim çevre su kuraklık hava",
+    "Türkiye hayvanlar yaban hayatı doğa koruma",
     "Türkiye ulaşım trafik demiryolu havacılık",
     "Türkiye şehirler yerel haber altyapı",
+    "Türkiye arkeoloji tarih kültürel miras",
     "Türkiye adliye hukuk mahkeme karar",
     "Türkiye siyaset meclis kamu politikası",
     "Türkiye diplomasi dış politika dünya",
-    "dünyada bugün önemli gelişmeler Türkiye",
+    "dünyada bugün bilim sağlık iklim teknoloji gelişmeleri",
+    "dünya çatışma diplomasi ticaret Türkiye'yi etkileyen kararlar",
     "Avrupa dünya ekonomi teknoloji haberleri",
     "Türkiye kültür sanat sinema müzik kitap",
     "Türkiye spor futbol basketbol voleybol",
@@ -204,6 +211,10 @@ def generate_news_script(item):
     }.get(topic, "Önce en yeni somut gelişmeyi aktar.")
     prompt = f"""
 Türkiye’den Haber adlı geniş kapsamlı haber kanalı için yüksek tıklanma ve abone kazanımına yönelik kısa video metadatası ve anlatımı üret.
+Kanalın gündemi yalnızca siyaset ve son dakika olaylarından ibaret değil. Kaynaktaki haber elverdiği ölçüde ekonomi ve tüketici,
+iş hayatı ve tarım, sağlık ve eğitim, bilim ve teknoloji, internet ve siber güvenlik, iklim ve enerji, ulaşım ve şehir yaşamı,
+adliye ve toplum, dış politika ve dünyada Türkiye’yi etkileyen gelişmeler, kültür ve sanat, spor ve günlük yaşam başlıklarını kapsa.
+Her videoda tek bir somut gelişmeye odaklan; kaynakta olmayan yeni konu veya olay uydurma. Kategoriyi haberin gerçek içeriğine göre seç.
 HOOK: 6-12 kelimelik güçlü ve dürüst bir merak kancası yaz. Kaynaktaki en çarpıcı somut ayrıntıyı,
 şaşırtıcı farkı veya yanıtı haberde bulunan doğal bir soruyu kullan. İzleyiciye “ne değişti / kimi etkiliyor /
 sonuç ne?” merakı ver; haber gövdesi bu vaadi hemen yanıtlasın. Boş “şok”, “inanamayacaksınız”,
@@ -218,9 +229,9 @@ Hook + anlatım + CTA toplamı 35-65 Türkçe kelime olsun.
 Başlık doğru, merak uyandırıcı ve en fazla 70 karakter olsun. En önemli kişi/konu başlarda geçsin; kaynakta
 karşılığı olan sonuç veya merak unsurunu öne çıkar. Clickbait tarzında güçlü paketle ama yanıltma, abartma,
 ALL CAPS veya #shorts kullanma.
-Açıklama her videoya özgü 1-2 kısa cümle olsun. İlk cümlede haberin ne olduğunu hemen açıkla ve
-başlıkta geçen 1-2 ana arama terimini doğal biçimde kullan; başlığı aynen tekrar etme. Bu bilgi açıklamanın
-ilk 120 karakterinde anlaşılabilsin. Kaynakta bulunmayan vaat veya hashtag/etiket listesi yazma.
+Açıklama her videoya özgü, doğal Türkçeyle yazılmış 2 kısa cümle olsun. İlk 120 karakterde haberin ne olduğunu,
+ilgili kişi/kurum veya yeri ve somut gelişmeyi açıkla. Başlıktaki 1-2 ana arama terimini anlamlı biçimde kullan;
+başlığı aynen tekrar etme, anahtar kelime yığma, genel takip çağrısı ve hashtag listesi ekleme.
 Geçerli JSON dışında hiçbir şey döndürme:
 {{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
 
@@ -405,3 +416,4 @@ def upload_to_youtube(video_path, item, publish_at):
 
 MAIN.write_text(source, encoding="utf-8")
 print("Haberdenede geniş gündem kapsamı, konu çeşitliliği ve kanal uyumlu metadata yaması uygulandı")
+

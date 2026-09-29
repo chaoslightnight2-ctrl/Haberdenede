@@ -143,32 +143,19 @@ Kurallar:
 Başlık: {title}
 Haber metni: {content[:5000]}
 """
-    hook = ""
-    summary = ""
     try:
         raw = groq_chat(prompt, max_tokens=360, temperature=0.25)
         hook, summary = parse_groq_json(raw)
     except Exception as exc:
-        logger.warning("Groq JSON hook/özet üretimi başarısız, metin fallback deneniyor: %s", exc)
-        raw = clean_generated_text(groq_chat(prompt + "\nJSON veremezsen sadece özet cümlesi yaz.", max_tokens=260, temperature=0.2))
-        hook = clean_news_title_for_script(title)
-        summary = raw
+        logger.error("Groq JSON hook/özet üretimi başarısız; çalışma durduruluyor: %s", exc)
+        raise
 
     if not hook or word_count_tr(hook) < 5:
-        hook = clean_news_title_for_script(title) or "Bu gelişme gündemde dikkat çekiyor"
+        raise RuntimeError("Groq hook alanı boş veya çok kısa.")
 
     wc = word_count_tr(summary)
     if wc < 50:
-        logger.warning("Groq özeti hedefin altında geldi: %s kelime; 50-60 kelimeye tamamlama deneniyor ama bot durmayacak", wc)
-        try:
-            repaired = repair_summary_with_groq(title, content, summary)
-            if repaired:
-                summary = repaired
-                wc = word_count_tr(summary)
-        except Exception as exc:
-            logger.warning("Groq özet tamamlama başarısız, kısa özetle devam ediliyor: %s", exc)
-    if word_count_tr(summary) == 0:
-        summary = clean_generated_text(content[:700])
+        raise RuntimeError(f"Groq özeti hedefin altında geldi: {wc} kelime.")
     if word_count_tr(summary) > 75:
         summary = " ".join(re.findall(r"\S+", summary)[:60]).strip(" .")
     logger.info("Groq çıktı uzunluğu: hook=%s kelime, summary=%s kelime", word_count_tr(hook), word_count_tr(summary))
@@ -202,3 +189,4 @@ s = s[:gen_start] + new_generate + s[gen_end:]
 
 p.write_text(s, encoding="utf-8")
 print("Groq 50-60 word summary without length-stop patch applied")
+
