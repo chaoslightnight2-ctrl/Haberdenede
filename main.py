@@ -532,13 +532,29 @@ def compute_publish_times() -> list[datetime]:
     slots = [(4, 0), (8, 0), (12, 0), (16, 0), (20, 0), (0, 0)]
     current = now_tr()
     cutoff = current + timedelta(minutes=15)
-    results: list[datetime] = []
-    for hour, minute in slots:
-        candidate = current.replace(hour=hour, minute=minute, second=0, microsecond=0)
-        if candidate <= cutoff:
-            candidate += timedelta(days=1)
-        results.append(candidate)
-    return sorted(results)
+
+    # Do not assign an already reserved YouTube publishAt again after a partial run.
+    previous_plan = load_json(PLAN_FILE, {})
+    reserved: set[datetime] = set()
+    for row in previous_plan.get("videos", []) if isinstance(previous_plan, dict) else []:
+        value = row.get("publish_at_local")
+        if value:
+            try:
+                reserved.add(datetime.fromisoformat(value).astimezone(TIMEZONE))
+            except (TypeError, ValueError):
+                continue
+
+    candidates: list[datetime] = []
+    for day_offset in range(31):
+        day = (current + timedelta(days=day_offset)).date()
+        for hour, minute in slots:
+            candidate = datetime.combine(day, datetime.min.time(), TIMEZONE).replace(hour=hour, minute=minute)
+            if candidate > cutoff and candidate not in reserved:
+                candidates.append(candidate)
+    results = sorted(candidates)[:6]
+    if len(results) != 6:
+        raise RuntimeError("Altı boş YouTube yayın zamanı bulunamadı.")
+    return results
 
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
@@ -606,6 +622,7 @@ def update_history(history: dict[str, Any], selected: list[dict[str, Any]]) -> d
             "fingerprint": item["fingerprint"],
             "viral_score": item.get("viral_score"),
             "scheduled_slot": item.get("scheduled_slot"),
+            "publish_at_local": item.get("publish_at_local"),
             "youtube_url": item.get("youtube_url"),
             "processed_at": now_tr().isoformat(),
         })
