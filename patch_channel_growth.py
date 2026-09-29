@@ -96,7 +96,7 @@ def enrich_and_rank(news):
     return sorted(ranked, key=lambda item: item.get("viral_score", 0), reverse=True)
 
 
-def choose_top_three(news, history):
+def choose_six(news, history):
     ranked = enrich_and_rank(news)
     processed = history.get("processed_news", [])
     eligible = [item for item in ranked if not is_low_value_news(item)]
@@ -117,7 +117,7 @@ def choose_top_three(news, history):
             return False
         return True
 
-    # First pass aims for three different topics and publishers.
+    # First pass aims for six different topics and publishers.
     for item in eligible:
         if admissible(item, 1, True):
             selected.append(item)
@@ -126,31 +126,31 @@ def choose_top_three(news, history):
             source = (item.get("source_name") or "").strip().lower()
             if source:
                 source_counts[source] = source_counts.get(source, 0) + 1
-            if len(selected) == 3:
+            if len(selected) == 6:
                 break
 
     # If today's news supply is concentrated, allow a second story from a topic.
-    if len(selected) < 3:
+    if len(selected) < 6:
         for item in eligible:
             if admissible(item, 2):
                 selected.append(item)
                 topic = item.get("topic_bucket", "gündem_genel")
                 topic_counts[topic] = topic_counts.get(topic, 0) + 1
-                if len(selected) == 3:
+                if len(selected) == 6:
                     break
 
     # Preserve the existing anti-repeat checks, but do not fail only because all
     # available stories happen to belong to the same topic.
-    if len(selected) < 3:
+    if len(selected) < 6:
         for item in ranked:
             if item in selected or in_history(item, processed):
                 continue
             if not too_similar_to_selected(item, selected):
                 selected.append(item)
-            if len(selected) == 3:
+            if len(selected) == 6:
                 break
-    if len(selected) < 3:
-        raise RuntimeError("Tekrarsız üç haber bulunamadı.")
+    if len(selected) < 6:
+        raise RuntimeError("Tekrarsız altı haber bulunamadı.")
     logger.info("Konu çeşitliliğiyle seçilen haberler: %s", [(x.get("topic_bucket"), x.get("title")) for x in selected])
     return selected
 
