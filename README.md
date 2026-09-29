@@ -17,9 +17,18 @@ Repo Settings > Secrets and variables > Actions bolumune sunlari ekle:
 PEXELS_API_KEY
 YOUTUBE_REFRESH_TOKEN
 CLIENT_SECRETS_JSON
+GROQ_API_KEY
 ```
 
 `CLIENT_SECRETS_JSON`, Google Cloud OAuth client JSON icerigidir.
+`GROQ_API_KEY`, Groq Console'dan alinan anahtardir. Workflow video uretiminden once
+`openai/gpt-oss-120b` modeline JSON yanit saglik kontrolu yapar. Kontrol gecmezse
+video uretimine baslamaz. Metin uretimi Groq JSON modunu kullanir; GPT-OSS reasoning
+tokenlari icin yeterli cikti butcesi ve dusuk reasoning seviyesi ayarlidir.
+
+YouTube yuklemesi basarili API yanitindan video ID'si alir, her videonun
+`video_plan.json` ve `news_history.json` kaydini hemen yazar. Bir sonraki video
+basarisiz olsa bile tamamlanan yuklemelerin ID'leri kaybolmaz.
 
 ## Lokal kurulum
 
@@ -34,3 +43,4 @@ python main.py
 ## Not
 
 Bot calisinca `final_shorts.mp4`, `voiceover.mp3`, `background_video.mp4` gibi runtime dosyalari uretir. Bunlar bilerek Git'e eklenmez.
+

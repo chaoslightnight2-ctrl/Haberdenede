@@ -288,45 +288,11 @@ def choose_top_three(news: list[dict[str, Any]], history: dict[str, Any]) -> lis
 
 
 def fallback_script(item: dict[str, Any]) -> str:
-    return (
-        f"Türkiye gündeminde dikkat çeken bir gelişme var. {item['title']}. "
-        f"Haberin kısa özeti şöyle: {item.get('summary', '')[:260]}. "
-        "Bu başlık gün içinde daha da konuşulabilir. Gelişmeler için takipte kal."
-    )
+    raise RuntimeError("Groq olmadan metin üretilmeyecek; GROQ_API_KEY ve Groq API kontrol edilmeli.")
 
 
 def generate_news_script(item: dict[str, Any]) -> str:
-    prompt = f"""
-Sen Türkçe YouTube Shorts için haber anlatımı yazan bir editörsün.
-Aşağıdaki haber bilgisini kullanarak 35-45 saniyelik açıklayıcı, akıcı ve merak uyandırıcı bir metin yaz.
-
-Kurallar:
-- Sadece verilen bilgiye dayan.
-- Uydurma detay ve spekülasyon kullanma.
-- İlk cümle dikkat çekici olsun.
-- Son cümlede gelişmeler için takipte kal benzeri doğal kapanış yap.
-- Emoji, madde işareti ve sahne notu yazma.
-- Tek parça metin ver.
-
-Başlık: {item['title']}
-Özet: {item.get('summary', '')}
-Kaynak: {item.get('source', '')}
-"""
-    try:
-        from g4f.client import Client
-        client = Client()
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": prompt}],
-            timeout=90,
-        )
-        script = response.choices[0].message.content.strip().strip('"').strip("'")
-        if len(script) < 120:
-            raise RuntimeError("Metin çok kısa")
-        return script
-    except Exception as exc:
-        logger.warning("AI metni oluşmadı, fallback kullanılıyor: %s", exc)
-        return fallback_script(item)
+    raise RuntimeError("Groq yaması uygulanmamış; video metni üretilmedi.")
 
 
 async def create_voiceover(script: str, audio_path: Path) -> list[tuple[float, float, str]]:
@@ -687,3 +653,4 @@ if __name__ == "__main__":
     except Exception as exc:
         logger.error("Çalışma hatası: %s\n%s", exc, traceback.format_exc())
         sys.exit(1)
+
