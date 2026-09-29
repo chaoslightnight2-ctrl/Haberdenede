@@ -155,6 +155,10 @@ def choose_six(news, history):
     return selected
 
 
+# The runtime patch replaces the legacy three-item selector used by main().
+choose_top_three = choose_six
+
+
 def _groq_json_chat(prompt, max_tokens=420, temperature=0.2):
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
