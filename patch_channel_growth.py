@@ -215,20 +215,24 @@ Kanalın gündemi yalnızca siyaset ve son dakika olaylarından ibaret değil. K
 iş hayatı ve tarım, sağlık ve eğitim, bilim ve teknoloji, internet ve siber güvenlik, iklim ve enerji, ulaşım ve şehir yaşamı,
 adliye ve toplum, dış politika ve dünyada Türkiye’yi etkileyen gelişmeler, kültür ve sanat, spor ve günlük yaşam başlıklarını kapsa.
 Her videoda tek bir somut gelişmeye odaklan; kaynakta olmayan yeni konu veya olay uydurma. Kategoriyi haberin gerçek içeriğine göre seç.
-HOOK: 6-12 kelimelik güçlü ve dürüst bir merak kancası yaz. Kaynaktaki en çarpıcı somut ayrıntıyı,
-şaşırtıcı farkı veya yanıtı haberde bulunan doğal bir soruyu kullan. İzleyiciye “ne değişti / kimi etkiliyor /
-sonuç ne?” merakı ver; haber gövdesi bu vaadi hemen yanıtlasın. Boş “şok”, “inanamayacaksınız”,
+HOOK: 6-12 kelimelik, ilk saniyede anlaşılır, habere özgü güçlü bir merak kancası yaz. Kaynaktaki
+en çarpıcı somut ayrıntıyı, kritik farkı veya yanıtı haberde bulunan doğal bir soruyu seç. Başlık ve
+hook aynı cümleyi tekrar etmesin. İzleyiciye “ne değişti / kimi etkiliyor / sonuç ne?” merakı ver;
+ilk anlatım cümlesi bu vaadi geciktirmeden bağlama oturtsun. Boş “şok”, “inanamayacaksınız”,
 “herkes bunu konuşuyor” kalıpları ve kaynakta olmayan gerilim ekleme.
 Yalnızca başlık ve kaynak metninde açıkça bulunan olguları kullan. İddiaları iddia olarak belirt; kesinleşmemiş
 bilgiyi kesin hüküm gibi yazma. Kaynakta olmayan neden, sonuç, sayı, tarih veya yorum ekleme.
 Kategoriye uygun anlatım yönü: {angle_guidance}
-Anlatım gövdesi kısa, akıcı ve seslendirmeye uygun olsun; her cümle yeni bir bilgi taşısın. En sonda
-Türkiye’den Haber’e abone olmaya çağıran kısa, doğal ve kanalın geniş gündem vaadine uygun bir CTA ekle.
+Retention akışı: kancadan sonra olayın ne olduğunu hemen tanıt; ardından en önemli kanıt/ayrıntı,
+etkilenen kişi veya grup ve somut sonucu kısa cümlelerle sırala. En güçlü bilgi ya da cevabı son üçte
+birde ver, fakat izleyiciyi yanıltarak bekletme. Her cümle yeni bilgi taşısın; tek gelişme dışına çıkma.
+En sonda Türkiye’den Haber’e abone olmaya çağıran kısa, doğal ve kanalın geniş gündem vaadine uygun bir CTA ekle.
 CTA’yı her videoda kelimesi kelimesine aynı kurma; “takipte kal” gibi belirsiz çağrılar kullanma.
 Hook + anlatım + CTA toplamı 35-65 Türkçe kelime olsun.
-Başlık doğru, merak uyandırıcı ve en fazla 70 karakter olsun. En önemli kişi/konu başlarda geçsin; kaynakta
-karşılığı olan sonuç veya merak unsurunu öne çıkar. Clickbait tarzında güçlü paketle ama yanıltma, abartma,
-ALL CAPS veya #shorts kullanma.
+Başlık doğru, merak uyandırıcı ve en fazla 70 karakter olsun. En önemli kişi/konu başlarda geçsin;
+tek, somut bir sonuç veya merak unsuru öne çıksın. Her videoda farklı bir başlık açısı seç (soru,
+karşılaştırma, değişen şey veya sonuç); klişe kalıbı art arda tekrarlama. Clickbait tarzında güçlü
+paketle ama yanıltma, abartma, ALL CAPS veya #shorts kullanma.
 Açıklama her videoya özgü, doğal Türkçeyle yazılmış 2 kısa cümle olsun. İlk 120 karakterde haberin ne olduğunu,
 ilgili kişi/kurum veya yeri ve somut gelişmeyi açıkla. Başlıktaki 1-2 ana arama terimini anlamlı biçimde kullan;
 başlığı aynen tekrar etme, anahtar kelime yığma, genel takip çağrısı ve hashtag listesi ekleme.
