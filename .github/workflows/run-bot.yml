@@ -2,6 +2,12 @@ name: Run Turkey News Shorts Bot
 
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Generate and validate without uploading to YouTube"
+        required: false
+        default: true
+        type: boolean
   schedule:
     # GitHub cron UTC çalışır. 21:00 UTC = Türkiye saatiyle 00:00.
     - cron: "0 21 * * *"
@@ -99,7 +105,8 @@ jobs:
           VOICE_PITCH: -2Hz
           IMAGEMAGICK_BINARY: /usr/bin/convert
           SUBTITLE_FONT: DejaVu-Sans-Bold
-        run: python main.py
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
+        run: python run_quality_bot.py
 
       - name: Save rendered shorts in repo
         if: always() && !cancelled()
@@ -138,7 +145,7 @@ jobs:
           retention-days: 7
 
       - name: Commit rendered shorts and history
-        if: always() && !cancelled()
+        if: always() && !cancelled() && inputs.dry_run != true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

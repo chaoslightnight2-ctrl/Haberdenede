@@ -57,6 +57,7 @@ if marker not in source:
     block = r'''
 
 # HABERDENEDE_CHANNEL_GROWTH_PATCH
+from quality_gate import validate_visual_query
 # YouTube önerileri için konu kapsamı geniş tutulur; seçimde tek bir gündem türünün
 # üç slotu da kaplaması önlenir. Kaynakta olmayan iddia/yorum üretilmez.
 def detect_topic_bucket(item):
@@ -240,8 +241,13 @@ paketle ama yanıltma, abartma, ALL CAPS veya #shorts kullanma.
 Açıklama her videoya özgü, doğal Türkçeyle yazılmış 2 kısa cümle olsun. İlk 120 karakterde haberin ne olduğunu,
 ilgili kişi/kurum veya yeri ve somut gelişmeyi açıkla. Başlıktaki 1-2 ana arama terimini anlamlı biçimde kullan;
 başlığı aynen tekrar etme, anahtar kelime yığma, genel takip çağrısı ve hashtag listesi ekleme.
+hook narration ve cta konuşma alanlarında noktalama işareti kullanma yalnızca doğrudan okunacak temiz Türkçe kelimeleri yaz.
+Konuşma alanlarına kaynak adı, site adı, URL, kaynakça, markdown, hashtag, emoji veya sahne talimatı yazma.
+Anlatımı narration_parts alanında 2-4 kısa noktalamasız bölüm olarak yaz.
+visual_query haberdeki gerçek kişi, yer, kurum veya nesneyi gösteren 3-7 İngilizce Pexels arama kelimesi olsun.
+"news background", "parliament building", "press conference" gibi ülke ve konu belirtmeyen genel görüntü isteme.
 Geçerli JSON dışında hiçbir şey döndürme:
-{{"title":"...","hook":"...","narration":"...","cta":"...","description":"..."}}
+{{"title":"...","hook":"...","narration_parts":["...","..."],"cta":"...","description":"...","visual_query":"..."}}
 
 Kanal kapsamı/kategori: {topic}
 Kaynak başlığı: {source_title}
@@ -255,11 +261,16 @@ Haber metni: {content[:4200]}
         data = json.loads(match.group(0))
         new_title = clean_generated_text(str(data.get("title", ""))).strip(" .-|:")
         hook = clean_generated_text(str(data.get("hook", ""))).strip()
-        narration = clean_generated_text(str(data.get("narration", ""))).strip()
+        narration_parts = data.get("narration_parts", data.get("narration", []))
+        if isinstance(narration_parts, str):
+            narration_parts = [narration_parts]
+        narration_parts = [clean_generated_text(str(part)).strip() for part in narration_parts if clean_generated_text(str(part)).strip()]
+        narration = " ".join(narration_parts)
         cta = clean_generated_text(str(data.get("cta", ""))).strip()
         description = clean_generated_text(str(data.get("description", ""))).strip()
+        visual_query = validate_visual_query(str(data.get("visual_query", "")))
         full_narration = " ".join(part for part in [hook, narration, cta] if part)
-        if not new_title or not hook or not narration or not cta or not description:
+        if not new_title or not hook or not narration or not cta or not description or not 2 <= len(narration_parts) <= 4:
             raise ValueError("Groq title, hook, narration, CTA veya description alanını boş bıraktı.")
         hook_words = len(hook.split())
         total_words = len(full_narration.split())
@@ -269,11 +280,11 @@ Haber metni: {content[:4200]}
 ÖNCEKİ JSON çıktın uzunluk denetimini geçemedi. Yeni bilgi eklemeden ve olguları değiştirmeden
 yalnızca metni kurallara uyacak şekilde yeniden düzenle. Hook 6-12 kelime, Hook + anlatım + CTA
 toplamı 45-55 kelime olsun; başlık en fazla 70 karakter kalsın. Tüm cümleler kaynakta doğrulanabilsin.
-Yalnızca geçerli JSON nesnesi döndür, aynı beş alanı koru.
+Yalnızca geçerli JSON nesnesi döndür, aynı altı alanı koru.
 
 Mevcut ölçümler: hook={hook_words}, toplam={total_words}, başlık karakteri={len(new_title)}.
 Önceki JSON:
-{json.dumps({"title": new_title, "hook": hook, "narration": narration, "cta": cta, "description": description}, ensure_ascii=False)}
+{json.dumps({"title": new_title, "hook": hook, "narration_parts": narration_parts, "cta": cta, "description": description, "visual_query": visual_query}, ensure_ascii=False)}
 """
             raw = _groq_json_chat(repair_prompt, max_tokens=480, temperature=0.1)
             match = re.search(r"\{[\s\S]*\}", raw)
@@ -282,13 +293,18 @@ Mevcut ölçümler: hook={hook_words}, toplam={total_words}, başlık karakteri=
             data = json.loads(match.group(0))
             new_title = clean_generated_text(str(data.get("title", ""))).strip(" .-|:")
             hook = clean_generated_text(str(data.get("hook", ""))).strip()
-            narration = clean_generated_text(str(data.get("narration", ""))).strip()
+            narration_parts = data.get("narration_parts", data.get("narration", []))
+            if isinstance(narration_parts, str):
+                narration_parts = [narration_parts]
+            narration_parts = [clean_generated_text(str(part)).strip() for part in narration_parts if clean_generated_text(str(part)).strip()]
+            narration = " ".join(narration_parts)
             cta = clean_generated_text(str(data.get("cta", ""))).strip()
             description = clean_generated_text(str(data.get("description", ""))).strip()
+            visual_query = validate_visual_query(str(data.get("visual_query", "")))
             full_narration = " ".join(part for part in [hook, narration, cta] if part)
             hook_words = len(hook.split())
             total_words = len(full_narration.split())
-        if not new_title or not hook or not narration or not cta or not description:
+        if not new_title or not hook or not narration or not cta or not description or not 2 <= len(narration_parts) <= 4:
             raise ValueError("Groq düzeltme title, hook, narration, CTA veya description alanını boş bıraktı.")
         if len(new_title) > 70 or not 6 <= hook_words <= 12 or not 35 <= total_words <= 65:
             raise ValueError(f"Groq çıktısı uzunluk denetimini geçemedi (başlık={len(new_title)}, hook={hook_words}, toplam={total_words}).")
@@ -298,7 +314,12 @@ Mevcut ölçümler: hook={hook_words}, toplam={total_words}, başlık karakteri=
 
     item["source_headline"] = item.get("title", "")
     item["shorts_hook"] = hook
+    item["quality_hook"] = hook
+    item["quality_narration"] = narration
+    item["quality_narration_parts"] = narration_parts
+    item["quality_cta"] = cta
     item["youtube_description"] = description
+    item["visual_query"] = visual_query
     item["title"] = new_title
     resolved = item.get("resolved_url", "")
     if resolved.startswith("https://") and "news.google.com" not in resolved:
