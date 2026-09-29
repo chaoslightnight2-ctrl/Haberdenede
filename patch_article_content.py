@@ -282,9 +282,11 @@ def enrich_selected_with_article_content(selected: list[dict[str, Any]]) -> None
 '''
 s = s[:insert_at] + article_block + s[insert_at:]
 
-old = "selected = choose_top_three(news_pool, history)\n    save_json(SELECTED_FILE, {\"generated_at\": now_tr().isoformat(), \"selected_news\": selected})"
-new = "selected = choose_six_with_content(news_pool, history)\n    save_json(SELECTED_FILE, {\"generated_at\": now_tr().isoformat(), \"selected_news\": selected})"
-s = s.replace(old, new)
+old = "selected = choose_top_three(news_pool, history)"
+new = "selected = choose_six_with_content(news_pool, history)"
+if old not in s:
+    raise RuntimeError("Ana akıştaki haber seçimi bulunamadı; içerik kontrolü uygulanmadı.")
+s = s.replace(old, new, 1)
 
 p.write_text(s, encoding="utf-8")
 print("Google News resolving and content-first selection patch applied")
