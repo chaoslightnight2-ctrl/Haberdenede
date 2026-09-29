@@ -1,11 +1,6 @@
 name: Run Turkey News Shorts Bot
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "codex-workflow-trigger-20260929-mumjvztr.txt"
   workflow_dispatch:
   schedule:
     # GitHub cron UTC çalışır. 21:00 UTC = Türkiye saatiyle 00:00.
