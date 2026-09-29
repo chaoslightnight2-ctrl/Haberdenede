@@ -144,6 +144,20 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f generated_videos/
           git add selected_news.json video_plan.json news_history.json
-          git diff --cached --quiet || git commit -m "Save generated Shorts videos"
-          git push
+          if git diff --cached --quiet; then
+            echo "No video or history changes to commit."
+            exit 0
+          fi
+          git commit -m "Save generated Shorts videos"
+          for attempt in 1 2 3; do
+            echo "Upload history push attempt $attempt"
+            git pull --rebase --autostash origin main
+            if git push origin HEAD:main; then
+              echo "Videos and history pushed successfully."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Failed to push video/history files after retries."
+          exit 1
 
