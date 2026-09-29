@@ -618,6 +618,8 @@ def main() -> None:
     history = load_json(HISTORY_FILE, {"processed_news": []})
     news_pool = fetch_news_pool(hours_back=20)
     selected = choose_top_three(news_pool, history)
+    if len(selected) != 6:
+        raise RuntimeError(f"Tam altı haber seçilemedi; yükleme durduruldu: {len(selected)}/6")
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
 
     for item in selected:
@@ -645,7 +647,7 @@ def main() -> None:
     save_json(PLAN_FILE, {"generated_at": now_tr().isoformat(), "videos": plan_rows})
     save_json(HISTORY_FILE, update_history(history, selected))
     save_json(SELECTED_FILE, {"generated_at": now_tr().isoformat(), "selected_news": selected})
-    logger.info("Tamamlandı. 3 video planlandı ve history güncellendi")
+    logger.info("Tamamlandı. %s video planlandı ve history güncellendi", len(plan_rows))
 
 
 if __name__ == "__main__":
