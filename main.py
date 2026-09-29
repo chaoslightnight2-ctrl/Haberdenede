@@ -529,15 +529,16 @@ def get_youtube_service():
 
 
 def compute_publish_times() -> list[datetime]:
-    slots = [(7, 0), (12, 0), (18, 0)]
+    slots = [(4, 0), (8, 0), (12, 0), (16, 0), (20, 0), (0, 0)]
     current = now_tr()
+    cutoff = current + timedelta(minutes=15)
     results: list[datetime] = []
     for hour, minute in slots:
         candidate = current.replace(hour=hour, minute=minute, second=0, microsecond=0)
-        if candidate <= current:
+        if candidate <= cutoff:
             candidate += timedelta(days=1)
         results.append(candidate)
-    return results
+    return sorted(results)
 
 
 def upload_to_youtube(video_path: Path, item: dict[str, Any], publish_at: datetime) -> dict[str, Any]:
