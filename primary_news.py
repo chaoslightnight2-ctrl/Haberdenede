@@ -40,7 +40,8 @@ def collect(hours_back=72):
                 parts = [entry.get('summary', ''), entry.get('description', '')]
                 parts.extend(row.get('value', '') for row in entry.get('content', []))
                 summary = max((bot.strip_html(part) for part in parts), key=len, default='')
-                items.append({'title': title, 'summary': summary, 'url': link, 'source': source, 'source_name': source.split()[0],
+                publisher = 'Anadolu Ajansı' if source.startswith('Anadolu Ajansı') else 'TRT Haber'
+                items.append({'title': title, 'summary': summary, 'url': link, 'source': source, 'source_name': publisher,
                               'query': source, 'published_at': at.astimezone(bot.TIMEZONE).isoformat(),
                               'fingerprint': bot.fingerprint(title, summary), 'direct_source': True})
             bot.logger.info('Direct publisher RSS: %s, entries=%s', source, len(feed.entries))
