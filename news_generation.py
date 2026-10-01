@@ -41,6 +41,9 @@ iklim enerji afet ulaşım kültür sanat spor ve insan hikayeleridir. Bu haberd
 Başlık en fazla 70 karakter ve anlaşılır tamamlanmış bir cümle olsun. Cesur merak kancası ve
 clickbait sunum kullan ancak açtığın soruyu videoda yanıtla. Uydurma olay sayı veya sonuç ekleme.
 Hook 6-12 kelime; hook anlatım CTA toplamı 40-60 kelime. narration_parts 2-4 kısa bölüm.
+hook alanına sadece tek kısa kanca yaz Bütün haberi hook içine koyma Ayrıntılar narration_parts içinde olsun.
+Kaynak sadece veri yayın takvimini söylüyorsa açıklanmamış sonucu ekleme Kaynakta oran yoksa
+yüzde oranı üretme Enflasyon açıklanacak cümlesi enflasyon yüzde kırk beş çıktı demek değildir.
 Kaynaktaki iddiaları iddia olarak aktar. Kanıtsız neden sonuç gelecek tahmini veya istatistik yazma.
 Kaynak yetersizse suitable=false ve reason alanıyla yanıtla; metni bilgilerinle tamamlamaya çalışma.
 Bugün yarın dün gibi yayın saatinde eskiyecek sözcükler yerine kaynakta bulunan açık tarihi kullan
