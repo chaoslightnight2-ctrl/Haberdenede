@@ -1,16 +1,10 @@
 {
-  "source_run": "37162575320",
-  "verified_at": "2026-10-04T02:42:31.548373+00:00",
+  "source_run": "37245385093",
+  "verified_at": "2026-10-05T02:54:27.902795+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "Ankara'da ruhsatsız tesise operasyon: 49 bin 314 bebek ürünü ele geçirildi",
-      "stage": "generation",
-      "error": "Same-Groq generation failed after 5 repairs: Editorial review: PAKET states that a suspect was \"tutuklandı\" (detained) and that legal action was immediately taken in court, but KAYNAK only reports that one suspect was \"yakalandı\" (arrested) and that an adli işlem was started; it does not mention detention or immediate court filing. Hence the suspect‑detention claim is unsupported."
-    }
-  ]
+  "generation_errors": []
 }
