@@ -4043,7 +4043,24 @@
       "video_id": "EA1JNQ6CFUA",
       "upload_status": "api_insert_confirmed",
       "processed_at": "2026-10-06T20:31:11.065829+03:00",
-      "publish_at_utc": "2026-10-07T05:00:00Z"
+      "publish_at_utc": "2026-10-07T05:00:00Z",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "TBMM’de Fon Suistimali ve Yarınki Bilgi Açıklaması",
+      "summary": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, yarın Meclis Genel Kurulu'nda fon soruşturmasına ilişkin bilgilendirme yapacak.",
+      "url": "https://www.trthaber.com/haber/gundem/yilmaz-tbmmde-fon-sorusturmasini-anlatacak-959305.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-06T17:16:00+03:00",
+      "fingerprint": "0187032cfb50239ab1831946ce2a81547038ac65",
+      "viral_score": 87.25,
+      "scheduled_slot": "16:00",
+      "publish_at_local": "2026-10-07T16:00:00+03:00",
+      "youtube_url": "https://youtu.be/DETmyfCSkxE",
+      "video_id": "DETmyfCSkxE",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-06T20:38:31.310537+03:00",
+      "publish_at_utc": "2026-10-07T13:00:00Z"
     }
   ]
 }

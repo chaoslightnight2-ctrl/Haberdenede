@@ -52,6 +52,31 @@
       ],
       "video_path": "output/short_2.mp4",
       "source_headline": "TürkiyeAvusturya Ortak İşbirliği Mekanizması 4. Toplantısı yapıldı",
+      "run_id": "37496387569",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "DETmyfCSkxE",
+      "youtube_url": "https://youtu.be/DETmyfCSkxE",
+      "publish_at_local": "2026-10-07T16:00:00+03:00",
+      "publish_at_utc": "2026-10-07T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 3,
+      "title": "TBMM’de Fon Suistimali ve Yarınki Bilgi Açıklaması",
+      "narration": "Fon suistimali yapanlar hukuken hesap vermek zorunda Özlem Zengin TBMM Genel Kurulunda fon suistimali yapanların kim olursa olsun hukuken hesap vermesi gerektiğini vurguladı Cevdet Yılmaz yarın İçtüzük elli dokuz gereğiyle Fon Koordinasyon Kurulunun çalışmalarına dair bilgi sunacak Türkiyeden Haber kanalına abone ol",
+      "description": "Fon soruşturması hakkında ne düşünüyorsunuz izleyiciler yorumlarınızı bekliyoruz",
+      "visual_query": "parliamentary session speaker",
+      "tags": [
+        "fon soruşturması",
+        "TBMM",
+        "özlem zengin",
+        "cevdet yılmaz",
+        "hukuk",
+        "paranın korunması",
+        "siyasi sorumluluk"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Yılmaz, TBMM'de fon soruşturmasını anlatacak",
       "run_id": "37496387569"
     }
   ],
