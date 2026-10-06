@@ -3995,6 +3995,22 @@
       "video_id": "NBtmO21E3Ic",
       "upload_status": "api_insert_confirmed",
       "processed_at": "2026-09-29T18:45:52.132700+03:00"
+    },
+    {
+      "title": "İspanya’da işçi sendikaları konut krizi grevi",
+      "summary": "İspanya'nın en büyük iki sendikası İşçi Komisyonları CCOO ve Genel İşçiler Birliği UGT, ülkedeki konut krizine karşı genel grev kararı aldı.",
+      "url": "https://www.trthaber.com/haber/ekonomi/ispanyada-isci-sendikalari-konut-krizine-karsi-genel-grev-karari-aldi-959205.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-06T00:01:00+03:00",
+      "fingerprint": "427818cb0a26aaca4eb27eabd089debf8ef71542",
+      "viral_score": 97.35,
+      "scheduled_slot": "16:00",
+      "publish_at_local": "2026-10-06T16:00:00+03:00",
+      "youtube_url": "https://youtu.be/wWJdisz-IHE",
+      "video_id": "wWJdisz-IHE",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-06T07:46:12.034857+03:00",
+      "publish_at_utc": "2026-10-06T13:00:00Z"
     }
   ]
 }
