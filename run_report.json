@@ -27,6 +27,31 @@
       ],
       "video_path": "output/short_1.mp4",
       "source_headline": "İspanya hükümetinden konut krizi için iki yeni kararname",
+      "run_id": "37496387569",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "EA1JNQ6CFUA",
+      "youtube_url": "https://youtu.be/EA1JNQ6CFUA",
+      "publish_at_local": "2026-10-07T08:00:00+03:00",
+      "publish_at_utc": "2026-10-07T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 2,
+      "title": "Türkiye Avusturya Güvenlik İşbirliği Toplantısı Özeti",
+      "narration": "Türkiye Avusturya güvenlik işbirliği nasıl ilerliyor İçişleri Bakanı Mustafa Çiftçi toplantıda Türkiye Avusturya güvenlik işbirliğini geliştirme ihtiyacını vurguladı Çiftçi terör örgütlerine karşı kararlılıkla mücadele ettiğimizi ve bölgesel güvenliğe katkı sağladığımızı belirtti Ayrıca sınır aşan suç örgütlerinin faaliyetlerini engellemek için ortak adımlar planlandığını söyledi Türkiyeden Haber kanalına abone ol",
+      "description": "Bu işbirliği iki ülkenin güvenliğini nasıl etkiler sizce",
+      "visual_query": "turkey austria security meeting",
+      "tags": [
+        "Türkiye",
+        "Avusturya",
+        "güvenlik",
+        "işbirliği",
+        "terör",
+        "organize suç",
+        "bölgesel güvenlik"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "TürkiyeAvusturya Ortak İşbirliği Mekanizması 4. Toplantısı yapıldı",
       "run_id": "37496387569"
     }
   ],

@@ -4026,7 +4026,24 @@
       "video_id": "UcCC5FiwqvY",
       "upload_status": "api_insert_confirmed",
       "processed_at": "2026-10-06T20:06:53.803406+03:00",
-      "publish_at_utc": "2026-10-06T21:00:00Z"
+      "publish_at_utc": "2026-10-06T21:00:00Z",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türkiye Avusturya Güvenlik İşbirliği Toplantısı Özeti",
+      "summary": "İçişleri Bakanı Çiftçi, Avusturya İçişleri Bakanı Gerhard Karner ile bir araya geldi. Bakan Çiftçi, toplantıda yaptığı açıklamada, \"Türkiye, PKK/KCK, FETÖ, DHKPC ve DEAŞ başta olmak üzere terör örgütlerine karşı kararlılıkla yürüttüğü mücadeleyle bölgesel güvenlik ve istikrara büyük bir katkı sunmaktadır\" dedi.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiye-avusturya-ortak-isbirligi-mekanizmasi-4-toplantisi-yapildi-959309.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-06T18:23:00+03:00",
+      "fingerprint": "2b5cb7eeef43f8e681a893e3dd4e87bf89c0f363",
+      "viral_score": 91.04,
+      "scheduled_slot": "08:00",
+      "publish_at_local": "2026-10-07T08:00:00+03:00",
+      "youtube_url": "https://youtu.be/EA1JNQ6CFUA",
+      "video_id": "EA1JNQ6CFUA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-06T20:31:11.065829+03:00",
+      "publish_at_utc": "2026-10-07T05:00:00Z"
     }
   ]
 }
