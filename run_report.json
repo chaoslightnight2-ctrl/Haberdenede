@@ -1,32 +1,33 @@
 {
-  "run_id": "37409923028",
-  "generated_at": "2026-10-06T06:40:05.847445+03:00",
+  "run_id": "37496387569",
+  "generated_at": "2026-10-06T19:36:06.073275+03:00",
   "target_count": 3,
   "dry_run": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "wWJdisz-IHE",
-      "youtube_url": "https://youtu.be/wWJdisz-IHE",
-      "publish_at_local": "2026-10-06T16:00:00+03:00",
-      "publish_at_utc": "2026-10-06T13:00:00Z",
+      "video_id": "UcCC5FiwqvY",
+      "youtube_url": "https://youtu.be/UcCC5FiwqvY",
+      "publish_at_local": "2026-10-07T00:00:00+03:00",
+      "publish_at_utc": "2026-10-06T21:00:00Z",
       "upload_status": "api_insert_confirmed",
       "index": 1,
-      "title": "İspanya’da işçi sendikaları konut krizi grevi",
-      "narration": "İspanya da işçiler konut krizine karşı grev planlıyor CCOO ve UGT sendikaları Kiracı Sendikaları Konfederasyonu ile sonbaharda yirmi dört saatlik genel grev kararı aldı Sendikalar işçilerin konut hakkı ve yakışır ücret alması için yüzde dört ila yedi arasında maaş artışı talep etti Türkiyeden Haber kanalına abone ol",
-      "description": "İspanya işçileri konut hakkı ve maaş artışı talep ederken genel grev planlıyor sizce bu baskı etkili olur mu",
-      "visual_query": "spanish workers protest",
+      "title": "İspanya’da konut krizine iki yeni kararname onaylandı",
+      "narration": "İspanya hükümeti konut krizine iki kararname getirdi Başbakan Pedro Sanchez zorla tahliye yasağını iki bin otuz yılına kadar yasakladı Yeni kararname kira sözleşmelerini otuz bir Aralık iki bin yirmi sekiz tarihine kadar uzattı İlk kez ev sahibi olmak isteyenlere elli bin euroya kadar faizsiz kredi sağlanacak Türkiyeden Haber kanalına abone ol",
+      "description": "İspanya konut krizi için yeni önlemler alındı sizce bu yeterli mi?",
+      "visual_query": "spanish housing decree",
       "tags": [
-        "İspanya",
-        "işçi sendikaları",
-        "konut krizi",
-        "genel grev",
-        "maaş artışı",
-        "Kiracı Sendikaları"
+        "İspanya konut krizi",
+        "Pedro Sanchez",
+        "zorla tahliye yasağı",
+        "faizsiz kredi",
+        "uygun fiyatlı kiralık konut",
+        "ev sahibi teşviki",
+        "konut politikası"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "İspanya'da işçi sendikaları, konut krizine karşı genel grev kararı aldı",
-      "run_id": "37409923028"
+      "source_headline": "İspanya hükümetinden konut krizi için iki yeni kararname",
+      "run_id": "37496387569"
     }
   ],
   "errors": []

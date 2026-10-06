@@ -4011,6 +4011,22 @@
       "upload_status": "api_insert_confirmed",
       "processed_at": "2026-10-06T07:46:12.034857+03:00",
       "publish_at_utc": "2026-10-06T13:00:00Z"
+    },
+    {
+      "title": "İspanya’da konut krizine iki yeni kararname onaylandı",
+      "summary": "İspanya'da azınlık sol koalisyon hükümeti, geçen hafta mecliste reddedilen konut krizine karşı çözümleri içeren kararnamelerin ardından bu sorunla ilgili yeni iki kararname kabul etti.",
+      "url": "https://www.trthaber.com/haber/dunya/ispanya-hukumetinden-konut-krizi-icin-iki-yeni-kararname-959300.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-06T15:26:00+03:00",
+      "fingerprint": "d1fc979d80a9f0b99c0024a4302179af9ab7e51d",
+      "viral_score": 99.32,
+      "scheduled_slot": "00:00",
+      "publish_at_local": "2026-10-07T00:00:00+03:00",
+      "youtube_url": "https://youtu.be/UcCC5FiwqvY",
+      "video_id": "UcCC5FiwqvY",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-06T20:06:53.803406+03:00",
+      "publish_at_utc": "2026-10-06T21:00:00Z"
     }
   ]
 }
