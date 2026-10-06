@@ -3,7 +3,7 @@
   "generated_at": "2026-10-06T19:36:06.073275+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "UcCC5FiwqvY",
@@ -77,7 +77,8 @@
       ],
       "video_path": "output/short_3.mp4",
       "source_headline": "Yılmaz, TBMM'de fon soruşturmasını anlatacak",
-      "run_id": "37496387569"
+      "run_id": "37496387569",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": []
