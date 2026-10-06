@@ -1,33 +1,68 @@
 {
-  "source_run": "37409923028",
-  "verified_at": "2026-10-06T06:39:40.054591+00:00",
+  "source_run": "37496387569",
+  "verified_at": "2026-10-06T17:39:53.266924+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "wWJdisz-IHE",
-      "youtube_url": "https://youtu.be/wWJdisz-IHE",
-      "title": "İspanya’da işçi sendikaları konut krizi grevi",
-      "narration": "İspanya da işçiler konut krizine karşı grev planlıyor CCOO ve UGT sendikaları Kiracı Sendikaları Konfederasyonu ile sonbaharda yirmi dört saatlik genel grev kararı aldı Sendikalar işçilerin konut hakkı ve yakışır ücret alması için yüzde dört ila yedi arasında maaş artışı talep etti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-06T13:00:00Z",
+      "video_id": "UcCC5FiwqvY",
+      "youtube_url": "https://youtu.be/UcCC5FiwqvY",
+      "title": "İspanya’da konut krizine iki yeni kararname onaylandı",
+      "narration": "İspanya hükümeti konut krizine iki kararname getirdi Başbakan Pedro Sanchez zorla tahliye yasağını iki bin otuz yılına kadar yasakladı Yeni kararname kira sözleşmelerini otuz bir Aralık iki bin yirmi sekiz tarihine kadar uzattı İlk kez ev sahibi olmak isteyenlere elli bin euroya kadar faizsiz kredi sağlanacak Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-06T21:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 24.966667,
+        "duration": 26.666667,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/wWJdisz-IHE.jpg"
+      "preview": "maintenance/previews/UcCC5FiwqvY.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "EA1JNQ6CFUA",
+      "youtube_url": "https://youtu.be/EA1JNQ6CFUA",
+      "title": "Türkiye Avusturya Güvenlik İşbirliği Toplantısı Özeti",
+      "narration": "Türkiye Avusturya güvenlik işbirliği nasıl ilerliyor İçişleri Bakanı Mustafa Çiftçi toplantıda Türkiye Avusturya güvenlik işbirliğini geliştirme ihtiyacını vurguladı Çiftçi terör örgütlerine karşı kararlılıkla mücadele ettiğimizi ve bölgesel güvenliğe katkı sağladığımızı belirtti Ayrıca sınır aşan suç örgütlerinin faaliyetlerini engellemek için ortak adımlar planlandığını söyledi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-07T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.9,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/EA1JNQ6CFUA.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "DETmyfCSkxE",
+      "youtube_url": "https://youtu.be/DETmyfCSkxE",
+      "title": "TBMM’de Fon Suistimali ve Yarınki Bilgi Açıklaması",
+      "narration": "Fon suistimali yapanlar hukuken hesap vermek zorunda Özlem Zengin TBMM Genel Kurulunda fon suistimali yapanların kim olursa olsun hukuken hesap vermesi gerektiğini vurguladı Cevdet Yılmaz yarın İçtüzük elli dokuz gereğiyle Fon Koordinasyon Kurulunun çalışmalarına dair bilgi sunacak Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-07T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 25.1,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/DETmyfCSkxE.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 1,
+  "accepted_count": 3,
   "processed_count": 0,
   "complete": false,
   "generation_errors": [],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
