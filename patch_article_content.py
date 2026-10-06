@@ -239,6 +239,7 @@ def has_enough_article_content(item: dict[str, Any]) -> bool:
 
 
 def choose_six_with_content(news: list[dict[str, Any]], history: dict[str, Any]) -> list[dict[str, Any]]:
+    target = int(os.getenv('DAILY_VIDEO_COUNT', '3'))
     ranked = enrich_and_rank(news)
     selected: list[dict[str, Any]] = []
     topic_counts: dict[str, int] = {}
@@ -262,12 +263,12 @@ def choose_six_with_content(news: list[dict[str, Any]], history: dict[str, Any])
             selected.append(item)
             topic_counts[topic] = topic_counts.get(topic, 0) + 1
             logger.info("İçerikli haber seçildi: score=%s article_score=%s title=%s", item.get("viral_score"), item.get("article_score"), item.get("title"))
-            if len(selected) == 6:
+            if len(selected) == target:
                 break
-        if len(selected) == 6:
+        if len(selected) == target:
             break
-    if len(selected) < 6:
-        raise RuntimeError(f"Gerçek içeriği yeterli 6 farklı haber bulunamadı. Seçilen: {len(selected)}")
+    if len(selected) < target:
+        raise RuntimeError(f"Gerçek içeriği yeterli {target} farklı haber bulunamadı. Seçilen: {len(selected)}")
     return selected
 
 
