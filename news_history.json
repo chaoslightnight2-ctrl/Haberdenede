@@ -4079,7 +4079,26 @@
       "processed_at": "2026-10-07T03:46:53.476915+03:00",
       "publish_at_utc": "2026-10-07T21:00:00Z",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbulda okul kavgası sekiz öğrenci yaralandı",
+      "summary": "Son dakika... İstanbul'da ortaokulda bir öğrenci 8 öğrenciyi bıçakladı Sözcü",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPREtMcDdGTUVLcEFLVU51Q29iU3VyaDJGRTBqVzBXZTJfa1pUYk1hZHBVZHppU3NrQk1uZUV1RWpFNlM2Y24yaE9CN05uU1pnalkxaEcwcWdaNDRGZjVpeU4tTE03YTVVNlFuby1ucDRfSGd0RlJPZ2NSdHRTa3hvNFlaaFN2VHl1QU1rZk9ESUFiWFBOQ3hVcmNLRHpxcnlMUDZSRkkySDhWZ1HSAbABQVVfeXFMTnllRjd2eUhiejk4aUFycGowTDFZRFl5bjJKRy0zUUJkWGFyaThFUzFPSXlYY3RvbzFURC13Q0psdFFNWXRsY0w5ZFRBWW1VRjBWdGRjaTRhWWE4NFZyWkMtQTlNMGlfTkxYbmVESDRTUFVhOXlSSmVxWjdVVG5wZ2pjNnlfVXltdUk1Z0xOeWdZYWZkOFpVT0dLb1RsbGxuRTAxczZVOGl1OGJrTGg3b2c?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-06T09:29:00+03:00",
+      "fingerprint": "a1dd2357f87ee3975e1d2303dc04b6c39f485ec3",
+      "viral_score": 62.11,
+      "scheduled_slot": "08:00",
+      "publish_at_local": "2026-10-08T08:00:00+03:00",
+      "youtube_url": "https://youtu.be/OuHF-39MEmk",
+      "video_id": "OuHF-39MEmk",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-07T06:54:22.386574+03:00",
+      "publish_at_utc": "2026-10-08T05:00:00Z",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
