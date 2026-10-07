@@ -3,7 +3,7 @@
   "generated_at": "2026-10-07T03:32:06.133331+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "5I5Bhu10y3w",
@@ -77,7 +77,8 @@
       "source_headline": "Son dakika haberi: Başka bir okuldan üniformasıyla geldi, 6 öğrenciyi bıçakladı! | Son dakika haberleri - Habertürk",
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
-      "run_id": "37552368673"
+      "run_id": "37552368673",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [

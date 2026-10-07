@@ -4117,7 +4117,8 @@
       "processed_at": "2026-10-07T08:54:47.541755+03:00",
       "publish_at_utc": "2026-10-08T13:00:00Z",
       "audience_bucket": "health_education",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
