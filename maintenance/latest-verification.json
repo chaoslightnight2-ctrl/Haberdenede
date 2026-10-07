@@ -1,67 +1,79 @@
 {
-  "source_run": "37496387569",
-  "verified_at": "2026-10-06T17:39:53.266924+00:00",
+  "source_run": "37552368673",
+  "verified_at": "2026-10-07T05:55:43.684095+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "UcCC5FiwqvY",
-      "youtube_url": "https://youtu.be/UcCC5FiwqvY",
-      "title": "İspanya’da konut krizine iki yeni kararname onaylandı",
-      "narration": "İspanya hükümeti konut krizine iki kararname getirdi Başbakan Pedro Sanchez zorla tahliye yasağını iki bin otuz yılına kadar yasakladı Yeni kararname kira sözleşmelerini otuz bir Aralık iki bin yirmi sekiz tarihine kadar uzattı İlk kez ev sahibi olmak isteyenlere elli bin euroya kadar faizsiz kredi sağlanacak Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-06T21:00:00Z",
+      "video_id": "5I5Bhu10y3w",
+      "youtube_url": "https://youtu.be/5I5Bhu10y3w",
+      "title": "Altın kilogram fiyatı bugün yüzde sıfır virgül altı arttı",
+      "narration": "Altın kilogram fiyatı bugün ne kadar oldu Standart altının kilogram fiyatı dün altı milyon beş yüz yetmiş bin bir liradan başladı Günün sonunda yüzde sıfır virgül altı artışla fiyat altı milyon altı yüz on bin liraya yükseldi En çok işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-07T21:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 26.666667,
+        "duration": 27.233333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/UcCC5FiwqvY.jpg"
+      "preview": "maintenance/previews/5I5Bhu10y3w.jpg"
     },
     {
       "index": 2,
-      "video_id": "EA1JNQ6CFUA",
-      "youtube_url": "https://youtu.be/EA1JNQ6CFUA",
-      "title": "Türkiye Avusturya Güvenlik İşbirliği Toplantısı Özeti",
-      "narration": "Türkiye Avusturya güvenlik işbirliği nasıl ilerliyor İçişleri Bakanı Mustafa Çiftçi toplantıda Türkiye Avusturya güvenlik işbirliğini geliştirme ihtiyacını vurguladı Çiftçi terör örgütlerine karşı kararlılıkla mücadele ettiğimizi ve bölgesel güvenliğe katkı sağladığımızı belirtti Ayrıca sınır aşan suç örgütlerinin faaliyetlerini engellemek için ortak adımlar planlandığını söyledi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-07T05:00:00Z",
+      "video_id": "OuHF-39MEmk",
+      "youtube_url": "https://youtu.be/OuHF-39MEmk",
+      "title": "İstanbulda okul kavgası sekiz öğrenci yaralandı",
+      "narration": "Okul kavgasında kaç öğrenci yaralandı ve kim sorumlu altı Ekim Salı günü saat sekiz kırk itibarıyla Başakşehirde bir kavga çıktı ve sekiz öğrenci yaralandı Olayı yapan on beş yaşındaki kız öğrenci polis tarafından gözaltına alındı ve emniyete götürüldü Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-08T05:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 29.9,
+        "duration": 21.833333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/EA1JNQ6CFUA.jpg"
+      "preview": "maintenance/previews/OuHF-39MEmk.jpg"
     },
     {
       "index": 3,
-      "video_id": "DETmyfCSkxE",
-      "youtube_url": "https://youtu.be/DETmyfCSkxE",
-      "title": "TBMM’de Fon Suistimali ve Yarınki Bilgi Açıklaması",
-      "narration": "Fon suistimali yapanlar hukuken hesap vermek zorunda Özlem Zengin TBMM Genel Kurulunda fon suistimali yapanların kim olursa olsun hukuken hesap vermesi gerektiğini vurguladı Cevdet Yılmaz yarın İçtüzük elli dokuz gereğiyle Fon Koordinasyon Kurulunun çalışmalarına dair bilgi sunacak Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-07T13:00:00Z",
+      "video_id": "z8TwlfOsMbo",
+      "youtube_url": "https://youtu.be/z8TwlfOsMbo",
+      "title": "Başakşehir Ortaokulunda Başka Liseden Bıçaklı Saldırı",
+      "narration": "Başakşehir okuluna başka bir liseden öğrenci geldi Kız öğrenci başka bir Anadolu lisesinden kendi okulunun üniformasını giyerek okula geldi Okulda ani bir anda bıçakla saldırdı ve sekiz öğrenci yaralandı üçü ağır Sağlık ve polis ekipleri hızla müdahale etti yaralıları hastanelere kaldırdı ve tedaviye yönlendirdi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-08T13:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 25.1,
+        "duration": 26.766667,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/DETmyfCSkxE.jpg"
+      "preview": "maintenance/previews/z8TwlfOsMbo.jpg"
     }
   ],
   "errors": [],
   "accepted_count": 3,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "Yolcu vapuru yalıya böyle çarptı videosunu izle | Son Dakika Haberleri - Sabah",
+      "stage": "generation",
+      "error": "Same-Groq generation failed after 5 repairs: Editorial review: PAKET’teki birçok iddia KAYNAK’ta yer almıyor: 'kimler etkilendi' sorusu ve 'tamamen içinde yolcular bulunuyordu' ifadesi KAYNAK’ta sadece 'içerisinde yolcuların bulunduğu' deniyor, 'görüntü sosyal medyada hızla paylaşıldı' ve 'yetkililer inceleme başlattı ancak resmi açıklama yok' gibi açıklamalar KAYNAK’ta bulunmuyor. Başlık ve kanca soruları iddia değil, ancak paket içindeki anlatım KAYNAK’ta desteklenmediği için geçersiz kabul edilir."
+    },
+    {
+      "source": "Üsküdar'da yolcu vapuru tarihi yalıya çarptı",
+      "stage": "generation",
+      "error": "Source too short to support a complete news narration"
+    }
+  ],
+  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
