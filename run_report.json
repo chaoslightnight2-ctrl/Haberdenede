@@ -1,96 +1,34 @@
 {
-  "run_id": "37552368673",
-  "generated_at": "2026-10-07T03:32:06.133331+03:00",
+  "run_id": "37710029343",
+  "generated_at": "2026-10-08T03:56:06.123352+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": true,
+  "complete": false,
   "videos": [
     {
-      "video_id": "5I5Bhu10y3w",
-      "youtube_url": "https://youtu.be/5I5Bhu10y3w",
-      "publish_at_local": "2026-10-08T00:00:00+03:00",
-      "publish_at_utc": "2026-10-07T21:00:00Z",
+      "video_id": "avYUvVG0fEM",
+      "youtube_url": "https://youtu.be/avYUvVG0fEM",
+      "publish_at_local": "2026-10-09T00:00:00+03:00",
+      "publish_at_utc": "2026-10-08T21:00:00Z",
       "upload_status": "api_insert_confirmed",
       "index": 1,
-      "title": "Altın kilogram fiyatı bugün yüzde sıfır virgül altı arttı",
-      "narration": "Altın kilogram fiyatı bugün ne kadar oldu Standart altının kilogram fiyatı dün altı milyon beş yüz yetmiş bin bir liradan başladı Günün sonunda yüzde sıfır virgül altı artışla fiyat altı milyon altı yüz on bin liraya yükseldi En çok işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
-      "description": "Altın fiyatındaki bu artış günlük harcamalarınızı nasıl etkileyebilir",
-      "visual_query": "gold price chart",
+      "title": "Bursada sağlıksız gıdalar neden imha edildi",
+      "narration": "Bursada sağlıksız gıdalar neden imha edildi Osmangazi İlçe Tarım ve Orman Müdürlüğü ekipleri depoya girerek sağlıksız gıdalara el koydu Depo işletmecisi hakkında yasal işlem başlatıldı ve ürünler kamyonlarla toplu imha edildi Yaklaşık altı bin beş yüz kilogram zeytin turşu ve diğer gıdalar güvenli bir şekilde yok edildi Türkiyeden Haber kanalına abone ol",
+      "description": "Sağlıksız gıdaların imhası sizce yeterli mi",
+      "visual_query": "food waste truck",
       "tags": [
-        "altın",
-        "fiyat",
-        "ekonomi",
-        "yatırım",
-        "piyasa"
+        "Bursa",
+        "sağlıksız gıda",
+        "gıda imhası",
+        "Tarım Orman Müdürlüğü",
+        "gıda denetimi"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Altın fiyatlarında son durum",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "run_id": "37552368673",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "OuHF-39MEmk",
-      "youtube_url": "https://youtu.be/OuHF-39MEmk",
-      "publish_at_local": "2026-10-08T08:00:00+03:00",
-      "publish_at_utc": "2026-10-08T05:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "index": 2,
-      "title": "İstanbulda okul kavgası sekiz öğrenci yaralandı",
-      "narration": "Okul kavgasında kaç öğrenci yaralandı ve kim sorumlu altı Ekim Salı günü saat sekiz kırk itibarıyla Başakşehirde bir kavga çıktı ve sekiz öğrenci yaralandı Olayı yapan on beş yaşındaki kız öğrenci polis tarafından gözaltına alındı ve emniyete götürüldü Türkiyeden Haber kanalına abone ol",
-      "description": "Bu tür olayların önlenmesi için siz ne düşünüyorsunuz",
-      "visual_query": "school hallway stabbing",
-      "tags": [
-        "okul güvenliği",
-        "başakşehir",
-        "öğrenci yaralanması",
-        "polis gözaltı",
-        "eğitim"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Son dakika... İstanbul'da ortaokulda bir öğrenci 8 öğrenciyi bıçakladı - Sözcü",
+      "source_headline": "Bursa'da 6,5 ton sağlıksız gıda imha edildi",
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
-      "run_id": "37552368673",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "z8TwlfOsMbo",
-      "youtube_url": "https://youtu.be/z8TwlfOsMbo",
-      "publish_at_local": "2026-10-08T16:00:00+03:00",
-      "publish_at_utc": "2026-10-08T13:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "index": 3,
-      "title": "Başakşehir Ortaokulunda Başka Liseden Bıçaklı Saldırı",
-      "narration": "Başakşehir okuluna başka bir liseden öğrenci geldi Kız öğrenci başka bir Anadolu lisesinden kendi okulunun üniformasını giyerek okula geldi Okulda ani bir anda bıçakla saldırdı ve sekiz öğrenci yaralandı üçü ağır Sağlık ve polis ekipleri hızla müdahale etti yaralıları hastanelere kaldırdı ve tedaviye yönlendirdi Türkiyeden Haber kanalına abone ol",
-      "description": "Okulda böyle bir saldırı nasıl gerçekleşti siz ne düşünüyorsunuz",
-      "visual_query": "school knife attack",
-      "tags": [
-        "başakşehir",
-        "okul",
-        "bıçaklı saldırı",
-        "öğrenci",
-        "sağlık"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "Son dakika haberi: Başka bir okuldan üniformasıyla geldi, 6 öğrenciyi bıçakladı! | Son dakika haberleri - Habertürk",
-      "audience_bucket": "health_education",
-      "hook_style": "direct_change",
-      "run_id": "37552368673",
-      "processing_status": "readback_scope_unavailable"
+      "run_id": "37710029343"
     }
   ],
-  "errors": [
-    {
-      "source": "Yolcu vapuru yalıya böyle çarptı videosunu izle | Son Dakika Haberleri - Sabah",
-      "stage": "generation",
-      "error": "Same-Groq generation failed after 5 repairs: Editorial review: PAKET’teki birçok iddia KAYNAK’ta yer almıyor: 'kimler etkilendi' sorusu ve 'tamamen içinde yolcular bulunuyordu' ifadesi KAYNAK’ta sadece 'içerisinde yolcuların bulunduğu' deniyor, 'görüntü sosyal medyada hızla paylaşıldı' ve 'yetkililer inceleme başlattı ancak resmi açıklama yok' gibi açıklamalar KAYNAK’ta bulunmuyor. Başlık ve kanca soruları iddia değil, ancak paket içindeki anlatım KAYNAK’ta desteklenmediği için geçersiz kabul edilir."
-    },
-    {
-      "source": "Üsküdar'da yolcu vapuru tarihi yalıya çarptı",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    }
-  ]
+  "errors": []
 }

@@ -4119,6 +4119,24 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Bursada sağlıksız gıdalar neden imha edildi",
+      "summary": "Bursa'nın Osmangazi ilçesinde ruhsatsız bir depoda sağlıksız koşullarda saklanan ve küflendiği belirlenen yaklaşık 6,5 ton gıda ürünü imha edildi.",
+      "url": "https://www.trthaber.com/haber/turkiye/bursada-65-ton-sagliksiz-gida-imha-edildi-959424.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-07T15:26:00+03:00",
+      "fingerprint": "fe021c5f14f2052f34df64c8541b3b6338960dcb",
+      "viral_score": 38.99,
+      "scheduled_slot": "00:00",
+      "publish_at_local": "2026-10-09T00:00:00+03:00",
+      "youtube_url": "https://youtu.be/avYUvVG0fEM",
+      "video_id": "avYUvVG0fEM",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-08T04:14:35.656938+03:00",
+      "publish_at_utc": "2026-10-08T21:00:00Z",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
