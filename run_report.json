@@ -52,6 +52,31 @@
       "source_headline": "Ekim Ayı Ekonomi Takvimi Açıklanıyor Önemli Veriler Geliyor - HaberMetraj",
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
+      "run_id": "37710029343",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "WAo-0quGfgE",
+      "youtube_url": "https://youtu.be/WAo-0quGfgE",
+      "publish_at_local": "2026-10-09T16:00:00+03:00",
+      "publish_at_utc": "2026-10-09T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 3,
+      "title": "Dünya Osmanlı nadir eserleriyle dijital olarak buluşacak",
+      "narration": "Dünya artık Osmanlı nadir eserlerini dijital inceleyebilecek mi Kültür ve Turizm Bakanı Mehmet Nuri Ersoy koleksiyonun dijital ortama aktarıldığını ve kütüphaneye eklendiğini duyurdu Bu sayede dünya üzerindeki araştırmacılar nadir Osmanlı eserlerini internet üzerinden daha fazla insan inceleyebilecek Türkiyeden Haber kanalına abone ol",
+      "description": "Siz de bu dijital koleksiyonda hangi Osmanlı eserini keşfetmek istersiniz",
+      "visual_query": "digital manuscript archive",
+      "tags": [
+        "Osmanlı",
+        "dijital koleksiyon",
+        "kültür mirası",
+        "Süleymaniye Kütüphanesi",
+        "Mehmet Nuri Ersoy"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Asırların hazinesi dünyaya açıldı... 525 nadide eser dijital erişimde - Gündem Alanya",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question",
       "run_id": "37710029343"
     }
   ],
