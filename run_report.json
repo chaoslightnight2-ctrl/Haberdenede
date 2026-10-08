@@ -3,7 +3,7 @@
   "generated_at": "2026-10-08T03:56:06.123352+03:00",
   "target_count": 3,
   "dry_run": false,
-  "complete": false,
+  "complete": true,
   "videos": [
     {
       "video_id": "avYUvVG0fEM",
@@ -77,7 +77,8 @@
       "source_headline": "Asırların hazinesi dünyaya açıldı... 525 nadide eser dijital erişimde - Gündem Alanya",
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
-      "run_id": "37710029343"
+      "run_id": "37710029343",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": []
