@@ -1,78 +1,67 @@
 {
-  "source_run": "37552368673",
-  "verified_at": "2026-10-07T05:55:43.684095+00:00",
+  "source_run": "37710029343",
+  "verified_at": "2026-10-08T01:38:54.914660+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "5I5Bhu10y3w",
-      "youtube_url": "https://youtu.be/5I5Bhu10y3w",
-      "title": "Altın kilogram fiyatı bugün yüzde sıfır virgül altı arttı",
-      "narration": "Altın kilogram fiyatı bugün ne kadar oldu Standart altının kilogram fiyatı dün altı milyon beş yüz yetmiş bin bir liradan başladı Günün sonunda yüzde sıfır virgül altı artışla fiyat altı milyon altı yüz on bin liraya yükseldi En çok işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-07T21:00:00Z",
+      "video_id": "avYUvVG0fEM",
+      "youtube_url": "https://youtu.be/avYUvVG0fEM",
+      "title": "Bursada sağlıksız gıdalar neden imha edildi",
+      "narration": "Bursada sağlıksız gıdalar neden imha edildi Osmangazi İlçe Tarım ve Orman Müdürlüğü ekipleri depoya girerek sağlıksız gıdalara el koydu Depo işletmecisi hakkında yasal işlem başlatıldı ve ürünler kamyonlarla toplu imha edildi Yaklaşık altı bin beş yüz kilogram zeytin turşu ve diğer gıdalar güvenli bir şekilde yok edildi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-08T21:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 27.233333,
+        "duration": 27.7,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/5I5Bhu10y3w.jpg"
+      "preview": "maintenance/previews/avYUvVG0fEM.jpg"
     },
     {
       "index": 2,
-      "video_id": "OuHF-39MEmk",
-      "youtube_url": "https://youtu.be/OuHF-39MEmk",
-      "title": "İstanbulda okul kavgası sekiz öğrenci yaralandı",
-      "narration": "Okul kavgasında kaç öğrenci yaralandı ve kim sorumlu altı Ekim Salı günü saat sekiz kırk itibarıyla Başakşehirde bir kavga çıktı ve sekiz öğrenci yaralandı Olayı yapan on beş yaşındaki kız öğrenci polis tarafından gözaltına alındı ve emniyete götürüldü Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-08T05:00:00Z",
+      "video_id": "xV3iOKDyJX0",
+      "youtube_url": "https://youtu.be/xV3iOKDyJX0",
+      "title": "Ekim ayında açıklanacak kritik ekonomik veriler",
+      "narration": "Ekim ayında hangi ekonomik veriler açıklanacak Ticaret Bakanı Ömer Bolat üç Ekimde İstanbulda dış ticaret rakamlarını kamuoyuna duyuracak Türkiye İstatistik Kurumu beş Ekimde eylül ayı enflasyon verilerini kamuoyuna resmen açıklayacak Merkez Bankası Başkanı Fatih Karahan altı Ekimde TBMMde küresel gelişmeler ve para politikası hakkında sunum yapacak Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-09T05:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 21.833333,
+        "duration": 29.333333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/OuHF-39MEmk.jpg"
+      "preview": "maintenance/previews/xV3iOKDyJX0.jpg"
     },
     {
       "index": 3,
-      "video_id": "z8TwlfOsMbo",
-      "youtube_url": "https://youtu.be/z8TwlfOsMbo",
-      "title": "Başakşehir Ortaokulunda Başka Liseden Bıçaklı Saldırı",
-      "narration": "Başakşehir okuluna başka bir liseden öğrenci geldi Kız öğrenci başka bir Anadolu lisesinden kendi okulunun üniformasını giyerek okula geldi Okulda ani bir anda bıçakla saldırdı ve sekiz öğrenci yaralandı üçü ağır Sağlık ve polis ekipleri hızla müdahale etti yaralıları hastanelere kaldırdı ve tedaviye yönlendirdi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-08T13:00:00Z",
+      "video_id": "WAo-0quGfgE",
+      "youtube_url": "https://youtu.be/WAo-0quGfgE",
+      "title": "Dünya Osmanlı nadir eserleriyle dijital olarak buluşacak",
+      "narration": "Dünya artık Osmanlı nadir eserlerini dijital inceleyebilecek mi Kültür ve Turizm Bakanı Mehmet Nuri Ersoy koleksiyonun dijital ortama aktarıldığını ve kütüphaneye eklendiğini duyurdu Bu sayede dünya üzerindeki araştırmacılar nadir Osmanlı eserlerini internet üzerinden daha fazla insan inceleyebilecek Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-09T13:00:00Z",
       "upload_status": "api_insert_confirmed",
       "processing_status": "readback_scope_unavailable",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 26.766667,
+        "duration": 24.733333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/z8TwlfOsMbo.jpg"
+      "preview": "maintenance/previews/WAo-0quGfgE.jpg"
     }
   ],
   "errors": [],
   "accepted_count": 3,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "Yolcu vapuru yalıya böyle çarptı videosunu izle | Son Dakika Haberleri - Sabah",
-      "stage": "generation",
-      "error": "Same-Groq generation failed after 5 repairs: Editorial review: PAKET’teki birçok iddia KAYNAK’ta yer almıyor: 'kimler etkilendi' sorusu ve 'tamamen içinde yolcular bulunuyordu' ifadesi KAYNAK’ta sadece 'içerisinde yolcuların bulunduğu' deniyor, 'görüntü sosyal medyada hızla paylaşıldı' ve 'yetkililer inceleme başlattı ancak resmi açıklama yok' gibi açıklamalar KAYNAK’ta bulunmuyor. Başlık ve kanca soruları iddia değil, ancak paket içindeki anlatım KAYNAK’ta desteklenmediği için geçersiz kabul edilir."
-    },
-    {
-      "source": "Üsküdar'da yolcu vapuru tarihi yalıya çarptı",
-      "stage": "generation",
-      "error": "Source too short to support a complete news narration"
-    }
-  ],
+  "generation_errors": [],
   "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
