@@ -27,6 +27,31 @@
       "source_headline": "Bursa'da 6,5 ton sağlıksız gıda imha edildi",
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
+      "run_id": "37710029343",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "xV3iOKDyJX0",
+      "youtube_url": "https://youtu.be/xV3iOKDyJX0",
+      "publish_at_local": "2026-10-09T08:00:00+03:00",
+      "publish_at_utc": "2026-10-09T05:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "index": 2,
+      "title": "Ekim ayında açıklanacak kritik ekonomik veriler",
+      "narration": "Ekim ayında hangi ekonomik veriler açıklanacak Ticaret Bakanı Ömer Bolat üç Ekimde İstanbulda dış ticaret rakamlarını kamuoyuna duyuracak Türkiye İstatistik Kurumu beş Ekimde eylül ayı enflasyon verilerini kamuoyuna resmen açıklayacak Merkez Bankası Başkanı Fatih Karahan altı Ekimde TBMMde küresel gelişmeler ve para politikası hakkında sunum yapacak Türkiyeden Haber kanalına abone ol",
+      "description": "Ekim ayı ekonomik takvimini kaçırmayın sizce en kritik veri hangisi",
+      "visual_query": "economic calendar chart",
+      "tags": [
+        "ekim ekonomik takvim",
+        "dış ticaret verileri",
+        "enflasyon açıklaması",
+        "merkez bankası sunumu",
+        "ekonomik veri takvimi"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Ekim Ayı Ekonomi Takvimi Açıklanıyor Önemli Veriler Geliyor - HaberMetraj",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
       "run_id": "37710029343"
     }
   ],
