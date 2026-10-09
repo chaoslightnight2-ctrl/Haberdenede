@@ -1,69 +1,19 @@
 {
-  "source_run": "37710029343",
-  "verified_at": "2026-10-08T01:38:54.914660+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "avYUvVG0fEM",
-      "youtube_url": "https://youtu.be/avYUvVG0fEM",
-      "title": "Bursada sağlıksız gıdalar neden imha edildi",
-      "narration": "Bursada sağlıksız gıdalar neden imha edildi Osmangazi İlçe Tarım ve Orman Müdürlüğü ekipleri depoya girerek sağlıksız gıdalara el koydu Depo işletmecisi hakkında yasal işlem başlatıldı ve ürünler kamyonlarla toplu imha edildi Yaklaşık altı bin beş yüz kilogram zeytin turşu ve diğer gıdalar güvenli bir şekilde yok edildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-08T21:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 27.7,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/avYUvVG0fEM.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "xV3iOKDyJX0",
-      "youtube_url": "https://youtu.be/xV3iOKDyJX0",
-      "title": "Ekim ayında açıklanacak kritik ekonomik veriler",
-      "narration": "Ekim ayında hangi ekonomik veriler açıklanacak Ticaret Bakanı Ömer Bolat üç Ekimde İstanbulda dış ticaret rakamlarını kamuoyuna duyuracak Türkiye İstatistik Kurumu beş Ekimde eylül ayı enflasyon verilerini kamuoyuna resmen açıklayacak Merkez Bankası Başkanı Fatih Karahan altı Ekimde TBMMde küresel gelişmeler ve para politikası hakkında sunum yapacak Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-09T05:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.333333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/xV3iOKDyJX0.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "WAo-0quGfgE",
-      "youtube_url": "https://youtu.be/WAo-0quGfgE",
-      "title": "Dünya Osmanlı nadir eserleriyle dijital olarak buluşacak",
-      "narration": "Dünya artık Osmanlı nadir eserlerini dijital inceleyebilecek mi Kültür ve Turizm Bakanı Mehmet Nuri Ersoy koleksiyonun dijital ortama aktarıldığını ve kütüphaneye eklendiğini duyurdu Bu sayede dünya üzerindeki araştırmacılar nadir Osmanlı eserlerini internet üzerinden daha fazla insan inceleyebilecek Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-09T13:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "processing_status": "readback_scope_unavailable",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 24.733333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/WAo-0quGfgE.jpg"
-    }
-  ],
+  "source_run": "37868107266",
+  "verified_at": "2026-10-09T04:08:57.249088+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
+  "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
-  "public_listing_error": "HTTPError",
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "cannot open resource"
+    }
+  ],
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
