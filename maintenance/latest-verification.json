@@ -1,18 +1,12 @@
 {
-  "source_run": "37868107266",
-  "verified_at": "2026-10-09T04:08:57.249088+00:00",
+  "source_run": "38009946475",
+  "verified_at": "2026-10-10T00:41:29.374967+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "cannot open resource"
-    }
-  ],
+  "generation_errors": [],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
