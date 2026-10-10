@@ -1,15 +1,9 @@
 {
-  "run_id": "37868107266",
-  "generated_at": "2026-10-09T04:08:06.002672+03:00",
+  "run_id": "38009946475",
+  "generated_at": "2026-10-10T03:40:06.181631+03:00",
   "target_count": 3,
   "dry_run": false,
   "complete": false,
   "videos": [],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "cannot open resource"
-    }
-  ]
+  "errors": []
 }
