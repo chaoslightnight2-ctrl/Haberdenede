@@ -1,38 +1,37 @@
 {
-  "run_id": "38582708517",
-  "generated_at": "2026-10-14T17:44:06.177310+03:00",
+  "run_id": "38617356852",
+  "generated_at": "2026-10-14T21:44:06.472575+03:00",
   "target_count": 1,
   "dry_run": false,
   "private_recovery": true,
-  "complete": true,
+  "complete": false,
   "videos": [
     {
-      "video_id": "G3NXT6So5Eg",
-      "youtube_url": "https://youtu.be/G3NXT6So5Eg",
+      "video_id": "y-9w6DCPS8o",
+      "youtube_url": "https://youtu.be/y-9w6DCPS8o",
       "publish_at_local": null,
       "publish_at_utc": null,
       "upload_status": "api_insert_confirmed",
       "private_recovery": true,
       "index": 1,
-      "title": "IPA II kapanışta üç yüz işletme dijital dönüşümde",
-      "narration": "IPA II kapanışta kaç işletme dijital dönüşümde Bozay dünya genelindeki karışıklıkların arttığı dönemde rekabetin daha da arttığını vurguladı Hatip IPA III kapsamındaki imalat sanayimizin dijital dönüşümünü hızlandırıyoruz ve üç yüz işletmemizi dijital dönüşümle buluşturuyoruz Hatip yeşil dönüşümde ise çok daha büyük adımlarla Türkiye Yeşil Mutabakat Eylem Planı sorumluluğunu üstleniyoruz Türkiyeden Haber kanalına abone ol",
-      "description": "Dijital dönüşümle güçlenen işletmeler geleceğin sanayisini nasıl şekillendirecek sizce",
-      "visual_query": "conference hall presentation",
+      "title": "İstanbulda şiddetli yağış okulları bir gün kapattı",
+      "narration": "İstanbulda yağmur yüzünden okullar bir gün kapandı mı Şiddetli yağışlar İstanbulda su birikintileri oluşturdu ve yolları göle çevirdi bazı araçlar kaldı Valilik bir gün süreyle yüz yüze eğitimine ara verildiğini duyurdu ve ulaşımda yoğunluk yaşandı AFAD ve belediyeler binlerce personelle müdahale ekipleri göndererek su baskınlarını kontrol etti Türkiyeden Haber kanalına abone ol",
+      "description": "Yağışların okullarınızı etkilediğini düşündünüz mü",
+      "visual_query": "flooded street school",
       "tags": [
-        "IPA II",
-        "dijital dönüşüm",
-        "yeşil dönüşüm",
-        "Türk sanayi",
-        "AB işbirliği"
+        "İstanbul",
+        "yağış",
+        "okul",
+        "taşıma",
+        "afet"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Ankara'da IPA II Dönemi Kapanış Konferansı yapıldı",
-      "audience_bucket": "technology_science",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-14T14:48:13.977007+00:00",
-      "source_modified_at": "2026-10-14T12:37:39.12",
-      "run_id": "38582708517",
-      "processing_status": "readback_scope_unavailable"
+      "source_headline": "İstanbul'da eğitime 1 gün ara verildi",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-14T18:44:34.397856+00:00",
+      "source_modified_at": "",
+      "run_id": "38617356852"
     }
   ],
   "errors": [
@@ -40,11 +39,6 @@
       "source": "BES fonları çok katmanlı denetim ağıyla korunuyor",
       "stage": "generation",
       "error": "Source has no bounded complete lead and update sentences"
-    },
-    {
-      "source": "Bakan Bayraktar: Türkiye, dünyanın en büyük ve en gelişmiş LPG pazarlarından birine sahip",
-      "stage": "generation",
-      "error": "Source rejected: Kaynakta yeni bir gelişme ya da somut değişiklik bulunmadığı için uygun değil"
     }
   ]
 }

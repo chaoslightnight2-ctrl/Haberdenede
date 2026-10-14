@@ -4251,6 +4251,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbulda şiddetli yağış okulları bir gün kapattı",
+      "summary": "İstanbul Valiliği, olumsuz hava koşulları nedeniyle kent genelinde yüz yüze eğitime yarın ara verildiğini açıkladı.",
+      "url": "https://www.trthaber.com/haber/turkiye/istanbulda-egitime-1-gun-ara-verildi-960119.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-14T18:38:00+03:00",
+      "fingerprint": "b0219c3fe85f7f6cdb22c0f8ecedb07e4c9bbdcf",
+      "viral_score": 72.03,
+      "scheduled_slot": "23:00",
+      "publish_at_local": null,
+      "youtube_url": "https://youtu.be/y-9w6DCPS8o",
+      "video_id": "y-9w6DCPS8o",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-14T21:59:08.511355+03:00",
+      "publish_at_utc": null,
+      "private_recovery": true,
+      "source_headline": "İstanbul'da eğitime 1 gün ara verildi",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbulda-egitime-1-gun-ara-verildi-960119.html",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
