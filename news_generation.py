@@ -7,7 +7,7 @@ from groq_client import chat_json, object_schema
 from prompt_contract import CLEAN_OUTPUT_RULES, NATURAL_LANGUAGE_RULES
 from audience_strategy import brief, STORY_RULES, category
 from performance_feedback import prompt_feedback, choose_hook_style
-from quality_gate import compact, tts_text, validate_package, validate_visual_query
+from quality_gate import compact, spoken_text, tts_text, validate_package, validate_visual_query
 
 
 class SourceRejected(ValueError):
@@ -22,7 +22,7 @@ def package_schema(categories, channel):
     fields['hook']['description'] = 'One complete natural Turkish hook, six to twelve words, directly answered by the narration. No punctuation, digits or source references.'
     fields['visual_query']['description'] = 'Three to five lowercase ASCII English words describing the relevant visible subject'
     fields.update(suitable={"type": "boolean"}, topic_bucket={"type": "string", "enum": categories})
-    fields['cta'] = {"type": "string", "enum": [f"{channel} kanalına abone ol"]}
+    fields['cta'] = {"type": "string", "enum": [spoken_text(f"{channel} kanalına abone ol")]}
     fields.update({key: {"type": "array", "items": {"type": "string"}} for key in ("narration_parts", "tags", "hashtags")})
     fields['narration_parts']['items']['description'] = 'Complete natural Turkish sentence directly supported by source with exact person-action-outcome association. No punctuation, numerical digits, attribution, production instruction or filler.'
     fields['hashtags']['description'] = 'Two topical hashtag keywords, metadata only. #shorts is added by the publishing formatter.'
@@ -30,6 +30,7 @@ def package_schema(categories, channel):
 
 
 def generate(item, bot, channel):
+    spoken_cta = spoken_text(f"{channel} kanalına abone ol")
     history = bot.load_json(bot.HISTORY_FILE, {}) if hasattr(bot, 'HISTORY_FILE') and hasattr(bot, 'load_json') else {}
     hook_style = choose_hook_style(history)
     opening = 'İlk cümlede somut değişikliği doğrudan belirt' if hook_style == 'direct_change' else 'İlk cümlede somut tek soruyu sor ve son bilgi cümlesinde yanıtla'
@@ -68,7 +69,7 @@ hook 6-12 Türkçe kelime tek tamamlanmış kanca olsun ve anlatımda doğrudan 
 narration_parts 2-4 tamamlanmış kısa cümle olsun Cümle başına yaklaşık 12-18 kelime hedefle.
 hook narration_parts ve cta toplamı 40-50 kelime olsun Kelime hedefini dolgu ile tutturma.
 Konuşmanın ham alanlarında dahi rakam noktalama site kaynak veya yardımcı not olmasın.
-cta aynen {channel} kanalına abone ol değerini taşısın Başka alana abonelik çağrısı ekleme.
+cta aynen {spoken_cta} değerini taşısın Başka alana abonelik çağrısı ekleme.
 description konuya özel kısa açıklama ve doğrudan izleyiciye bir yorum sorusu olsun.
 Kategori anahtarını hashtag yapma Hashtagler Türkçe ve gerçek konuya özel olsun Başlıkta sayıyı kısa rakam veya yüzde gösterimiyle yaz Konuşmada sayıyı Türkçe sözcüklerle yaz
 tags beş konuya özel ilgili arama terimi hashtags tam iki farklı konuya özel hashtag sözcüğü olsun shorts ekleme Yayın biçimleyicisi shorts etiketini ekler.
