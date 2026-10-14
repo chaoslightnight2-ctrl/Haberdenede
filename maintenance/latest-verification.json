@@ -1,43 +1,47 @@
 {
-  "source_run": "38488872695",
-  "verified_at": "2026-10-14T06:30:41.152534+00:00",
+  "source_run": "38570302930",
+  "verified_at": "2026-10-14T13:36:28.746345+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "4OJ1YKwhZMo",
-      "youtube_url": "https://youtu.be/4OJ1YKwhZMo",
-      "title": "Gümrük Birliği ile ticaret on bir katına çıktı",
-      "narration": "Gümrük Birliği ticareti nasıl on katına çıkardı Yıllık ticaretimiz yirmi bir milyar dolardan iki yüz otuz üç milyar dolara yükselerek on bir katına çıktı Bu artış Gümrük Birliği sayesinde iki taraf arasında yatırım ve sanayi entegrasyonunu güçlendirdi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-14T13:00:00Z",
+      "video_id": "uXcM4cK54V4",
+      "youtube_url": "https://youtu.be/uXcM4cK54V4",
+      "title": "Dördüz Kardeşler Tek Üniversitede Buluştu",
+      "narration": "Dördüz kardeşler aynı üniversitede mi okuyorlar Önder İhsan Kul Esra Selin Kul ve Azra Aylin Kul ITU de bölümlerde eğitim görüyor Ömer Şahin Kul da ITU İnşaat Mühendisliği bölümüne geçiş yaparak derslerine devam ediyor Kardeşler kampüste sık sık buluşup etkinliklere katılıyor ve birbirlerine destek oluyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": null,
       "upload_status": "youtube_processed",
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 22.2,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/4OJ1YKwhZMo.jpg",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-14T13:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
         "madeForKids": false,
         "selfDeclaredMadeForKids": false
-      }
+      },
+      "processing_status": "succeeded",
+      "publication_status": "not_verified",
+      "media_check": {
+        "duration": 26.733333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/uXcM4cK54V4.jpg"
     }
   ],
   "errors": [],
   "accepted_count": 1,
   "processed_count": 1,
   "complete": false,
-  "generation_errors": [],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "generation_errors": [
+    {
+      "source": "BES fonları çok katmanlı denetim ağıyla korunuyor",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
