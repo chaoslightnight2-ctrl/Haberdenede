@@ -1,9 +1,28 @@
 {
-  "source_run": "38473207439",
-  "verified_at": "2026-10-14T03:49:31.663528+00:00",
-  "videos": [],
+  "source_run": "38488872695",
+  "verified_at": "2026-10-14T06:07:42.779960+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "4OJ1YKwhZMo",
+      "youtube_url": "https://youtu.be/4OJ1YKwhZMo",
+      "title": "Gümrük Birliği ile ticaret on bir katına çıktı",
+      "narration": "Gümrük Birliği ticareti nasıl on katına çıkardı Yıllık ticaretimiz yirmi bir milyar dolardan iki yüz otuz üç milyar dolara yükselerek on bir katına çıktı Bu artış Gümrük Birliği sayesinde iki taraf arasında yatırım ve sanayi entegrasyonunu güçlendirdi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-14T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "processing_status": "readback_scope_unavailable",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 22.2,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/4OJ1YKwhZMo.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
+  "accepted_count": 1,
   "processed_count": 0,
   "complete": false,
   "generation_errors": [],
