@@ -4249,7 +4249,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/ankarada-ipa-ii-donemi-kapanis-konferansi-yapildi/4088289",
       "source_modified_at": "2026-10-14T12:37:39.12",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
