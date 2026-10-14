@@ -171,25 +171,4 @@ jobs:
       - name: Commit rendered shorts and history
         if: always() && !cancelled() && inputs.dry_run != true
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f generated_videos/
-          git add selected_news.json video_plan.json news_history.json
-          if [ -f run_report.json ]; then git add -f run_report.json; fi
-          if git diff --cached --quiet; then
-            echo "No video or history changes to commit."
-            exit 0
-          fi
-          git commit -m "Save generated Shorts videos"
-          for attempt in 1 2 3; do
-            echo "Upload history push attempt $attempt"
-            git pull --rebase --autostash origin main
-            if git push origin HEAD:main; then
-              echo "Videos and history pushed successfully."
-              exit 0
-            fi
-            sleep 5
-          done
-          echo "Failed to push video/history files after retries."
-          exit 1
-
+          python -m upload_checkpoint generated_videos/*.mp4 selected_news.json video_plan.json news_history.json run_report.json
