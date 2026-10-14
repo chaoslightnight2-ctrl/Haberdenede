@@ -1,9 +1,39 @@
 {
-  "run_id": "38187757479",
-  "generated_at": "2026-10-12T03:24:06.022835+03:00",
+  "run_id": "38488872695",
+  "generated_at": "2026-10-14T06:52:06.107087+03:00",
   "target_count": 3,
   "dry_run": false,
+  "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "4OJ1YKwhZMo",
+      "youtube_url": "https://youtu.be/4OJ1YKwhZMo",
+      "publish_at_local": "2026-10-14T16:00:00+03:00",
+      "publish_at_utc": "2026-10-14T13:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Gümrük Birliği ile ticaret on bir katına çıktı",
+      "narration": "Gümrük Birliği ticareti nasıl on katına çıkardı Yıllık ticaretimiz yirmi bir milyar dolardan iki yüz otuz üç milyar dolara yükselerek on bir katına çıktı Bu artış Gümrük Birliği sayesinde iki taraf arasında yatırım ve sanayi entegrasyonunu güçlendirdi Türkiyeden Haber kanalına abone ol",
+      "description": "Gümrük Birliği ticaretinizi nasıl etkiledi sizce",
+      "visual_query": "handshake trade agreement",
+      "tags": [
+        "gümrük birliği",
+        "ticaret hacmi",
+        "AB ilişkileri",
+        "ekonomi",
+        "sanayi"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Ticaret Bakanı Bolat'tan AB'ye Türkiye'yi dışlamama uyarısı",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-14T03:52:40.356170+00:00",
+      "source_modified_at": "2026-10-13T18:31:01.367",
+      "run_id": "38488872695",
+      "processing_status": "readback_scope_unavailable"
+    }
+  ],
   "errors": []
 }
