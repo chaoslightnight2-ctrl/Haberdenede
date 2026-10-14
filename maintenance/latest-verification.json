@@ -1,13 +1,47 @@
 {
-  "source_run": "38614906525",
-  "verified_at": "2026-10-14T18:43:08.581700+00:00",
-  "videos": [],
+  "source_run": "38617356852",
+  "verified_at": "2026-10-14T19:00:10.961183+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "y-9w6DCPS8o",
+      "youtube_url": "https://youtu.be/y-9w6DCPS8o",
+      "title": "İstanbulda şiddetli yağış okulları bir gün kapattı",
+      "narration": "İstanbulda yağmur yüzünden okullar bir gün kapandı mı Şiddetli yağışlar İstanbulda su birikintileri oluşturdu ve yolları göle çevirdi bazı araçlar kaldı Valilik bir gün süreyle yüz yüze eğitimine ara verildiğini duyurdu ve ulaşımda yoğunluk yaşandı AFAD ve belediyeler binlerce personelle müdahale ekipleri göndererek su baskınlarını kontrol etti Türkiyeden Haber kanalına abone ol",
+      "publish_at": null,
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "not_verified",
+      "media_check": {
+        "duration": 27.166667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/y-9w6DCPS8o.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "BES fonları çok katmanlı denetim ağıyla korunuyor",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
