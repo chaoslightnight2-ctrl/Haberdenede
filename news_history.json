@@ -4205,6 +4205,28 @@
       "run_id": "38488872695",
       "processing_status": "readback_scope_unavailable",
       "recovered_from_artifact": true
+    },
+    {
+      "title": "Dördüz Kardeşler Tek Üniversitede Buluştu",
+      "summary": "Eğitim hayatlarının büyük bölümünü birlikte geçiren dördüz kardeşler Önder İhsan, Ömer Şahin, Esra Selin ve Azra Aylin Kul, farklı mühendislik bölümlerinde okudukları İstanbul Teknik Üniversitesi'nde İTÜ aynı kampüste üniversite heyecanını paylaşıyor.",
+      "url": "https://www.trthaber.com/haber/turkiye/dorduz-kardesler-universite-hayatini-da-birlikte-yasiyor-960082.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-14T11:36:00+03:00",
+      "fingerprint": "de7e8516a25fd05527553bf5093584bbb054d08d",
+      "viral_score": 64.41,
+      "scheduled_slot": "00:00",
+      "publish_at_local": null,
+      "youtube_url": "https://youtu.be/uXcM4cK54V4",
+      "video_id": "uXcM4cK54V4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-14T16:35:22.747266+03:00",
+      "publish_at_utc": null,
+      "private_recovery": true,
+      "source_headline": "Dördüz kardeşler üniversite hayatını da birlikte yaşıyor",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/dorduz-kardesler-universite-hayatini-da-birlikte-yasiyor-960082.html",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
