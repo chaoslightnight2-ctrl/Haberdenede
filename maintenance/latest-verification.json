@@ -1,13 +1,13 @@
 {
-  "source_run": "38570302930",
-  "verified_at": "2026-10-14T13:36:28.746345+00:00",
+  "source_run": "38582708517",
+  "verified_at": "2026-10-14T17:08:31.834443+00:00",
   "videos": [
     {
       "index": 1,
-      "video_id": "uXcM4cK54V4",
-      "youtube_url": "https://youtu.be/uXcM4cK54V4",
-      "title": "Dördüz Kardeşler Tek Üniversitede Buluştu",
-      "narration": "Dördüz kardeşler aynı üniversitede mi okuyorlar Önder İhsan Kul Esra Selin Kul ve Azra Aylin Kul ITU de bölümlerde eğitim görüyor Ömer Şahin Kul da ITU İnşaat Mühendisliği bölümüne geçiş yaparak derslerine devam ediyor Kardeşler kampüste sık sık buluşup etkinliklere katılıyor ve birbirlerine destek oluyor Türkiyeden Haber kanalına abone ol",
+      "video_id": "G3NXT6So5Eg",
+      "youtube_url": "https://youtu.be/G3NXT6So5Eg",
+      "title": "IPA II kapanışta üç yüz işletme dijital dönüşümde",
+      "narration": "IPA II kapanışta kaç işletme dijital dönüşümde Bozay dünya genelindeki karışıklıkların arttığı dönemde rekabetin daha da arttığını vurguladı Hatip IPA III kapsamındaki imalat sanayimizin dijital dönüşümünü hızlandırıyoruz ve üç yüz işletmemizi dijital dönüşümle buluşturuyoruz Hatip yeşil dönüşümde ise çok daha büyük adımlarla Türkiye Yeşil Mutabakat Eylem Planı sorumluluğunu üstleniyoruz Türkiyeden Haber kanalına abone ol",
       "publish_at": null,
       "upload_status": "youtube_processed",
       "youtube_status": {
@@ -22,12 +22,12 @@
       "processing_status": "succeeded",
       "publication_status": "not_verified",
       "media_check": {
-        "duration": 26.733333,
+        "duration": 30.9,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/uXcM4cK54V4.jpg"
+      "preview": "maintenance/previews/G3NXT6So5Eg.jpg"
     }
   ],
   "errors": [],
@@ -39,6 +39,11 @@
       "source": "BES fonları çok katmanlı denetim ağıyla korunuyor",
       "stage": "generation",
       "error": "Source has no bounded complete lead and update sentences"
+    },
+    {
+      "source": "Bakan Bayraktar: Türkiye, dünyanın en büyük ve en gelişmiş LPG pazarlarından birine sahip",
+      "stage": "generation",
+      "error": "Source rejected: Kaynakta yeni bir gelişme ya da somut değişiklik bulunmadığı için uygun değil"
     }
   ],
   "target_count": 1,
