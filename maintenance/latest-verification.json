@@ -1,52 +1,13 @@
 {
-  "source_run": "38582708517",
-  "verified_at": "2026-10-14T17:08:31.834443+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "G3NXT6So5Eg",
-      "youtube_url": "https://youtu.be/G3NXT6So5Eg",
-      "title": "IPA II kapanışta üç yüz işletme dijital dönüşümde",
-      "narration": "IPA II kapanışta kaç işletme dijital dönüşümde Bozay dünya genelindeki karışıklıkların arttığı dönemde rekabetin daha da arttığını vurguladı Hatip IPA III kapsamındaki imalat sanayimizin dijital dönüşümünü hızlandırıyoruz ve üç yüz işletmemizi dijital dönüşümle buluşturuyoruz Hatip yeşil dönüşümde ise çok daha büyük adımlarla Türkiye Yeşil Mutabakat Eylem Planı sorumluluğunu üstleniyoruz Türkiyeden Haber kanalına abone ol",
-      "publish_at": null,
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "not_verified",
-      "media_check": {
-        "duration": 30.9,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/G3NXT6So5Eg.jpg"
-    }
-  ],
+  "source_run": "38614906525",
+  "verified_at": "2026-10-14T18:43:08.581700+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "BES fonları çok katmanlı denetim ağıyla korunuyor",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
-    },
-    {
-      "source": "Bakan Bayraktar: Türkiye, dünyanın en büyük ve en gelişmiş LPG pazarlarından birine sahip",
-      "stage": "generation",
-      "error": "Source rejected: Kaynakta yeni bir gelişme ya da somut değişiklik bulunmadığı için uygun değil"
-    }
-  ],
+  "generation_errors": [],
   "target_count": 1,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
