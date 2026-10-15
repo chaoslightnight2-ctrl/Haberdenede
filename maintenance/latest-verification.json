@@ -1,14 +1,42 @@
 {
-  "source_run": "38772894128",
-  "verified_at": "2026-10-15T17:21:47.600303+00:00",
-  "videos": [],
-  "errors": [
-    "Artifact report belongs to another run"
+  "source_run": "38777304635",
+  "verified_at": "2026-10-15T17:44:14.461261+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "IEy5h8Tbu9o",
+      "youtube_url": "https://youtu.be/IEy5h8Tbu9o",
+      "title": "Altın kilogram fiyatı yüzde bir virgül yirmi üç arttı",
+      "narration": "Altının kilogram fiyatı bugün yüzde bir virgül yirmi üç arttı Standart altının kilogram fiyatı sonunda yüzde bir virgül yirmi üç artışla altı milyon beşyüz seksen bin lira oldu Dün ise fiyat altı milyon beş yüz bin lira seviyesindeydi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-15T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-15T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 20.633333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/IEy5h8Tbu9o.jpg"
+    }
   ],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "errors": [],
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "target_count": 3,
+  "generation_errors": [],
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
