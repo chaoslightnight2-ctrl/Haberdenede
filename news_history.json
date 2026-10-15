@@ -4343,6 +4343,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Üsküdar Belediye Başkan Vekili trafik kazasında hayatını kaybetti",
+      "summary": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti Hürriyet",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUGlfLTQ1TzZzaTM1cEpYTkVVdTg3R0dodzNnYm5UVzU5R3RKcW91RDRmSkVtM0ZjdW5VVW5XLTN6bERuQ0NfUmpxdnZyNFllVHFIZHNPT0FNbFkxYlFPdElsX21HNzd2Y0hBZWx3YmRMeHd2SmFoUTRSQzJLM3haQ2ZJcEJXaEZRcG1nUGRjR0JsTnllTE1lWUM4bTdNeVQ5LTdwc0JfV2ZmSXEweUxTeVozOFI3TmpNaUQ1aWhjaEdmWEFWM25EU0Rn?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-15T17:55:32+03:00",
+      "fingerprint": "7ae444d32cfa7b013bbb9ca0950c002b1530dddf",
+      "viral_score": 69.67,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-16T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/nWTTqtIisLc",
+      "video_id": "nWTTqtIisLc",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-16T00:31:01.926954+03:00",
+      "publish_at_utc": "2026-10-16T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUGlfLTQ1TzZzaTM1cEpYTkVVdTg3R0dodzNnYm5UVzU5R3RKcW91RDRmSkVtM0ZjdW5VVW5XLTN6bERuQ0NfUmpxdnZyNFllVHFIZHNPT0FNbFkxYlFPdElsX21HNzd2Y0hBZWx3YmRMeHd2SmFoUTRSQzJLM3haQ2ZJcEJXaEZRcG1nUGRjR0JsTnllTE1lWUM4bTdNeVQ5LTdwc0JfV2ZmSXEweUxTeVozOFI3TmpNaUQ1aWhjaEdmWEFWM25EU0Rn?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
