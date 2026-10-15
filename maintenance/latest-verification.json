@@ -1,108 +1,13 @@
 {
-  "source_run": "38809208540",
-  "verified_at": "2026-10-15T21:37:17.629962+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "nWTTqtIisLc",
-      "youtube_url": "https://youtu.be/nWTTqtIisLc",
-      "title": "Üsküdar Belediye Başkan Vekili trafik kazasında hayatını kaybetti",
-      "narration": "Üsküdar Belediye Başkan Vekili kazada hayatını kaybetti mi Anadolu Otoyolu Düzce kesiminde Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekinin bulunduğu araç başka bir araçla çarpıştı ve Gültekin yaşamını yitirdi Kazada dört kişi yaralanırken kaza yerinde sağlık ekipleri müdahale etti ancak Gültekin kurtarılamadı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-16T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-16T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 25.6,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/nWTTqtIisLc.jpg"
-    }
-  ],
+  "source_run": "38824610687",
+  "verified_at": "2026-10-15T23:38:47.088023+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "Türkiye Sigorta ve Türkiye Hayat Emeklilik Genel Müdürü Taha Çakmak'ın mal varlığına tedbir ve yurtdışı yasağı - Sözcü Gazetesi",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "CANLI İstanbul'u sel vurdu: İstanbul'da eğitime yarın da ara verildi | Sarıyer'de sel böyle geldi - Hürriyet",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Olka Group’tan çocukların Ve Genç Kadınların Geleceğine Destek: Hayat Adımları - Marketing Türkiye",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Fransa'da polis okul personelini darbetti - Hürriyet",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Kayseri ulaşımında yeni dönem: Pilot il oldu! - kayserihaber.com",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "4 ilde eğitime ara verildi - TRT Haber",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Güne Başlarken: Piyasalar ABD verilerine odaklandı, altın yükseldi - ekotürk",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Kayseri’de ulaşım altyapısı AUS mimarisiyle uyumlu hale getirilecek - DHA | Demirören Haber Ajansı",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Kayseri akıllı ulaşımda yeni dönem! - Kayseri Anadolu Haber",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Konya İŞKUR’dan gençlerin kariyer yolculuğuna destek! - Yeni Konya",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "Bu toprağın hikayesini kadınlar yazıyor - Yeni Şafak",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "İstanbul'da okullar yarın da tatil - TRT Haber",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    },
-    {
-      "source": "YARIN İSTANBUL'DA OKULLAR TATİL Mİ 16 EKİM 2026 SON DAKİKA || Yarın İstanbul'da okul var mı, cuma günü ders yapılacak mı, nerelerde okullar tatil edildi? Valilikten son dakika açıklama geldi! - Hürriyet",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    }
-  ],
-  "target_count": 3,
+  "generation_errors": [],
+  "target_count": 2,
   "published_count": 0,
   "accepted_complete": false
 }
