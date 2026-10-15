@@ -4274,6 +4274,28 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul Havalimanı'nda kırk üç uçak yönlendirildi",
+      "summary": "Ulaştırma ve Altyapı Bakanlığı, olumsuz hava koşulları nedeniyle İstanbul Havalimanı'na iniş yapamayan 43, Sabiha Gökçen Havalimanı'na iniş yapamayan 3 uçağın alternatif havalimanlarına yönlendirildiğini bildirdi.",
+      "url": "https://www.aa.com.tr/tr/gundem/ulastirma-ve-altyapi-bakanligindan-istanbuldaki-ucuslarda-yasanan-aksamalara-iliskin-aciklama/4089083",
+      "source": "Anadolu Ajansı Güncel",
+      "published_at": "2026-10-14T23:50:09+03:00",
+      "fingerprint": "6b3217bd29c312042424961e913bf128752bc89a",
+      "viral_score": 80.14,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-15T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/yCgEwRI06dY",
+      "video_id": "yCgEwRI06dY",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-15T03:07:52.766930+03:00",
+      "publish_at_utc": "2026-10-15T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Ulaştırma ve Altyapı Bakanlığından İstanbul'daki uçuşlarda yaşanan aksamalara ilişkin açıklama",
+      "resolved_url": "https://www.aa.com.tr/tr/gundem/ulastirma-ve-altyapi-bakanligindan-istanbuldaki-ucuslarda-yasanan-aksamalara-iliskin-aciklama/4089083",
+      "source_modified_at": "2026-10-15T00:00:12.697",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }
