@@ -31,9 +31,76 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-15T21:23:12.692434+00:00",
       "source_modified_at": "",
-      "run_id": "38809208540"
+      "run_id": "38809208540",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Türkiye Sigorta ve Türkiye Hayat Emeklilik Genel Müdürü Taha Çakmak'ın mal varlığına tedbir ve yurtdışı yasağı - Sözcü Gazetesi",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "CANLI İstanbul'u sel vurdu: İstanbul'da eğitime yarın da ara verildi | Sarıyer'de sel böyle geldi - Hürriyet",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Olka Group’tan çocukların Ve Genç Kadınların Geleceğine Destek: Hayat Adımları - Marketing Türkiye",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Fransa'da polis okul personelini darbetti - Hürriyet",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Kayseri ulaşımında yeni dönem: Pilot il oldu! - kayserihaber.com",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "4 ilde eğitime ara verildi - TRT Haber",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Güne Başlarken: Piyasalar ABD verilerine odaklandı, altın yükseldi - ekotürk",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Kayseri’de ulaşım altyapısı AUS mimarisiyle uyumlu hale getirilecek - DHA | Demirören Haber Ajansı",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Kayseri akıllı ulaşımda yeni dönem! - Kayseri Anadolu Haber",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Konya İŞKUR’dan gençlerin kariyer yolculuğuna destek! - Yeni Konya",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "Bu toprağın hikayesini kadınlar yazıyor - Yeni Şafak",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "İstanbul'da okullar yarın da tatil - TRT Haber",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    },
+    {
+      "source": "YARIN İSTANBUL'DA OKULLAR TATİL Mİ 16 EKİM 2026 SON DAKİKA || Yarın İstanbul'da okul var mı, cuma günü ders yapılacak mı, nerelerde okullar tatil edildi? Valilikten son dakika açıklama geldi! - Hürriyet",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "daily_existing_count": 0
 }
