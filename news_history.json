@@ -4295,7 +4295,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/gundem/ulastirma-ve-altyapi-bakanligindan-istanbuldaki-ucuslarda-yasanan-aksamalara-iliskin-aciklama/4089083",
       "source_modified_at": "2026-10-15T00:00:12.697",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Bolat Brukselde Belçika ile On Beş Milyar Dolar Hedefi",
+      "summary": "Bakan Bolat'ın Brüksel temasları kapsamında, Türkiye'nin AB'nin yeni sanayi düzenlemelerine dahil edilmesi, ortak üretim ve tedarik zincirlerinin korunması ve ticari ilişkilerin geliştirilmesi gibi çeşitli konular ele alındı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-bolat-brukselde-belcika-ve-ab-yetkilileriyle-gorustu/4088913",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-10-14T20:31:52+03:00",
+      "fingerprint": "fae55be2dc44eae56c9b7c8e2fec8a43b07094b4",
+      "viral_score": 77.85,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-15T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/XZywIpH8kCU",
+      "video_id": "XZywIpH8kCU",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-15T03:15:04.137179+03:00",
+      "publish_at_utc": "2026-10-15T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Ticaret Bakanı Bolat, Brüksel'de Belçika ve AB yetkilileriyle görüştü",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-bolat-brukselde-belcika-ve-ab-yetkilileriyle-gorustu/4088913",
+      "source_modified_at": "2026-10-14T20:37:17.857",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

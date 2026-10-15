@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-14T23:52:37.990622+00:00",
       "source_modified_at": "2026-10-15T00:00:12.697",
+      "run_id": "38656291790",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "XZywIpH8kCU",
+      "youtube_url": "https://youtu.be/XZywIpH8kCU",
+      "publish_at_local": "2026-10-15T21:00:00+03:00",
+      "publish_at_utc": "2026-10-15T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Bolat Brukselde Belçika ile On Beş Milyar Dolar Hedefi",
+      "narration": "Türkiyenin Belçika ile ticaret hedefi ne kadar Ticaret Bakanı Bolat Brukselde Belçika ve AB yetkilileriyle görüşme yaptı Görüşmede Türkiyenin yeni sanayi politikalarına dahil edilmesi ve ticaretin artırılması konuşuldu Hedefi on beş milyar dolar olarak belirlendi Türkiyeden Haber kanalına abone ol",
+      "description": "Bu hedefin Türkiye ekonomisine etkisini nasıl görüyorsunuz",
+      "visual_query": "minister shaking hands",
+      "tags": [
+        "Türkiye",
+        "Belçika",
+        "ticaret",
+        "ekonomi",
+        "AB"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Ticaret Bakanı Bolat, Brüksel'de Belçika ve AB yetkilileriyle görüştü",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-15T00:07:57.144962+00:00",
+      "source_modified_at": "2026-10-14T20:37:17.857",
       "run_id": "38656291790"
     }
   ],
