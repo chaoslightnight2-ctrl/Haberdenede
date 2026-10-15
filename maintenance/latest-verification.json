@@ -1,70 +1,13 @@
 {
-  "source_run": "38656291790",
-  "verified_at": "2026-10-15T04:28:46.265852+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "yCgEwRI06dY",
-      "youtube_url": "https://youtu.be/yCgEwRI06dY",
-      "title": "İstanbul Havalimanı'nda kırk üç uçak yönlendirildi",
-      "narration": "İstanbulda kötü hava uçuşları nasıl etkiledi Ulaştırma ve Altyapı Bakanlığı İstanbul Havalimanı ve Sabiha Gökçende uçuş operasyonlarının aksadığını duyurdu Kötü hava koşulları nedeniyle İstanbul Havalimanına inemeyen kırk üç uçak farklı havalimanlarına yönlendirildi Sabiha Gökçende şiddetli rüzgar nedeniyle inişler durdurulup kalkışlar saat yirmi bir kırk iki de kesildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-15T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-15T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.666667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/yCgEwRI06dY.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "XZywIpH8kCU",
-      "youtube_url": "https://youtu.be/XZywIpH8kCU",
-      "title": "Bolat Brukselde Belçika ile On Beş Milyar Dolar Hedefi",
-      "narration": "Türkiyenin Belçika ile ticaret hedefi ne kadar Ticaret Bakanı Bolat Brukselde Belçika ve AB yetkilileriyle görüşme yaptı Görüşmede Türkiyenin yeni sanayi politikalarına dahil edilmesi ve ticaretin artırılması konuşuldu Hedefi on beş milyar dolar olarak belirlendi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-15T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-15T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 24.366667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/XZywIpH8kCU.jpg"
-    }
+  "source_run": "38770048366",
+  "verified_at": "2026-10-15T16:36:12.466529+00:00",
+  "videos": [],
+  "errors": [
+    "Artifact report belongs to another run"
   ],
-  "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
