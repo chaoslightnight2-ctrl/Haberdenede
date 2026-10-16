@@ -1,40 +1,11 @@
 {
-  "run_id": "38950135769",
-  "generated_at": "2026-10-16T21:49:30.864168+03:00",
-  "target_count": 2,
+  "run_id": "38973575006",
+  "generated_at": "2026-10-17T01:06:12.788337+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [
-    {
-      "video_id": "AnJsobZa59s",
-      "youtube_url": "https://youtu.be/AnJsobZa59s",
-      "publish_at_local": "2026-10-16T23:00:00+03:00",
-      "publish_at_utc": "2026-10-16T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "Erdoğan: Piyasaları Terörize Etmek Ekonomiyi Bozar",
-      "narration": "Erdoğan sermaye piyasalarını terörize etmeye karşı uyarıyor Cumhurbaşkanı Recep Tayyip Erdoğan Haliç Kongre Merkezinde TİM 13 İnovasyon Haftası Programında konuştu Erdoğan sermaye piyasalarını terörize etmenin ekonominin altını oymak olduğunu belirtti Sermaye piyasalarının teknoloji ve inovasyon finansmanındaki stratejik rolüne dikkat çekti Türkiyeden Haber kanalına abone ol",
-      "description": "Erdoğan, inovasyon haftasında sermaye piyasalarının terörize edilmesinin ekonomiyi nasıl etkilediğini vurguladı. Sizce bu uyarı yatırımcı davranışlarını değiştirecek mi?",
-      "visual_query": "president speaking at conference",
-      "tags": [
-        "ekonomi",
-        "inovasyon",
-        "sermaye piyasaları",
-        "teknoloji",
-        "yatırım"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "Erdoğan: Sermaye piyasalarını terörize etmek, ekonominin altını oymaktır",
-      "audience_bucket": "technology_science",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-16T18:49:58.089442+00:00",
-      "source_modified_at": "",
-      "run_id": "38950135769",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [
     {
       "source": "'Ortak Yazılı Sınav Sistemi' tanıtım programı yapıldı",
@@ -42,5 +13,5 @@
       "error": "Source has no bounded complete lead and update sentences"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 0
 }
