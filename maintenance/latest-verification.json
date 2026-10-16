@@ -1,39 +1,10 @@
 {
-  "source_run": "38950135769",
-  "verified_at": "2026-10-16T19:05:11.624368+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "AnJsobZa59s",
-      "youtube_url": "https://youtu.be/AnJsobZa59s",
-      "title": "Erdoğan: Piyasaları Terörize Etmek Ekonomiyi Bozar",
-      "narration": "Erdoğan sermaye piyasalarını terörize etmeye karşı uyarıyor Cumhurbaşkanı Recep Tayyip Erdoğan Haliç Kongre Merkezinde TİM 13 İnovasyon Haftası Programında konuştu Erdoğan sermaye piyasalarını terörize etmenin ekonominin altını oymak olduğunu belirtti Sermaye piyasalarının teknoloji ve inovasyon finansmanındaki stratejik rolüne dikkat çekti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-16T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-16T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.066667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/AnJsobZa59s.jpg"
-    }
-  ],
+  "source_run": "38973575006",
+  "verified_at": "2026-10-16T22:07:22.818972+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -42,7 +13,7 @@
       "error": "Source has no bounded complete lead and update sentences"
     }
   ],
-  "target_count": 2,
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
 }
