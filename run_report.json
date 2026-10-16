@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-16T23:24:22.794508+00:00",
       "source_modified_at": "2026-10-16T18:24:41.22",
+      "run_id": "38981138283",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "PeRRYJbyiVE",
+      "youtube_url": "https://youtu.be/PeRRYJbyiVE",
+      "publish_at_local": "2026-10-17T21:00:00+03:00",
+      "publish_at_utc": "2026-10-17T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "BIST 100 haftayı %4,44 altında kapattı, altın 6.648 TL",
+      "narration": "BIST 100 haftayı düşüşle kapattı altın yükseldi BIST 100 endeksi haftayı yüzde 4 virgül 44 altında 11721 virgül 72 puandan kapattı 24 ayar külçe altının gram satış fiyatı bu hafta 6648 TLye yükseldi ABD doları yüzde 0 virgül 37 artışla 49 virgül 5270 TL avro ise yüzde 0 virgül 93 artışla 55 virgül 7610 TL oldu Türkiyeden Haber kanalına abone ol",
+      "description": "Bu hafta BIST 100 endeksi %4,44 düşerken altın fiyatı 6.648 TL'ye çıktı. Sizce bu hareketler yatırımcıları nasıl etkileyecek?",
+      "visual_query": "chart falling gold rising",
+      "tags": [
+        "BIST 100",
+        "altın fiyatı",
+        "döviz kuru",
+        "yatırım fonları",
+        "ekonomi"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Bu hafta yatırım araçlarının performansı",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-16T23:36:13.639156+00:00",
+      "source_modified_at": "2026-10-16T19:15:46.737",
       "run_id": "38981138283"
     }
   ],

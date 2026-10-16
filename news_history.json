@@ -4410,7 +4410,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/turkiye-sigorta-birliginden-sel-ve-su-baskini-sonrasinda-yapilmasi-gerekenlere-iliskin-aciklama/4091218",
       "source_modified_at": "2026-10-16T18:24:41.22",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "BIST 100 haftayı %4,44 altında kapattı, altın 6.648 TL",
+      "summary": "Borsa İstanbul'da işlem gören hisse senetleri haftalık bazda ortalama yüzde 4,44 değer kaybederken, altının gram fiyatı yüzde 0,05, dolar/TL yüzde 0,37 ve avro/TL yüzde 0,93 değer kazandı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/bu-hafta-yatirim-araclarinin-performansi/4091283",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-10-16T19:14:22+03:00",
+      "fingerprint": "4911c38792e3a992124b06dbec5f6d774985c8fe",
+      "viral_score": 65.54,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-17T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/PeRRYJbyiVE",
+      "video_id": "PeRRYJbyiVE",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-17T02:43:26.780396+03:00",
+      "publish_at_utc": "2026-10-17T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bu hafta yatırım araçlarının performansı",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/bu-hafta-yatirim-araclarinin-performansi/4091283",
+      "source_modified_at": "2026-10-16T19:15:46.737",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
