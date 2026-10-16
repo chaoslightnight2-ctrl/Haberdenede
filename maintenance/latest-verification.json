@@ -1,12 +1,47 @@
 {
-  "source_run": "38900221558",
-  "verified_at": "2026-10-16T12:26:01.394657+00:00",
-  "videos": [],
+  "source_run": "38950135769",
+  "verified_at": "2026-10-16T19:05:11.624368+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "AnJsobZa59s",
+      "youtube_url": "https://youtu.be/AnJsobZa59s",
+      "title": "Erdoğan: Piyasaları Terörize Etmek Ekonomiyi Bozar",
+      "narration": "Erdoğan sermaye piyasalarını terörize etmeye karşı uyarıyor Cumhurbaşkanı Recep Tayyip Erdoğan Haliç Kongre Merkezinde TİM 13 İnovasyon Haftası Programında konuştu Erdoğan sermaye piyasalarını terörize etmenin ekonominin altını oymak olduğunu belirtti Sermaye piyasalarının teknoloji ve inovasyon finansmanındaki stratejik rolüne dikkat çekti Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-16T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-16T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.066667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/AnJsobZa59s.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "'Ortak Yazılı Sınav Sistemi' tanıtım programı yapıldı",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "target_count": 2,
   "published_count": 0,
   "accepted_complete": false
