@@ -4456,7 +4456,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/bakan-yumakli-turkiye-uc-biyocografik-bolgenin-kesisiminde-yer-alan-zengin-biyolojik-cesitlilige-sahip-bir-ulke/4091208",
       "source_modified_at": "2026-10-16T18:19:23.207",
       "audience_bucket": "nature",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
