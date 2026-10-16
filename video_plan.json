@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-16T00:22:41.897035+03:00",
+  "generated_at": "2026-10-16T21:49:30.864168+03:00",
   "videos": [
     {
-      "video_id": "nWTTqtIisLc",
-      "youtube_url": "https://youtu.be/nWTTqtIisLc",
-      "publish_at_local": "2026-10-16T19:00:00+03:00",
-      "publish_at_utc": "2026-10-16T16:00:00Z",
+      "video_id": "AnJsobZa59s",
+      "youtube_url": "https://youtu.be/AnJsobZa59s",
+      "publish_at_local": "2026-10-16T23:00:00+03:00",
+      "publish_at_utc": "2026-10-16T20:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 1,
-      "title": "Üsküdar Belediye Başkan Vekili trafik kazasında hayatını kaybetti",
-      "narration": "Üsküdar Belediye Başkan Vekili kazada hayatını kaybetti mi Anadolu Otoyolu Düzce kesiminde Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekinin bulunduğu araç başka bir araçla çarpıştı ve Gültekin yaşamını yitirdi Kazada dört kişi yaralanırken kaza yerinde sağlık ekipleri müdahale etti ancak Gültekin kurtarılamadı Türkiyeden Haber kanalına abone ol",
-      "description": "Üsküdar'da yaşanan bu trajik kazayı nasıl değerlendiriyorsunuz?",
-      "visual_query": "car crash ambulance",
+      "title": "Erdoğan: Piyasaları Terörize Etmek Ekonomiyi Bozar",
+      "narration": "Erdoğan sermaye piyasalarını terörize etmeye karşı uyarıyor Cumhurbaşkanı Recep Tayyip Erdoğan Haliç Kongre Merkezinde TİM 13 İnovasyon Haftası Programında konuştu Erdoğan sermaye piyasalarını terörize etmenin ekonominin altını oymak olduğunu belirtti Sermaye piyasalarının teknoloji ve inovasyon finansmanındaki stratejik rolüne dikkat çekti Türkiyeden Haber kanalına abone ol",
+      "description": "Erdoğan, inovasyon haftasında sermaye piyasalarının terörize edilmesinin ekonomiyi nasıl etkilediğini vurguladı. Sizce bu uyarı yatırımcı davranışlarını değiştirecek mi?",
+      "visual_query": "president speaking at conference",
       "tags": [
-        "Üsküdar",
-        "trafik kazası",
-        "yerel haber",
-        "politikacı",
-        "ölüm"
+        "ekonomi",
+        "inovasyon",
+        "sermaye piyasaları",
+        "teknoloji",
+        "yatırım"
       ],
       "video_path": "output/short_1.mp4",
-      "source_headline": "Üsküdar Belediye Başkan Vekili Dündar Ziya Gültekin trafik kazasında hayatını kaybetti",
-      "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-15T21:23:12.692434+00:00",
+      "source_headline": "Erdoğan: Sermaye piyasalarını terörize etmek, ekonominin altını oymaktır",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-16T18:49:58.089442+00:00",
       "source_modified_at": "",
-      "run_id": "38809208540",
+      "run_id": "38950135769",
       "processing_status": "readback_scope_unavailable"
     }
   ]

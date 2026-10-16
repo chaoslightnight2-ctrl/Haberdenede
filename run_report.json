@@ -31,9 +31,16 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-16T18:49:58.089442+00:00",
       "source_modified_at": "",
-      "run_id": "38950135769"
+      "run_id": "38950135769",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "'Ortak Yazılı Sınav Sistemi' tanıtım programı yapıldı",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "daily_existing_count": 1
 }
