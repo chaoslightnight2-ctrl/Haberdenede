@@ -4366,6 +4366,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Erdoğan: Piyasaları Terörize Etmek Ekonomiyi Bozar",
+      "summary": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Sermaye piyasası araçlarını terörize etmek; bakın açık konuşuyorum, Türkiye ekonomisinin altını oymak olur, ülkemizin kalkınma yürüyüşüne sabotaj düzenlemek olur. Buna ister siyasetçi ister gazeteci hüviyeti olsun, kimsenin hakkı yoktur. Biz de zaten böyle bir fırsatçılığa izin vermeyiz.\" dedi.",
+      "url": "https://www.trthaber.com/haber/gundem/erdogan-sermaye-piyasalarini-terorize-etmek-ekonominin-altini-oymaktir-960313.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-16T14:53:00+03:00",
+      "fingerprint": "23d4afb1bd42752c0c2b0288d3ebd68c1bd3a39a",
+      "viral_score": 80.88,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-10-16T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/AnJsobZa59s",
+      "video_id": "AnJsobZa59s",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-16T22:04:13.729254+03:00",
+      "publish_at_utc": "2026-10-16T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Erdoğan: Sermaye piyasalarını terörize etmek, ekonominin altını oymaktır",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/erdogan-sermaye-piyasalarini-terorize-etmek-ekonominin-altini-oymaktir-960313.html",
+      "source_modified_at": "",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }
