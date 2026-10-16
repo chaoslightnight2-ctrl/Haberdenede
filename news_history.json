@@ -4433,7 +4433,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/bu-hafta-yatirim-araclarinin-performansi/4091283",
       "source_modified_at": "2026-10-16T19:15:46.737",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türkiye, COP31 Konferansına Ev Sahibi Olacak",
+      "summary": "Bakan Yumaklı, Türkiye'nin üç biyocoğrafik bölgenin kesişiminde yer alan, zengin biyolojik çeşitliliğe sahip bir ülke olduğuna işaret ederek, \"Bu zenginliği korumayı gelecek nesillere karşı sorumluluğumuz olarak görüyoruz.\" ifadesini kullandı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/bakan-yumakli-turkiye-uc-biyocografik-bolgenin-kesisiminde-yer-alan-zengin-biyolojik-cesitlilige-sahip-bir-ulke/4091208",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-10-16T18:08:45+03:00",
+      "fingerprint": "c30b5f3ce8dfbb11d80d0dcf540e64492ad03af8",
+      "viral_score": 62.79,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-10-17T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/ux172MFDs2Q",
+      "video_id": "ux172MFDs2Q",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-17T02:50:06.532570+03:00",
+      "publish_at_utc": "2026-10-17T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bakan Yumaklı: Türkiye, üç biyocoğrafik bölgenin kesişiminde yer alan, zengin biyolojik çeşitliliğe sahip bir ülke",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/bakan-yumakli-turkiye-uc-biyocografik-bolgenin-kesisiminde-yer-alan-zengin-biyolojik-cesitlilige-sahip-bir-ulke/4091208",
+      "source_modified_at": "2026-10-16T18:19:23.207",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question"
     }
   ]
 }
