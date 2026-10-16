@@ -4389,6 +4389,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Sigorta Birliği'nden Sel ve Su Baskını İçin Tavsiyeler",
+      "summary": "Türkiye Sigorta Birliği (TSB), sel ve su baskınlarının ardından can güvenliğinin korunması, hasarların belgelenmesi, sigorta süreçlerinin yürütülmesi ve olası zararların azaltılması için dikkat edilmesi gerekenleri duyurdu.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/turkiye-sigorta-birliginden-sel-ve-su-baskini-sonrasinda-yapilmasi-gerekenlere-iliskin-aciklama/4091218",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-10-16T18:21:53+03:00",
+      "fingerprint": "c85e78d4556b896a48977cc315c47ee416c5fa29",
+      "viral_score": 71.14,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-17T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/cH9XtKkPX_g",
+      "video_id": "cH9XtKkPX_g",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-17T02:36:08.274035+03:00",
+      "publish_at_utc": "2026-10-17T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye Sigorta Birliğinden sel ve su baskını sonrasında yapılması gerekenlere ilişkin açıklama",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/turkiye-sigorta-birliginden-sel-ve-su-baskini-sonrasinda-yapilmasi-gerekenlere-iliskin-aciklama/4091218",
+      "source_modified_at": "2026-10-16T18:24:41.22",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
