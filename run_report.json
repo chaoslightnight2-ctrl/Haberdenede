@@ -1,12 +1,10 @@
 {
-  "run_id": "39067304738",
-  "generated_at": "2026-10-17T23:35:51.047145+03:00",
-  "target_count": 0,
+  "run_id": "39077182321",
+  "generated_at": "2026-10-18T01:59:41.952740+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "errors": []
 }
