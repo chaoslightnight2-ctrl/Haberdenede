@@ -1,99 +1,13 @@
 {
-  "source_run": "38981138283",
-  "verified_at": "2026-10-16T23:51:18.542380+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "cH9XtKkPX_g",
-      "youtube_url": "https://youtu.be/cH9XtKkPX_g",
-      "title": "Sigorta Birliği'nden Sel ve Su Baskını İçin Tavsiyeler",
-      "narration": "Sel sonrası sigorta birliğinden hayati güvenlik uyarısı Türkiye Sigorta Birliği sel ve su baskını sonrası can güvenliğinin korunması ve zararların büyümesinin önlenmesi için dikkat edilmesi gereken hususları açıkladı Birliğin önerileri arasında suyla temas eden elektrik tesisatına dokunulmaması yetkili kişiler tarafından kontrol edilmesi ve acil durumlarda 112ye başvurulması bulunuyor Hasar bildirimi yapılırken fotoğraf ve video ile belgelenmesi poliçe numarası ve adres gibi bilgilerin paylaşılması ve ekspertiz sürecinin hızlandırılması gerektiği vurgulandı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-17T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-17T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 42.1,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/cH9XtKkPX_g.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "PeRRYJbyiVE",
-      "youtube_url": "https://youtu.be/PeRRYJbyiVE",
-      "title": "BIST 100 haftayı %4,44 altında kapattı, altın 6.648 TL",
-      "narration": "BIST 100 haftayı düşüşle kapattı altın yükseldi BIST 100 endeksi haftayı yüzde 4 virgül 44 altında 11721 virgül 72 puandan kapattı 24 ayar külçe altının gram satış fiyatı bu hafta 6648 TLye yükseldi ABD doları yüzde 0 virgül 37 artışla 49 virgül 5270 TL avro ise yüzde 0 virgül 93 artışla 55 virgül 7610 TL oldu Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-17T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-17T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.866667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/PeRRYJbyiVE.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "ux172MFDs2Q",
-      "youtube_url": "https://youtu.be/ux172MFDs2Q",
-      "title": "Türkiye, COP31 Konferansına Ev Sahibi Olacak",
-      "narration": "Türkiye önümüzdeki ay COP31e ev sahipliği yapıyor Bakan Yumaklı Türkiyenin üç biyocoğrafik bölgenin kesişiminde yer aldığını ve zengin biyolojik çeşitliliğe sahip olduğunu vurguladı Yumaklı gelecek ay Türkiyenin COP31 toplantısına ev sahipliği yapacağını hatırlatarak taahhütlerin somut sonuçlara dönüştürülmesi gerektiğini belirtti Bakan uluslararası işbirliği ve deneyim paylaşımına hazır olduklarını ifade etti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-17T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-17T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 32.6,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ux172MFDs2Q.jpg"
-    }
-  ],
+  "source_run": "39029323331",
+  "verified_at": "2026-10-17T11:37:46.170308+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
