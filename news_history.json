@@ -4458,6 +4458,28 @@
       "audience_bucket": "nature",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "TCMB Karahan, yedinci faiz kararını 14.00'te açıklıyor",
+      "summary": "Yurt içinde gözler bu hafta Türkiye Cumhuriyet Merkez Bankasının TCMB faiz kararına çevrilirken, perşembe günü açıklanacak karar öncesi beklenti anketine katılan ekonomistler, ekim ayında TCMB'nin politika faizini 1 puan indirerek yüzde 36'ya çekmesini bekliyor.",
+      "url": "https://www.trthaber.com/haber/ekonomi/tcmb-persembe-gunu-faiz-kararini-aciklayacak-960536.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-19T15:22:00+03:00",
+      "fingerprint": "753a8d619736fc07d227d50a774f888a7cb53dba",
+      "viral_score": 89.3,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-19T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/Z45nrpykvG4",
+      "video_id": "Z45nrpykvG4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-19T17:51:53.946390+03:00",
+      "publish_at_utc": "2026-10-19T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "TCMB, perşembe günü faiz kararını açıklayacak",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/tcmb-persembe-gunu-faiz-kararini-aciklayacak-960536.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
