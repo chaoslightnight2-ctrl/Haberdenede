@@ -31,9 +31,16 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-19T14:40:50.633067+00:00",
       "source_modified_at": "",
-      "run_id": "39270944366"
+      "run_id": "39270944366",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Bakan Tekin'den UNESCO üyelerine COP31 daveti",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "daily_existing_count": 0
 }
