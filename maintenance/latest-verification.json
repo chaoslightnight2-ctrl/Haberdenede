@@ -1,12 +1,47 @@
 {
-  "source_run": "39174318349",
-  "verified_at": "2026-10-18T22:57:36.198867+00:00",
-  "videos": [],
+  "source_run": "39270944366",
+  "verified_at": "2026-10-19T14:52:46.470330+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "Z45nrpykvG4",
+      "youtube_url": "https://youtu.be/Z45nrpykvG4",
+      "title": "TCMB Karahan, yedinci faiz kararını 14.00'te açıklıyor",
+      "narration": "TCMB yedinci faiz kararını 14 virgül 00te açıklıyor TCMB Başkanı Fatih Karahan liderliğinde kurul yılın yedinci faiz kararını belirleyecek Karar aynı gün saat 14 virgül 00te gerekçesiyle birlikte açıklanacak Ekonomistlerin beklentisi politika faizinin yüzde 36ya düşürülmesi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-19T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-19T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 27.5,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/Z45nrpykvG4.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "Bakan Tekin'den UNESCO üyelerine COP31 daveti",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
