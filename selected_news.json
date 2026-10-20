@@ -91,7 +91,54 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Türk lira güveni sürüyor rezervler artıyor S P Global Ratings hanehalkının Türk lirasına duyduğu güvenin yıl boyunca dirençli seyrini koruduğunu belirtti Eylül itibarıyla döviz cinsinden mevduatların toplam banka mevduatları içindeki payı yüzde 38 virgül 7 olarak sabit kaldı Analiz enflasyonun bu yıl ortalama yüzde 30 virgül 9 2027de ise yüzde 21 virgül 7 seviyelerinde gerçekleşeceğini öngörüyor Türkiyeden Haber kanalına abone ol"
+      "script": "Türk lira güveni sürüyor rezervler artıyor S P Global Ratings hanehalkının Türk lirasına duyduğu güvenin yıl boyunca dirençli seyrini koruduğunu belirtti Eylül itibarıyla döviz cinsinden mevduatların toplam banka mevduatları içindeki payı yüzde 38 virgül 7 olarak sabit kaldı Analiz enflasyonun bu yıl ortalama yüzde 30 virgül 9 2027de ise yüzde 21 virgül 7 seviyelerinde gerçekleşeceğini öngörüyor Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "19:00"
+    },
+    {
+      "title": "İstanbul Havalimanı Dünya Listesinde Birinci Oldu",
+      "summary": "İGA İstanbul Havalimanı, Conde Nast Traveller dergisinin İngiltere edisyonu tarafından düzenlenen \"Okuyucu Tercihleri Ödülleri 2026\" Readers' Choice Awards 2026 kapsamında \"Dünyanın En İyi Havalimanı\" seçildi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-dunyanin-en-iyisi-secildi-960621.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-10-20T11:25:00+03:00",
+      "fingerprint": "0bf1a91bac81672e6682e6ecc0a09272427c4d91",
+      "direct_source": true,
+      "viral_score": 56.77,
+      "topic_bucket": "ulaşım_şehir",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-dunyanin-en-iyisi-secildi-960621.html",
+      "source_headline": "İstanbul Havalimanı 'dünyanın en iyisi' seçildi",
+      "source_modified_at": "",
+      "source_checked_at": "2026-10-20T13:16:21.207603+00:00",
+      "article_score": 36,
+      "article_text": "İstanbul Havalimanı İşletmecisi İGA'dan yapılan açıklamaya göre, seyahat dergisi okurlarının değerlendirmeleriyle belirlenen listede İstanbul Havalimanı, 94,29 puanla ilk sırada yer aldı Dünyada yaklaşık 350 noktaya uçuş imkanı sunan İstanbul Havalimanı, Singapur Changi Havalimanı ve Dubai Uluslararası Havalimanı'nı geride bırakarak listenin zirvesine yerleşti Sıralamada Singapur Changi Havalimanı 93,92 puanla ikinci, Dubai Uluslararası Havalimanı ise 93,18 puanla üçüncü oldu Kopenhag Havalimanı 93,13 puanla dördüncü, Zürih Havalimanı 91,79 puanla beşinci, Katar’daki Hamad Uluslararası Havalimanı ise 90,45 puanla altıncı sırada yer aldı Listede, Madrid-Barajas Havalimanı 90,23 puanla yedinci, Hong Kong Uluslararası Havalimanı 89,50 puanla sekizinci, Cape Town Uluslararası Havalimanı 88,24 puanla dokuzuncu ve Roma Fiumicino Havalimanı 87,92 puanla onuncu oldu İstanbul Havalimanı, 2024 ve 2025 yıllarında da Conde Nast Traveller’ın ABD edisyonunun okurları tarafından dünyanın en iyi havalimanı seçilmişti 1909 yılında kurulan ve bünyesinde Vogue, The New Yorker, GQ, Vanity Fair ve Wired gibi yayınları barındıran Conde Nast, basılı yayınları, dijital platformları ve sosyal medya kanalları aracılığıyla dünya genelinde milyonlarca okura ulaşıyor",
+      "content_quality": "article_text",
+      "model_source_context": "İstanbul Havalimanı İşletmecisi İGA'dan yapılan açıklamaya göre, seyahat dergisi okurlarının değerlendirmeleriyle belirlenen listede İstanbul Havalimanı, 94,29 puanla ilk sırada yer aldı Dünyada yaklaşık 350 noktaya uçuş imkanı sunan İstanbul Havalimanı, Singapur Changi Havalimanı ve Dubai Uluslararası Havalimanı'nı geride bırakarak listenin zirvesine yerleşti Sıralamada Singapur Changi Havalimanı 93,92 puanla ikinci, Dubai Uluslararası Havalimanı ise 93,18 puanla üçüncü oldu Kopenhag Havalimanı 93,13 puanla dördüncü, Zürih Havalimanı 91,79 puanla beşinci, Katar’daki Hamad Uluslararası Havalimanı ise 90,45 puanla altıncı sırada yer aldı Listede, Madrid-Barajas Havalimanı 90,23 puanla yedinci, Hong Kong Uluslararası Havalimanı 89,50 puanla sekizinci, Cape Town Uluslararası Havalimanı 88,24 puanla dokuzuncu ve Roma Fiumicino Havalimanı 87,92 puanla onuncu oldu İstanbul Havalimanı, 2024 ve 2025 yıllarında da Conde Nast Traveller’ın ABD edisyonunun okurları tarafından dünyanın en iyi havalimanı seçilmişti 1909 yılında kurulan ve bünyesinde Vogue, The New Yorker, GQ, Vanity Fair ve Wired gibi yayınları barındıran Conde Nast, basılı yayınları, dijital platformları ve sosyal medya kanalları aracılığıyla dünya genelinde milyonlarca okura ulaşıyor",
+      "shorts_hook": "İstanbul Havalimanı, dünyanın en iyisi seçildi",
+      "quality_hook": "İstanbul Havalimanı, dünyanın en iyisi seçildi",
+      "quality_narration": "İGA’nın açıklamasına göre, havalimanı 94,29 puanla birinciliği elde etti. 350 noktaya uçuş imkanı sunan İstanbul, Singapur Changi (93,92) ve Dubai (93,18) havalimanlarını geride bıraktı. 2024 ve 2025 yıllarında Conde Nast Traveller’ın ABD okurları tarafından en iyi havalimanı seçilmişti.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "İGA’nın açıklamasına göre, havalimanı 94,29 puanla birinciliği elde etti.",
+        "350 noktaya uçuş imkanı sunan İstanbul, Singapur Changi (93,92) ve Dubai (93,18) havalimanlarını geride bıraktı.",
+        "2024 ve 2025 yıllarında Conde Nast Traveller’ın ABD okurları tarafından en iyi havalimanı seçilmişti."
+      ],
+      "youtube_description": "İstanbul Havalimanı 94,29 puanla birinci seçildi. Sizce bu başarı, Türkiye'nin havacılık sektörüne nasıl yansıyacak?",
+      "visual_query": "airport winning award",
+      "spoken_text": "İstanbul Havalimanı dünyanın en iyisi seçildi İGAnın açıklamasına göre havalimanı 94 virgül 29 puanla birinciliği elde etti 350 noktaya uçuş imkanı sunan İstanbul Singapur Changi 93 virgül 92 ve Dubai 93 virgül 18 havalimanlarını geride bıraktı 2024 ve 2025 yıllarında Conde Nast Travellerın ABD okurları tarafından en iyi havalimanı seçilmişti Türkiyeden Haber kanalına abone ol",
+      "tts_text": "İstanbul Havalimanı dünyanın en iyisi seçildi. İGAnın açıklamasına göre havalimanı 94 virgül 29 puanla birinciliği elde etti. 350 noktaya uçuş imkanı sunan İstanbul Singapur Changi 93 virgül 92 ve Dubai 93 virgül 18 havalimanlarını geride bıraktı. 2024 ve 2025 yıllarında Conde Nast Travellerın ABD okurları tarafından en iyi havalimanı seçilmişti. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "İstanbul Havalimanı",
+        "dünya en iyi havalimanı",
+        "uçuş noktaları",
+        "Conde Nast Traveller",
+        "havacılık"
+      ],
+      "youtube_hashtags": "#shorts #ulaşım #şehir",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "İstanbul Havalimanı dünyanın en iyisi seçildi İGAnın açıklamasına göre havalimanı 94 virgül 29 puanla birinciliği elde etti 350 noktaya uçuş imkanı sunan İstanbul Singapur Changi 93 virgül 92 ve Dubai 93 virgül 18 havalimanlarını geride bıraktı 2024 ve 2025 yıllarında Conde Nast Travellerın ABD okurları tarafından en iyi havalimanı seçilmişti Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
