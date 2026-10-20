@@ -59,7 +59,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-20T13:48:19.466700+00:00",
       "source_modified_at": "",
-      "run_id": "39424400324"
+      "run_id": "39424400324",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -77,6 +78,11 @@
       "index": 4,
       "stage": "render_or_upload",
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "source": "Atıl Turizm Kapasitesinden Yaşlı Yaşam Ekonomisine Türkiye İçin Stratejik Bir Dönüşüm Modeli - - Medikal News",
+      "stage": "generation",
+      "error": "visual_query yalnızca İngilizce arama kelimeleri içermeli"
     }
   ],
   "daily_existing_count": 0

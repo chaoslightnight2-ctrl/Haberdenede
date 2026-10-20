@@ -1,4 +1,61 @@
 {
-  "generated_at": "2026-10-20T03:11:43.775929+03:00",
-  "videos": []
+  "generated_at": "2026-10-20T15:43:40.591317+03:00",
+  "videos": [
+    {
+      "video_id": "wwvmC99nBTk",
+      "youtube_url": "https://youtu.be/wwvmC99nBTk",
+      "publish_at_local": "2026-10-20T19:00:00+03:00",
+      "publish_at_utc": "2026-10-20T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "İstanbul Havalimanı Dünya Listesinde Birinci Oldu",
+      "narration": "İstanbul Havalimanı dünyanın en iyisi seçildi İGAnın açıklamasına göre havalimanı 94 virgül 29 puanla birinciliği elde etti 350 noktaya uçuş imkanı sunan İstanbul Singapur Changi 93 virgül 92 ve Dubai 93 virgül 18 havalimanlarını geride bıraktı 2024 ve 2025 yıllarında Conde Nast Travellerın ABD okurları tarafından en iyi havalimanı seçilmişti Türkiyeden Haber kanalına abone ol",
+      "description": "İstanbul Havalimanı 94,29 puanla birinci seçildi. Sizce bu başarı, Türkiye'nin havacılık sektörüne nasıl yansıyacak?",
+      "visual_query": "airport winning award",
+      "tags": [
+        "İstanbul Havalimanı",
+        "dünya en iyi havalimanı",
+        "uçuş noktaları",
+        "Conde Nast Traveller",
+        "havacılık"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "İstanbul Havalimanı 'dünyanın en iyisi' seçildi",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-20T13:16:21.207603+00:00",
+      "source_modified_at": "",
+      "run_id": "39424400324",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "ckoC1jvygLI",
+      "youtube_url": "https://youtu.be/ckoC1jvygLI",
+      "publish_at_local": "2026-10-20T21:00:00+03:00",
+      "publish_at_utc": "2026-10-20T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Bahçeli'den Afet Yönetimi ve Ekonomi Üzerine Açıklama",
+      "narration": "MHP lideri Bahçeli ekonominin temeli sağlam dedi MHP Genel Başkanı Devlet Bahçeli ekonomimizin temeli sağlamdır dedi Afet risk yönetimi ve önleyici tedbirlerin önemine vurgu yaparak tüm kurumların bu stratejiyi benimsemesi gerektiğini belirtti Fon konusunun TBMMde görüşülmesinden memnun olduğunu ve tasarrufa göz dikenlere güçlü yaptırımlar uygulanacağını söyledi Türkiyeden Haber kanalına abone ol",
+      "description": "Bahçeli, TBMM'de fon konusunun görüşülmesinden memnun olduğunu ve afet risk yönetiminin önemini vurguladı. Sizce bu politikalar gerçek hayata ne kadar yansıyacak?",
+      "visual_query": "man speaking podium",
+      "tags": [
+        "MHP",
+        "Devlet Bahçeli",
+        "afet yönetimi",
+        "ekonomi temeli",
+        "TBMM"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Bahçeli'den fon operasyonlarına ilişkin açıklama: Ekonomimizin temeli sağlamdır",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-20T13:48:19.466700+00:00",
+      "source_modified_at": "",
+      "run_id": "39424400324",
+      "processing_status": "readback_scope_unavailable"
+    }
+  ]
 }

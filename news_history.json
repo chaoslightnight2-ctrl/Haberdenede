@@ -4525,7 +4525,8 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSk5CdGtESDFQSy1MWXMxb2NMd1B0UTBiSzl5TGJMa294SXBHTEtSaWp2V3ZhRUdxZEJGZWpoejFCRWZRYjA5Q0g3OUxSQ1J1U3pMTG13VDJPd1pqb3JJdGhRd2hjaThJdFdZcG1DNUxRdkhNcUtmTFJEVTl4V2JMem1MVWhqMXMyNFpxOHNvdUotWnBGMS1NMUhZQ1pTM0FOSWYxQTNmZ3lMRVBudWRsY2lsTTdHbUY3aTBZemZoWks0ZUI0UVQ1LXRTbXNEZFFPSVMxbTZRTktDUEdnODIzWUptN0dnNmthaGfSAeoBQVVfeXFMT0pOQnRrREgxUEstTFlzMW9jTHdQdFEwYks5eUxiTGtveElwR0xLUmlqdld2YUVHcWRCRmVqaHoxQkVmUWIwOUNINzlMUkNSdVN6TExtd1QyT3daam9ySXRoUXdoY2k4SXRXWXBtQzVMUXZITXFLZkxSRFU5eFdiTHptTFVoajFzMjRacThzb3VKLVpwRjEtTTFIWUNaUzNBTklmMUEzZmd5TEVQbnVkbGNpbE03R21GN2kwWXpmaFpLNGVCNFFUNS10U21zRGRRT0lTMW02UU5LQ1BHZzgyM1lKbTdHZzZrYWhn?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
