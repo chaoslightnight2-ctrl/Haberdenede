@@ -1,19 +1,19 @@
 {
-  "source_run": "39424400324",
-  "verified_at": "2026-10-20T14:09:07.858291+00:00",
+  "source_run": "39481709961",
+  "verified_at": "2026-10-20T19:38:20.210494+00:00",
   "videos": [
     {
-      "index": 3,
-      "video_id": "wwvmC99nBTk",
-      "youtube_url": "https://youtu.be/wwvmC99nBTk",
-      "title": "İstanbul Havalimanı Dünya Listesinde Birinci Oldu",
-      "narration": "İstanbul Havalimanı dünyanın en iyisi seçildi İGAnın açıklamasına göre havalimanı 94 virgül 29 puanla birinciliği elde etti 350 noktaya uçuş imkanı sunan İstanbul Singapur Changi 93 virgül 92 ve Dubai 93 virgül 18 havalimanlarını geride bıraktı 2024 ve 2025 yıllarında Conde Nast Travellerın ABD okurları tarafından en iyi havalimanı seçilmişti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-20T16:00:00Z",
+      "index": 2,
+      "video_id": "_CCLC2UDQ4I",
+      "youtube_url": "https://youtu.be/_CCLC2UDQ4I",
+      "title": "S&P: Lira Güveni Dirençli, Enflasyon %30,9",
+      "narration": "Türk lira güveni sürüyor rezervler artıyor S P Global Ratings hanehalkının Türk lirasına duyduğu güvenin yıl boyunca dirençli seyrini koruduğunu belirtti Eylül itibarıyla döviz cinsinden mevduatların toplam banka mevduatları içindeki payı yüzde 38 virgül 7 olarak sabit kaldı Analiz enflasyonun bu yıl ortalama yüzde 30 virgül 9 2027de ise yüzde 21 virgül 7 seviyelerinde gerçekleşeceğini öngörüyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-21T16:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-20T16:00:00Z",
+        "publishAt": "2026-10-21T16:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,69 +23,26 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 33.166667,
+        "duration": 33.1,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/wwvmC99nBTk.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "ckoC1jvygLI",
-      "youtube_url": "https://youtu.be/ckoC1jvygLI",
-      "title": "Bahçeli'den Afet Yönetimi ve Ekonomi Üzerine Açıklama",
-      "narration": "MHP lideri Bahçeli ekonominin temeli sağlam dedi MHP Genel Başkanı Devlet Bahçeli ekonomimizin temeli sağlamdır dedi Afet risk yönetimi ve önleyici tedbirlerin önemine vurgu yaparak tüm kurumların bu stratejiyi benimsemesi gerektiğini belirtti Fon konusunun TBMMde görüşülmesinden memnun olduğunu ve tasarrufa göz dikenlere güçlü yaptırımlar uygulanacağını söyledi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-20T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-20T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.766667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ckoC1jvygLI.jpg"
+      "preview": "maintenance/previews/_CCLC2UDQ4I.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 4,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "source": "Atıl Turizm Kapasitesinden Yaşlı Yaşam Ekonomisine Türkiye İçin Stratejik Bir Dönüşüm Modeli - - Medikal News",
-      "stage": "generation",
-      "error": "visual_query yalnızca İngilizce arama kelimeleri içermeli"
     }
   ],
-  "target_count": 3,
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
