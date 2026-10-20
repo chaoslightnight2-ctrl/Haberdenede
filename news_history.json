@@ -4550,6 +4550,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "G20 genç girişimciler Türkiye'ye yatırım fırsatı sundu",
+      "summary": "Dünyanın genç girişimcilerinin gözü Türkiye’de Sabah",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWVFSYTRaWUhvcUtVQ0ZpTjdfU1luNy0zN3VYWUZsakxGSC1GMmpUZWZyOVJtSHJRbkNvejhSeFZKN1ZidEJ5UUJjQi1JemVlaTRidFhiZm1jeFluZHR0SGF3S1N3OTQ2LTJ5LWZ0aHpJdS1DTVZ2TV9zbzVxN2JqRE84MnNtSnpIT1I2cl9KUdIBkgFBVV95cUxQQkxRWWtXZ0d0dTdMWUlVRDRMVUFLWXQ3VGtDTkhfUTZRMnVYWWIyVHJjNXBzOUc5NGFCQ0xFWElicnVyeEpuVGdRbTE1bFNvU2pNRXVXUU9yRzVwZzJDNHUtc09zU1dHdXlGa3dJZEVRYmRoU0JibXYyQlRuSFIwZzRSVUx5cklpblRMMnAyTWxHdw?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-20T07:03:05+03:00",
+      "fingerprint": "cfa84d2fcade9944ee3e706d4029dcd400a782b8",
+      "viral_score": 46.78,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-21T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/8fWHkWk6YeI",
+      "video_id": "8fWHkWk6YeI",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-21T01:41:46.604343+03:00",
+      "publish_at_utc": "2026-10-21T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Dünyanın genç girişimcilerinin gözü Türkiye’de",
+      "resolved_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWVFSYTRaWUhvcUtVQ0ZpTjdfU1luNy0zN3VYWUZsakxGSC1GMmpUZWZyOVJtSHJRbkNvejhSeFZKN1ZidEJ5UUJjQi1JemVlaTRidFhiZm1jeFluZHR0SGF3S1N3OTQ2LTJ5LWZ0aHpJdS1DTVZ2TV9zbzVxN2JqRE84MnNtSnpIT1I2cl9KUdIBkgFBVV95cUxQQkxRWWtXZ0d0dTdMWUlVRDRMVUFLWXQ3VGtDTkhfUTZRMnVYWWIyVHJjNXBzOUc5NGFCQ0xFWElicnVyeEpuVGdRbTE1bFNvU2pNRXVXUU9yRzVwZzJDNHUtc09zU1dHdXlGa3dJZEVRYmRoU0JibXYyQlRuSFIwZzRSVUx5cklpblRMMnAyTWxHdw?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
