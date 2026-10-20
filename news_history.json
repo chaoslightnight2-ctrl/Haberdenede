@@ -4502,7 +4502,30 @@
       "resolved_url": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-dunyanin-en-iyisi-secildi-960621.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Bahçeli'den Afet Yönetimi ve Ekonomi Üzerine Açıklama",
+      "summary": "Bahçeli'den fon operasyonlarına ilişkin açıklama: Ekonomimizin temeli sağlamdır Haber Global",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSk5CdGtESDFQSy1MWXMxb2NMd1B0UTBiSzl5TGJMa294SXBHTEtSaWp2V3ZhRUdxZEJGZWpoejFCRWZRYjA5Q0g3OUxSQ1J1U3pMTG13VDJPd1pqb3JJdGhRd2hjaThJdFdZcG1DNUxRdkhNcUtmTFJEVTl4V2JMem1MVWhqMXMyNFpxOHNvdUotWnBGMS1NMUhZQ1pTM0FOSWYxQTNmZ3lMRVBudWRsY2lsTTdHbUY3aTBZemZoWks0ZUI0UVQ1LXRTbXNEZFFPSVMxbTZRTktDUEdnODIzWUptN0dnNmthaGfSAeoBQVVfeXFMT0pOQnRrREgxUEstTFlzMW9jTHdQdFEwYks5eUxiTGtveElwR0xLUmlqdld2YUVHcWRCRmVqaHoxQkVmUWIwOUNINzlMUkNSdVN6TExtd1QyT3daam9ySXRoUXdoY2k4SXRXWXBtQzVMUXZITXFLZkxSRFU5eFdiTHptTFVoajFzMjRacThzb3VKLVpwRjEtTTFIWUNaUzNBTklmMUEzZmd5TEVQbnVkbGNpbE03R21GN2kwWXpmaFpLNGVCNFFUNS10U21zRGRRT0lTMW02UU5LQ1BHZzgyM1lKbTdHZzZrYWhn?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-20T10:35:00+03:00",
+      "fingerprint": "727f3d26a2be6144a464fb3cfef8e397c7160662",
+      "viral_score": 74.43,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-20T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/ckoC1jvygLI",
+      "video_id": "ckoC1jvygLI",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-20T17:04:25.967933+03:00",
+      "publish_at_utc": "2026-10-20T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bahçeli'den fon operasyonlarına ilişkin açıklama: Ekonomimizin temeli sağlamdır",
+      "resolved_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSk5CdGtESDFQSy1MWXMxb2NMd1B0UTBiSzl5TGJMa294SXBHTEtSaWp2V3ZhRUdxZEJGZWpoejFCRWZRYjA5Q0g3OUxSQ1J1U3pMTG13VDJPd1pqb3JJdGhRd2hjaThJdFdZcG1DNUxRdkhNcUtmTFJEVTl4V2JMem1MVWhqMXMyNFpxOHNvdUotWnBGMS1NMUhZQ1pTM0FOSWYxQTNmZ3lMRVBudWRsY2lsTTdHbUY3aTBZemZoWks0ZUI0UVQ1LXRTbXNEZFFPSVMxbTZRTktDUEdnODIzWUptN0dnNmthaGfSAeoBQVVfeXFMT0pOQnRrREgxUEstTFlzMW9jTHdQdFEwYks5eUxiTGtveElwR0xLUmlqdld2YUVHcWRCRmVqaHoxQkVmUWIwOUNINzlMUkNSdVN6TExtd1QyT3daam9ySXRoUXdoY2k4SXRXWXBtQzVMUXZITXFLZkxSRFU5eFdiTHptTFVoajFzMjRacThzb3VKLVpwRjEtTTFIWUNaUzNBTklmMUEzZmd5TEVQbnVkbGNpbE03R21GN2kwWXpmaFpLNGVCNFFUNS10U21zRGRRT0lTMW02UU5LQ1BHZzgyM1lKbTdHZzZrYWhn?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
