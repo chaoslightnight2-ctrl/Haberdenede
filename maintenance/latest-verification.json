@@ -1,19 +1,19 @@
 {
-  "source_run": "39481709961",
-  "verified_at": "2026-10-20T19:38:20.210494+00:00",
+  "source_run": "39507137369",
+  "verified_at": "2026-10-20T22:42:52.951305+00:00",
   "videos": [
     {
       "index": 2,
-      "video_id": "_CCLC2UDQ4I",
-      "youtube_url": "https://youtu.be/_CCLC2UDQ4I",
-      "title": "S&P: Lira Güveni Dirençli, Enflasyon %30,9",
-      "narration": "Türk lira güveni sürüyor rezervler artıyor S P Global Ratings hanehalkının Türk lirasına duyduğu güvenin yıl boyunca dirençli seyrini koruduğunu belirtti Eylül itibarıyla döviz cinsinden mevduatların toplam banka mevduatları içindeki payı yüzde 38 virgül 7 olarak sabit kaldı Analiz enflasyonun bu yıl ortalama yüzde 30 virgül 9 2027de ise yüzde 21 virgül 7 seviyelerinde gerçekleşeceğini öngörüyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-21T16:00:00Z",
+      "video_id": "8fWHkWk6YeI",
+      "youtube_url": "https://youtu.be/8fWHkWk6YeI",
+      "title": "G20 genç girişimciler Türkiye'ye yatırım fırsatı sundu",
+      "narration": "G20 genç girişimciler Türkiyeye yatırım fırsatı sundu G20 Genç Girişimciler toplantısında 17 ülkeden 450yi aşkın genç iş insanı Türkiyeye yatırım ve işbirliği ilgisini dile getirdi TÜGİAD Yönetim Kurulu Başkanı Gürkan Yıldırım Türkiyenin lojistik konumu ve üretim kapasitesinin Avrupa pazarında tercih edilme oranını artırdığını vurguladı Avrupa teknoloji temsilcisi Tobias Bacherle Türkiyenin fintech ve düşük emisyonlu ticari araç sektörlerinde Avrupa pazarına açılma fırsatı sunduğunu belirtti Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-21T18:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-21T16:00:00Z",
+        "publishAt": "2026-10-21T18:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,12 +23,12 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 33.1,
+        "duration": 38.5,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/_CCLC2UDQ4I.jpg"
+      "preview": "maintenance/previews/8fWHkWk6YeI.jpg"
     }
   ],
   "errors": [],
@@ -42,7 +42,7 @@
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
-  "target_count": 1,
+  "target_count": 2,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
