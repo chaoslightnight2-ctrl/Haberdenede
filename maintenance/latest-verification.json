@@ -1,13 +1,25 @@
 {
-  "source_run": "39320478524",
-  "verified_at": "2026-10-19T20:37:05.620744+00:00",
+  "source_run": "39346088428",
+  "verified_at": "2026-10-20T00:33:01.759379+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
-  "target_count": 2,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "source": "Husiler’den eğitim kampına saldırı: 53 ölü, 200 yaralı - Hürriyet",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
 }
