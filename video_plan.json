@@ -1,33 +1,4 @@
 {
-  "generated_at": "2026-10-19T17:40:25.219252+03:00",
-  "videos": [
-    {
-      "video_id": "Z45nrpykvG4",
-      "youtube_url": "https://youtu.be/Z45nrpykvG4",
-      "publish_at_local": "2026-10-19T19:00:00+03:00",
-      "publish_at_utc": "2026-10-19T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 1,
-      "title": "TCMB Karahan, yedinci faiz kararını 14.00'te açıklıyor",
-      "narration": "TCMB yedinci faiz kararını 14 virgül 00te açıklıyor TCMB Başkanı Fatih Karahan liderliğinde kurul yılın yedinci faiz kararını belirleyecek Karar aynı gün saat 14 virgül 00te gerekçesiyle birlikte açıklanacak Ekonomistlerin beklentisi politika faizinin yüzde 36ya düşürülmesi Türkiyeden Haber kanalına abone ol",
-      "description": "TCMB Başkanı Karahan, yedinci faiz kararını saat 14.00'te açıklayacak. Bu karar ekonomiyi nasıl etkileyecek sizce?",
-      "visual_query": "centralbank meeting",
-      "tags": [
-        "faiz",
-        "TCMB",
-        "para politikası",
-        "ekonomi",
-        "döviz"
-      ],
-      "video_path": "output/short_1.mp4",
-      "source_headline": "TCMB, perşembe günü faiz kararını açıklayacak",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-19T14:40:50.633067+00:00",
-      "source_modified_at": "",
-      "run_id": "39270944366",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ]
+  "generated_at": "2026-10-20T03:11:43.775929+03:00",
+  "videos": []
 }
