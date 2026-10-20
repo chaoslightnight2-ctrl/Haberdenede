@@ -1,33 +1,4 @@
 {
-  "generated_at": "2026-10-21T01:19:21.673798+03:00",
-  "videos": [
-    {
-      "video_id": "8fWHkWk6YeI",
-      "youtube_url": "https://youtu.be/8fWHkWk6YeI",
-      "publish_at_local": "2026-10-21T21:00:00+03:00",
-      "publish_at_utc": "2026-10-21T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "G20 genç girişimciler Türkiye'ye yatırım fırsatı sundu",
-      "narration": "G20 genç girişimciler Türkiyeye yatırım fırsatı sundu G20 Genç Girişimciler toplantısında 17 ülkeden 450yi aşkın genç iş insanı Türkiyeye yatırım ve işbirliği ilgisini dile getirdi TÜGİAD Yönetim Kurulu Başkanı Gürkan Yıldırım Türkiyenin lojistik konumu ve üretim kapasitesinin Avrupa pazarında tercih edilme oranını artırdığını vurguladı Avrupa teknoloji temsilcisi Tobias Bacherle Türkiyenin fintech ve düşük emisyonlu ticari araç sektörlerinde Avrupa pazarına açılma fırsatı sunduğunu belirtti Türkiyeden Haber kanalına abone ol",
-      "description": "G20 toplantısında genç girişimciler, Türkiye'nin stratejik konumu ve teknoloji ekosistemini yatırım için cazip buldu. Sizce bu ilgi Türkiye'nin ekonomik geleceğini nasıl şekillendirecek?",
-      "visual_query": "young entrepreneurs meeting turkey",
-      "tags": [
-        "G20",
-        "genç girişimciler",
-        "Türkiye yatırımı",
-        "fintek",
-        "düşük emisyonlu araçlar"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Dünyanın genç girişimcilerinin gözü Türkiye’de",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-20T22:28:11.388180+00:00",
-      "source_modified_at": "",
-      "run_id": "39507137369",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ]
+  "generated_at": "2026-10-21T02:43:55.745348+03:00",
+  "videos": []
 }
