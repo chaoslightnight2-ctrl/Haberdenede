@@ -4481,6 +4481,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul Havalimanı Dünya Listesinde Birinci Oldu",
+      "summary": "İGA İstanbul Havalimanı, Conde Nast Traveller dergisinin İngiltere edisyonu tarafından düzenlenen \"Okuyucu Tercihleri Ödülleri 2026\" Readers' Choice Awards 2026 kapsamında \"Dünyanın En İyi Havalimanı\" seçildi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-dunyanin-en-iyisi-secildi-960621.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-20T11:25:00+03:00",
+      "fingerprint": "0bf1a91bac81672e6682e6ecc0a09272427c4d91",
+      "viral_score": 56.77,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-20T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/wwvmC99nBTk",
+      "video_id": "wwvmC99nBTk",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-20T16:29:25.189527+03:00",
+      "publish_at_utc": "2026-10-20T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İstanbul Havalimanı 'dünyanın en iyisi' seçildi",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-dunyanin-en-iyisi-secildi-960621.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
