@@ -1,39 +1,10 @@
 {
-  "source_run": "39507137369",
-  "verified_at": "2026-10-20T22:42:52.951305+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "8fWHkWk6YeI",
-      "youtube_url": "https://youtu.be/8fWHkWk6YeI",
-      "title": "G20 genç girişimciler Türkiye'ye yatırım fırsatı sundu",
-      "narration": "G20 genç girişimciler Türkiyeye yatırım fırsatı sundu G20 Genç Girişimciler toplantısında 17 ülkeden 450yi aşkın genç iş insanı Türkiyeye yatırım ve işbirliği ilgisini dile getirdi TÜGİAD Yönetim Kurulu Başkanı Gürkan Yıldırım Türkiyenin lojistik konumu ve üretim kapasitesinin Avrupa pazarında tercih edilme oranını artırdığını vurguladı Avrupa teknoloji temsilcisi Tobias Bacherle Türkiyenin fintech ve düşük emisyonlu ticari araç sektörlerinde Avrupa pazarına açılma fırsatı sunduğunu belirtti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-21T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-21T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.5,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/8fWHkWk6YeI.jpg"
-    }
-  ],
+  "source_run": "39516817380",
+  "verified_at": "2026-10-20T23:57:11.601678+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -42,7 +13,7 @@
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
-  "target_count": 2,
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": false
 }
