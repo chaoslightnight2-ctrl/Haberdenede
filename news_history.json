@@ -4527,6 +4527,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "S&P: Lira Güveni Dirençli, Enflasyon %30,9",
+      "summary": "Samp;P Global Ratings, Türkiye'de hanehalkının liraya güveninin dirençli kalmaya devam ettiğini ve Orta Doğu'daki savaştan kaynaklanan enerji fiyat şokunun enflasyonda yukarı yönlü baskı oluşturmasına rağmen ülke ekonomisinin şokun etkilerini atlatabileceğini bildirdi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/sp-global-ratings-turkiyede-hanehalkinin-liraya-guveni-direncli-kalmaya-devam-ediyor-960650.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-20T15:32:00+03:00",
+      "fingerprint": "fff6c733a428df34424b38c1fe3034b20d9aa86c",
+      "viral_score": 87.36,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-21T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/_CCLC2UDQ4I",
+      "video_id": "_CCLC2UDQ4I",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-20T22:37:29.440886+03:00",
+      "publish_at_utc": "2026-10-21T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "S&P Global Ratings: Türkiye'de hanehalkının liraya güveni dirençli kalmaya devam ediyor",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/sp-global-ratings-turkiyede-hanehalkinin-liraya-guveni-direncli-kalmaya-devam-ediyor-960650.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
