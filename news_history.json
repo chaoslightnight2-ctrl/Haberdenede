@@ -4594,7 +4594,8 @@
       "resolved_url": "https://www.trthaber.com/haber/gundem/turkiye-katar-pakistan-ve-endonezyadan-dev-savunma-anlasmasi-960759.html",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
