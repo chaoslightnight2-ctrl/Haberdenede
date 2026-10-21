@@ -45,7 +45,52 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Osman Çelik bakan yardımcısı emeklilik dilekçesini sundu Hazine ve Maliye Bakan Yardımcısı Osman Çelik 19 Ekim 2026 tarihinde Bakan Mehmet Şimşeke emeklilik dilekçesini sundu Resmi makamlar dilekçenin işleme alınıp alınmadığı konusunda henüz bir açıklama yapmadı Aynı gün Çelikin damadı İskender Balcı fon soruşturması kapsamında tutuklanmış ve diğer şüphelilerden dokuzu adli kontrol tedbiri uygulanmış Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
+      "scheduled_slot": "23:00"
+    },
+    {
+      "title": "Doha’da “Bedir” Savunma Anlaşması İmzalandı",
+      "summary": "Katar'ın başkenti Doha'da Katar, Endonezya, Pakistan ve Türkiye arasında çok taraflı 'Bedir' Mutabakat Zaptı imzalandı. Mutabakat, askeri üretim alanında iş birliğini teşvik etmeyi, dört ülkenin askeri kabiliyetlerini güçlendirmeyi, teknik, askeri, eğitim, araştırma ve geliştirme konularında iş birliğini desteklemeyi amaçlıyor.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiye-katar-pakistan-ve-endonezyadan-dev-savunma-anlasmasi-960759.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-10-21T13:22:00+03:00",
+      "fingerprint": "51f5b4e8f3bf448dcc8fbf0730c4248e2b38845c",
+      "direct_source": true,
+      "viral_score": 75.72,
+      "topic_bucket": "dünya_diplomasi",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiye-katar-pakistan-ve-endonezyadan-dev-savunma-anlasmasi-960759.html",
+      "source_headline": "Türkiye, Katar, Pakistan ve Endonezya'dan dev savunma anlaşması",
+      "source_modified_at": "",
+      "source_checked_at": "2026-10-21T13:02:43.285691+00:00",
+      "article_score": 108,
+      "article_text": "Türk savunma sanayii, diplomatik gücünü sahadaki üretim yeteneğiyle birleştiriyor, dost ve müttefik ülkelerle çok taraflı dev iş birliklerine imza atıyor Cumhurbaşkanı Recep Tayyip Erdoğan’ın öncülüğünde ve Savunma Sanayii Başkanlığı koordinasyonunda yürütülen savunma diplomasisi, meyvelerini vermeyi sürdürüyor Doha'da Türkiye, Katar, Pakistan ve Endonezya arasında dev iş birliği anlaşması imzalandı. Tarihi imzalar, dört ülke arasındaki karşılıklı güveni pekiştirirken, Türk savunma sanayiinin küresel ölçekteki yerini daha da sağlamlaştıracak Bedir Mutabakat Zaptı, Katar Başbakan Yardımcısı ve Savunma İşlerinden Sorumlu Devlet Bakanı Şeyh Saud bin Abdulrahman bin Hasan Al Sani, Endonezya Savunma Bakanı Yardımcısı Yusuf Jauharı, Pakistan Savunma Bakanı Khawaja Muhammed Asıf ve Türkiye Cumhuriyeti Millî Savunma Bakanı Yaşar Güler tarafından imzalandı Söz konusu mutabakat, askerî üretim alanında iş birliğini teşvik etmeyi, dört ülkenin askerî kabiliyetlerini güçlendirmeyi, ayrıca teknik askerî eğitim, araştırma ve geliştirme konularında iş birliğini desteklemeyi amaçlıyor Bu girişim, modern savunma sistemlerinin gelişimiyle uyumlu çözüm ve sanayi kollarının oluşturulmasına katkı sağlayacak Mutabakata, dolunay anlamına gelen “Bedir” ismi verilmiş; zira bu mutabakat sayesinde dört ülke birbirini tamamlamakta olup, anlaşma büyük bir askerî ve ekonomik önem taşımakta Mutabakat, imzacısı olan ülkeler için kayda değer bir ekonomik öneme sahiptir. Her bir ülkenin askerî üretim alanındaki kabiliyetlerinden yararlanılarak iş birliği ve entegrasyon sağlanacak, savunma sanayisi kapasiteleri geliştirilecek ve böylece müttefik ve dost ülkelerin ihtiyaçları karşılanabilecektir Ayrıca bu mutabakat, katılımcı ülkeler arasındaki askerî iş birliği ufkunu genişletmeye, savunma sanayisi sektöründeki ilişkilerini geliştirmeye ve güvenlik ile istikrarı destekleyip ortak hedeflere ulaşılmasını sağlayacak şekilde çok taraflı iş birliğini güçlendirmeye katkıda bulunacaktır",
+      "content_quality": "article_text",
+      "model_source_context": "Türk savunma sanayii, diplomatik gücünü sahadaki üretim yeteneğiyle birleştiriyor, dost ve müttefik ülkelerle çok taraflı dev iş birliklerine imza atıyor Cumhurbaşkanı Recep Tayyip Erdoğan’ın öncülüğünde ve Savunma Sanayii Başkanlığı koordinasyonunda yürütülen savunma diplomasisi, meyvelerini vermeyi sürdürüyor Doha'da Türkiye, Katar, Pakistan ve Endonezya arasında dev iş birliği anlaşması imzalandı. Tarihi imzalar, dört ülke arasındaki karşılıklı güveni pekiştirirken, Türk savunma sanayiinin küresel ölçekteki yerini daha da sağlamlaştıracak Bedir Mutabakat Zaptı, Katar Başbakan Yardımcısı ve Savunma İşlerinden Sorumlu Devlet Bakanı Şeyh Saud bin Abdulrahman bin Hasan Al Sani, Endonezya Savunma Bakanı Yardımcısı Yusuf Jauharı, Pakistan Savunma Bakanı Khawaja Muhammed Asıf ve Türkiye Cumhuriyeti Millî Savunma Bakanı Yaşar Güler tarafından imzalandı Söz konusu mutabakat, askerî üretim alanında iş birliğini teşvik etmeyi, dört ülkenin askerî kabiliyetlerini güçlendirmeyi, ayrıca teknik askerî eğitim, araştırma ve geliştirme konularında iş birliğini desteklemeyi amaçlıyor Bu girişim, modern savunma sistemlerinin gelişimiyle uyumlu çözüm ve sanayi kollarının oluşturulmasına katkı sağlayacak Mutabakata, dolunay anlamına gelen “Bedir” ismi verilmiş; zira bu mutabakat sayesinde dört ülke birbirini tamamlamakta olup, anlaşma büyük bir askerî ve ekonomik önem taşımakta Mutabakat, imzacısı olan ülkeler için kayda değer bir ekonomik öneme sahiptir. Her bir ülkenin askerî üretim alanındaki kabiliyetlerinden yararlanılarak iş birliği ve entegrasyon sağlanacak, savunma sanayisi kapasiteleri geliştirilecek ve böylece müttefik ve dost ülkelerin ihtiyaçları karşılanabilecektir Ayrıca bu mutabakat, katılımcı ülkeler arasındaki askerî iş birliği ufkunu genişletmeye, savunma sanayisi sektöründeki ilişkilerini geliştirmeye ve güvenlik ile istikrarı destekleyip ortak hedeflere ulaşılmasını sağlayacak şekilde çok taraflı iş birliğini güçlendirmeye katkıda bulunacaktır",
+      "shorts_hook": "Doha’da dört ülke savunma iş birliğine imza attı",
+      "quality_hook": "Doha’da dört ülke savunma iş birliğine imza attı",
+      "quality_narration": "Doha’da Türkiye, Katar, Pakistan ve Endonezya arasında “Bedir” adıyla bir savunma mutabakatı imzalandı. Mutabakat, dört ülkenin askeri üretim, teknik eğitim ve araştırma‑geliştirme alanlarında iş birliğini artırmayı hedefliyor.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Doha’da Türkiye, Katar, Pakistan ve Endonezya arasında “Bedir” adıyla bir savunma mutabakatı imzalandı.",
+        "Mutabakat, dört ülkenin askeri üretim, teknik eğitim ve araştırma‑geliştirme alanlarında iş birliğini artırmayı hedefliyor."
+      ],
+      "youtube_description": "Doha’da dört ülke savunma iş birliğini pekiştirdi. Sizce bu anlaşma bölgesel güvenliğe nasıl katkı sağlar?",
+      "visual_query": "leaders signing agreement",
+      "spoken_text": "Dohada dört ülke savunma iş birliğine imza attı Dohada Türkiye Katar Pakistan ve Endonezya arasında Bedir adıyla bir savunma mutabakatı imzalandı Mutabakat dört ülkenin askeri üretim teknik eğitim ve araştırma geliştirme alanlarında iş birliğini artırmayı hedefliyor Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Dohada dört ülke savunma iş birliğine imza attı. Dohada Türkiye Katar Pakistan ve Endonezya arasında Bedir adıyla bir savunma mutabakatı imzalandı. Mutabakat dört ülkenin askeri üretim teknik eğitim ve araştırma geliştirme alanlarında iş birliğini artırmayı hedefliyor. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "savunma anlaşması",
+        "Türkiye",
+        "Katar",
+        "Pakistan",
+        "Endonezya"
+      ],
+      "youtube_hashtags": "#shorts #savunma #diplomasi",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Dohada dört ülke savunma iş birliğine imza attı Dohada Türkiye Katar Pakistan ve Endonezya arasında Bedir adıyla bir savunma mutabakatı imzalandı Mutabakat dört ülkenin askeri üretim teknik eğitim ve araştırma geliştirme alanlarında iş birliğini artırmayı hedefliyor Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
