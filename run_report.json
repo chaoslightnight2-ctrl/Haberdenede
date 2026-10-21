@@ -1,16 +1,44 @@
 {
-  "run_id": "39516817380",
-  "generated_at": "2026-10-21T02:43:55.745348+03:00",
+  "run_id": "39603526725",
+  "generated_at": "2026-10-21T15:56:34.253274+03:00",
   "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "6nqMfl8nog4",
+      "youtube_url": "https://youtu.be/6nqMfl8nog4",
+      "publish_at_local": "2026-10-21T23:00:00+03:00",
+      "publish_at_utc": "2026-10-21T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Doha’da “Bedir” Savunma Anlaşması İmzalandı",
+      "narration": "Dohada dört ülke savunma iş birliğine imza attı Dohada Türkiye Katar Pakistan ve Endonezya arasında Bedir adıyla bir savunma mutabakatı imzalandı Mutabakat dört ülkenin askeri üretim teknik eğitim ve araştırma geliştirme alanlarında iş birliğini artırmayı hedefliyor Türkiyeden Haber kanalına abone ol",
+      "description": "Doha’da dört ülke savunma iş birliğini pekiştirdi. Sizce bu anlaşma bölgesel güvenliğe nasıl katkı sağlar?",
+      "visual_query": "leaders signing agreement",
+      "tags": [
+        "savunma anlaşması",
+        "Türkiye",
+        "Katar",
+        "Pakistan",
+        "Endonezya"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Türkiye, Katar, Pakistan ve Endonezya'dan dev savunma anlaşması",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-21T13:02:43.285691+00:00",
+      "source_modified_at": "",
+      "run_id": "39603526725"
+    }
+  ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: osman celik submits retirement"
     }
   ],
   "daily_existing_count": 2

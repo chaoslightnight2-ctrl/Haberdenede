@@ -4573,6 +4573,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Doha’da “Bedir” Savunma Anlaşması İmzalandı",
+      "summary": "Katar'ın başkenti Doha'da Katar, Endonezya, Pakistan ve Türkiye arasında çok taraflı 'Bedir' Mutabakat Zaptı imzalandı. Mutabakat, askeri üretim alanında iş birliğini teşvik etmeyi, dört ülkenin askeri kabiliyetlerini güçlendirmeyi, teknik, askeri, eğitim, araştırma ve geliştirme konularında iş birliğini desteklemeyi amaçlıyor.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiye-katar-pakistan-ve-endonezyadan-dev-savunma-anlasmasi-960759.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-21T13:22:00+03:00",
+      "fingerprint": "51f5b4e8f3bf448dcc8fbf0730c4248e2b38845c",
+      "viral_score": 75.72,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-10-21T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/6nqMfl8nog4",
+      "video_id": "6nqMfl8nog4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-21T16:20:43.068038+03:00",
+      "publish_at_utc": "2026-10-21T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye, Katar, Pakistan ve Endonezya'dan dev savunma anlaşması",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiye-katar-pakistan-ve-endonezyadan-dev-savunma-anlasmasi-960759.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
