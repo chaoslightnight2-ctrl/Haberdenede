@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-22T23:01:29.774823+00:00",
       "source_modified_at": "2026-10-23T00:51:49.147",
-      "run_id": "39864113990"
+      "run_id": "39864113990",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -39,6 +40,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: osman celik submits retirement"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
   "daily_existing_count": 1
