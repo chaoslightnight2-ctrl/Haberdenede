@@ -1,21 +1,50 @@
 {
-  "source_run": "39782682202",
-  "verified_at": "2026-10-22T13:17:06.808830+00:00",
-  "videos": [],
+  "source_run": "39838063474",
+  "verified_at": "2026-10-22T20:21:13.462092+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "b9W6kWT5hAo",
+      "youtube_url": "https://youtu.be/b9W6kWT5hAo",
+      "title": "Carney Ankara'ya Ziyaretinde Ortaklığı Güçlendiriyor",
+      "narration": "Kanada Başbakanı Carney Ankaraya ilk resmi ziyaretiyle ortaklığı güçlendirmeyi hedefliyor Kanada Başbakanı Carney Ankaraya inişini sosyal medyada duyurarak bu ziyaretin iki ülke arasındaki ilk ikili görüşme olduğunu belirtti Carney 85 milyondan fazla nüfusa sahip Türkiye pazarına erişimi artırmak ve iki ülkenin çalışanları ile işletmeleri için yeni ekonomik fırsatlar yaratmak istediğini vurguladı Erdoğan ile görüşmesinin ardından ortak bir basın toplantısı yapılması planlanıyor ve Carneynin İstanbula geçmesi bekleniyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-23T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-23T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 39.433333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/b9W6kWT5hAo.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: osman celik submits retirement"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     },
     {
-      "source": "Şimşek: Türkiye'nin borçluluk düzeyinin düşük olması ekonomik şoklara karşı dayanıklılığını artırıyor",
+      "source": "Bakan Tekin: Okullardaki fiziki altyapımız ile OECD ortalamasının üzerine çıktık",
       "stage": "generation",
-      "error": "visual_query yalnızca İngilizce arama kelimeleri içermeli"
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "target_count": 3,
