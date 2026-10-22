@@ -31,7 +31,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-22T19:59:16.368888+00:00",
       "source_modified_at": "",
-      "run_id": "39838063474"
+      "run_id": "39838063474",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -39,6 +40,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "source": "Bakan Tekin: Okullardaki fiziki altyapımız ile OECD ortalamasının üzerine çıktık",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 0
