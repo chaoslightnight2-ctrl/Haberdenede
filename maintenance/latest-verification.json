@@ -1,13 +1,25 @@
 {
-  "source_run": "39660324638",
-  "verified_at": "2026-10-21T19:19:15.577807+00:00",
+  "source_run": "39696572373",
+  "verified_at": "2026-10-22T00:05:02.286079+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: osman celik submits retirement"
+    },
+    {
+      "source": "Bakan Bolat: Türkiye dünyanın 11'inci büyük ekonomisi konumuna ulaştı",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
