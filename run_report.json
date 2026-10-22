@@ -1,51 +1,45 @@
 {
-  "run_id": "39838063474",
-  "generated_at": "2026-10-22T22:52:55.001844+03:00",
-  "target_count": 3,
+  "run_id": "39864113990",
+  "generated_at": "2026-10-23T01:53:20.833015+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "b9W6kWT5hAo",
-      "youtube_url": "https://youtu.be/b9W6kWT5hAo",
-      "publish_at_local": "2026-10-23T19:00:00+03:00",
-      "publish_at_utc": "2026-10-23T16:00:00Z",
+      "video_id": "BCIwjfEqXwQ",
+      "youtube_url": "https://youtu.be/BCIwjfEqXwQ",
+      "publish_at_local": "2026-10-23T21:00:00+03:00",
+      "publish_at_utc": "2026-10-23T18:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 2,
-      "title": "Carney Ankara'ya Ziyaretinde Ortaklığı Güçlendiriyor",
-      "narration": "Kanada Başbakanı Carney Ankaraya ilk resmi ziyaretiyle ortaklığı güçlendirmeyi hedefliyor Kanada Başbakanı Carney Ankaraya inişini sosyal medyada duyurarak bu ziyaretin iki ülke arasındaki ilk ikili görüşme olduğunu belirtti Carney 85 milyondan fazla nüfusa sahip Türkiye pazarına erişimi artırmak ve iki ülkenin çalışanları ile işletmeleri için yeni ekonomik fırsatlar yaratmak istediğini vurguladı Erdoğan ile görüşmesinin ardından ortak bir basın toplantısı yapılması planlanıyor ve Carneynin İstanbula geçmesi bekleniyor Türkiyeden Haber kanalına abone ol",
-      "description": "Kanada Başbakanı Carney, Ankara'da Cumhurbaşkanı Erdoğan ile görüşerek iki ülke arasındaki ekonomik iş birliğini artırmayı hedefliyor. Sizce bu ziyaret Türkiye‑Kanada ilişkilerini nasıl etkileyecek?",
-      "visual_query": "canadian prime minister arriving",
+      "title": "Kanada‑Türkiye savunma‑havacılık anlaşmalarını imzaladı",
+      "narration": "Kanada Türkiye yeni savunma ve havacılık anlaşmaları imzaladı Kanada Dışişleri Bakanı Anand Ankarada Kanada Başbakanı Mark Carney ve Cumhurbaşkanı Recep Tayyip Erdoğan ile üç ayrı anlaşma imzaladıklarını duyurdu İmzalanan belgeler arasında Hava Ulaştırma Antlaşması Savunma Sektörü Ortaklıkları Mutabakat Zaptı ve Enerji Alanında İşbirliğine Dair Ortak Bildiri yer alıyor Anand bu anlaşmaların iki ülkenin stratejik ortaklık çerçevesinde ekonomik çıkarları ve NATO sorumluluklarını güçlendireceğini vurguladı Türkiyeden Haber kanalına abone ol",
+      "description": "Kanada ve Türkiye, savunma, havacılık ve enerji alanlarında üç yeni anlaşma imzaladı. Bu işbirliği iki ülkenin gelecekteki stratejik ilişkilerini nasıl şekillendirecek?",
+      "visual_query": "canada turkey signing",
       "tags": [
         "Kanada",
         "Türkiye",
-        "diplomasi",
-        "ekonomi",
-        "Carney"
+        "savunma anlaşması",
+        "havacılık işbirliği",
+        "enerji ortaklığı"
       ],
       "video_path": "output/short_2.mp4",
-      "source_headline": "Kanada Başbakanı Carney'den Türkiye ile ortaklığı bir üst seviyeye taşıma vurgusu",
+      "source_headline": "Kanada Dışişleri Bakanı Anand, Türkiye ile ilişkilerin öneminin arttığını vurguladı",
       "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-22T19:59:16.368888+00:00",
-      "source_modified_at": "",
-      "run_id": "39838063474",
-      "processing_status": "readback_scope_unavailable"
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-22T23:01:29.774823+00:00",
+      "source_modified_at": "2026-10-23T00:51:49.147",
+      "run_id": "39864113990"
     }
   ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "source": "Bakan Tekin: Okullardaki fiziki altyapımız ile OECD ortalamasının üzerine çıktık",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "error": "No described asset matches scene 0: osman celik submits retirement"
     }
   ],
-  "daily_existing_count": 0
+  "daily_existing_count": 1
 }
