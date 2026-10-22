@@ -4596,6 +4596,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Carney Ankara'ya Ziyaretinde Ortaklığı Güçlendiriyor",
+      "summary": "Kanada Başbakanı Mark Carney, Türkiye ile Kanada arasındaki ortaklığı bir üst seviyeye taşımak ve ekonomik işbirliği imkanlarını geliştirmek için Ankara'da bulunduğunu bildirdi.",
+      "url": "https://www.trthaber.com/haber/dunya/kanada-basbakani-carneyden-turkiye-ile-ortakligi-bir-ust-seviyeye-tasima-vurgusu-960921.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-22T17:08:00+03:00",
+      "fingerprint": "3d4b6358bb6dd501ca4a31f1dce509f95a1a67cc",
+      "viral_score": 79.64,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-23T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/b9W6kWT5hAo",
+      "video_id": "b9W6kWT5hAo",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-22T23:18:27.127883+03:00",
+      "publish_at_utc": "2026-10-23T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Kanada Başbakanı Carney'den Türkiye ile ortaklığı bir üst seviyeye taşıma vurgusu",
+      "resolved_url": "https://www.trthaber.com/haber/dunya/kanada-basbakani-carneyden-turkiye-ile-ortakligi-bir-ust-seviyeye-tasima-vurgusu-960921.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
