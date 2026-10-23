@@ -1,19 +1,19 @@
 {
-  "source_run": "39864113990",
-  "verified_at": "2026-10-22T23:32:56.088546+00:00",
+  "source_run": "39874938568",
+  "verified_at": "2026-10-23T00:48:44.066916+00:00",
   "videos": [
     {
-      "index": 2,
-      "video_id": "BCIwjfEqXwQ",
-      "youtube_url": "https://youtu.be/BCIwjfEqXwQ",
-      "title": "Kanada‑Türkiye savunma‑havacılık anlaşmalarını imzaladı",
-      "narration": "Kanada Türkiye yeni savunma ve havacılık anlaşmaları imzaladı Kanada Dışişleri Bakanı Anand Ankarada Kanada Başbakanı Mark Carney ve Cumhurbaşkanı Recep Tayyip Erdoğan ile üç ayrı anlaşma imzaladıklarını duyurdu İmzalanan belgeler arasında Hava Ulaştırma Antlaşması Savunma Sektörü Ortaklıkları Mutabakat Zaptı ve Enerji Alanında İşbirliğine Dair Ortak Bildiri yer alıyor Anand bu anlaşmaların iki ülkenin stratejik ortaklık çerçevesinde ekonomik çıkarları ve NATO sorumluluklarını güçlendireceğini vurguladı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-23T18:00:00Z",
+      "index": 3,
+      "video_id": "ol5Q0_gsi0Q",
+      "youtube_url": "https://youtu.be/ol5Q0_gsi0Q",
+      "title": "Yusuf Tekin'den MEB Söz Varlığı Ağıyla Eğitimde Adım",
+      "narration": "Tekinin MEB kelime ağı eğitimde devrim yaratıyor Milli Eğitim Bakanı Yusuf Tekin MEB Söz Varlığı Bilgi Ağı nı tanıttı ve proje kapsamında ders kitapları ve öğretim programlarında kullanılan kelimelerin envanteri oluşturulduğunu belirtti Tekin bu envanterin öğretmenler ÖSYM Yunus Emre Enstitüsü ve Türk Dil Kurumu için değerli veri sağlayacağını ve ortak kavramsal dil inşasına katkı sunacağını vurguladı Proje sayesinde Türkçenin bilim dili olarak zenginliğinin öğrencilere yansıtılması ve milli birlik ile beraberliğin güçlendirilmesi hedefleniyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-23T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-23T18:00:00Z",
+        "publishAt": "2026-10-23T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,12 +23,12 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 38.433333,
+        "duration": 42.633333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/BCIwjfEqXwQ.jpg"
+      "preview": "maintenance/previews/ol5Q0_gsi0Q.jpg"
     }
   ],
   "errors": [],
@@ -42,13 +42,13 @@
       "error": "No described asset matches scene 0: osman celik submits retirement"
     },
     {
-      "index": 3,
+      "index": 2,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: bakan lira transfer"
     }
   ],
   "public_listing_error": "HTTPError",
-  "target_count": 2,
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
