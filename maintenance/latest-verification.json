@@ -1,13 +1,24 @@
 {
-  "source_run": "40009375483",
-  "verified_at": "2026-10-23T19:12:44.356462+00:00",
+  "source_run": "40031626782",
+  "verified_at": "2026-10-23T22:19:59.507761+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: bakan lira transfer"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
