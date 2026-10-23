@@ -1,54 +1,13 @@
 {
-  "source_run": "39874938568",
-  "verified_at": "2026-10-23T00:48:44.066916+00:00",
-  "videos": [
-    {
-      "index": 3,
-      "video_id": "ol5Q0_gsi0Q",
-      "youtube_url": "https://youtu.be/ol5Q0_gsi0Q",
-      "title": "Yusuf Tekin'den MEB Söz Varlığı Ağıyla Eğitimde Adım",
-      "narration": "Tekinin MEB kelime ağı eğitimde devrim yaratıyor Milli Eğitim Bakanı Yusuf Tekin MEB Söz Varlığı Bilgi Ağı nı tanıttı ve proje kapsamında ders kitapları ve öğretim programlarında kullanılan kelimelerin envanteri oluşturulduğunu belirtti Tekin bu envanterin öğretmenler ÖSYM Yunus Emre Enstitüsü ve Türk Dil Kurumu için değerli veri sağlayacağını ve ortak kavramsal dil inşasına katkı sunacağını vurguladı Proje sayesinde Türkçenin bilim dili olarak zenginliğinin öğrencilere yansıtılması ve milli birlik ile beraberliğin güçlendirilmesi hedefleniyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-23T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-23T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 42.633333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ol5Q0_gsi0Q.jpg"
-    }
-  ],
+  "source_run": "40009375483",
+  "verified_at": "2026-10-23T19:12:44.356462+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: osman celik submits retirement"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: bakan lira transfer"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
