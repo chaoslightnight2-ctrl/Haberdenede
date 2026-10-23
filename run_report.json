@@ -1,38 +1,37 @@
 {
-  "run_id": "39864113990",
-  "generated_at": "2026-10-23T01:53:20.833015+03:00",
-  "target_count": 2,
+  "run_id": "39874938568",
+  "generated_at": "2026-10-23T03:36:38.449139+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "BCIwjfEqXwQ",
-      "youtube_url": "https://youtu.be/BCIwjfEqXwQ",
-      "publish_at_local": "2026-10-23T21:00:00+03:00",
-      "publish_at_utc": "2026-10-23T18:00:00Z",
+      "video_id": "ol5Q0_gsi0Q",
+      "youtube_url": "https://youtu.be/ol5Q0_gsi0Q",
+      "publish_at_local": "2026-10-23T23:00:00+03:00",
+      "publish_at_utc": "2026-10-23T20:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
-      "index": 2,
-      "title": "Kanada‑Türkiye savunma‑havacılık anlaşmalarını imzaladı",
-      "narration": "Kanada Türkiye yeni savunma ve havacılık anlaşmaları imzaladı Kanada Dışişleri Bakanı Anand Ankarada Kanada Başbakanı Mark Carney ve Cumhurbaşkanı Recep Tayyip Erdoğan ile üç ayrı anlaşma imzaladıklarını duyurdu İmzalanan belgeler arasında Hava Ulaştırma Antlaşması Savunma Sektörü Ortaklıkları Mutabakat Zaptı ve Enerji Alanında İşbirliğine Dair Ortak Bildiri yer alıyor Anand bu anlaşmaların iki ülkenin stratejik ortaklık çerçevesinde ekonomik çıkarları ve NATO sorumluluklarını güçlendireceğini vurguladı Türkiyeden Haber kanalına abone ol",
-      "description": "Kanada ve Türkiye, savunma, havacılık ve enerji alanlarında üç yeni anlaşma imzaladı. Bu işbirliği iki ülkenin gelecekteki stratejik ilişkilerini nasıl şekillendirecek?",
-      "visual_query": "canada turkey signing",
+      "index": 3,
+      "title": "Yusuf Tekin'den MEB Söz Varlığı Ağıyla Eğitimde Adım",
+      "narration": "Tekinin MEB kelime ağı eğitimde devrim yaratıyor Milli Eğitim Bakanı Yusuf Tekin MEB Söz Varlığı Bilgi Ağı nı tanıttı ve proje kapsamında ders kitapları ve öğretim programlarında kullanılan kelimelerin envanteri oluşturulduğunu belirtti Tekin bu envanterin öğretmenler ÖSYM Yunus Emre Enstitüsü ve Türk Dil Kurumu için değerli veri sağlayacağını ve ortak kavramsal dil inşasına katkı sunacağını vurguladı Proje sayesinde Türkçenin bilim dili olarak zenginliğinin öğrencilere yansıtılması ve milli birlik ile beraberliğin güçlendirilmesi hedefleniyor Türkiyeden Haber kanalına abone ol",
+      "description": "MEB, Tekin'in açıklamalarıyla kelime envanteriyle öğretmenlere ve kurumlara yeni veri sunuyor. Sizce bu proje öğrencilerin dil becerilerini nasıl etkiler?",
+      "visual_query": "teacher using digital word network",
       "tags": [
-        "Kanada",
-        "Türkiye",
-        "savunma anlaşması",
-        "havacılık işbirliği",
-        "enerji ortaklığı"
+        "MEB",
+        "kelime ağı",
+        "eğitim reformu",
+        "Türkçe",
+        "öğretmen"
       ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Kanada Dışişleri Bakanı Anand, Türkiye ile ilişkilerin öneminin arttığını vurguladı",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-22T23:01:29.774823+00:00",
-      "source_modified_at": "2026-10-23T00:51:49.147",
-      "run_id": "39864113990",
-      "processing_status": "readback_scope_unavailable"
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Bakan Tekin: Okullardaki fiziki altyapımız ile OECD ortalamasının üzerine çıktık",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-23T00:39:17.088376+00:00",
+      "source_modified_at": "",
+      "run_id": "39874938568"
     }
   ],
   "errors": [
@@ -42,10 +41,10 @@
       "error": "No described asset matches scene 0: osman celik submits retirement"
     },
     {
-      "index": 3,
+      "index": 2,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: bakan lira transfer"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 2
 }
