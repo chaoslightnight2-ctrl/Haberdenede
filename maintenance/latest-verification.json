@@ -1,6 +1,6 @@
 {
-  "source_run": "40092055166",
-  "verified_at": "2026-10-24T12:12:10.145129+00:00",
+  "source_run": "40119242772",
+  "verified_at": "2026-10-24T18:30:10.598542+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -15,7 +15,7 @@
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: bakan lira transfer"
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
   "target_count": 3,
