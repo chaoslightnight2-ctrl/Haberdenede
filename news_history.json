@@ -4686,7 +4686,30 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlFHdkh6QldMdU00TmE4eVhZRmpvR0VWSmdGMjJrMmpKT3dKTVljS2RvdjNEbUdQX3p6N3M0U09MZy1zcGgydVNNNWVpN284bTBabkZDRnlmMjFYMGt3YjFJRDBQcjd3bUptTm9ZWUhocFNkZ2dMcGtxbzR6YXl2UmRiVVd3ZTc4dEpzS0FwNUFzTW8yalg1X1RoSmxkaVRhckNQWFV2TDU?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "health_education",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türkiye'de 13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
+      "summary": "Memişoğlu: 13-17 yaş grubunda sigara kullanımı yüzde 30 Yeni İzmir Haber",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0hKdjFWb25OWXQ2VUhabjBqb19ZMTJydnFfMVFURUZEZ2NZWWtiblI2anI1ZE44Y2ItNFNHSHEwbjFaMW52MFZYZ0FxeHFPTnBXcVBaWF9sWlVtdTF5T2UxUWhueEd5UTJIUXJFWVdSVXNlVjRvNkhKYWMxbFNPc1IyZmNraDg?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-24T22:54:00+03:00",
+      "fingerprint": "dda00f7c6ec88f80c5075248bc14c9c6ea5213be",
+      "viral_score": 56.61,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-25T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/poICt9NIG_0",
+      "video_id": "poICt9NIG_0",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-25T02:57:26.133496+03:00",
+      "publish_at_utc": "2026-10-25T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Memişoğlu: 13-17 yaş grubunda sigara kullanımı yüzde 30",
+      "resolved_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0hKdjFWb25OWXQ2VUhabjBqb19ZMTJydnFfMVFURUZEZ2NZWWtiblI2anI1ZE44Y2ItNFNHSHEwbjFaMW52MFZYZ0FxeHFPTnBXcVBaWF9sWlVtdTF5T2UxUWhueEd5UTJIUXJFWVdSVXNlVjRvNkhKYWMxbFNPc1IyZmNraDg?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
