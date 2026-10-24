@@ -45,7 +45,7 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Osman Çelik bakan yardımcısı emeklilik dilekçesini sundu Hazine ve Maliye Bakan Yardımcısı Osman Çelik 19 Ekim 2026 tarihinde Bakan Mehmet Şimşeke emeklilik dilekçesini sundu Resmi makamlar dilekçenin işleme alınıp alınmadığı konusunda henüz bir açıklama yapmadı Aynı gün Çelikin damadı İskender Balcı fon soruşturması kapsamında tutuklanmış ve diğer şüphelilerden dokuzu adli kontrol tedbiri uygulanmış Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "23:00"
     },
     {
       "title": "Bakan Göktaş, İstanbul'a sel sonrası 230M Lira aktardı",
@@ -62,7 +62,7 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/selden-etkilenen-istanbula-230-milyon-lira-daha-kaynak-aktarildi/4097659",
       "source_headline": "Selden etkilenen İstanbul'a 230 milyon lira daha kaynak aktarıldı",
       "source_modified_at": "2026-10-22T19:55:28.843",
-      "source_checked_at": "2026-10-24T12:05:45.182654+00:00",
+      "source_checked_at": "2026-10-24T18:16:46.361435+00:00",
       "article_score": 39,
       "article_text": "Fatih Gökbulut 22 Ekim 2026•Güncelleme: 22 Ekim 2026 Bakan Göktaş, NSosyal hesabından yaptığı açıklamada, şunları kaydetti: \"İstanbul'da sel felaketinden etkilenen vatandaşlarımızın temel ihtiyaçlarının karşılanması amacıyla, ilimize 230 milyon lira tutarında ilave kaynak aktardık. Böylece sel felaketinin ardından İstanbul'a sağladığımız destek toplam 430 milyon liraya ulaştı. Selden etkilenen tüm vatandaşlarımıza bir kez daha geçmiş olsun dileklerimi iletiyor, hayatını kaybedenlere Allah'tan rahmet, yakınlarına sabır ve başsağlığı diliyorum. Bakanlığımızın tüm imkanlarıyla vatandaşlarımızın yanında olmaya devam edeceğimizi belirtmek istiyorum. Rabb'im, ülkemizi ve milletimizi her türlü afetten muhafaza eylesin.\"",
       "content_quality": "article_text",
@@ -92,8 +92,7 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "İstanbula sel sonrası 230 milyon lira daha aktarıldı Bakan Göktaş İstanbulda sel felaketinden etkilenen vatandaşların temel ihtiyaçlarını karşılamak için 230 milyon lira ilave kaynak aktaracağını duyurdu Bu ek kaynakla sel sonrası İstanbula sağlanan toplam destek 430 milyon liraya ulaştı Bakan Göktaş hayatını kaybedenlere başsağlığı dileyerek afet yönetiminde tüm imkanlarla vatandaşların yanında olunacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "23:00",
-      "_ready_to_resume": true
+      "scheduled_slot": "23:00"
     }
   ]
 }
