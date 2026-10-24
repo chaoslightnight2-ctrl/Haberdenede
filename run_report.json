@@ -1,11 +1,39 @@
 {
-  "run_id": "40131278004",
-  "generated_at": "2026-10-24T23:47:18.768201+03:00",
+  "run_id": "40141027598",
+  "generated_at": "2026-10-25T02:02:56.576212+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "5ALjiwYGIbA",
+      "youtube_url": "https://youtu.be/5ALjiwYGIbA",
+      "publish_at_local": "2026-10-25T19:00:00+03:00",
+      "publish_at_utc": "2026-10-25T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
+      "narration": "Gençlerin yüzde 30u sigara içiyor alarm veriyor 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldı ve yıllık harcama 15 milyar dolar olarak kaydedildi 13 17 yaş grubunda yaklaşık 7 virgül 5 milyon genç bulunuyor bunların 2 virgül 5 milyonu sigara kullanıyor yani yüzde 30 Bakan Memişoğlu sigaraya başlama yaşının ortalama 17 olduğunu belirtti Türkiyeden Haber kanalına abone ol",
+      "description": "Sağlık Bakanı Kemal Memişoğlu, gençlerin %30'unun sigara içtiğini açıkladı. Bu oranla mücadele etmek sizce nasıl mümkün?",
+      "visual_query": "young people smoking",
+      "tags": [
+        "sigara",
+        "gençlik",
+        "sağlık",
+        "istatistik",
+        "tütün"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Türkiye’de gençler için sigara alarmı! Bakanın açıkladığı rakam dikkat çekti",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-24T23:28:36.298311+00:00",
+      "source_modified_at": "",
+      "run_id": "40141027598"
+    }
+  ],
   "errors": [
     {
       "index": 1,
@@ -15,7 +43,12 @@
     {
       "index": 2,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: bakan lira transfer"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister speaking statistics"
     }
   ],
   "daily_existing_count": 0

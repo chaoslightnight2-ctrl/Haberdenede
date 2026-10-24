@@ -4665,6 +4665,28 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
+      "summary": "Türkiye’de gençler için sigara alarmı! Bakanın açıkladığı rakam dikkat çekti Haymana Gazetesi",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlFHdkh6QldMdU00TmE4eVhZRmpvR0VWSmdGMjJrMmpKT3dKTVljS2RvdjNEbUdQX3p6N3M0U09MZy1zcGgydVNNNWVpN284bTBabkZDRnlmMjFYMGt3YjFJRDBQcjd3bUptTm9ZWUhocFNkZ2dMcGtxbzR6YXl2UmRiVVd3ZTc4dEpzS0FwNUFzTW8yalg1X1RoSmxkaVRhckNQWFV2TDU?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-25T01:40:00+03:00",
+      "fingerprint": "dab51125f38c7831c3e80dc764edcc424fa7507b",
+      "viral_score": 67.03,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-25T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/5ALjiwYGIbA",
+      "video_id": "5ALjiwYGIbA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-25T02:43:32.526049+03:00",
+      "publish_at_utc": "2026-10-25T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye’de gençler için sigara alarmı! Bakanın açıkladığı rakam dikkat çekti",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdlFHdkh6QldMdU00TmE4eVhZRmpvR0VWSmdGMjJrMmpKT3dKTVljS2RvdjNEbUdQX3p6N3M0U09MZy1zcGgydVNNNWVpN284bTBabkZDRnlmMjFYMGt3YjFJRDBQcjd3bUptTm9ZWUhocFNkZ2dMcGtxbzR6YXl2UmRiVVd3ZTc4dEpzS0FwNUFzTW8yalg1X1RoSmxkaVRhckNQWFV2TDU?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change"
     }
   ]
 }
