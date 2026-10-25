@@ -1,18 +1,12 @@
 {
-  "source_run": "40236978918",
-  "verified_at": "2026-10-25T21:47:29.616350+00:00",
+  "source_run": "40243251671",
+  "verified_at": "2026-10-25T23:08:55.573958+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [
-    {
-      "source": "Osman Çelik 19 Ekim'de emeklilik dilekçesini verdi",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
-    }
-  ],
+  "generation_errors": [],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
