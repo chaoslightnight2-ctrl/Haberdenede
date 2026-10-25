@@ -1,112 +1,12 @@
 {
-  "run_id": "40141027598",
-  "generated_at": "2026-10-25T02:02:56.576212+03:00",
-  "target_count": 3,
+  "run_id": "40193636180",
+  "generated_at": "2026-10-25T15:34:20.955661+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "5ALjiwYGIbA",
-      "youtube_url": "https://youtu.be/5ALjiwYGIbA",
-      "publish_at_local": "2026-10-25T19:00:00+03:00",
-      "publish_at_utc": "2026-10-25T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
-      "narration": "Gençlerin yüzde 30u sigara içiyor alarm veriyor 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldı ve yıllık harcama 15 milyar dolar olarak kaydedildi 13 17 yaş grubunda yaklaşık 7 virgül 5 milyon genç bulunuyor bunların 2 virgül 5 milyonu sigara kullanıyor yani yüzde 30 Bakan Memişoğlu sigaraya başlama yaşının ortalama 17 olduğunu belirtti Türkiyeden Haber kanalına abone ol",
-      "description": "Sağlık Bakanı Kemal Memişoğlu, gençlerin %30'unun sigara içtiğini açıkladı. Bu oranla mücadele etmek sizce nasıl mümkün?",
-      "visual_query": "young people smoking",
-      "tags": [
-        "sigara",
-        "gençlik",
-        "sağlık",
-        "istatistik",
-        "tütün"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "Türkiye’de gençler için sigara alarmı! Bakanın açıkladığı rakam dikkat çekti",
-      "audience_bucket": "health_education",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-24T23:28:36.298311+00:00",
-      "source_modified_at": "",
-      "run_id": "40141027598",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "poICt9NIG_0",
-      "youtube_url": "https://youtu.be/poICt9NIG_0",
-      "publish_at_local": "2026-10-25T21:00:00+03:00",
-      "publish_at_utc": "2026-10-25T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 5,
-      "title": "Türkiye'de 13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
-      "narration": "Gençlerde yüzde 30 sigara oranı alarm veriyor Sağlık Bakanı Kemal Memişoğlu 13 17 yaş arasındaki 7 virgül 5 milyon gençten 2 virgül 5 milyonunun sigara kullandığını ve bu oranın yüzde 30 olduğunu belirtti Bakan sigaraya başlama yaşının ortalama 17 olduğunu ve bu durumun gençler arasında dramatik bir sorun oluşturduğunu vurguladı 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldığını ve sigaraya harcanan peşin paranın yıllık 15 milyar dolara ulaştığını kaydetti Türkiyeden Haber kanalına abone ol",
-      "description": "Sağlık Bakanı Memişoğlu, 13-17 yaş grubunda %30'un sigara kullandığını açıkladı. Siz gençlerin bu oranla başa çıkması için ne düşünüyorsunuz?",
-      "visual_query": "teen smoking statistics",
-      "tags": [
-        "genç sigara",
-        "tütün kullanımı",
-        "sağlık istatistikleri",
-        "Türkiye gençliği",
-        "sigara önleme"
-      ],
-      "video_path": "output/short_5.mp4",
-      "source_headline": "Memişoğlu: 13-17 yaş grubunda sigara kullanımı yüzde 30",
-      "audience_bucket": "health_education",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-24T23:43:35.381193+00:00",
-      "source_modified_at": "",
-      "run_id": "40141027598",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "XFypWauL_UI",
-      "youtube_url": "https://youtu.be/XFypWauL_UI",
-      "publish_at_local": "2026-10-25T23:00:00+03:00",
-      "publish_at_utc": "2026-10-25T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 6,
-      "title": "Somali Mogadişu’da Hilowle Okulu 5 Sınıf Yenilendi",
-      "narration": "Mogadişuda beş sınıf yenilendi eğitim canlandı Somali Türk Görev Kuvveti Komutanlığı Mogadişudaki Maxamuud Hilowle Okulunda beş sınıfın bakım onarım ve yenileme çalışmalarını tamamladı Projede okula 75 öğrenci sırası beş öğretmen masası beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi Yenilenen dersliklerin açılışı bölgedeki eğitim desteğinin sürdüğünü gösterdi Türkiyeden Haber kanalına abone ol",
-      "description": "Somali'de Maxamuud Hilowle Okulu'nda beş sınıf yenilenerek 75 öğrenci sırası ve öğretmen ekipmanları teslim edildi. Sizce bu tür destekler bölgedeki eğitim kalitesini nasıl etkiler?",
-      "visual_query": "school renovation somalia",
-      "tags": [
-        "Somali",
-        "eğitim",
-        "TürkGörevKuvveti",
-        "okul yenileme",
-        "uluslararası yardım"
-      ],
-      "video_path": "output/short_6.mp4",
-      "source_headline": "Türkiye'den Somali'de eğitime destek: Bir okulun derslikleri yenilendi",
-      "audience_bucket": "health_education",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-24T23:57:29.153796+00:00",
-      "source_modified_at": "",
-      "run_id": "40141027598",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: bakan lira transfer"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister speaking statistics"
-    }
-  ],
-  "daily_existing_count": 0
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
