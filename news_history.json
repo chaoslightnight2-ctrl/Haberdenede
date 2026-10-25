@@ -4709,7 +4709,30 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0hKdjFWb25OWXQ2VUhabjBqb19ZMTJydnFfMVFURUZEZ2NZWWtiblI2anI1ZE44Y2ItNFNHSHEwbjFaMW52MFZYZ0FxeHFPTnBXcVBaWF9sWlVtdTF5T2UxUWhueEd5UTJIUXJFWVdSVXNlVjRvNkhKYWMxbFNPc1IyZmNraDg?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "health_education",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Somali Mogadişu’da Hilowle Okulu 5 Sınıf Yenilendi",
+      "summary": "Somali Türk Görev Kuvveti Komutanlığı tarafından Somali'nin başkenti Mogadişu'daki bir okulun 5 dersliğinin bakım, onarım ve yenileme çalışmaları tamamlandı.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiyeden-somalide-egitime-destek-bir-okulun-derslikleri-yenilendi-961101.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-24T22:30:00+03:00",
+      "fingerprint": "ad0d2f6681304b00a6b205e5fd585f7f372c627a",
+      "viral_score": 64.97,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-10-25T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/XFypWauL_UI",
+      "video_id": "XFypWauL_UI",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-25T03:10:50.213967+03:00",
+      "publish_at_utc": "2026-10-25T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye'den Somali'de eğitime destek: Bir okulun derslikleri yenilendi",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-somalide-egitime-destek-bir-okulun-derslikleri-yenilendi-961101.html",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change"
     }
   ]
 }
