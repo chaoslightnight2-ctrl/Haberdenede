@@ -1,114 +1,13 @@
 {
-  "source_run": "40141027598",
-  "verified_at": "2026-10-25T00:11:53.370247+00:00",
-  "videos": [
-    {
-      "index": 4,
-      "video_id": "5ALjiwYGIbA",
-      "youtube_url": "https://youtu.be/5ALjiwYGIbA",
-      "title": "13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
-      "narration": "Gençlerin yüzde 30u sigara içiyor alarm veriyor 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldı ve yıllık harcama 15 milyar dolar olarak kaydedildi 13 17 yaş grubunda yaklaşık 7 virgül 5 milyon genç bulunuyor bunların 2 virgül 5 milyonu sigara kullanıyor yani yüzde 30 Bakan Memişoğlu sigaraya başlama yaşının ortalama 17 olduğunu belirtti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-25T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-25T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.8,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/5ALjiwYGIbA.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "poICt9NIG_0",
-      "youtube_url": "https://youtu.be/poICt9NIG_0",
-      "title": "Türkiye'de 13-17 Yaş Grubunda %30 Genç Sigara İçiyor",
-      "narration": "Gençlerde yüzde 30 sigara oranı alarm veriyor Sağlık Bakanı Kemal Memişoğlu 13 17 yaş arasındaki 7 virgül 5 milyon gençten 2 virgül 5 milyonunun sigara kullandığını ve bu oranın yüzde 30 olduğunu belirtti Bakan sigaraya başlama yaşının ortalama 17 olduğunu ve bu durumun gençler arasında dramatik bir sorun oluşturduğunu vurguladı 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldığını ve sigaraya harcanan peşin paranın yıllık 15 milyar dolara ulaştığını kaydetti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-25T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-25T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 37.466667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/poICt9NIG_0.jpg"
-    },
-    {
-      "index": 6,
-      "video_id": "XFypWauL_UI",
-      "youtube_url": "https://youtu.be/XFypWauL_UI",
-      "title": "Somali Mogadişu’da Hilowle Okulu 5 Sınıf Yenilendi",
-      "narration": "Mogadişuda beş sınıf yenilendi eğitim canlandı Somali Türk Görev Kuvveti Komutanlığı Mogadişudaki Maxamuud Hilowle Okulunda beş sınıfın bakım onarım ve yenileme çalışmalarını tamamladı Projede okula 75 öğrenci sırası beş öğretmen masası beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi Yenilenen dersliklerin açılışı bölgedeki eğitim desteğinin sürdüğünü gösterdi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-25T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-25T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.9,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/XFypWauL_UI.jpg"
-    }
-  ],
+  "source_run": "40193636180",
+  "verified_at": "2026-10-25T12:35:03.533752+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: bakan lira transfer"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister speaking statistics"
-    }
-  ],
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
