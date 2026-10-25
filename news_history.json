@@ -4732,7 +4732,8 @@
       "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-somalide-egitime-destek-bir-okulun-derslikleri-yenilendi-961101.html",
       "source_modified_at": "",
       "audience_bucket": "health_education",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
