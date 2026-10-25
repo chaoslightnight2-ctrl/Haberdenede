@@ -239,7 +239,62 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Gençlerde yüzde 30 sigara oranı alarm veriyor Sağlık Bakanı Kemal Memişoğlu 13 17 yaş arasındaki 7 virgül 5 milyon gençten 2 virgül 5 milyonunun sigara kullandığını ve bu oranın yüzde 30 olduğunu belirtti Bakan sigaraya başlama yaşının ortalama 17 olduğunu ve bu durumun gençler arasında dramatik bir sorun oluşturduğunu vurguladı 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldığını ve sigaraya harcanan peşin paranın yıllık 15 milyar dolara ulaştığını kaydetti Türkiyeden Haber kanalına abone ol"
+      "script": "Gençlerde yüzde 30 sigara oranı alarm veriyor Sağlık Bakanı Kemal Memişoğlu 13 17 yaş arasındaki 7 virgül 5 milyon gençten 2 virgül 5 milyonunun sigara kullandığını ve bu oranın yüzde 30 olduğunu belirtti Bakan sigaraya başlama yaşının ortalama 17 olduğunu ve bu durumun gençler arasında dramatik bir sorun oluşturduğunu vurguladı 2025 yılında Türkiyede 8 virgül 5 milyar paket sigara satıldığını ve sigaraya harcanan peşin paranın yıllık 15 milyar dolara ulaştığını kaydetti Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_5.mp3",
+      "background_path": "output/background_5.mp4",
+      "video_path": "output/short_5.mp4",
+      "video_id": "poICt9NIG_0",
+      "youtube_url": "https://youtu.be/poICt9NIG_0",
+      "publish_at_local": "2026-10-25T21:00:00+03:00",
+      "publish_at_utc": "2026-10-25T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Somali Mogadişu’da Hilowle Okulu 5 Sınıf Yenilendi",
+      "summary": "Somali Türk Görev Kuvveti Komutanlığı tarafından Somali'nin başkenti Mogadişu'daki bir okulun 5 dersliğinin bakım, onarım ve yenileme çalışmaları tamamlandı.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiyeden-somalide-egitime-destek-bir-okulun-derslikleri-yenilendi-961101.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-10-24T22:30:00+03:00",
+      "fingerprint": "ad0d2f6681304b00a6b205e5fd585f7f372c627a",
+      "direct_source": true,
+      "viral_score": 64.97,
+      "topic_bucket": "dünya_diplomasi",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-somalide-egitime-destek-bir-okulun-derslikleri-yenilendi-961101.html",
+      "source_headline": "Türkiye'den Somali'de eğitime destek: Bir okulun derslikleri yenilendi",
+      "source_modified_at": "",
+      "source_checked_at": "2026-10-24T23:57:29.153796+00:00",
+      "article_score": 47,
+      "article_text": "Milli Savunma Bakanlığı'ndan yapılan açıklamaya göre, Somali Türk Görev Kuvveti Komutanlığı, ülkedeki eğitim alanına yönelik destek faaliyetlerini sürdürüyor Bu kapsamda, Mogadişu'daki Maxamuud Hilowle Okulu'nda 5 dersliğin bakım, onarım ve yenileme çalışmaları tamamlanarak açılışı gerçekleştirildi Proje kapsamında okula 75 öğrenci sırası, 5 öğretmen masası, 5 öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi ???????????????? Somali’de eğitime destek, geleceğe umut! Somali Türk Görev Kuvveti Komutanlığımız, dost ve kardeş Somali’de eğitim alanındaki destek faaliyetlerini sürdürüyor. Bu kapsamda, Mogadişu’daki Maxamuud Hilowle Okulunda 5 dersliğin bakım, onarım ve yenileme çalışmaları tamamlanarak açılışı gerçekleştirildi. Proje kapsamında okula 75 öğrenci sırası, 5 öğretmen masası, 5 öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi. #MillîSavunmaBakanlığı",
+      "model_source_context": "Milli Savunma Bakanlığı'ndan yapılan açıklamaya göre, Somali Türk Görev Kuvveti Komutanlığı, ülkedeki eğitim alanına yönelik destek faaliyetlerini sürdürüyor Bu kapsamda, Mogadişu'daki Maxamuud Hilowle Okulu'nda 5 dersliğin bakım, onarım ve yenileme çalışmaları tamamlanarak açılışı gerçekleştirildi Proje kapsamında okula 75 öğrenci sırası, 5 öğretmen masası, 5 öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi ???????????????? Somali’de eğitime destek, geleceğe umut! Somali Türk Görev Kuvveti Komutanlığımız, dost ve kardeş Somali’de eğitim alanındaki destek faaliyetlerini sürdürüyor. Bu kapsamda, Mogadişu’daki Maxamuud Hilowle Okulunda 5 dersliğin bakım, onarım ve yenileme çalışmaları tamamlanarak açılışı gerçekleştirildi. Proje kapsamında okula 75 öğrenci sırası, 5 öğretmen masası, 5 öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi. #MillîSavunmaBakanlığı",
+      "shorts_hook": "Mogadişu’da beş sınıf yenilendi, eğitim canlandı",
+      "quality_hook": "Mogadişu’da beş sınıf yenilendi, eğitim canlandı",
+      "quality_narration": "Somali Türk Görev Kuvveti Komutanlığı, Mogadişu'daki Maxamuud Hilowle Okulu'nda beş sınıfın bakım, onarım ve yenileme çalışmalarını tamamladı. Projede okula 75 öğrenci sırası, beş öğretmen masası, beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi. Yenilenen dersliklerin açılışı, bölgedeki eğitim desteğinin sürdüğünü gösterdi.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Somali Türk Görev Kuvveti Komutanlığı, Mogadişu'daki Maxamuud Hilowle Okulu'nda beş sınıfın bakım, onarım ve yenileme çalışmalarını tamamladı.",
+        "Projede okula 75 öğrenci sırası, beş öğretmen masası, beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi.",
+        "Yenilenen dersliklerin açılışı, bölgedeki eğitim desteğinin sürdüğünü gösterdi."
+      ],
+      "youtube_description": "Somali'de Maxamuud Hilowle Okulu'nda beş sınıf yenilenerek 75 öğrenci sırası ve öğretmen ekipmanları teslim edildi. Sizce bu tür destekler bölgedeki eğitim kalitesini nasıl etkiler?",
+      "visual_query": "school renovation somalia",
+      "spoken_text": "Mogadişuda beş sınıf yenilendi eğitim canlandı Somali Türk Görev Kuvveti Komutanlığı Mogadişudaki Maxamuud Hilowle Okulunda beş sınıfın bakım onarım ve yenileme çalışmalarını tamamladı Projede okula 75 öğrenci sırası beş öğretmen masası beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi Yenilenen dersliklerin açılışı bölgedeki eğitim desteğinin sürdüğünü gösterdi Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Mogadişuda beş sınıf yenilendi eğitim canlandı. Somali Türk Görev Kuvveti Komutanlığı Mogadişudaki Maxamuud Hilowle Okulunda beş sınıfın bakım onarım ve yenileme çalışmalarını tamamladı. Projede okula 75 öğrenci sırası beş öğretmen masası beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi. Yenilenen dersliklerin açılışı bölgedeki eğitim desteğinin sürdüğünü gösterdi. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Somali",
+        "eğitim",
+        "TürkGörevKuvveti",
+        "okul yenileme",
+        "uluslararası yardım"
+      ],
+      "youtube_hashtags": "#shorts #savunma #eğitim",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Mogadişuda beş sınıf yenilendi eğitim canlandı Somali Türk Görev Kuvveti Komutanlığı Mogadişudaki Maxamuud Hilowle Okulunda beş sınıfın bakım onarım ve yenileme çalışmalarını tamamladı Projede okula 75 öğrenci sırası beş öğretmen masası beş öğretmen koltuğu ve çeşitli sınıf malzemeleri teslim edildi Yenilenen dersliklerin açılışı bölgedeki eğitim desteğinin sürdüğünü gösterdi Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
