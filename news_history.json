@@ -4755,7 +4755,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/otobus-kazalarini-onlemek-icin-dron-ve-kamera-destekli-denetim-onerisi-961223.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Altının kilogram fiyatı 6,441,111 TL'ye yükseldi",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon 441 bin 111 liraya çıktı.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-961248.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-26T16:41:00+03:00",
+      "fingerprint": "8d52157b3bc8bbd9f4994bf24f4b1296f660d225",
+      "viral_score": 33.11,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-27T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/huNN-9ifxw4",
+      "video_id": "huNN-9ifxw4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-26T23:49:32.488577+03:00",
+      "publish_at_utc": "2026-10-27T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Altın fiyatlarında son durum",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-961248.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

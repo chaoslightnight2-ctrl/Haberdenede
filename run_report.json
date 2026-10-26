@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-26T20:29:36.397020+00:00",
       "source_modified_at": "",
+      "run_id": "40395920430",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "huNN-9ifxw4",
+      "youtube_url": "https://youtu.be/huNN-9ifxw4",
+      "publish_at_local": "2026-10-27T21:00:00+03:00",
+      "publish_at_utc": "2026-10-27T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Altının kilogram fiyatı 6,441,111 TL'ye yükseldi",
+      "narration": "Altının kilogram fiyatı yüzde 0 virgül 1 arttı Standard altının kilogram fiyatı gün sonunda 6441111 TL oldu ve yüzde 0 virgül 1 artış kaydetti Fiyat aralığı 6390000 TL ile 6463000 TL arasında değişti Toplam altın işlem hacmi 5194980874 virgül 79 TL yani 809 virgül 23 kilogram gerçekleşti Türkiyeden Haber kanalına abone ol",
+      "description": "Altının kilogram fiyatı gün sonunda %0,1 artarak 6.441.111 TL oldu, işlem hacmi 5,19 milyar TL'ye ulaştı. Sizce bu yükseliş yatırımcıları nasıl etkileyecek?",
+      "visual_query": "gold price rise",
+      "tags": [
+        "altın fiyatı",
+        "standart altın",
+        "ekonomi",
+        "yatırım",
+        "döviz"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Altın fiyatlarında son durum",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-26T20:40:42.058399+00:00",
+      "source_modified_at": "",
       "run_id": "40395920430"
     }
   ],
