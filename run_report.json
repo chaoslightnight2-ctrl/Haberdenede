@@ -1,10 +1,39 @@
 {
-  "run_id": "40337855099",
-  "generated_at": "2026-10-26T17:15:50.872858+03:00",
+  "run_id": "40395920430",
+  "generated_at": "2026-10-26T23:29:09.905896+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": []
+  "videos": [
+    {
+      "video_id": "1opUflZnD0Y",
+      "youtube_url": "https://youtu.be/1opUflZnD0Y",
+      "publish_at_local": "2026-10-27T19:00:00+03:00",
+      "publish_at_utc": "2026-10-27T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Birol Özcan, Akhisar’da 11 ölü kazayı dronla önermeli",
+      "narration": "Birol Özcan Akhisarda 11 ölü kazayı dronla önleyebilir TOFED Genel Başkanı Birol Özcan dron ve kamera destekli denetimlerin otoban kazalarını engelleyeceğini belirtti Kaza sonrası 11 ölü ve 27 yaralıyla sonuçlanan Akhisar otobüs çarpışması denetim eksikliğini gözler önüne serdi Türkiyeden Haber kanalına abone ol",
+      "description": "Akhisar otobüs kazasında 11 kişi hayatını kaybetti. Dron ve kamera denetimi gerçekten kazaları önleyebilir mi?",
+      "visual_query": "drone monitoring highway",
+      "tags": [
+        "otobüs kazası",
+        "dron denetim",
+        "trafik güvenliği",
+        "Akhisar",
+        "TOFED"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Otobüs kazalarını önlemek için dron ve kamera destekli denetim önerisi",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-26T20:29:36.397020+00:00",
+      "source_modified_at": "",
+      "run_id": "40395920430"
+    }
+  ],
+  "errors": [],
+  "daily_existing_count": 0
 }
