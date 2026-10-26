@@ -4778,7 +4778,30 @@
       "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-961248.html",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Taşköprü Sarımsağına Alıcı Yok Çiftçiler Online Satıyor",
+      "summary": "Coğrafi işaretli Taşköprü sarımsağına alıcı yok! Çiftçi: Üretiyoruz ama satamıyoruz Gıda Bülteni",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWU40cEM1UDA0Qzh2bWNvUk1MWG5wcHpKTlpFb2xzTHlqdGdSQVd0bjM2TVI2TTduU1NRMEM5ZnltZkFoazQxSUxGTmh4TzNYNnozejhSX3dTYTJ2dXlUQjduU1VyNUFxS0pzVmFjQ0JyaGlpRS1pS2NuQUgwRmpYaTJLOXJSLTZ1RkZTZ3B4THBiYzVwdVNCaG81UFZtLUlkaEJJWjl6cFNFTnAyT1FGd3Y0U2I4WmMydXZjYQ?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-26T19:38:00+03:00",
+      "fingerprint": "6480b8856d6ad92c0252c7e282a61d3724331a61",
+      "viral_score": 55.83,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-10-27T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/7uoitScWhFU",
+      "video_id": "7uoitScWhFU",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-27T00:04:57.857071+03:00",
+      "publish_at_utc": "2026-10-27T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Coğrafi işaretli Taşköprü sarımsağına alıcı yok! Çiftçi: Üretiyoruz ama satamıyoruz",
+      "resolved_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWU40cEM1UDA0Qzh2bWNvUk1MWG5wcHpKTlpFb2xzTHlqdGdSQVd0bjM2TVI2TTduU1NRMEM5ZnltZkFoazQxSUxGTmh4TzNYNnozejhSX3dTYTJ2dXlUQjduU1VyNUFxS0pzVmFjQ0JyaGlpRS1pS2NuQUgwRmpYaTJLOXJSLTZ1RkZTZ3B4THBiYzVwdVNCaG81UFZtLUlkaEJJWjl6cFNFTnAyT1FGd3Y0U2I4WmMydXZjYQ?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
