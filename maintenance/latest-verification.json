@@ -1,13 +1,98 @@
 {
-  "source_run": "40337855099",
-  "verified_at": "2026-10-26T14:17:08.801921+00:00",
-  "videos": [],
+  "source_run": "40395920430",
+  "verified_at": "2026-10-26T21:05:54.833848+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "1opUflZnD0Y",
+      "youtube_url": "https://youtu.be/1opUflZnD0Y",
+      "title": "Birol Özcan, Akhisar’da 11 ölü kazayı dronla önermeli",
+      "narration": "Birol Özcan Akhisarda 11 ölü kazayı dronla önleyebilir TOFED Genel Başkanı Birol Özcan dron ve kamera destekli denetimlerin otoban kazalarını engelleyeceğini belirtti Kaza sonrası 11 ölü ve 27 yaralıyla sonuçlanan Akhisar otobüs çarpışması denetim eksikliğini gözler önüne serdi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-27T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-27T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 24.7,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/1opUflZnD0Y.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "huNN-9ifxw4",
+      "youtube_url": "https://youtu.be/huNN-9ifxw4",
+      "title": "Altının kilogram fiyatı 6,441,111 TL'ye yükseldi",
+      "narration": "Altının kilogram fiyatı yüzde 0 virgül 1 arttı Standard altının kilogram fiyatı gün sonunda 6441111 TL oldu ve yüzde 0 virgül 1 artış kaydetti Fiyat aralığı 6390000 TL ile 6463000 TL arasında değişti Toplam altın işlem hacmi 5194980874 virgül 79 TL yani 809 virgül 23 kilogram gerçekleşti Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-27T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-27T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 36.1,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/huNN-9ifxw4.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "7uoitScWhFU",
+      "youtube_url": "https://youtu.be/7uoitScWhFU",
+      "title": "Taşköprü Sarımsağına Alıcı Yok Çiftçiler Online Satıyor",
+      "narration": "Taşköprü sarımsağına alıcı yok çiftçiler online satıyor Kastamonu Taşköprüde üreticiler bu yıl yetiştirdikleri coğrafi işaretli sarımsağı toptan alıcı bulamadıkları için Instagram üzerinden doğrudan tüketicilere satmaya başladı Üreticiler mazot ve işçilik maliyetlerindeki artışa rağmen satış fiyatının yükselmediğini ve ürünlerini değerinde satamadıklarını belirtti Tarım ve Orman Bakanlığı verilerine göre Türkiyede kuru sarımsak üretimi 2024te 125 bin ton iken 2025te yüzde 7 virgül 7 artarak 134 bin 584 tona ulaştı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-27T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-27T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 41.433333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/7uoitScWhFU.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [],
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
