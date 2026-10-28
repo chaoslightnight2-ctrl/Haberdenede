@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-28T20:28:42.868192+00:00",
       "source_modified_at": "",
-      "run_id": "40761550342"
+      "run_id": "40761550342",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
