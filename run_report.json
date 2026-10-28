@@ -1,16 +1,44 @@
 {
-  "run_id": "40701580744",
-  "generated_at": "2026-10-28T17:00:33.596023+03:00",
+  "run_id": "40761550342",
+  "generated_at": "2026-10-28T23:16:03.454601+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "l46QdphnVYA",
+      "youtube_url": "https://youtu.be/l46QdphnVYA",
+      "publish_at_local": "2026-10-29T19:00:00+03:00",
+      "publish_at_utc": "2026-10-29T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
+      "narration": "Türk Dışişleri İspanya tren kazasını yakından izliyor Türk Dışişleri Bakanlığı İspanyada gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı Açıklamada kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken yaralılara acil şifalar temenni edildi Bakanlık kazada Türk vatandaşının bulunmadığını ve olayın Türkiyenin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti Türkiyeden Haber kanalına abone ol",
+      "description": "Türkiye, İspanya’da meydana gelen tren kazasını resmi açıklamayla değerlendirdi. Türk vatandaşının kaybı olmadığını belirten bakanlık, kazayı yakından izliyor. Sizce bu tür uluslararası açıklamalar ne kadar etkili?",
+      "visual_query": "train crash spain",
+      "tags": [
+        "İspanya tren kazası",
+        "Türk Dışişleri",
+        "Madrid Büyükelçiliği",
+        "uluslararası haber",
+        "güncel gelişme"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Türkiye'den İspanya’ya taziye mesajı",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-28T20:28:42.868192+00:00",
+      "source_modified_at": "",
+      "run_id": "40761550342"
+    }
+  ],
   "errors": [
     {
-      "source": "Türkiye'den İspanya’daki tren kazasında hayatını kaybedenler için taziye mesajı",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
     }
   ],
   "daily_existing_count": 0

@@ -4803,6 +4803,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
+      "summary": "Dışişleri Bakanlığı, İspanyanın Toledo şehri yakınlarında meydana gelen tren kazasındaki can kayıplarından derin üzüntü duyduğunu bildirerek, hayatını kaybedenlerin yakınlarına ve İspanya halkına başsağlığı dileklerini sundu.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiyeden-ispanyaya-taziye-mesaji-961510.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-28T16:32:00+03:00",
+      "fingerprint": "c67c78610146e57c2427f2e24558d77836418d4e",
+      "viral_score": 76.22,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-29T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/l46QdphnVYA",
+      "video_id": "l46QdphnVYA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-28T23:35:28.217641+03:00",
+      "publish_at_utc": "2026-10-29T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye'den İspanya’ya taziye mesajı",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-ispanyaya-taziye-mesaji-961510.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
