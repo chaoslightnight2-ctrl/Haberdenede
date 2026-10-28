@@ -1,13 +1,14 @@
 {
-  "source_run": "40574859021",
-  "verified_at": "2026-10-27T20:07:06.963219+00:00",
+  "source_run": "40608259212",
+  "verified_at": "2026-10-28T00:23:51.379834+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
+  "complete": false,
   "generation_errors": [],
-  "target_count": 0,
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
