@@ -1,13 +1,18 @@
 {
-  "source_run": "40608259212",
-  "verified_at": "2026-10-28T00:23:51.379834+00:00",
+  "source_run": "40701580744",
+  "verified_at": "2026-10-28T14:05:01.690796+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
-  "public_listing_error": "HTTPError",
+  "generation_errors": [
+    {
+      "source": "Türkiye'den İspanya’daki tren kazasında hayatını kaybedenler için taziye mesajı",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
