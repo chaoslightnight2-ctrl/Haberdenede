@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:16:03.454601+03:00",
+  "generated_at": "2026-10-29T03:42:47.442122+03:00",
   "selected_news": [
     {
       "title": "Erdoğan, İspanya tren kazasına mesaj gönderdi",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-ispanya-halkinin-acisini-yurekten-paylasiyoruz-961516.html",
       "source_headline": "Cumhurbaşkanı Erdoğan: İspanya halkının acısını yürekten paylaşıyoruz",
       "source_modified_at": "",
-      "source_checked_at": "2026-10-28T20:16:28.459396+00:00",
+      "source_checked_at": "2026-10-29T00:42:48.062237+00:00",
       "article_score": 25,
       "article_text": "Cumhurbaşkanı Recep Tayyip Erdoğan, bugün İspanya'da meydana gelen tren kazasına ilişkin açıklama yaptı Erdoğan, sosyal medya hesabından yaptığı paylaşımda şu ifadeleri kullandı \"Dost İspanya’da bu sabah meydana gelen tren kazasından etkilenenlere geçmiş olsun dileklerimi iletiyorum Kazada yakınlarını kaybedenlerin acısını ülkem ve milletim adına yürekten paylaşıyor, İspanya halkına ve hükûmetine Türkiye’nin birlik ve dayanışma mesajlarını gönderiyorum.\"",
       "content_quality": "article_text",
@@ -46,52 +46,6 @@
       "generation_mode": "prompt_first_v1",
       "script": "Erdoğan İspanya tren kazasına Türkiyeden destek gönderdi Cumhurbaşkanı Recep Tayyip Erdoğan bugün İspanyada sabah gerçekleşen tren kazasını sosyal medyada duyurdu Kazada yakınlarını kaybedenlerin acısını Türkiye ve milletimiz adına yürekten paylaşıyor ve İspanya halkına dayanışma mesajı gönderiyor Türkiyeden Haber kanalına abone ol",
       "scheduled_slot": "19:00"
-    },
-    {
-      "title": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
-      "summary": "Dışişleri Bakanlığı, İspanyanın Toledo şehri yakınlarında meydana gelen tren kazasındaki can kayıplarından derin üzüntü duyduğunu bildirerek, hayatını kaybedenlerin yakınlarına ve İspanya halkına başsağlığı dileklerini sundu.",
-      "url": "https://www.trthaber.com/haber/gundem/turkiyeden-ispanyaya-taziye-mesaji-961510.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-10-28T16:32:00+03:00",
-      "fingerprint": "c67c78610146e57c2427f2e24558d77836418d4e",
-      "direct_source": true,
-      "viral_score": 76.22,
-      "topic_bucket": "dünya_diplomasi",
-      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-ispanyaya-taziye-mesaji-961510.html",
-      "source_headline": "Türkiye'den İspanya’ya taziye mesajı",
-      "source_modified_at": "",
-      "source_checked_at": "2026-10-28T20:28:42.868192+00:00",
-      "article_score": 30,
-      "article_text": "Bakanlık, İspanya’da meydana gelen tren kazasına ilişkin yazılı açıklama yaptı Açıklamada, İspanya’nın Toledo şehri yakınlarında meydana gelen tren kazasındaki can kayıplarından derin üzüntü duyulduğu belirtilerek, \"Hayatını kaybedenlerin yakınlarına ve İspanya halkına başsağlığı dileklerimizi sunuyor, yaralılara acil şifalar diliyoruz.\" ifadeleri kullanıldı Açıklamada ayrıca, mevcut bilgilere göre kazada vefat eden Türk vatandaşının bulunmadığı ve gelişmelerin Türkiye'nin Madrid Büyükelçiliğince yakından takip edildiği aktarıldı İspanya'da Madrid-Endülüs arasında karşılıklı sefer yapan iki yolcu treninin çarpıştığı kazada 64 kişinin öldüğü ve çok sayıda kişinin yaralandığı bildirilmişti Kaza dolayısıyla Madrid, Ciudad Real ve Endülüs arasındaki tren seferleri geçici olarak durdurulmuştu",
-      "content_quality": "article_text",
-      "model_source_context": "Bakanlık, İspanya’da meydana gelen tren kazasına ilişkin yazılı açıklama yaptı Açıklamada, İspanya’nın Toledo şehri yakınlarında meydana gelen tren kazasındaki can kayıplarından derin üzüntü duyulduğu belirtilerek, \"Hayatını kaybedenlerin yakınlarına ve İspanya halkına başsağlığı dileklerimizi sunuyor, yaralılara acil şifalar diliyoruz.\" ifadeleri kullanıldı Açıklamada ayrıca, mevcut bilgilere göre kazada vefat eden Türk vatandaşının bulunmadığı ve gelişmelerin Türkiye'nin Madrid Büyükelçiliğince yakından takip edildiği aktarıldı İspanya'da Madrid-Endülüs arasında karşılıklı sefer yapan iki yolcu treninin çarpıştığı kazada 64 kişinin öldüğü ve çok sayıda kişinin yaralandığı bildirilmişti Kaza dolayısıyla Madrid, Ciudad Real ve Endülüs arasındaki tren seferleri geçici olarak durdurulmuştu",
-      "shorts_hook": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
-      "quality_hook": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
-      "quality_narration": "Türk Dışişleri Bakanlığı, İspanya’da gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı. Açıklamada, kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken, yaralılara acil şifalar temenni edildi. Bakanlık, kazada Türk vatandaşının bulunmadığını ve olayın Türkiye’nin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Türk Dışişleri Bakanlığı, İspanya’da gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı.",
-        "Açıklamada, kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken, yaralılara acil şifalar temenni edildi.",
-        "Bakanlık, kazada Türk vatandaşının bulunmadığını ve olayın Türkiye’nin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti."
-      ],
-      "youtube_description": "Türkiye, İspanya’da meydana gelen tren kazasını resmi açıklamayla değerlendirdi. Türk vatandaşının kaybı olmadığını belirten bakanlık, kazayı yakından izliyor. Sizce bu tür uluslararası açıklamalar ne kadar etkili?",
-      "visual_query": "train crash spain",
-      "spoken_text": "Türk Dışişleri İspanya tren kazasını yakından izliyor Türk Dışişleri Bakanlığı İspanyada gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı Açıklamada kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken yaralılara acil şifalar temenni edildi Bakanlık kazada Türk vatandaşının bulunmadığını ve olayın Türkiyenin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Türk Dışişleri İspanya tren kazasını yakından izliyor. Türk Dışişleri Bakanlığı İspanyada gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı. Açıklamada kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken yaralılara acil şifalar temenni edildi. Bakanlık kazada Türk vatandaşının bulunmadığını ve olayın Türkiyenin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "İspanya tren kazası",
-        "Türk Dışişleri",
-        "Madrid Büyükelçiliği",
-        "uluslararası haber",
-        "güncel gelişme"
-      ],
-      "youtube_hashtags": "#shorts #dünya #haber",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "Türk Dışişleri İspanya tren kazasını yakından izliyor Türk Dışişleri Bakanlığı İspanyada gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı Açıklamada kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken yaralılara acil şifalar temenni edildi Bakanlık kazada Türk vatandaşının bulunmadığını ve olayın Türkiyenin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
