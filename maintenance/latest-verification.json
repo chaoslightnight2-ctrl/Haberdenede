@@ -1,19 +1,19 @@
 {
-  "source_run": "40761550342",
-  "verified_at": "2026-10-28T20:46:48.813155+00:00",
+  "source_run": "40795744315",
+  "verified_at": "2026-10-29T01:01:20.943835+00:00",
   "videos": [
     {
       "index": 2,
-      "video_id": "l46QdphnVYA",
-      "youtube_url": "https://youtu.be/l46QdphnVYA",
-      "title": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
-      "narration": "Türk Dışişleri İspanya tren kazasını yakından izliyor Türk Dışişleri Bakanlığı İspanyada gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı Açıklamada kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken yaralılara acil şifalar temenni edildi Bakanlık kazada Türk vatandaşının bulunmadığını ve olayın Türkiyenin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-29T16:00:00Z",
+      "video_id": "f6B24whtJao",
+      "youtube_url": "https://youtu.be/f6B24whtJao",
+      "title": "Eylül’de Türkiye’nin elektrik gücü 126 bin 944 MW, %62,9’u yenilenebilir",
+      "narration": "Eylülde Türkiyenin elektrik gücü 126 bin 944 MW Enerji ve Tabii Kaynaklar Bakanlığı verilerine göre Türkiyenin elektrik kurulu gücü eylül itibarıyla 126 bin 944 megavata ulaştı Bu gücün yüzde 62 virgül 9una denk gelen 79 bin 902 megavatlık kısmı yenilenebilir enerji kaynaklarından sağlanıyor Yenilenebilir kaynaklar arasında güneş enerjisi 27 bin 914 megavatla toplamın yüzde 22sini rüzgar ise 15 bin 434 megavatla yaklaşık yüzde 12 virgül 2sini oluşturuyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-29T18:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-29T16:00:00Z",
+        "publishAt": "2026-10-29T18:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,12 +23,12 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 31.1,
+        "duration": 41.833333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/l46QdphnVYA.jpg"
+      "preview": "maintenance/previews/f6B24whtJao.jpg"
     }
   ],
   "errors": [],
@@ -39,10 +39,11 @@
     {
       "index": 1,
       "stage": "render_or_upload",
-      "error": "Same voice failed after 5 same-voice attempts: No audio was received. Please verify that your parameters are correct."
+      "error": "No described asset matches scene 0: president sending solidarity"
     }
   ],
-  "target_count": 3,
+  "public_listing_error": "HTTPError",
+  "target_count": 2,
   "published_count": 0,
   "accepted_complete": false
 }
