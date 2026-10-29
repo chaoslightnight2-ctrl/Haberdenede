@@ -1,33 +1,4 @@
 {
-  "generated_at": "2026-10-29T03:42:47.442122+03:00",
-  "videos": [
-    {
-      "video_id": "f6B24whtJao",
-      "youtube_url": "https://youtu.be/f6B24whtJao",
-      "publish_at_local": "2026-10-29T21:00:00+03:00",
-      "publish_at_utc": "2026-10-29T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "Eylül’de Türkiye’nin elektrik gücü 126 bin 944 MW, %62,9’u yenilenebilir",
-      "narration": "Eylülde Türkiyenin elektrik gücü 126 bin 944 MW Enerji ve Tabii Kaynaklar Bakanlığı verilerine göre Türkiyenin elektrik kurulu gücü eylül itibarıyla 126 bin 944 megavata ulaştı Bu gücün yüzde 62 virgül 9una denk gelen 79 bin 902 megavatlık kısmı yenilenebilir enerji kaynaklarından sağlanıyor Yenilenebilir kaynaklar arasında güneş enerjisi 27 bin 914 megavatla toplamın yüzde 22sini rüzgar ise 15 bin 434 megavatla yaklaşık yüzde 12 virgül 2sini oluşturuyor Türkiyeden Haber kanalına abone ol",
-      "description": "Enerji ve Tabii Kaynaklar Bakanlığı, eylül ayında Türkiye'nin elektrik kurulu gücünün 126 bin 944 megavat olduğunu ve bunun %62,9'unun yenilenebilir enerji kaynaklarından sağlandığını açıkladı. Sizce bu oran hedefe ulaşmak için yeterli mi?",
-      "visual_query": "electric power plant diagram",
-      "tags": [
-        "elektrik",
-        "yenilenebilir enerji",
-        "kurulu güç",
-        "enerji politikası",
-        "net sıfır emisyon"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "Türkiye'nin elektrik sektöründe son 50 yılda köklü dönüşüm yaşandı",
-      "audience_bucket": "nature",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-29T00:43:41.446740+00:00",
-      "source_modified_at": "2026-10-28T16:59:07.737",
-      "run_id": "40795744315",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ]
+  "generated_at": "2026-10-29T17:16:13.767458+03:00",
+  "videos": []
 }
