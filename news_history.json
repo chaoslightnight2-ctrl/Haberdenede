@@ -4826,6 +4826,28 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Eylül’de Türkiye’nin elektrik gücü 126 bin 944 MW, %62,9’u yenilenebilir",
+      "summary": "Türkiye'nin elektrik kurulu gücü, Cumhuriyet'in ilk yıllarındaki 33 megavattan yaklaşık 127 bin megavata yükselirken, son 50 yılda petrol krizleri, piyasa reformları ve yenilenebilir enerji yatırımları sektörün dönüşümünü şekillendirdi.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/turkiyenin-elektrik-sektorunde-son-50-yilda-koklu-donusum-yasandi/4103451",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-10-28T11:23:23+03:00",
+      "fingerprint": "11ec8f7279039cf9b07284c703d4b8bc5c61161f",
+      "viral_score": 59.86,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-29T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/f6B24whtJao",
+      "video_id": "f6B24whtJao",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-29T03:48:43.942982+03:00",
+      "publish_at_utc": "2026-10-29T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye'nin elektrik sektöründe son 50 yılda köklü dönüşüm yaşandı",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/turkiyenin-elektrik-sektorunde-son-50-yilda-koklu-donusum-yasandi/4103451",
+      "source_modified_at": "2026-10-28T16:59:07.737",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question"
     }
   ]
 }
