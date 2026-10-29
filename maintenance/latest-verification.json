@@ -1,39 +1,10 @@
 {
-  "source_run": "40795744315",
-  "verified_at": "2026-10-29T01:01:20.943835+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "f6B24whtJao",
-      "youtube_url": "https://youtu.be/f6B24whtJao",
-      "title": "Eylül’de Türkiye’nin elektrik gücü 126 bin 944 MW, %62,9’u yenilenebilir",
-      "narration": "Eylülde Türkiyenin elektrik gücü 126 bin 944 MW Enerji ve Tabii Kaynaklar Bakanlığı verilerine göre Türkiyenin elektrik kurulu gücü eylül itibarıyla 126 bin 944 megavata ulaştı Bu gücün yüzde 62 virgül 9una denk gelen 79 bin 902 megavatlık kısmı yenilenebilir enerji kaynaklarından sağlanıyor Yenilenebilir kaynaklar arasında güneş enerjisi 27 bin 914 megavatla toplamın yüzde 22sini rüzgar ise 15 bin 434 megavatla yaklaşık yüzde 12 virgül 2sini oluşturuyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-29T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-29T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 41.833333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/f6B24whtJao.jpg"
-    }
-  ],
+  "source_run": "40889656714",
+  "verified_at": "2026-10-29T14:17:46.395333+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -42,8 +13,7 @@
       "error": "No described asset matches scene 0: president sending solidarity"
     }
   ],
-  "public_listing_error": "HTTPError",
-  "target_count": 2,
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": false
 }
