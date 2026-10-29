@@ -4847,7 +4847,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/turkiyenin-elektrik-sektorunde-son-50-yilda-koklu-donusum-yasandi/4103451",
       "source_modified_at": "2026-10-28T16:59:07.737",
       "audience_bucket": "nature",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

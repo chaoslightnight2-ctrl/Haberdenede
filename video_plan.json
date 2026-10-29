@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-28T23:16:03.454601+03:00",
+  "generated_at": "2026-10-29T03:42:47.442122+03:00",
   "videos": [
     {
-      "video_id": "l46QdphnVYA",
-      "youtube_url": "https://youtu.be/l46QdphnVYA",
-      "publish_at_local": "2026-10-29T19:00:00+03:00",
-      "publish_at_utc": "2026-10-29T16:00:00Z",
+      "video_id": "f6B24whtJao",
+      "youtube_url": "https://youtu.be/f6B24whtJao",
+      "publish_at_local": "2026-10-29T21:00:00+03:00",
+      "publish_at_utc": "2026-10-29T18:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 2,
-      "title": "Türk Dışişleri, İspanya tren kazasını yakından izliyor",
-      "narration": "Türk Dışişleri İspanya tren kazasını yakından izliyor Türk Dışişleri Bakanlığı İspanyada gerçekleşen tren kazasıyla ilgili resmi bir açıklama yayımladı Açıklamada kazada hayatını kaybedenlerin yakınlarına başsağlığı dilerken yaralılara acil şifalar temenni edildi Bakanlık kazada Türk vatandaşının bulunmadığını ve olayın Türkiyenin Madrid Büyükelçiliği tarafından yakından takip edildiğini belirtti Türkiyeden Haber kanalına abone ol",
-      "description": "Türkiye, İspanya’da meydana gelen tren kazasını resmi açıklamayla değerlendirdi. Türk vatandaşının kaybı olmadığını belirten bakanlık, kazayı yakından izliyor. Sizce bu tür uluslararası açıklamalar ne kadar etkili?",
-      "visual_query": "train crash spain",
+      "title": "Eylül’de Türkiye’nin elektrik gücü 126 bin 944 MW, %62,9’u yenilenebilir",
+      "narration": "Eylülde Türkiyenin elektrik gücü 126 bin 944 MW Enerji ve Tabii Kaynaklar Bakanlığı verilerine göre Türkiyenin elektrik kurulu gücü eylül itibarıyla 126 bin 944 megavata ulaştı Bu gücün yüzde 62 virgül 9una denk gelen 79 bin 902 megavatlık kısmı yenilenebilir enerji kaynaklarından sağlanıyor Yenilenebilir kaynaklar arasında güneş enerjisi 27 bin 914 megavatla toplamın yüzde 22sini rüzgar ise 15 bin 434 megavatla yaklaşık yüzde 12 virgül 2sini oluşturuyor Türkiyeden Haber kanalına abone ol",
+      "description": "Enerji ve Tabii Kaynaklar Bakanlığı, eylül ayında Türkiye'nin elektrik kurulu gücünün 126 bin 944 megavat olduğunu ve bunun %62,9'unun yenilenebilir enerji kaynaklarından sağlandığını açıkladı. Sizce bu oran hedefe ulaşmak için yeterli mi?",
+      "visual_query": "electric power plant diagram",
       "tags": [
-        "İspanya tren kazası",
-        "Türk Dışişleri",
-        "Madrid Büyükelçiliği",
-        "uluslararası haber",
-        "güncel gelişme"
+        "elektrik",
+        "yenilenebilir enerji",
+        "kurulu güç",
+        "enerji politikası",
+        "net sıfır emisyon"
       ],
       "video_path": "output/short_2.mp4",
-      "source_headline": "Türkiye'den İspanya’ya taziye mesajı",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-28T20:28:42.868192+00:00",
-      "source_modified_at": "",
-      "run_id": "40761550342",
+      "source_headline": "Türkiye'nin elektrik sektöründe son 50 yılda köklü dönüşüm yaşandı",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-29T00:43:41.446740+00:00",
+      "source_modified_at": "2026-10-28T16:59:07.737",
+      "run_id": "40795744315",
       "processing_status": "readback_scope_unavailable"
     }
   ]

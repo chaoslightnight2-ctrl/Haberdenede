@@ -31,7 +31,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-10-29T00:43:41.446740+00:00",
       "source_modified_at": "2026-10-28T16:59:07.737",
-      "run_id": "40795744315"
+      "run_id": "40795744315",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
