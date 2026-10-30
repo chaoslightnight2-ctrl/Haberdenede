@@ -31,7 +31,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-10-30T19:57:22.502303+00:00",
       "source_modified_at": "",
-      "run_id": "41119185510"
+      "run_id": "41119185510",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -39,6 +40,11 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: president sending solidarity"
+    },
+    {
+      "source": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama - Hürriyet",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 0

@@ -4870,7 +4870,8 @@
       "resolved_url": "https://www.trthaber.com/haber/ekonomi/piyasalar-butce-gorusmelerine-ve-merkez-bankasina-odaklanacak-961720.html",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
