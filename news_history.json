@@ -4849,6 +4849,28 @@
       "audience_bucket": "nature",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Merkez Bankası Enflasyon Tahminini %28’e yükseltti",
+      "summary": "Türkiye'nin ekonomi gündemindeki hareketlilik kasım ayında da sürecek, Türkiye Büyük Millet Meclisi'ndeki TBMM 2027 yılı bütçe görüşmeleri ve Merkez Bankasının yayımlayacağı raporlar da yakından takip edilecek.",
+      "url": "https://www.trthaber.com/haber/ekonomi/piyasalar-butce-gorusmelerine-ve-merkez-bankasina-odaklanacak-961720.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-30T11:38:00+03:00",
+      "fingerprint": "e5cb1ae9825ad45bdcdccc02aa8caa3cb7f44d4e",
+      "viral_score": 54.89,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-10-31T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/0iNWq8Cd-cc",
+      "video_id": "0iNWq8Cd-cc",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-30T23:03:55.675880+03:00",
+      "publish_at_utc": "2026-10-31T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Piyasalar bütçe görüşmelerine ve Merkez Bankası'na odaklanacak",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/piyasalar-butce-gorusmelerine-ve-merkez-bankasina-odaklanacak-961720.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }

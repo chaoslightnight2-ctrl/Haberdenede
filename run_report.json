@@ -1,11 +1,39 @@
 {
-  "run_id": "41068852455",
-  "generated_at": "2026-10-30T17:06:53.484097+03:00",
+  "run_id": "41119185510",
+  "generated_at": "2026-10-30T22:56:36.704232+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "0iNWq8Cd-cc",
+      "youtube_url": "https://youtu.be/0iNWq8Cd-cc",
+      "publish_at_local": "2026-10-31T19:00:00+03:00",
+      "publish_at_utc": "2026-10-31T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Merkez Bankası Enflasyon Tahminini %28’e yükseltti",
+      "narration": "Enflasyon tahmini yüzde 28e yükseldi hedefler netleşti Merkez Bankası Başkanı Fatih Karahan 12 Kasımda yıl sonu enflasyon tahminini yüzde 28 olarak yükseltti Karahan 2027 sonunda enflasyonun yüzde 15 2028 sonunda yüzde 9a gerileyeceğini ve orta vadede yüzde 5 hedefinde istikrar sağlanacağını belirtti Türkiyeden Haber kanalına abone ol",
+      "description": "Merkez Bankası, enflasyon tahminini %28’e yükselterek 2027‑2028 hedeflerini açıkladı. Sizce bu tahminler ekonomik planlamayı nasıl etkiler?",
+      "visual_query": "bank announces inflation",
+      "tags": [
+        "enflasyon",
+        "merkez bankası",
+        "ekonomi",
+        "tahmin",
+        "faiz"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Piyasalar bütçe görüşmelerine ve Merkez Bankası'na odaklanacak",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-10-30T19:57:22.502303+00:00",
+      "source_modified_at": "",
+      "run_id": "41119185510"
+    }
+  ],
   "errors": [
     {
       "index": 1,
