@@ -1,16 +1,50 @@
 {
-  "source_run": "41068852455",
-  "verified_at": "2026-10-30T14:16:49.406030+00:00",
-  "videos": [],
+  "source_run": "41119185510",
+  "verified_at": "2026-10-30T20:04:59.086910+00:00",
+  "videos": [
+    {
+      "index": 2,
+      "video_id": "0iNWq8Cd-cc",
+      "youtube_url": "https://youtu.be/0iNWq8Cd-cc",
+      "title": "Merkez Bankası Enflasyon Tahminini %28’e yükseltti",
+      "narration": "Enflasyon tahmini yüzde 28e yükseldi hedefler netleşti Merkez Bankası Başkanı Fatih Karahan 12 Kasımda yıl sonu enflasyon tahminini yüzde 28 olarak yükseltti Karahan 2027 sonunda enflasyonun yüzde 15 2028 sonunda yüzde 9a gerileyeceğini ve orta vadede yüzde 5 hedefinde istikrar sağlanacağını belirtti Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-31T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-31T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 28.4,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/0iNWq8Cd-cc.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: president sending solidarity"
+    },
+    {
+      "source": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama - Hürriyet",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "target_count": 3,
