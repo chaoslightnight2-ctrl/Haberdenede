@@ -1,6 +1,6 @@
 {
-  "source_run": "40981384929",
-  "verified_at": "2026-10-30T00:45:30.963600+00:00",
+  "source_run": "41068852455",
+  "verified_at": "2026-10-30T14:16:49.406030+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -13,7 +13,6 @@
       "error": "No described asset matches scene 0: president sending solidarity"
     }
   ],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
