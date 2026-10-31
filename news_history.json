@@ -4872,6 +4872,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "TCMB: Enerji fiyatları yüksek, enflasyon riski artıyor",
+      "summary": "Türkiye Cumhuriyet Merkez Bankası TCMB Para Politikası Kurulu Toplantı Özeti'nde, devam eden jeopolitik belirsizliklere bağlı olarak enerji fiyatlarındaki yüksek ve dalgalı seyrin sürdüğü belirtildi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/tcmb-enerji-fiyatlarindaki-yuksek-ve-dalgali-seyir-surmektedir-961746.html",
+      "source": "TRT Haber",
+      "published_at": "2026-10-30T15:33:00+03:00",
+      "fingerprint": "743738f6ef39a7c33fe5fd5ab802f131884c8883",
+      "viral_score": 37.7,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-10-31T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/BUvOZcKKZLs",
+      "video_id": "BUvOZcKKZLs",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-31T03:47:12.529185+03:00",
+      "publish_at_utc": "2026-10-31T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "TCMB: Enerji fiyatlarındaki yüksek ve dalgalı seyir sürmektedir",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/tcmb-enerji-fiyatlarindaki-yuksek-ve-dalgali-seyir-surmektedir-961746.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

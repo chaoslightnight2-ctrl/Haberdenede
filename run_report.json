@@ -1,38 +1,37 @@
 {
-  "run_id": "41119185510",
-  "generated_at": "2026-10-30T22:56:36.704232+03:00",
-  "target_count": 3,
+  "run_id": "41150988326",
+  "generated_at": "2026-10-31T03:36:08.387750+03:00",
+  "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [
     {
-      "video_id": "0iNWq8Cd-cc",
-      "youtube_url": "https://youtu.be/0iNWq8Cd-cc",
-      "publish_at_local": "2026-10-31T19:00:00+03:00",
-      "publish_at_utc": "2026-10-31T16:00:00Z",
+      "video_id": "BUvOZcKKZLs",
+      "youtube_url": "https://youtu.be/BUvOZcKKZLs",
+      "publish_at_local": "2026-10-31T21:00:00+03:00",
+      "publish_at_utc": "2026-10-31T18:00:00Z",
       "upload_status": "api_insert_confirmed",
       "private_recovery": false,
       "index": 2,
-      "title": "Merkez Bankası Enflasyon Tahminini %28’e yükseltti",
-      "narration": "Enflasyon tahmini yüzde 28e yükseldi hedefler netleşti Merkez Bankası Başkanı Fatih Karahan 12 Kasımda yıl sonu enflasyon tahminini yüzde 28 olarak yükseltti Karahan 2027 sonunda enflasyonun yüzde 15 2028 sonunda yüzde 9a gerileyeceğini ve orta vadede yüzde 5 hedefinde istikrar sağlanacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "description": "Merkez Bankası, enflasyon tahminini %28’e yükselterek 2027‑2028 hedeflerini açıkladı. Sizce bu tahminler ekonomik planlamayı nasıl etkiler?",
-      "visual_query": "bank announces inflation",
+      "title": "TCMB: Enerji fiyatları yüksek, enflasyon riski artıyor",
+      "narration": "Enerji fiyatları yükselişte enflasyon riski artıyor TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor Türkiyeden Haber kanalına abone ol",
+      "description": "TCMB, enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı. Bu durum enflasyon beklentilerini nasıl etkiler?",
+      "visual_query": "centralbank meeting chart",
       "tags": [
+        "enerji fiyatları",
         "enflasyon",
-        "merkez bankası",
-        "ekonomi",
-        "tahmin",
-        "faiz"
+        "jeopolitik risk",
+        "TCMB",
+        "para politikası"
       ],
       "video_path": "output/short_2.mp4",
-      "source_headline": "Piyasalar bütçe görüşmelerine ve Merkez Bankası'na odaklanacak",
+      "source_headline": "TCMB: Enerji fiyatlarındaki yüksek ve dalgalı seyir sürmektedir",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-30T19:57:22.502303+00:00",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-10-31T00:36:51.172289+00:00",
       "source_modified_at": "",
-      "run_id": "41119185510",
-      "processing_status": "readback_scope_unavailable"
+      "run_id": "41150988326"
     }
   ],
   "errors": [
@@ -40,12 +39,7 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: president sending solidarity"
-    },
-    {
-      "source": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama - Hürriyet",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "daily_existing_count": 0
+  "daily_existing_count": 1
 }
