@@ -45,7 +45,53 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Erdoğan İspanya tren kazasına Türkiyeden destek gönderdi Cumhurbaşkanı Recep Tayyip Erdoğan bugün İspanyada sabah gerçekleşen tren kazasını sosyal medyada duyurdu Kazada yakınlarını kaybedenlerin acısını Türkiye ve milletimiz adına yürekten paylaşıyor ve İspanya halkına dayanışma mesajı gönderiyor Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "21:00"
+    },
+    {
+      "title": "TCMB: Enerji fiyatları yüksek, enflasyon riski artıyor",
+      "summary": "Türkiye Cumhuriyet Merkez Bankası TCMB Para Politikası Kurulu Toplantı Özeti'nde, devam eden jeopolitik belirsizliklere bağlı olarak enerji fiyatlarındaki yüksek ve dalgalı seyrin sürdüğü belirtildi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/tcmb-enerji-fiyatlarindaki-yuksek-ve-dalgali-seyir-surmektedir-961746.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-10-30T15:33:00+03:00",
+      "fingerprint": "743738f6ef39a7c33fe5fd5ab802f131884c8883",
+      "direct_source": true,
+      "viral_score": 37.7,
+      "topic_bucket": "ekonomi_yasam",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/tcmb-enerji-fiyatlarindaki-yuksek-ve-dalgali-seyir-surmektedir-961746.html",
+      "source_headline": "TCMB: Enerji fiyatlarındaki yüksek ve dalgalı seyir sürmektedir",
+      "source_modified_at": "",
+      "source_checked_at": "2026-10-31T00:36:51.172289+00:00",
+      "article_score": 119,
+      "article_text": "TCMB, Para Politikası Kurulunun 22 Ekim'deki toplantısına ilişkin özeti yayımlandı Özette, \"Devam eden jeopolitik belirsizliklere bağlı olarak enerji fiyatlarındaki yüksek ve dalgalı seyir sürmektedir. Enerji arzı, tedarik zincirleri ve taşıma maliyetlerine ilişkin belirsizliklerin süresi ve boyutu enerji fiyatlarının gelecekteki seyri açısından belirleyici olmaya devam edecektir. Diğer taraftan, tarım emtia fiyatlarında da olumsuz hava koşulları ve jeopolitik gelişmeler kaynaklı yüksek seyir gözlenmektedir. Bu durum, enflasyon gelişmeleri ve beklentiler üzerinde yukarı yönlü bir başka risk unsuru olarak ortaya çıkmaktadır.\" ifadelerine yer verildi Jeopolitik gelişmelerin etkisiyle Orta Doğu ve Afrika ülkelerinde 2026 yılı için olumsuz büyüme görünümünün sürdüğü aktarılan özette, diğer taraftan 2027 yılında baz etkilerinin de devreye girmesiyle büyüme oranlarının toparlanmasının beklendiği kaydedildi Özette, bu çerçevede küresel ölçekte zayıf ve kırılgan görünümün devam edeceği, Türkiye'nin dış ticaret ortaklarının ihracat paylarıyla ağırlıklandırılan küresel büyüme endeksinin 2026 yılı için yüzde 1,6, 2027 yılı için ise yüzde 2,5 artacağının tahmin edildiği bildirildi Emtia fiyatlarındaki oynaklığa bağlı olarak küresel enflasyon üzerindeki yukarı yönlü risklerin sürdüğü belirtilen özette, merkez bankalarının hem söz konusu riskleri gözetmeye devam ettiği hem de gelişmelerin büyüme ve istihdam üzerindeki olumsuz etkilerini dikkate aldığı ifade edildi Özette, politika faizlerine ilişkin piyasa fiyatlamalarının, gelişmiş ülkelerde faiz artırımı beklentilerinin sürdüğüne işaret ettiği belirtildi Jeopolitik gelişmelerin ve El Nino gibi iklim olaylarının yol açtığı olumsuz küresel hava koşullarının neden olduğu arz şokunun ne kadar kalıcı olacağının ve enflasyon beklentilerini ne ölçüde bozacağının küresel para politikalarının seyri açısından önem taşıdığı kaydedilen özette, \"Son dönemde, artan belirsizlik ve risk iştahındaki dalgalanmalara bağlı olarak, gelişmekte olan ülke hisse senedi piyasalarından fon çıkışları gözlenirken, portföy hareketleri üzerindeki aşağı yönlü riskler canlılığını korumaktadır.\" değerlendirmesine yer verildi",
+      "content_quality": "article_text",
+      "model_source_context": "TCMB, Para Politikası Kurulunun 22 Ekim'deki toplantısına ilişkin özeti yayımlandı Özette, \"Devam eden jeopolitik belirsizliklere bağlı olarak enerji fiyatlarındaki yüksek ve dalgalı seyir sürmektedir. Enerji arzı, tedarik zincirleri ve taşıma maliyetlerine ilişkin belirsizliklerin süresi ve boyutu enerji fiyatlarının gelecekteki seyri açısından belirleyici olmaya devam edecektir. Diğer taraftan, tarım emtia fiyatlarında da olumsuz hava koşulları ve jeopolitik gelişmeler kaynaklı yüksek seyir gözlenmektedir. Bu durum, enflasyon gelişmeleri ve beklentiler üzerinde yukarı yönlü bir başka risk unsuru olarak ortaya çıkmaktadır.\" ifadelerine yer verildi Jeopolitik gelişmelerin etkisiyle Orta Doğu ve Afrika ülkelerinde 2026 yılı için olumsuz büyüme görünümünün sürdüğü aktarılan özette, diğer taraftan 2027 yılında baz etkilerinin de devreye girmesiyle büyüme oranlarının toparlanmasının beklendiği kaydedildi Özette, bu çerçevede küresel ölçekte zayıf ve kırılgan görünümün devam edeceği, Türkiye'nin dış ticaret ortaklarının ihracat paylarıyla ağırlıklandırılan küresel büyüme endeksinin 2026 yılı için yüzde 1,6, 2027 yılı için ise yüzde 2,5 artacağının tahmin edildiği bildirildi Emtia fiyatlarındaki oynaklığa bağlı olarak küresel enflasyon üzerindeki yukarı yönlü risklerin sürdüğü belirtilen özette, merkez bankalarının hem söz konusu riskleri gözetmeye devam ettiği hem de gelişmelerin büyüme ve istihdam üzerindeki olumsuz etkilerini dikkate aldığı ifade edildi Özette, politika faizlerine ilişkin piyasa fiyatlamalarının, gelişmiş ülkelerde faiz artırımı beklentilerinin sürdüğüne işaret ettiği belirtildi Jeopolitik gelişmelerin ve El Nino gibi iklim olaylarının yol açtığı olumsuz küresel hava koşullarının neden olduğu arz şokunun ne kadar kalıcı olacağının ve enflasyon beklentilerini ne ölçüde bozacağının küresel para politikalarının seyri açısından önem taşıdığı kaydedilen özette, \"Son dönemde, artan belirsizlik ve risk iştahındaki dalgalanmalara bağlı olarak, gelişmekte olan ülke hisse senedi piyasalarından fon çıkışları gözlenirken, portföy hareketleri üzerindeki aşağı yönlü riskler canlılığını korumaktadır.\" değerlendirmesine yer verildi",
+      "shorts_hook": "Enerji fiyatları yükselişte, enflasyon riski artıyor",
+      "quality_hook": "Enerji fiyatları yükselişte, enflasyon riski artıyor",
+      "quality_narration": "TCMB, Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı. Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi, fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor. Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "TCMB, Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı.",
+        "Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi, fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor.",
+        "Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor."
+      ],
+      "youtube_description": "TCMB, enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı. Bu durum enflasyon beklentilerini nasıl etkiler?",
+      "visual_query": "centralbank meeting chart",
+      "spoken_text": "Enerji fiyatları yükselişte enflasyon riski artıyor TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Enerji fiyatları yükselişte enflasyon riski artıyor. TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı. Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor. Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "enerji fiyatları",
+        "enflasyon",
+        "jeopolitik risk",
+        "TCMB",
+        "para politikası"
+      ],
+      "youtube_hashtags": "#shorts #ekonomi #enerji",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Enerji fiyatları yükselişte enflasyon riski artıyor TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
