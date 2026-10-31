@@ -1,74 +1,12 @@
 {
-  "run_id": "41150988326",
-  "generated_at": "2026-10-31T03:36:08.387750+03:00",
-  "target_count": 2,
+  "run_id": "41206463875",
+  "generated_at": "2026-10-31T16:38:58.661211+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "BUvOZcKKZLs",
-      "youtube_url": "https://youtu.be/BUvOZcKKZLs",
-      "publish_at_local": "2026-10-31T21:00:00+03:00",
-      "publish_at_utc": "2026-10-31T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 2,
-      "title": "TCMB: Enerji fiyatları yüksek, enflasyon riski artıyor",
-      "narration": "Enerji fiyatları yükselişte enflasyon riski artıyor TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor Türkiyeden Haber kanalına abone ol",
-      "description": "TCMB, enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı. Bu durum enflasyon beklentilerini nasıl etkiler?",
-      "visual_query": "centralbank meeting chart",
-      "tags": [
-        "enerji fiyatları",
-        "enflasyon",
-        "jeopolitik risk",
-        "TCMB",
-        "para politikası"
-      ],
-      "video_path": "output/short_2.mp4",
-      "source_headline": "TCMB: Enerji fiyatlarındaki yüksek ve dalgalı seyir sürmektedir",
-      "audience_bucket": "economy_life",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-10-31T00:36:51.172289+00:00",
-      "source_modified_at": "",
-      "run_id": "41150988326",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "ZY8muHzRrrg",
-      "youtube_url": "https://youtu.be/ZY8muHzRrrg",
-      "publish_at_local": "2026-10-31T23:00:00+03:00",
-      "publish_at_utc": "2026-10-31T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 3,
-      "title": "Sánchez, Toledo 2026'da 69 ölü tren kazasını yorumladı",
-      "narration": "İspanya Başbakanı Sánchez Toledo tren kazasını değerlendirdi İspanya Başbakanı Pedro Sánchez Toledodaki Entegre Operasyonel Koordinasyon Merkezinde tren kazasını değerlendirerek yüksek hızlı tren sistemine olan güvenin sarsıldığını belirtti Kaza 28 Ekim 2026 tarihinde saat 08 54te gerçekleşti 69 kişi hayatını kaybetti 50den fazla kişi yaralandı Ulaştırma ve Sürdürülebilir Hareketlilik Bakanı Oscar Puente sinyalizasyon sistemindeki LZB arızasının Avrupa normları içinde olduğunu ve 2026da 170 olay yaşandığını açıkladı Türkiyeden Haber kanalına abone ol",
-      "description": "28 Ekim 2026'da Toledo'da 69 kişinin hayatını kaybettiği tren kazasını Sánchez değerlendirdi. Sizce bu tür kazaların önlenmesi mümkün mü?",
-      "visual_query": "train crash investigation",
-      "tags": [
-        "tren kazası",
-        "İspanya",
-        "güvenlik",
-        "sinyalizasyon",
-        "Ulaştırma"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama",
-      "audience_bucket": "transport_cities",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-10-31T00:47:16.301833+00:00",
-      "source_modified_at": "",
-      "run_id": "41150988326",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: president sending solidarity"
-    }
-  ],
-  "daily_existing_count": 1
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
