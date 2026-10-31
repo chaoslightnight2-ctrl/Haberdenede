@@ -1,77 +1,13 @@
 {
-  "source_run": "41150988326",
-  "verified_at": "2026-10-31T00:56:58.822000+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "BUvOZcKKZLs",
-      "youtube_url": "https://youtu.be/BUvOZcKKZLs",
-      "title": "TCMB: Enerji fiyatları yüksek, enflasyon riski artıyor",
-      "narration": "Enerji fiyatları yükselişte enflasyon riski artıyor TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-31T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-31T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.266667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/BUvOZcKKZLs.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "ZY8muHzRrrg",
-      "youtube_url": "https://youtu.be/ZY8muHzRrrg",
-      "title": "Sánchez, Toledo 2026'da 69 ölü tren kazasını yorumladı",
-      "narration": "İspanya Başbakanı Sánchez Toledo tren kazasını değerlendirdi İspanya Başbakanı Pedro Sánchez Toledodaki Entegre Operasyonel Koordinasyon Merkezinde tren kazasını değerlendirerek yüksek hızlı tren sistemine olan güvenin sarsıldığını belirtti Kaza 28 Ekim 2026 tarihinde saat 08 54te gerçekleşti 69 kişi hayatını kaybetti 50den fazla kişi yaralandı Ulaştırma ve Sürdürülebilir Hareketlilik Bakanı Oscar Puente sinyalizasyon sistemindeki LZB arızasının Avrupa normları içinde olduğunu ve 2026da 170 olay yaşandığını açıkladı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-31T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-10-31T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 42.7,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ZY8muHzRrrg.jpg"
-    }
-  ],
+  "source_run": "41206463875",
+  "verified_at": "2026-10-31T13:39:28.677118+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: president sending solidarity"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
