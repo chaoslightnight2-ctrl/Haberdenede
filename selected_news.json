@@ -145,7 +145,62 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Erdoğandan 700 yerli ultrason cihazı hedefi açıklandı Erdoğan iki yıl içinde yıllık 700 ultrason cihazı üretmeyi ve yüzde 71 yerli oranını hedeflediğini duyurdu Geçen yıl kamu alımlarındaki yerlilik oranını 7 puan artırdıklarını ve yerli tıbbi cihazlara öncelik verdiklerini belirtti Türkiyeden Haber kanalına abone ol"
+      "script": "Erdoğandan 700 yerli ultrason cihazı hedefi açıklandı Erdoğan iki yıl içinde yıllık 700 ultrason cihazı üretmeyi ve yüzde 71 yerli oranını hedeflediğini duyurdu Geçen yıl kamu alımlarındaki yerlilik oranını 7 puan artırdıklarını ve yerli tıbbi cihazlara öncelik verdiklerini belirtti Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_3.mp3",
+      "background_path": "output/background_3.mp4",
+      "video_path": "output/short_3.mp4",
+      "video_id": "-aJcT5niGJo",
+      "youtube_url": "https://youtu.be/-aJcT5niGJo",
+      "publish_at_local": "2026-11-01T21:00:00+03:00",
+      "publish_at_utc": "2026-11-01T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Kayseri 2026 LGS: Osman Ulubaş Fen Lisesi Bir Numara",
+      "summary": "Kayseri Liseleri 2026 LGS Taban Puanları Bilim Şenliği",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tQVFORFBvUnk0OTlWYlAtUnh4OU5hVXFscWR0SXRKZjJxRVZTMDRXb1RmbXc1bDdPQmxpUE9NTzdoM1Z2U2VqeVd1UGZOLUJ4WWVHbTNpajl0ZzN1b2g3UjVUdjJJUUFHemMtcXJVcVdHMmMyQ2VtdQ?oc=5",
+      "query": "Türkiye eğitim okul üniversite sınav",
+      "source": "Google News RSS",
+      "published_at": "2026-10-31T17:21:32+03:00",
+      "fingerprint": "50ee6a03a5bdde951985d5cdc099a064f138fe0b",
+      "viral_score": 68.86,
+      "topic_bucket": "sağlık_eğitim",
+      "source_name": "bilim şenliği",
+      "resolved_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tQVFORFBvUnk0OTlWYlAtUnh4OU5hVXFscWR0SXRKZjJxRVZTMDRXb1RmbXc1bDdPQmxpUE9NTzdoM1Z2U2VqeVd1UGZOLUJ4WWVHbTNpajl0ZzN1b2g3UjVUdjJJUUFHemMtcXJVcVdHMmMyQ2VtdQ?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_headline": "Kayseri Liseleri 2026 LGS Taban Puanları",
+      "source_modified_at": "",
+      "source_checked_at": "2026-10-31T23:03:35.522085+00:00",
+      "article_score": 76,
+      "article_text": "Kayseri liseleri arasında en yüksek puanlarla öğrenci kabul eden okullar, genellikle Melikgazi ve Kocasinan gibi merkez ilçelerde bulunan Fen Liseleri ve köklü Anadolu Liseleridir. Bu okullar, öğrencilerini ulusal düzeyde rekabetçi üniversite sınavlarına güçlü bir şekilde hazırlamaktadır Son 2 yıla ait Kayseri Lise Taban Puanları ve Yüzdelik Dilimleri için bağlantıyı tıklayınız 2026 LGS İlk Yerleştirme Taban Puanları Yüzdelik dilimler açısından bakıldığında, Kayseri’deki en yüksek yüzdelik dilime sahip lisesi Osman Ulubaş Kayseri Fen Lisesi olmuştur Kayseri liseleri için tercih yapacak öğrenciler, taban puandan ziyade yüzdelik dilimlerine odaklanmalıdır. LGS taban puanları, sınavın o yılki zorluğuna göre yıldan yıla büyük farklılıklar gösterebilirken, yüzdelik dilim öğrencinin tüm Türkiye genelindeki sıralamasını yansıttığı için daha istikrarlı ve güvenilir bir tercih göstergesidir Kayseri genelindeki Fen Liseleri, Anadolu Liseleri, Sosyal Bilimler Liseleri ve Mesleki ve Teknik Anadolu Liseleri gibi farklı lise türleri, öğrencilerin ilgi alanlarına ve hedeflerine uygun geniş bir eğitim yelpazesi sunar. Başarılı bir lise eğitimi, yalnızca yüksek puanlı bir okula girmekle değil, aynı zamanda öğrencinin kişisel ve akademik beklentileriyle okulun imkanlarının uyumuyla mümkündür Lise tercihleri, Milli Eğitim Bakanlığının belirttiği tarihler arasında yapılmalıdır. Tercih işlemleri, e-Okul üzerinden veya okul müdürlükleri aracılığıyla yapılabilir Tercih işlemleri sırasında, öğrencinin yerleştirme puanları, yüzdelik dilimleri ve kontenjanlar dikkate alınmalıdır",
+      "content_quality": "article_text",
+      "model_source_context": "Kayseri liseleri arasında en yüksek puanlarla öğrenci kabul eden okullar, genellikle Melikgazi ve Kocasinan gibi merkez ilçelerde bulunan Fen Liseleri ve köklü Anadolu Liseleridir. Bu okullar, öğrencilerini ulusal düzeyde rekabetçi üniversite sınavlarına güçlü bir şekilde hazırlamaktadır Son 2 yıla ait Kayseri Lise Taban Puanları ve Yüzdelik Dilimleri için bağlantıyı tıklayınız 2026 LGS İlk Yerleştirme Taban Puanları Yüzdelik dilimler açısından bakıldığında, Kayseri’deki en yüksek yüzdelik dilime sahip lisesi Osman Ulubaş Kayseri Fen Lisesi olmuştur Kayseri liseleri için tercih yapacak öğrenciler, taban puandan ziyade yüzdelik dilimlerine odaklanmalıdır. LGS taban puanları, sınavın o yılki zorluğuna göre yıldan yıla büyük farklılıklar gösterebilirken, yüzdelik dilim öğrencinin tüm Türkiye genelindeki sıralamasını yansıttığı için daha istikrarlı ve güvenilir bir tercih göstergesidir Kayseri genelindeki Fen Liseleri, Anadolu Liseleri, Sosyal Bilimler Liseleri ve Mesleki ve Teknik Anadolu Liseleri gibi farklı lise türleri, öğrencilerin ilgi alanlarına ve hedeflerine uygun geniş bir eğitim yelpazesi sunar. Başarılı bir lise eğitimi, yalnızca yüksek puanlı bir okula girmekle değil, aynı zamanda öğrencinin kişisel ve akademik beklentileriyle okulun imkanlarının uyumuyla mümkündür Lise tercihleri, Milli Eğitim Bakanlığının belirttiği tarihler arasında yapılmalıdır. Tercih işlemleri, e-Okul üzerinden veya okul müdürlükleri aracılığıyla yapılabilir Tercih işlemleri sırasında, öğrencinin yerleştirme puanları, yüzdelik dilimleri ve kontenjanlar dikkate alınmalıdır",
+      "shorts_hook": "Kayseri Fen Lisesi yüzde dilimde bir numara!",
+      "quality_hook": "Kayseri Fen Lisesi yüzde dilimde bir numara!",
+      "quality_narration": "2026 LGS taban puanları ve yüzde dilimleri Kayseri’de yayımlandı. Osman Ulubaş Kayseri Fen Lisesi, yüzde dilim açısından şehirdeki en yüksek okuldur. Kayseri’deki en yüksek puanlı okullar, Melikgazi ve Kocasinan ilçelerindeki Fen ve köklü Anadolu Liseleridir.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "2026 LGS taban puanları ve yüzde dilimleri Kayseri’de yayımlandı.",
+        "Osman Ulubaş Kayseri Fen Lisesi, yüzde dilim açısından şehirdeki en yüksek okuldur.",
+        "Kayseri’deki en yüksek puanlı okullar, Melikgazi ve Kocasinan ilçelerindeki Fen ve köklü Anadolu Liseleridir."
+      ],
+      "youtube_description": "Kayseri’de 2026 LGS sonuçları açıklandı; en yüksek yüzde dilim Osman Ulubaş Fen Lisesi’nde. Sizce bu başarı diğer okulları nasıl etkiler?",
+      "visual_query": "school ranking chart",
+      "spoken_text": "Kayseri Fen Lisesi yüzde dilimde bir numara 2026 LGS taban puanları ve yüzde dilimleri Kayseride yayımlandı Osman Ulubaş Kayseri Fen Lisesi yüzde dilim açısından şehirdeki en yüksek okuldur Kayserideki en yüksek puanlı okullar Melikgazi ve Kocasinan ilçelerindeki Fen ve köklü Anadolu Liseleridir Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Kayseri Fen Lisesi yüzde dilimde bir numara. 2026 LGS taban puanları ve yüzde dilimleri Kayseride yayımlandı. Osman Ulubaş Kayseri Fen Lisesi yüzde dilim açısından şehirdeki en yüksek okuldur. Kayserideki en yüksek puanlı okullar Melikgazi ve Kocasinan ilçelerindeki Fen ve köklü Anadolu Liseleridir. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "LGS",
+        "Kayseri",
+        "Fen Lisesi",
+        "Taban Puan",
+        "Yüzdelik Dilim"
+      ],
+      "youtube_hashtags": "#shorts #eğitim #sınav",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Kayseri Fen Lisesi yüzde dilimde bir numara 2026 LGS taban puanları ve yüzde dilimleri Kayseride yayımlandı Osman Ulubaş Kayseri Fen Lisesi yüzde dilim açısından şehirdeki en yüksek okuldur Kayserideki en yüksek puanlı okullar Melikgazi ve Kocasinan ilçelerindeki Fen ve köklü Anadolu Liseleridir Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
