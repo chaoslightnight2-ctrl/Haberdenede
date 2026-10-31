@@ -1,19 +1,19 @@
 {
-  "source_run": "41119185510",
-  "verified_at": "2026-10-30T20:04:59.086910+00:00",
+  "source_run": "41150988326",
+  "verified_at": "2026-10-31T00:56:58.822000+00:00",
   "videos": [
     {
       "index": 2,
-      "video_id": "0iNWq8Cd-cc",
-      "youtube_url": "https://youtu.be/0iNWq8Cd-cc",
-      "title": "Merkez Bankası Enflasyon Tahminini %28’e yükseltti",
-      "narration": "Enflasyon tahmini yüzde 28e yükseldi hedefler netleşti Merkez Bankası Başkanı Fatih Karahan 12 Kasımda yıl sonu enflasyon tahminini yüzde 28 olarak yükseltti Karahan 2027 sonunda enflasyonun yüzde 15 2028 sonunda yüzde 9a gerileyeceğini ve orta vadede yüzde 5 hedefinde istikrar sağlanacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-10-31T16:00:00Z",
+      "video_id": "BUvOZcKKZLs",
+      "youtube_url": "https://youtu.be/BUvOZcKKZLs",
+      "title": "TCMB: Enerji fiyatları yüksek, enflasyon riski artıyor",
+      "narration": "Enerji fiyatları yükselişte enflasyon riski artıyor TCMB Para Politikası Kurulu 22 Ekim toplantısında enerji fiyatlarının yüksek ve dalgalı seyrini vurguladı Jeopolitik belirsizliklerin enerji arzı ve taşıma maliyetlerine etkisi fiyatların gelecekteki seyrini belirleyici olmaya devam ediyor Bu durum enflasyon beklentileri üzerinde yukarı yönlü bir risk oluşturuyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-31T18:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-10-31T16:00:00Z",
+        "publishAt": "2026-10-31T18:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,31 +23,55 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 28.4,
+        "duration": 30.266667,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/0iNWq8Cd-cc.jpg"
+      "preview": "maintenance/previews/BUvOZcKKZLs.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "ZY8muHzRrrg",
+      "youtube_url": "https://youtu.be/ZY8muHzRrrg",
+      "title": "Sánchez, Toledo 2026'da 69 ölü tren kazasını yorumladı",
+      "narration": "İspanya Başbakanı Sánchez Toledo tren kazasını değerlendirdi İspanya Başbakanı Pedro Sánchez Toledodaki Entegre Operasyonel Koordinasyon Merkezinde tren kazasını değerlendirerek yüksek hızlı tren sistemine olan güvenin sarsıldığını belirtti Kaza 28 Ekim 2026 tarihinde saat 08 54te gerçekleşti 69 kişi hayatını kaybetti 50den fazla kişi yaralandı Ulaştırma ve Sürdürülebilir Hareketlilik Bakanı Oscar Puente sinyalizasyon sistemindeki LZB arızasının Avrupa normları içinde olduğunu ve 2026da 170 olay yaşandığını açıkladı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-10-31T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-10-31T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 42.7,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/ZY8muHzRrrg.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: president sending solidarity"
-    },
-    {
-      "source": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama - Hürriyet",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "target_count": 3,
+  "public_listing_error": "HTTPError",
+  "target_count": 2,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
