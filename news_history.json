@@ -4893,7 +4893,30 @@
       "resolved_url": "https://www.trthaber.com/haber/ekonomi/tcmb-enerji-fiyatlarindaki-yuksek-ve-dalgali-seyir-surmektedir-961746.html",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Sánchez, Toledo 2026'da 69 ölü tren kazasını yorumladı",
+      "summary": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama Hürriyet",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXNyZE41UWxqbmtkaFItQ3ExNVU1akwzVUJrdldCei0xZjNIRUVGeU5rLTJIZ0Vlb1JRbjBTWmNZRjNrUVp5LXFxZ0lvZGFoaHh0ZXVDRVFzVk9STE81dGZHOXVDREtqd3VVenFsbm5kY1E4ZG9SaEFiU2dkTERMcUhieThKOVRleVV2Z3R4Qld4YkVTRm9ta090Q3VmM2E2T1ZVdDA2VXJxWnc?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-10-30T16:52:27+03:00",
+      "fingerprint": "318f10cad9ca3db022167ebc9cddb33136b157d5",
+      "viral_score": 65.82,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-10-31T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/ZY8muHzRrrg",
+      "video_id": "ZY8muHzRrrg",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-10-31T03:56:07.161142+03:00",
+      "publish_at_utc": "2026-10-31T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İspanya'daki tren kazasının ardından Başbakan Sanchez'den açıklama",
+      "resolved_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXNyZE41UWxqbmtkaFItQ3ExNVU1akwzVUJrdldCei0xZjNIRUVGeU5rLTJIZ0Vlb1JRbjBTWmNZRjNrUVp5LXFxZ0lvZGFoaHh0ZXVDRVFzVk9STE81dGZHOXVDREtqd3VVenFsbm5kY1E4ZG9SaEFiU2dkTERMcUhieThKOVRleVV2Z3R4Qld4YkVTRm9ta090Q3VmM2E2T1ZVdDA2VXJxWnc?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }
