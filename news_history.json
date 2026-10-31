@@ -4916,7 +4916,8 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXNyZE41UWxqbmtkaFItQ3ExNVU1akwzVUJrdldCei0xZjNIRUVGeU5rLTJIZ0Vlb1JRbjBTWmNZRjNrUVp5LXFxZ0lvZGFoaHh0ZXVDRVFzVk9STE81dGZHOXVDREtqd3VVenFsbm5kY1E4ZG9SaEFiU2dkTERMcUhieThKOVRleVV2Z3R4Qld4YkVTRm9ta090Q3VmM2E2T1ZVdDA2VXJxWnc?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
