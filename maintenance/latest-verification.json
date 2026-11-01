@@ -1,105 +1,14 @@
 {
-  "source_run": "41248542769",
-  "verified_at": "2026-10-31T23:09:44.590379+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "vLgz_e4V_9w",
-      "youtube_url": "https://youtu.be/vLgz_e4V_9w",
-      "title": "Türkiye ve Kuzey Makedonya Sağlık Mutabakatını İmzaladı",
-      "narration": "Türkiye ve Kuzey Makedonya sağlık işbirliğini resmileştirdi Sağlık Bakanı Memişoğlu Kuzey Makedonya Sağlık Bakanı Dr Sasho Klekovski ile 12 Türk Tıp Dünyası Kurultayı kapsamında görüşerek iki ülke arasında Sağlık ve Tıp Bilimleri Alanında Mutabakat Zaptı imzaladıklarını duyurdu Bu mutabakat halk sağlığı ilaç ve tıbbi cihaz sağlık yatırımları ve sağlık hizmetlerinde dijitalleşme gibi alanlarda ortak projeler geliştirmeyi hedefliyor Memişoğlu bu işbirliğinin önümüzdeki dönemde daha da pekişeceğine inandığını ve imzaların iki ülke için hayırlı olmasını temenni etti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-01T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-01T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 41.233333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/vLgz_e4V_9w.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "-aJcT5niGJo",
-      "youtube_url": "https://youtu.be/-aJcT5niGJo",
-      "title": "Erdoğan'dan 700 Ultrason Cihazı ve %71 Yerli Hedefi",
-      "narration": "Erdoğandan 700 yerli ultrason cihazı hedefi açıklandı Erdoğan iki yıl içinde yıllık 700 ultrason cihazı üretmeyi ve yüzde 71 yerli oranını hedeflediğini duyurdu Geçen yıl kamu alımlarındaki yerlilik oranını 7 puan artırdıklarını ve yerli tıbbi cihazlara öncelik verdiklerini belirtti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-01T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-01T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 24.1,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/-aJcT5niGJo.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "FMYPQx6eYGA",
-      "youtube_url": "https://youtu.be/FMYPQx6eYGA",
-      "title": "Kayseri 2026 LGS: Osman Ulubaş Fen Lisesi Bir Numara",
-      "narration": "Kayseri Fen Lisesi yüzde dilimde bir numara 2026 LGS taban puanları ve yüzde dilimleri Kayseride yayımlandı Osman Ulubaş Kayseri Fen Lisesi yüzde dilim açısından şehirdeki en yüksek okuldur Kayserideki en yüksek puanlı okullar Melikgazi ve Kocasinan ilçelerindeki Fen ve köklü Anadolu Liseleridir Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-01T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-01T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 27.433333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/FMYPQx6eYGA.jpg"
-    }
-  ],
+  "source_run": "41254714554",
+  "verified_at": "2026-11-01T00:01:24.707469+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: president sending solidarity"
-    }
-  ],
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
   "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
