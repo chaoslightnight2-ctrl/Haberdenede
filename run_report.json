@@ -1,12 +1,39 @@
 {
-  "run_id": "41342722822",
-  "generated_at": "2026-11-01T22:39:03.134580+03:00",
-  "target_count": 0,
+  "run_id": "41367287741",
+  "generated_at": "2026-11-02T03:28:54.087594+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "XDs-Uysb6mg",
+      "youtube_url": "https://youtu.be/XDs-Uysb6mg",
+      "publish_at_local": "2026-11-02T19:00:00+03:00",
+      "publish_at_utc": "2026-11-02T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Memişoğlu: Robotik cerrahi cihazı üretilecek",
+      "narration": "Robotik cerrahi cihazı üretilecek gençler destekleniyor Sağlık Bakanı Kemal Memişoğlu 12 Türk Tıp Dünyası Kurultayının ilk gününde robotik cerrahi cihazının Türkiyede üretileceğini duyurdu Bakan bu alanda çalışmaların TÜSEB aracılığıyla bilişim altyapısını güçlendirmeyi hedeflediğini belirtti Gençlerin fikirlerini patentleyebilecekleri Üreten Sağlık Portalı nı uretensaglik gov tr hayata geçirdiklerini söyledi Türkiyeden Haber kanalına abone ol",
+      "description": "Sağlık Bakanı Memişoğlu, robotik cerrahi cihazının üretileceğini açıkladı ve gençlerin inovasyon portalı üzerinden fikirlerini paylaşabileceklerini duyurdu. Siz bu teknolojinin sağlık hizmetlerine etkisini nasıl görüyorsunuz?",
+      "visual_query": "robotic surgery device manufacturing",
+      "tags": [
+        "robotik cerrahi",
+        "sağlık teknolojisi",
+        "TÜSEB",
+        "Üreten Sağlık Portalı",
+        "genç inovasyon"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Bakan Memişoğlu: Robotik cerrahi cihazı Türkiye'de üretilecek",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-02T00:29:15.455595+00:00",
+      "source_modified_at": "",
+      "run_id": "41367287741"
+    }
+  ],
   "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "daily_existing_count": 0
 }
