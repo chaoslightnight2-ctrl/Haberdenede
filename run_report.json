@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-02T00:29:15.455595+00:00",
       "source_modified_at": "",
+      "run_id": "41367287741",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "avLKSdqRbfs",
+      "youtube_url": "https://youtu.be/avLKSdqRbfs",
+      "publish_at_local": "2026-11-02T21:00:00+03:00",
+      "publish_at_utc": "2026-11-02T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Antalya’da Liderler Yolu 11 Kasım’da Yarı Gün Kapalı",
+      "narration": "Liderler Yolu 11 Kasımda yarı gün kapalı Antalyada 11 Kasım sabahı 07 30 12 00 saatleri arasında Liderler Yolu tamamen trafiğe kapatılacak Kapatma sırasında yol resmi görevli araçlar için bir şerit shuttle araçları için bir şerit olmak üzere ikiye bölünecek Havalimanı kavşağı ile Belek Shell kavşağı arasındaki 18 kilometrelik D 400 yolu geliş ve gidiş yönlerinde ayrı trafik düzenlemeleri uygulanacak Türkiyeden Haber kanalına abone ol",
+      "description": "Antalya’da 11 Kasım’da 'Liderler Yolu' yarı gün kapatılıyor, resmi ve shuttle araçları ayrı şeritlerde ilerleyecek. Sizce bu düzenleme trafiği rahatlatır mı?",
+      "visual_query": "road closure antalya",
+      "tags": [
+        "Antalya trafik",
+        "Liderler Yolu",
+        "D-400 düzenleme",
+        "zirve ulaşım",
+        "shuttle araçları"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Antalya'da bazı güzergahlarda trafik düzenlemesi yapılacak",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-02T00:37:00.265096+00:00",
+      "source_modified_at": "",
       "run_id": "41367287741"
     }
   ],

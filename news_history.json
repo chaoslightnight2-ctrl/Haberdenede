@@ -5008,7 +5008,30 @@
       "resolved_url": "https://www.trthaber.com/haber/saglik/bakan-memisoglu-robotik-cerrahi-cihazi-turkiyede-uretilecek-961873.html",
       "source_modified_at": "",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Antalya’da Liderler Yolu 11 Kasım’da Yarı Gün Kapalı",
+      "summary": "Antalya'da, 920 Kasım'da düzenlenecek COP31 Türkiye İklim Zirvesi kapsamında, 1011 ve 12 Kasım'da bazı güzergahlarda geçici trafik düzenlemeleri uygulanacak.",
+      "url": "https://www.trthaber.com/haber/turkiye/antalyada-bazi-guzergahlarda-trafik-duzenlemesi-yapilacak-961901.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-01T23:19:00+03:00",
+      "fingerprint": "e648bb0b9c94c5245f41bfebc98bb3b12636678d",
+      "viral_score": 54.33,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-02T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/avLKSdqRbfs",
+      "video_id": "avLKSdqRbfs",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-02T03:49:20.994585+03:00",
+      "publish_at_utc": "2026-11-02T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Antalya'da bazı güzergahlarda trafik düzenlemesi yapılacak",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/antalyada-bazi-guzergahlarda-trafik-duzenlemesi-yapilacak-961901.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
