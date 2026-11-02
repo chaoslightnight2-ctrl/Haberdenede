@@ -1,13 +1,99 @@
 {
-  "source_run": "41342722822",
-  "verified_at": "2026-11-01T19:39:42.937545+00:00",
-  "videos": [],
+  "source_run": "41367287741",
+  "verified_at": "2026-11-02T00:58:35.102830+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "XDs-Uysb6mg",
+      "youtube_url": "https://youtu.be/XDs-Uysb6mg",
+      "title": "Memişoğlu: Robotik cerrahi cihazı üretilecek",
+      "narration": "Robotik cerrahi cihazı üretilecek gençler destekleniyor Sağlık Bakanı Kemal Memişoğlu 12 Türk Tıp Dünyası Kurultayının ilk gününde robotik cerrahi cihazının Türkiyede üretileceğini duyurdu Bakan bu alanda çalışmaların TÜSEB aracılığıyla bilişim altyapısını güçlendirmeyi hedeflediğini belirtti Gençlerin fikirlerini patentleyebilecekleri Üreten Sağlık Portalı nı uretensaglik gov tr hayata geçirdiklerini söyledi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-02T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-02T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.133333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/XDs-Uysb6mg.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "avLKSdqRbfs",
+      "youtube_url": "https://youtu.be/avLKSdqRbfs",
+      "title": "Antalya’da Liderler Yolu 11 Kasım’da Yarı Gün Kapalı",
+      "narration": "Liderler Yolu 11 Kasımda yarı gün kapalı Antalyada 11 Kasım sabahı 07 30 12 00 saatleri arasında Liderler Yolu tamamen trafiğe kapatılacak Kapatma sırasında yol resmi görevli araçlar için bir şerit shuttle araçları için bir şerit olmak üzere ikiye bölünecek Havalimanı kavşağı ile Belek Shell kavşağı arasındaki 18 kilometrelik D 400 yolu geliş ve gidiş yönlerinde ayrı trafik düzenlemeleri uygulanacak Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-02T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-02T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 34.1,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/avLKSdqRbfs.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "pTmZcLIHDdM",
+      "youtube_url": "https://youtu.be/pTmZcLIHDdM",
+      "title": "Yargıtay: Kiracı Tahliye Edince Masraflar Ev Sahibine",
+      "narration": "Yargıtay kiracı tahliyesinde masrafları ev sahibine yüklüyor Yargıtay 3 Hukuk Dairesi 15 Haziran 2026 tarihli kararında kira tespit davası devam ederken kiracı sözleşmeyi feshedip taşınmazı yeni dönemden önce tahliye ederse dava konusuz kalır Bu durumda yargılama giderleri kiracıya yüklenmez masraflar kiraya verene bırakılır Karar Osmaniye Kadirli Düziçi Bahçe Toprakkale Sumbas ve Hasanbeyli gibi bölgelerdeki ev sahiplerini ve kiracıları doğrudan etkiler Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-02T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-02T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 37.5,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/pTmZcLIHDdM.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
+  "accepted_count": 3,
+  "processed_count": 3,
+  "complete": false,
   "generation_errors": [],
-  "target_count": 0,
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
   "accepted_complete": true
 }
