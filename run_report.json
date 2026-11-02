@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-02T00:37:00.265096+00:00",
       "source_modified_at": "",
+      "run_id": "41367287741",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "pTmZcLIHDdM",
+      "youtube_url": "https://youtu.be/pTmZcLIHDdM",
+      "publish_at_local": "2026-11-02T23:00:00+03:00",
+      "publish_at_utc": "2026-11-02T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Yargıtay: Kiracı Tahliye Edince Masraflar Ev Sahibine",
+      "narration": "Yargıtay kiracı tahliyesinde masrafları ev sahibine yüklüyor Yargıtay 3 Hukuk Dairesi 15 Haziran 2026 tarihli kararında kira tespit davası devam ederken kiracı sözleşmeyi feshedip taşınmazı yeni dönemden önce tahliye ederse dava konusuz kalır Bu durumda yargılama giderleri kiracıya yüklenmez masraflar kiraya verene bırakılır Karar Osmaniye Kadirli Düziçi Bahçe Toprakkale Sumbas ve Hasanbeyli gibi bölgelerdeki ev sahiplerini ve kiracıları doğrudan etkiler Türkiyeden Haber kanalına abone ol",
+      "description": "Yargıtay 3. Hukuk Dairesi, kiracının yeni dönem öncesi tahliyesinde masrafları ev sahibine yükledi. Sizce bu karar kiracıları koruyor mu?",
+      "visual_query": "court ruling rent",
+      "tags": [
+        "Yargıtay",
+        "kira davası",
+        "masraflar",
+        "Osmaniye",
+        "kiracı hakları"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Osmaniyeliler Kira Davası Masrafını Kim Ödeyecek?",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-02T00:49:23.084527+00:00",
+      "source_modified_at": "",
       "run_id": "41367287741"
     }
   ],

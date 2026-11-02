@@ -5031,7 +5031,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/antalyada-bazi-guzergahlarda-trafik-duzenlemesi-yapilacak-961901.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Yargıtay: Kiracı Tahliye Edince Masraflar Ev Sahibine",
+      "summary": "Osmaniyeliler Kira Davası Masrafını Kim Ödeyecek? Sabır Gazetesi",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSTJaRUQ3cGlib0ZJTDZpcmRhRzJUZnZ2eEM0WHN6UnhOVlhucVZSeklRa1NRel9TZ1hjaGRGcHlmTzB1X0gxZ2ladTlNVURzcldGS2RHQVRzM2YtVmRleDdZMGdYTzQyeVZtMUpSZlNGbWhaU3ZVQm9RUUVoZ1AxUFlLZEo?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-02T00:35:00+03:00",
+      "fingerprint": "f4852a41a0d11e7e4fab0e581bfa549bec9adf6d",
+      "viral_score": 52.35,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-02T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/pTmZcLIHDdM",
+      "video_id": "pTmZcLIHDdM",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-02T03:57:33.319131+03:00",
+      "publish_at_utc": "2026-11-02T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Osmaniyeliler Kira Davası Masrafını Kim Ödeyecek?",
+      "resolved_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSTJaRUQ3cGlib0ZJTDZpcmRhRzJUZnZ2eEM0WHN6UnhOVlhucVZSeklRa1NRel9TZ1hjaGRGcHlmTzB1X0gxZ2ladTlNVURzcldGS2RHQVRzM2YtVmRleDdZMGdYTzQyeVZtMUpSZlNGbWhaU3ZVQm9RUUVoZ1AxUFlLZEo?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
