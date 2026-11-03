@@ -1,14 +1,99 @@
 {
-  "source_run": "41556335294",
-  "verified_at": "2026-11-03T00:58:19.486190+00:00",
-  "videos": [],
+  "source_run": "41568591392",
+  "verified_at": "2026-11-03T03:20:42.817694+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "0pyls_0rULs",
+      "youtube_url": "https://youtu.be/0pyls_0rULs",
+      "title": "İstanbul’da 2 Saat İçinde Şiddetli Sağanak Uyarısı",
+      "narration": "İstanbulda 2 saat içinde şiddetli sağanak geliyor Meteoroloji Genel Müdürlüğü İstanbul çevrelerinde önümüzdeki iki saat içinde yerel kuvvetli ve gök gürültülü sağanak beklediğini duyurdu Beklenen yağış miktarı 21 50 mm arasında değişiyor ve sel su baskını riskine işaret ediyor İstanbul Valiliği vatandaşların dikkatli olmaları ve ulaşımda aksaklıklara hazırlıklı olmaları konusunda uyardı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-03T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-03T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 31.8,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/0pyls_0rULs.jpg"
+    },
+    {
+      "index": 2,
+      "video_id": "rRU6tlXoejs",
+      "youtube_url": "https://youtu.be/rRU6tlXoejs",
+      "title": "Kariyer Zirvesi 3 Kasım’da Ankara’da Başlıyor",
+      "narration": "Kariyer Zirvesi 3 Kasımda Ankarada başlıyor 3 Kasımda Ankara Üniversitesi Siyasal Bilgiler Fakültesi Mülkiye mezunlarıyla dolu üç oturumlu Kariyer Zirvesini ağırlayacak İlk oturumda Osmaniye ve Yozgat valileri ikinci oturumda Sayıştay ve Danıştay üyeleri üçüncü oturumda ise TÜRKSOY Genel Sekreter Vekili ve UNESCO Türkiye Milli Komisyonu Başkan Vekili konuşmacı olarak yer alacak Zirveye katılan öğrenciler onaylı sertifika alarak üst düzey bürokratlarla kariyer planlarını şekillendirme fırsatı bulacak Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-03T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-03T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 38.033333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/rRU6tlXoejs.jpg"
+    },
+    {
+      "index": 3,
+      "video_id": "tlVqN2oPxAw",
+      "youtube_url": "https://youtu.be/tlVqN2oPxAw",
+      "title": "Altın kilogram fiyatı %1,2 düşerek 6,272,000 TL oldu",
+      "narration": "Altın fiyatı yüzde 1 virgül 2 düştü yeni kilogram fiyatı 6272000 TL Altın kilogram fiyatı gün sonunda yüzde 1 virgül 2 düşerek 6272000 TL oldu Önceki gün fiyat 6350000 TL olarak kaydedilmişti Toplam işlem hacmi 9548681952 virgül 61 TL oldu ve en çok işlem yapan kurumlar Kuveyt Türk Katılım Bankası ve Ahlatcı Döviz ve Kıymetli Madenler idi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-03T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-03T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 36.0,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/tlVqN2oPxAw.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [],
   "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
