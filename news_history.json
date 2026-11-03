@@ -5125,6 +5125,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul’da Sağanak Yağış Yolları Göle Döndürdü",
+      "summary": "İstanbul'da akşam saatlerinde başlayan şiddetli yağış Anadolu Yakası'nın pek çok noktasını kısa sürede göle çevirdi. Özellikle Pendik ve Tuzla'da yollar göle döndü, araçlar suya gömüldü. Kentte hasarlı trafik kazaları meydana geldi.",
+      "url": "https://www.trthaber.com/haber/turkiye/istanbulu-saganak-vurdu-yollar-gole-dondu-araclar-suya-gomuldu-962128.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-03T20:23:00+03:00",
+      "fingerprint": "560d7838858a4a919cafd1740c9dc3864ef732f2",
+      "viral_score": 75.2,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-04T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/LmGyY43ftcg",
+      "video_id": "LmGyY43ftcg",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-04T00:07:44.069517+03:00",
+      "publish_at_utc": "2026-11-04T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İstanbul'u sağanak vurdu: Yollar göle döndü, araçlar suya gömüldü",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbulu-saganak-vurdu-yollar-gole-dondu-araclar-suya-gomuldu-962128.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
