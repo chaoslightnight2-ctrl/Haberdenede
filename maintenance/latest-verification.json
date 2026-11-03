@@ -1,13 +1,48 @@
 {
-  "source_run": "41660160220",
-  "verified_at": "2026-11-03T15:07:06.324052+00:00",
-  "videos": [],
+  "source_run": "41717359780",
+  "verified_at": "2026-11-03T21:10:42.002789+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "LmGyY43ftcg",
+      "youtube_url": "https://youtu.be/LmGyY43ftcg",
+      "title": "İstanbul’da Sağanak Yağış Yolları Göle Döndürdü",
+      "narration": "İstanbulda sağanak yağış yolları göle çevirdi Akşam saatlerinde başlayan şiddetli sağanak Pendik Çamçeşme ve Tuzla gibi ilçelerde yolları göle dönüştürdü İETT otobüsü su seviyesinin kapılarını aşması nedeniyle arızalandı trafik yoğunluğu yüzde 89 olarak kaydedildi Bazı turistler yağmur altında fotoğraf çekerken sürücüler suyla dolmuş caddelerde ilerlemekte zorlandı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-04T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-04T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 30.8,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/LmGyY43ftcg.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
+  "complete": false,
+  "generation_errors": [
+    {
+      "source": "Yılmaz'dan AK Parti'nin iktidarının 24. yılına ilişkin paylaşım: İlk günkü aşkla",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
