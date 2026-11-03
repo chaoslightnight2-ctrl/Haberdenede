@@ -31,9 +31,16 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-03T21:00:42.412474+00:00",
       "source_modified_at": "",
-      "run_id": "41717359780"
+      "run_id": "41717359780",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Yılmaz'dan AK Parti'nin iktidarının 24. yılına ilişkin paylaşım: İlk günkü aşkla",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
+    }
+  ],
   "daily_existing_count": 0
 }
