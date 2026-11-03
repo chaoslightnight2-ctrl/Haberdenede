@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-03T03:04:19.016819+00:00",
       "source_modified_at": "",
+      "run_id": "41568591392",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "tlVqN2oPxAw",
+      "youtube_url": "https://youtu.be/tlVqN2oPxAw",
+      "publish_at_local": "2026-11-03T23:00:00+03:00",
+      "publish_at_utc": "2026-11-03T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Altın kilogram fiyatı %1,2 düşerek 6,272,000 TL oldu",
+      "narration": "Altın fiyatı yüzde 1 virgül 2 düştü yeni kilogram fiyatı 6272000 TL Altın kilogram fiyatı gün sonunda yüzde 1 virgül 2 düşerek 6272000 TL oldu Önceki gün fiyat 6350000 TL olarak kaydedilmişti Toplam işlem hacmi 9548681952 virgül 61 TL oldu ve en çok işlem yapan kurumlar Kuveyt Türk Katılım Bankası ve Ahlatcı Döviz ve Kıymetli Madenler idi Türkiyeden Haber kanalına abone ol",
+      "description": "Altın kilogram fiyatı bugün %1,2 düşerek 6,272,000 TL'ye geriledi. Sizce bu düşüş yatırımcıları nasıl etkileyecek?",
+      "visual_query": "gold price falling",
+      "tags": [
+        "altın fiyatı",
+        "kilogram altın",
+        "döviz piyasası",
+        "yatırım",
+        "ekonomi"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Altın fiyatlarında düşüş sürüyor",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-03T03:16:01.981893+00:00",
+      "source_modified_at": "",
       "run_id": "41568591392"
     }
   ],

@@ -5100,7 +5100,30 @@
       "resolved_url": "https://www.trthaber.com/haber/guncel/mulkiyede-kariyer-zirvesi-3-kasimda-duzenlenecek-961992.html",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Altın kilogram fiyatı %1,2 düşerek 6,272,000 TL oldu",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon 272 bin liraya geriledi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-dusus-suruyor-961975.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-02T16:34:00+03:00",
+      "fingerprint": "52bf557cca8e97182e1aae0bfc395c825c7cb4bf",
+      "viral_score": 22.72,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-03T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/tlVqN2oPxAw",
+      "video_id": "tlVqN2oPxAw",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-03T06:19:36.785644+03:00",
+      "publish_at_utc": "2026-11-03T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Altın fiyatlarında düşüş sürüyor",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-dusus-suruyor-961975.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
