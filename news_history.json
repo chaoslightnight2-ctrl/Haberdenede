@@ -5056,6 +5056,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul’da 2 Saat İçinde Şiddetli Sağanak Uyarısı",
+      "summary": "İstanbul için kuvvetli sağanak uyarısı yapıldı. Su baskını, ani sel ve ulaşımda aksamalar gibi olumsuzluklara karşı vatandaşlar uyarıldı.",
+      "url": "https://www.trthaber.com/haber/turkiye/istanbul-icin-saganak-uyarisi-961993.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-02T22:43:00+03:00",
+      "fingerprint": "d78784947c889cc6518a5c095739b15d4ff40b6c",
+      "viral_score": 69.56,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-03T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/0pyls_0rULs",
+      "video_id": "0pyls_0rULs",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-03T06:04:16.853933+03:00",
+      "publish_at_utc": "2026-11-03T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İstanbul için sağanak uyarısı",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbul-icin-saganak-uyarisi-961993.html",
+      "source_modified_at": "",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change"
     }
   ]
 }

@@ -1,10 +1,39 @@
 {
-  "run_id": "41556335294",
-  "generated_at": "2026-11-03T03:57:10.124584+03:00",
+  "run_id": "41568591392",
+  "generated_at": "2026-11-03T05:51:44.825986+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": []
+  "videos": [
+    {
+      "video_id": "0pyls_0rULs",
+      "youtube_url": "https://youtu.be/0pyls_0rULs",
+      "publish_at_local": "2026-11-03T19:00:00+03:00",
+      "publish_at_utc": "2026-11-03T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "İstanbul’da 2 Saat İçinde Şiddetli Sağanak Uyarısı",
+      "narration": "İstanbulda 2 saat içinde şiddetli sağanak geliyor Meteoroloji Genel Müdürlüğü İstanbul çevrelerinde önümüzdeki iki saat içinde yerel kuvvetli ve gök gürültülü sağanak beklediğini duyurdu Beklenen yağış miktarı 21 50 mm arasında değişiyor ve sel su baskını riskine işaret ediyor İstanbul Valiliği vatandaşların dikkatli olmaları ve ulaşımda aksaklıklara hazırlıklı olmaları konusunda uyardı Türkiyeden Haber kanalına abone ol",
+      "description": "Meteoroloji, İstanbul’da önümüzdeki iki saat içinde 21‑50 mm yağış beklediğini duyurdu. Siz de yağışa karşı hazırlıklı mısınız?",
+      "visual_query": "rain falling city",
+      "tags": [
+        "İstanbul",
+        "sağanak",
+        "meteoroloji",
+        "sel uyarısı",
+        "hava durumu"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "İstanbul için sağanak uyarısı",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-03T02:52:08.118499+00:00",
+      "source_modified_at": "",
+      "run_id": "41568591392"
+    }
+  ],
+  "errors": [],
+  "daily_existing_count": 0
 }
