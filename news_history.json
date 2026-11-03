@@ -5077,7 +5077,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbul-icin-saganak-uyarisi-961993.html",
       "source_modified_at": "",
       "audience_bucket": "nature",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Kariyer Zirvesi 3 Kasım’da Ankara’da Başlıyor",
+      "summary": "Mülkiye Mektepliler Derneği tarafından fakültedeki öğrenci toplulukları ile birlikte organize edilen Kariyer Zirvesi 3 Kasım 2026 tarihinde Ankara Üniversitesi Siyasal Bilgiler Fakültesinde gerçekleştirilecek. Programda öğrenciler mezun üst düzey bürokratlar ile kariyer yollarını konuşacak ve gelecek rotasını çizecek.",
+      "url": "https://www.trthaber.com/haber/guncel/mulkiyede-kariyer-zirvesi-3-kasimda-duzenlenecek-961992.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-02T21:59:00+03:00",
+      "fingerprint": "50709ff807ef161144952f9fef0a4ac7f56fb2bb",
+      "viral_score": 55.38,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-03T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/rRU6tlXoejs",
+      "video_id": "rRU6tlXoejs",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-03T06:15:59.801254+03:00",
+      "publish_at_utc": "2026-11-03T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Mülkiyede kariyer zirvesi 3 Kasım'da düzenlenecek",
+      "resolved_url": "https://www.trthaber.com/haber/guncel/mulkiyede-kariyer-zirvesi-3-kasimda-duzenlenecek-961992.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
