@@ -5148,6 +5148,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türkiye ve Güney Kore, enerji, madencilikte 3 anlaşma",
+      "summary": "Türkiye ile Güney Kore arasında enerji arz güvenliğini pekiştirmeyi, teknoloji transferini hızlandırmayı ve madencilik sektöründe katma değerli üretimi artırmayı hedefleyen üç mutabakat zaptı imzalandı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/turkiye-ve-guney-kore-enerji-ve-madencilik-alaninda-uc-anlasma-imzaladi-/4110085",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-03T16:29:13+03:00",
+      "fingerprint": "7949c486d02253bcface79046d54f88877f1261d",
+      "viral_score": 61.33,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-04T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/5uGY-5RcuuY",
+      "video_id": "5uGY-5RcuuY",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-04T04:15:32.379192+03:00",
+      "publish_at_utc": "2026-11-04T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye ve Güney Kore, enerji ve madencilik alanında üç anlaşma imzaladı",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/turkiye-ve-guney-kore-enerji-ve-madencilik-alaninda-uc-anlasma-imzaladi-/4110085",
+      "source_modified_at": "2026-11-03T16:37:15.747",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change"
     }
   ]
 }
