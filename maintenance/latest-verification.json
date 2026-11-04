@@ -1,71 +1,13 @@
 {
-  "source_run": "41751927152",
-  "verified_at": "2026-11-04T01:18:33.151207+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "5uGY-5RcuuY",
-      "youtube_url": "https://youtu.be/5uGY-5RcuuY",
-      "title": "Türkiye ve Güney Kore, enerji, madencilikte 3 anlaşma",
-      "narration": "Türkiye ve Güney Kore enerji işbirliğinde 3 yeni anlaşma imzaladı Ankarada Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar Güney Kore Devlet Başkanı Lee Jae Myung ile birlikte üç mutabakat zaptını imzaladı İmzalanan protokoller temiz enerji nükleer santral projeleri ve kritik minerallerin ortak geliştirilmesini kapsıyor Ayrıca KEXIM ve TÜNAŞ nükleer güç projesi finansmanı için işbirliği mutabakatı imzalayarak projeye finansal destek sağladı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-04T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-04T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.833333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/5uGY-5RcuuY.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "MRKlFuTjFZw",
-      "youtube_url": "https://youtu.be/MRKlFuTjFZw",
-      "title": "Cevdet Yılmaz, AK Parti 24. Yıl Dönümünü Kutladı",
-      "narration": "Yılmaz AK Partinin 24 yıl dönümünü sosyal medyada kutladı Cumhurbaşkanı Yardımcısı Cevdet Yılmaz 3 Kasım 2026da AK Partinin iktidara gelişinin 24 yıl dönümünü sosyal medyada duyurdu Paylaşımda 2002de milletin iradesiyle başlayan erdemliler hareketinin 24 yılda hizmet siyaseti demokratikleşme ve kalkınma hedeflerini sürdürdüğü vurgulandı Yılmaz Türkiye Yüzyılı vizyonu için birlik ve beraberlik çağrısı yaparak hazırlanan özel videoyu izleyicilere sundu Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-04T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-04T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 37.066667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/MRKlFuTjFZw.jpg"
-    }
-  ],
+  "source_run": "41857384113",
+  "verified_at": "2026-11-04T15:31:36.292589+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
-  "complete": false,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
   "generation_errors": [],
-  "public_listing_error": "HTTPError",
-  "target_count": 2,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
