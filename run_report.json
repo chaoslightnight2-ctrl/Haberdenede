@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-04T01:09:42.323855+00:00",
       "source_modified_at": "2026-11-03T16:37:15.747",
+      "run_id": "41751927152",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "MRKlFuTjFZw",
+      "youtube_url": "https://youtu.be/MRKlFuTjFZw",
+      "publish_at_local": "2026-11-04T23:00:00+03:00",
+      "publish_at_utc": "2026-11-04T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Cevdet Yılmaz, AK Parti 24. Yıl Dönümünü Kutladı",
+      "narration": "Yılmaz AK Partinin 24 yıl dönümünü sosyal medyada kutladı Cumhurbaşkanı Yardımcısı Cevdet Yılmaz 3 Kasım 2026da AK Partinin iktidara gelişinin 24 yıl dönümünü sosyal medyada duyurdu Paylaşımda 2002de milletin iradesiyle başlayan erdemliler hareketinin 24 yılda hizmet siyaseti demokratikleşme ve kalkınma hedeflerini sürdürdüğü vurgulandı Yılmaz Türkiye Yüzyılı vizyonu için birlik ve beraberlik çağrısı yaparak hazırlanan özel videoyu izleyicilere sundu Türkiyeden Haber kanalına abone ol",
+      "description": "Cevdet Yılmaz, AK Parti'nin 24. yıl dönümünü sosyal medyada duyurarak, 'erdemliler hareketi'nin hedeflerini hatırlattı. Siz bu kutlamayı nasıl değerlendiriyorsunuz?",
+      "visual_query": "person posting video",
+      "tags": [
+        "Cevdet Yılmaz",
+        "AK Parti",
+        "24. yıl dönümü",
+        "erdemliler hareketi",
+        "Türkiye Yüzyılı"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Yılmaz'dan AK Parti'nin iktidarının 24. yılına ilişkin paylaşım: İlk günkü aşkla",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-04T01:15:34.764614+00:00",
+      "source_modified_at": "",
       "run_id": "41751927152"
     }
   ],

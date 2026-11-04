@@ -5169,7 +5169,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/turkiye-ve-guney-kore-enerji-ve-madencilik-alaninda-uc-anlasma-imzaladi-/4110085",
       "source_modified_at": "2026-11-03T16:37:15.747",
       "audience_bucket": "nature",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Cevdet Yılmaz, AK Parti 24. Yıl Dönümünü Kutladı",
+      "summary": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, AK Parti'nin 24 yıllık iktidar yolculuğunun milletin güveni ve desteğiyle sürdüğünü belirterek, \"İlk günkü aşkla\" Türkiye Yüzyılı hedefleri için çalışmaya devam edeceklerini aktardı.",
+      "url": "https://www.trthaber.com/haber/gundem/yilmazdan-ak-partinin-iktidarinin-24-yilina-iliskin-paylasim-ilk-gunku-askla-962118.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-03T18:21:00+03:00",
+      "fingerprint": "69c58d007d940d83124a720f9919123da2428c68",
+      "viral_score": 61.31,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-04T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/MRKlFuTjFZw",
+      "video_id": "MRKlFuTjFZw",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-04T04:17:49.950044+03:00",
+      "publish_at_utc": "2026-11-04T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Yılmaz'dan AK Parti'nin iktidarının 24. yılına ilişkin paylaşım: İlk günkü aşkla",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/yilmazdan-ak-partinin-iktidarinin-24-yilina-iliskin-paylasim-ilk-gunku-askla-962118.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
