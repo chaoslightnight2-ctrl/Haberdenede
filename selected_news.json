@@ -146,7 +146,61 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi Türkiyeden Haber kanalına abone ol"
+      "script": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_3.mp3",
+      "background_path": "output/background_3.mp4",
+      "video_path": "output/short_3.mp4",
+      "video_id": "jdkmbIeb01M",
+      "youtube_url": "https://youtu.be/jdkmbIeb01M",
+      "publish_at_local": "2026-11-06T21:00:00+03:00",
+      "publish_at_utc": "2026-11-06T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Bitcoin 76.241 Doların Altına Düştü Piyasa %4,22 Azaldı",
+      "summary": "Bitcoin’in fiyatı, 76 bin doların altını gördü Lider Haber",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hMWRIdHl1TnZzcFBIeVRXcnZJdG05MU80NWs3Tnh2c2F0VGhhT3Fic3AzVUgybkY1ZGdWMXJnNWdUQ3FTclRodjJxLUVobGpQNktPQXhURFctdEljeVdiQ2VOMVRfZ1NSQjQ0NHl4S1p1Q0xUMXpyYnhvSVliREU?oc=5",
+      "query": "Türkiye gündem günün gelişmeleri",
+      "source": "Google News RSS",
+      "published_at": "2026-11-05T23:51:00+03:00",
+      "fingerprint": "cbfee3119570dcc78c397b60db828a976a6ed4c5",
+      "viral_score": 71.16,
+      "topic_bucket": "ekonomi_yasam",
+      "source_name": "lider haber",
+      "resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hMWRIdHl1TnZzcFBIeVRXcnZJdG05MU80NWs3Tnh2c2F0VGhhT3Fic3AzVUgybkY1ZGdWMXJnNWdUQ3FTclRodjJxLUVobGpQNktPQXhURFctdEljeVdiQ2VOMVRfZ1NSQjQ0NHl4S1p1Q0xUMXpyYnhvSVliREU?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_headline": "Bitcoin’in fiyatı, 76 bin doların altını gördü",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-05T22:24:13.151270+00:00",
+      "article_score": 88,
+      "article_text": "Analiz şirketi CoinMarketCap'in verilerine göre, küresel kripto para piyasasının toplam değeri son 24 saatte yüzde 4,22 azalarak 2,56 trilyon dolara geriledi. Piyasa değeri bakımından en büyük kripto para birimi Bitcoin'in fiyatı son 24 saatte yüzde 4,6 değer kaybederken, haftalık düşüşü yüzde 5'i aştı. Gün içinde 76 bin dolar seviyesinin altına gerileyen Bitcoin'in fiyatı, Türkiye saatiyle 23.00 itibarıyla 76 bin 241 dolardan işlem gördü. Ethereum'un fiyatı da son 24 saatte yüzde 6,1 gerileyerek 2 bin 258 dolara indi. ABD borsalarında ara seçimlerin ardından özellikle teknoloji hisselerinde görülen sert satışlar kripto para piyasasında da düşüşü beraberinde getirdi. Demokratların ara seçimlerde elde ettiği zaferin ardından Kongrede oluşan yeni siyasi dengelerin, yapay zeka ve veri merkezi sektörlerine yönelik denetimlerin sıkılaştırılabileceği endişesini artırması, bu alanlarda faaliyet gösteren şirketlerin hisseleri üzerindeki satış baskısını derinleştirdi. Gün içinde Dow Jones endeksi 1000 puanın üzerinde değer kaybederek yüzde 3'e yakın gerilerken, S&P 500 endeksi yüzde 3'ün, Nasdaq endeksi ise yüzde 4'ün üzerinde düşüş kaydetti. Öte yandan, Demokratların Kongrede çoğunluğu ele geçirmesinin kripto para ve dijital varlık sektörüne yönelik düzenlemelerin geleceği konusunda da belirsizlik yarattığı değerlendiriliyor. Bu kapsamda, sektörün uzun süredir yasalaşmasını beklediği ve dijital varlıklara ilişkin düzenleyici çerçeve oluşturmayı amaçlayan \"CLARITY Act\" düzenlemesinin Kongreden geçmesine yönelik sürecin yıl sonuna kadar ilerleme kaydetmesinin düşük ihtimal olduğu belirtiliyor",
+      "model_source_context": "Analiz şirketi CoinMarketCap'in verilerine göre, küresel kripto para piyasasının toplam değeri son 24 saatte yüzde 4,22 azalarak 2,56 trilyon dolara geriledi. Piyasa değeri bakımından en büyük kripto para birimi Bitcoin'in fiyatı son 24 saatte yüzde 4,6 değer kaybederken, haftalık düşüşü yüzde 5'i aştı. Gün içinde 76 bin dolar seviyesinin altına gerileyen Bitcoin'in fiyatı, Türkiye saatiyle 23.00 itibarıyla 76 bin 241 dolardan işlem gördü. Ethereum'un fiyatı da son 24 saatte yüzde 6,1 gerileyerek 2 bin 258 dolara indi. ABD borsalarında ara seçimlerin ardından özellikle teknoloji hisselerinde görülen sert satışlar kripto para piyasasında da düşüşü beraberinde getirdi. Demokratların ara seçimlerde elde ettiği zaferin ardından Kongrede oluşan yeni siyasi dengelerin, yapay zeka ve veri merkezi sektörlerine yönelik denetimlerin sıkılaştırılabileceği endişesini artırması, bu alanlarda faaliyet gösteren şirketlerin hisseleri üzerindeki satış baskısını derinleştirdi. Gün içinde Dow Jones endeksi 1000 puanın üzerinde değer kaybederek yüzde 3'e yakın gerilerken, S&P 500 endeksi yüzde 3'ün, Nasdaq endeksi ise yüzde 4'ün üzerinde düşüş kaydetti. Öte yandan, Demokratların Kongrede çoğunluğu ele geçirmesinin kripto para ve dijital varlık sektörüne yönelik düzenlemelerin geleceği konusunda da belirsizlik yarattığı değerlendiriliyor. Bu kapsamda, sektörün uzun süredir yasalaşmasını beklediği ve dijital varlıklara ilişkin düzenleyici çerçeve oluşturmayı amaçlayan \"CLARITY Act\" düzenlemesinin Kongreden geçmesine yönelik sürecin yıl sonuna kadar ilerleme kaydetmesinin düşük ihtimal olduğu belirtiliyor",
+      "shorts_hook": "Bitcoin 76 bin doların altına düştü, piyasalar sarsıldı",
+      "quality_hook": "Bitcoin 76 bin doların altına düştü, piyasalar sarsıldı",
+      "quality_narration": "Bitcoin fiyatı son 24 saatte %4,6 düşerek 76.241 dolara geriledi. Kripto para piyasasının toplam değeri %4,22 azalarak 2,56 trilyon dolara indi. Ethereum fiyatı %6,1 gerileyerek 2.258 dolara düştü.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Bitcoin fiyatı son 24 saatte %4,6 düşerek 76.241 dolara geriledi.",
+        "Kripto para piyasasının toplam değeri %4,22 azalarak 2,56 trilyon dolara indi.",
+        "Ethereum fiyatı %6,1 gerileyerek 2.258 dolara düştü."
+      ],
+      "youtube_description": "Bitcoin'in 76.241 dolara düşmesi yatırımcıları endişelendiriyor. Sizce bu düşüş ne kadar sürecek?",
+      "visual_query": "bitcoin price drop",
+      "spoken_text": "Bitcoin 76 bin doların altına düştü piyasalar sarsıldı Bitcoin fiyatı son 24 saatte yüzde 4 virgül 6 düşerek 76241 dolara geriledi Kripto para piyasasının toplam değeri yüzde 4 virgül 22 azalarak 2 virgül 56 trilyon dolara indi Ethereum fiyatı yüzde 6 virgül 1 gerileyerek 2258 dolara düştü Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Bitcoin 76 bin doların altına düştü piyasalar sarsıldı. Bitcoin fiyatı son 24 saatte yüzde 4 virgül 6 düşerek 76241 dolara geriledi. Kripto para piyasasının toplam değeri yüzde 4 virgül 22 azalarak 2 virgül 56 trilyon dolara indi. Ethereum fiyatı yüzde 6 virgül 1 gerileyerek 2258 dolara düştü. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "bitcoin",
+        "kripto",
+        "piyasa",
+        "yatırım",
+        "döviz"
+      ],
+      "youtube_hashtags": "#shorts #kripto #finans",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Bitcoin 76 bin doların altına düştü piyasalar sarsıldı Bitcoin fiyatı son 24 saatte yüzde 4 virgül 6 düşerek 76241 dolara geriledi Kripto para piyasasının toplam değeri yüzde 4 virgül 22 azalarak 2 virgül 56 trilyon dolara indi Ethereum fiyatı yüzde 6 virgül 1 gerileyerek 2258 dolara düştü Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
