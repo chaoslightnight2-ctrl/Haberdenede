@@ -1,10 +1,17 @@
 {
-  "run_id": "41948212222",
-  "generated_at": "2026-11-05T04:25:31.603170+03:00",
+  "run_id": "42055000631",
+  "generated_at": "2026-11-05T18:27:33.737153+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
   "videos": [],
-  "errors": []
+  "errors": [
+    {
+      "source": "Eğitim bakanları COP31'de bir araya gelecek",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
+  "daily_existing_count": 0
 }
