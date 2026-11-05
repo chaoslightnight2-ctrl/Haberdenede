@@ -1,17 +1,39 @@
 {
-  "run_id": "42055000631",
-  "generated_at": "2026-11-05T18:27:33.737153+03:00",
+  "run_id": "42117370054",
+  "generated_at": "2026-11-06T00:59:27.131853+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": [
+  "videos": [
     {
-      "source": "Eğitim bakanları COP31'de bir araya gelecek",
-      "stage": "generation",
-      "error": "Source has no bounded complete lead and update sentences"
+      "video_id": "vFMJY11urk0",
+      "youtube_url": "https://youtu.be/vFMJY11urk0",
+      "publish_at_local": "2026-11-06T19:00:00+03:00",
+      "publish_at_utc": "2026-11-06T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "İzmir Yemişlik Mahallesi'nde Yangın Anne Ölümüne Yol Açtı",
+      "narration": "İzmirde ev yangını anne ölümüne yol açtı Yemişlik Mahallesinde gece saatlerinde 4 katlı bir binanın 3 katındaki evde yangın çıktı İtfaiye ekipleri yangını söndürdü dumandan etkilenen 23 yaşındaki anne Dılgıran E hayatını kaybetti Oğulları 7 ve 8 yaşlarında Torbalı Devlet Hastanesine kaldırıldı tedavileri sürüyor Türkiyeden Haber kanalına abone ol",
+      "description": "İzmir'de bir evde çıkan yangın, 23 yaşındaki anne Dılgıran E.'yi yaşamını yitirmesine, iki çocuğunu ise hastaneye kaldırdı. Bu tür yangınların önlenmesi için neler yapılmalı?",
+      "visual_query": "firefighter extinguishing fire",
+      "tags": [
+        "yangın",
+        "İzmir",
+        "ev yangını",
+        "duman zehirlenmesi",
+        "çocuk hastanesi"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "İzmir'de evde çıkan yangında dumandan etkilenen anne öldü",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-05T21:59:53.087723+00:00",
+      "source_modified_at": "",
+      "run_id": "42117370054"
     }
   ],
+  "errors": [],
   "daily_existing_count": 0
 }

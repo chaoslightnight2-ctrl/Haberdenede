@@ -5194,6 +5194,28 @@
       "audience_bucket": "other",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İzmir Yemişlik Mahallesi'nde Yangın Anne Ölümüne Yol Açtı",
+      "summary": "Ä°zmir'in TorbalÄ± ilÃ§esinde evlerinde Ã§Ä±kan yangÄ±nda dumandan etkilenen anne kaldÄ±rÄ±ldÄ±ÄŸÄ± hastanede hayatÄ±nÄ± kaybetti, 2 oÄŸlunun tedavisi sÃ¼rÃ¼yor.",
+      "url": "https://www.trthaber.com/haber/turkiye/izmirde-evde-cikan-yanginda-dumandan-etkilenen-anne-oldu-962353.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-05T15:49:00+03:00",
+      "fingerprint": "520bc8a96c2f30d37cf2bc63171c9c9e09207b54",
+      "viral_score": 52.31,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-06T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/vFMJY11urk0",
+      "video_id": "vFMJY11urk0",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-06T01:08:36.402385+03:00",
+      "publish_at_utc": "2026-11-06T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İzmir'de evde çıkan yangında dumandan etkilenen anne öldü",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/izmirde-evde-cikan-yanginda-dumandan-etkilenen-anne-oldu-962353.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }
