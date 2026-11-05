@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-05T22:12:32.018312+00:00",
       "source_modified_at": "",
+      "run_id": "42117370054",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "zFsKfEEeCIc",
+      "youtube_url": "https://youtu.be/zFsKfEEeCIc",
+      "publish_at_local": "2026-11-06T23:00:00+03:00",
+      "publish_at_utc": "2026-11-06T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Bitcoin 76.241 Doların Altına Düştü Piyasa %4,22 Azaldı",
+      "narration": "Bitcoin 76 bin doların altına düştü piyasalar sarsıldı Bitcoin fiyatı son 24 saatte yüzde 4 virgül 6 düşerek 76241 dolara geriledi Kripto para piyasasının toplam değeri yüzde 4 virgül 22 azalarak 2 virgül 56 trilyon dolara indi Ethereum fiyatı yüzde 6 virgül 1 gerileyerek 2258 dolara düştü Türkiyeden Haber kanalına abone ol",
+      "description": "Bitcoin'in 76.241 dolara düşmesi yatırımcıları endişelendiriyor. Sizce bu düşüş ne kadar sürecek?",
+      "visual_query": "bitcoin price drop",
+      "tags": [
+        "bitcoin",
+        "kripto",
+        "piyasa",
+        "yatırım",
+        "döviz"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Bitcoin’in fiyatı, 76 bin doların altını gördü",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-05T22:24:13.151270+00:00",
+      "source_modified_at": "",
       "run_id": "42117370054"
     }
   ],

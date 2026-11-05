@@ -5238,7 +5238,30 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkhMOG5uTGE4RDhHZm5EUG5MLXBpVXVBOEpZQUozTXIyRVQ2bXJISExLeXVpRi1Cb0J2RWtMZ3IwVFdzdjUzZVFrYjZoZlpnc19wcWs1cF9IU09VR09GTlBpaGZtdjRKMENUa2FGSzBCS0c5eUdDZFNtTGpFWFMtR1RWR0pNajhKbXJyalFSVGlEN1FkNU80VzJIeVlfZw?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Bitcoin 76.241 Doların Altına Düştü Piyasa %4,22 Azaldı",
+      "summary": "Bitcoin’in fiyatı, 76 bin doların altını gördü Lider Haber",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hMWRIdHl1TnZzcFBIeVRXcnZJdG05MU80NWs3Tnh2c2F0VGhhT3Fic3AzVUgybkY1ZGdWMXJnNWdUQ3FTclRodjJxLUVobGpQNktPQXhURFctdEljeVdiQ2VOMVRfZ1NSQjQ0NHl4S1p1Q0xUMXpyYnhvSVliREU?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-05T23:51:00+03:00",
+      "fingerprint": "cbfee3119570dcc78c397b60db828a976a6ed4c5",
+      "viral_score": 71.16,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-06T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/zFsKfEEeCIc",
+      "video_id": "zFsKfEEeCIc",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-06T01:32:58.268684+03:00",
+      "publish_at_utc": "2026-11-06T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bitcoin’in fiyatı, 76 bin doların altını gördü",
+      "resolved_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hMWRIdHl1TnZzcFBIeVRXcnZJdG05MU80NWs3Tnh2c2F0VGhhT3Fic3AzVUgybkY1ZGdWMXJnNWdUQ3FTclRodjJxLUVobGpQNktPQXhURFctdEljeVdiQ2VOMVRfZ1NSQjQ0NHl4S1p1Q0xUMXpyYnhvSVliREU?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
