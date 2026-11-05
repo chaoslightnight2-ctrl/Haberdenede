@@ -31,9 +31,43 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-05T21:59:53.087723+00:00",
       "source_modified_at": "",
+      "run_id": "42117370054",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "jdkmbIeb01M",
+      "youtube_url": "https://youtu.be/jdkmbIeb01M",
+      "publish_at_local": "2026-11-06T21:00:00+03:00",
+      "publish_at_utc": "2026-11-06T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Altuntaş: Ekim'de %25 indirim, 110 dakikalık bölümler",
+      "narration": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi Türkiyeden Haber kanalına abone ol",
+      "description": "Televizyon kanalları maliyetleri düşürmek için yapım şirketlerinden %25 indirim ve bölümlerin 140 dakikadan 110 dakikaya kısaltılmasını istedi. Siz bu tasarruf planının sektöre etkisini nasıl değerlendiriyorsunuz?",
+      "visual_query": "tv producers cutting episodes",
+      "tags": [
+        "dizi maliyeti",
+        "televizyon sektörü",
+        "bölüm süresi",
+        "oyuncu ücretleri",
+        "yapım şirketi"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Dizi sektöründe yeni dönem: Ücretini düşürmeyen oyuncuyla çalışılmayacak",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-05T22:12:32.018312+00:00",
+      "source_modified_at": "",
       "run_id": "42117370054"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister announces raise"
+    }
+  ],
   "daily_existing_count": 0
 }
