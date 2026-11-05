@@ -100,7 +100,53 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Hazine Bakanı emeklilere seyyanen zam müjdesi getirdi Hazine ve Maliye Bakanı Mehmet Şimşek emeklilere seyyanen zam yapılacağını açıkladı Zam emeklilerin yaş ve prim ödeme gün sayısına göre farklılaşacak Nihai kararın Aralık içinde bütçeden sonra takdir edileceği bildirildi Türkiyeden Haber kanalına abone ol"
+      "script": "Hazine Bakanı emeklilere seyyanen zam müjdesi getirdi Hazine ve Maliye Bakanı Mehmet Şimşek emeklilere seyyanen zam yapılacağını açıkladı Zam emeklilerin yaş ve prim ödeme gün sayısına göre farklılaşacak Nihai kararın Aralık içinde bütçeden sonra takdir edileceği bildirildi Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "21:00"
+    },
+    {
+      "title": "Altuntaş: Ekim'de %25 indirim, 110 dakikalık bölümler",
+      "summary": "Dizi sektöründe yeni dönem: Ücretini düşürmeyen oyuncuyla çalışılmayacak Haberler",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkhMOG5uTGE4RDhHZm5EUG5MLXBpVXVBOEpZQUozTXIyRVQ2bXJISExLeXVpRi1Cb0J2RWtMZ3IwVFdzdjUzZVFrYjZoZlpnc19wcWs1cF9IU09VR09GTlBpaGZtdjRKMENUa2FGSzBCS0c5eUdDZFNtTGpFWFMtR1RWR0pNajhKbXJyalFSVGlEN1FkNU80VzJIeVlfZw?oc=5",
+      "query": "Türkiye son dakika haberleri",
+      "source": "Google News RSS",
+      "published_at": "2026-11-05T21:33:01+03:00",
+      "fingerprint": "8dec16528887a8f6b210a8c226d90d5d4b7dc826",
+      "viral_score": 56.49,
+      "topic_bucket": "kültür_sanat",
+      "source_name": "haberler",
+      "resolved_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkhMOG5uTGE4RDhHZm5EUG5MLXBpVXVBOEpZQUozTXIyRVQ2bXJISExLeXVpRi1Cb0J2RWtMZ3IwVFdzdjUzZVFrYjZoZlpnc19wcWs1cF9IU09VR09GTlBpaGZtdjRKMENUa2FGSzBCS0c5eUdDZFNtTGpFWFMtR1RWR0pNajhKbXJyalFSVGlEN1FkNU80VzJIeVlfZw?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_headline": "Dizi sektöründe yeni dönem: Ücretini düşürmeyen oyuncuyla çalışılmayacak",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-05T22:12:32.018312+00:00",
+      "article_score": 113,
+      "article_text": "Televizyon sektöründe gelirlerinin düşmesi, dizi dünyasında yeni bir maliyet krizini beraberinde getirdi. Kanallar, yapım şirketlerinden yüzde 25 indirim isterken yapımcılar da bölüm sürelerinin 140 dakikadan 110 dakikaya düşürülmesini ve ikinci ekiplerin kaldırılmasını önerdi. Ücretlerinde indirime gitmeyen oyuncularla çalışılmaması da gündeme geldi Televizyon sektöründe yaşanan ekonomik sıkıntılar, yapımcılar ve yayıncı kuruluşları yeni önlemler almaya yöneltti. Birsen Altuntaş'ın haberine göre ekim ayında son 30 yılın en düşük gelirinin elde edilmesi üzerine kanal temsilcileri ve yapımcılar çözüm arayışıyla bir araya geldi Toplantıda televizyon kanalları, en önemli gider kalemlerinden biri olan dizi yapımlarında maliyetlerin düşürülmesi amacıyla yapım şirketlerinden yüzde 25 indirim talep etti Kanalların indirim talebine karşılık yapımcılar da maliyetleri azaltmaya yönelik önerilerini sundu. Bölüm başı maliyetleri 27 milyon ile 40 milyon lira arasında değişen dizilerin sürelerinin yeniden düzenlenmesi gündeme geldi Bu kapsamda 140 dakikaya kadar ulaşan bölüm sürelerinin 110 dakikada sabitlenmesi önerildi. Böylece son kuşağına gerek kalmadan bölümlerin tamamlanması ve çekim maliyetlerinin azaltılması hedefleniyor Sürelerin kısaltılması halinde dizilerin yetiştirilmesi için görev yapan ikinci ekiplerin de çalıştırılmaması planlanıyor. Böylece setlerdeki personel ve çekim giderlerinde tasarruf sağlanması amaçlanıyor Maliyetleri azaltmaya yönelik adımların oyuncu ücretlerini de kapsaması bekleniyor. Habere göre ek ödemelerle birlikte bölüm başına 5 milyon liraya kadar ulaşan oyuncu ücretlerinin artık karşılanmaması planlanıyor Ücretlerinde indirime gitmeyi kabul etmeyen oyuncularla yeni dönemde çalışılmaması da gündemde. Böylece televizyon sektöründe yalnızca yapım bütçelerinin değil, oyuncu ücretlerinin de yeniden şekillenmesi bekleniyor Bu gelişme sonrası bölüm başına milyonlarca lira kazanan oyuncuların ücret indirimi talebine nasıl yanıt vereceği ve yeni dönemde yapımlarda yer alıp almayacağı merak konusu oldu",
+      "content_quality": "article_text",
+      "model_source_context": "Televizyon sektöründe gelirlerinin düşmesi, dizi dünyasında yeni bir maliyet krizini beraberinde getirdi. Kanallar, yapım şirketlerinden yüzde 25 indirim isterken yapımcılar da bölüm sürelerinin 140 dakikadan 110 dakikaya düşürülmesini ve ikinci ekiplerin kaldırılmasını önerdi. Ücretlerinde indirime gitmeyen oyuncularla çalışılmaması da gündeme geldi Televizyon sektöründe yaşanan ekonomik sıkıntılar, yapımcılar ve yayıncı kuruluşları yeni önlemler almaya yöneltti. Birsen Altuntaş'ın haberine göre ekim ayında son 30 yılın en düşük gelirinin elde edilmesi üzerine kanal temsilcileri ve yapımcılar çözüm arayışıyla bir araya geldi Toplantıda televizyon kanalları, en önemli gider kalemlerinden biri olan dizi yapımlarında maliyetlerin düşürülmesi amacıyla yapım şirketlerinden yüzde 25 indirim talep etti Kanalların indirim talebine karşılık yapımcılar da maliyetleri azaltmaya yönelik önerilerini sundu. Bölüm başı maliyetleri 27 milyon ile 40 milyon lira arasında değişen dizilerin sürelerinin yeniden düzenlenmesi gündeme geldi Bu kapsamda 140 dakikaya kadar ulaşan bölüm sürelerinin 110 dakikada sabitlenmesi önerildi. Böylece son kuşağına gerek kalmadan bölümlerin tamamlanması ve çekim maliyetlerinin azaltılması hedefleniyor Sürelerin kısaltılması halinde dizilerin yetiştirilmesi için görev yapan ikinci ekiplerin de çalıştırılmaması planlanıyor. Böylece setlerdeki personel ve çekim giderlerinde tasarruf sağlanması amaçlanıyor Maliyetleri azaltmaya yönelik adımların oyuncu ücretlerini de kapsaması bekleniyor. Habere göre ek ödemelerle birlikte bölüm başına 5 milyon liraya kadar ulaşan oyuncu ücretlerinin artık karşılanmaması planlanıyor Ücretlerinde indirime gitmeyi kabul etmeyen oyuncularla yeni dönemde çalışılmaması da gündemde. Böylece televizyon sektöründe yalnızca yapım bütçelerinin değil, oyuncu ücretlerinin de yeniden şekillenmesi bekleniyor Bu gelişme sonrası bölüm başına milyonlarca lira kazanan oyuncuların ücret indirimi talebine nasıl yanıt vereceği ve yeni dönemde yapımlarda yer alıp almayacağı merak konusu oldu",
+      "shorts_hook": "Kanallar %25 indirim ve 110 dakikalık bölümler talep ediyor",
+      "quality_hook": "Kanallar %25 indirim ve 110 dakikalık bölümler talep ediyor",
+      "quality_narration": "Televizyon kanalları, yapım şirketlerinden yüzde 25 indirim talep etti. Üreticiler, bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi. Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Televizyon kanalları, yapım şirketlerinden yüzde 25 indirim talep etti.",
+        "Üreticiler, bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi.",
+        "Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi."
+      ],
+      "youtube_description": "Televizyon kanalları maliyetleri düşürmek için yapım şirketlerinden %25 indirim ve bölümlerin 140 dakikadan 110 dakikaya kısaltılmasını istedi. Siz bu tasarruf planının sektöre etkisini nasıl değerlendiriyorsunuz?",
+      "visual_query": "tv producers cutting episodes",
+      "spoken_text": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor. Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti. Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi. Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "dizi maliyeti",
+        "televizyon sektörü",
+        "bölüm süresi",
+        "oyuncu ücretleri",
+        "yapım şirketi"
+      ],
+      "youtube_hashtags": "#shorts #dizi #televizyon",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
