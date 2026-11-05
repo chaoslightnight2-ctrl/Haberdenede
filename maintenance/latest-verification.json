@@ -1,13 +1,18 @@
 {
-  "source_run": "41948212222",
-  "verified_at": "2026-11-05T01:26:47.642576+00:00",
+  "source_run": "42055000631",
+  "verified_at": "2026-11-05T15:28:38.105722+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
   "complete": false,
-  "generation_errors": [],
-  "public_listing_error": "HTTPError",
+  "generation_errors": [
+    {
+      "source": "Eğitim bakanları COP31'de bir araya gelecek",
+      "stage": "generation",
+      "error": "Source has no bounded complete lead and update sentences"
+    }
+  ],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
