@@ -1,105 +1,14 @@
 {
-  "source_run": "42117370054",
-  "verified_at": "2026-11-05T22:34:02.636216+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "vFMJY11urk0",
-      "youtube_url": "https://youtu.be/vFMJY11urk0",
-      "title": "İzmir Yemişlik Mahallesi'nde Yangın Anne Ölümüne Yol Açtı",
-      "narration": "İzmirde ev yangını anne ölümüne yol açtı Yemişlik Mahallesinde gece saatlerinde 4 katlı bir binanın 3 katındaki evde yangın çıktı İtfaiye ekipleri yangını söndürdü dumandan etkilenen 23 yaşındaki anne Dılgıran E hayatını kaybetti Oğulları 7 ve 8 yaşlarında Torbalı Devlet Hastanesine kaldırıldı tedavileri sürüyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-06T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-06T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 27.733333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/vFMJY11urk0.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "jdkmbIeb01M",
-      "youtube_url": "https://youtu.be/jdkmbIeb01M",
-      "title": "Altuntaş: Ekim'de %25 indirim, 110 dakikalık bölümler",
-      "narration": "Kanallar yüzde 25 indirim ve 110 dakikalık bölümler talep ediyor Televizyon kanalları yapım şirketlerinden yüzde 25 indirim talep etti Üreticiler bölüm sürelerini 140 dakikadan 110 dakikaya düşürmeyi ve ikinci ekipleri kaldırmayı önerdi Ücret indirimi kabul etmeyen oyuncularla çalışılmayacağı ve bölüm başına 5 milyon liraya kadar çıkan maaşların ödenmeyeceği bildirildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-06T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-06T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.733333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/jdkmbIeb01M.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "zFsKfEEeCIc",
-      "youtube_url": "https://youtu.be/zFsKfEEeCIc",
-      "title": "Bitcoin 76.241 Doların Altına Düştü Piyasa %4,22 Azaldı",
-      "narration": "Bitcoin 76 bin doların altına düştü piyasalar sarsıldı Bitcoin fiyatı son 24 saatte yüzde 4 virgül 6 düşerek 76241 dolara geriledi Kripto para piyasasının toplam değeri yüzde 4 virgül 22 azalarak 2 virgül 56 trilyon dolara indi Ethereum fiyatı yüzde 6 virgül 1 gerileyerek 2258 dolara düştü Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-06T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-06T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 29.7,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/zFsKfEEeCIc.jpg"
-    }
-  ],
+  "source_run": "42143829857",
+  "verified_at": "2026-11-06T01:28:24.427946+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister announces raise"
-    }
-  ],
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
   "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
