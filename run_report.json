@@ -1,12 +1,17 @@
 {
-  "run_id": "42238924485",
-  "generated_at": "2026-11-06T18:00:58.869922+03:00",
-  "target_count": 0,
+  "run_id": "42292047756",
+  "generated_at": "2026-11-07T00:03:15.719199+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister announces raise"
+    }
+  ],
+  "daily_existing_count": 0
 }
