@@ -5307,7 +5307,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/bakan-bolat-turkiye-dunyada-seramik-karoda-5inci-genel-seramik-urunlerinde-ilk-10un-icinde/4114530",
       "source_modified_at": "2026-11-06T19:36:30.463",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "06 Kasım 2026'da BIST 100, 149,33 puan yükseldi",
+      "summary": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 1,32 değer kazanarak 11.482,60 puandan tamamladı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4114518",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-06T18:24:45+03:00",
+      "fingerprint": "de5b6ee871258604958f445c6681430488ac211e",
+      "viral_score": 64.95,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-07T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/9UWVh33ZPoE",
+      "video_id": "9UWVh33ZPoE",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-07T04:16:21.956901+03:00",
+      "publish_at_utc": "2026-11-07T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Borsa günü yükselişle tamamladı",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4114518",
+      "source_modified_at": "2026-11-06T18:26:07.65",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }

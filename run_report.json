@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-07T01:00:28.377434+00:00",
       "source_modified_at": "2026-11-06T19:36:30.463",
+      "run_id": "42320328789",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "9UWVh33ZPoE",
+      "youtube_url": "https://youtu.be/9UWVh33ZPoE",
+      "publish_at_local": "2026-11-07T23:00:00+03:00",
+      "publish_at_utc": "2026-11-07T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "06 Kasım 2026'da BIST 100, 149,33 puan yükseldi",
+      "narration": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı BIST 100 endeksi önceki kapanışa göre 149 virgül 33 puan artarak yükseldi Metal eşya makina sektörü yüzde 5 virgül 39 ile en çok kazanan iken iletişim sektörü yüzde 2 virgül 03 düşüş gösterdi Toplam işlem hacmi 134 virgül 8 milyar lira olarak kaydedildi Türkiyeden Haber kanalına abone ol",
+      "description": "BIST 100 endeksi 149,33 puan artarak 06 Kasım 2026'da yükseldi; siz bu yükselişi nasıl değerlendiriyorsunuz?",
+      "visual_query": "stock chart rising",
+      "tags": [
+        "bist",
+        "hisse",
+        "ekonomi",
+        "piyasa",
+        "sektör"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Borsa günü yükselişle tamamladı",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-07T01:09:21.537426+00:00",
+      "source_modified_at": "2026-11-06T18:26:07.65",
       "run_id": "42320328789"
     }
   ],
