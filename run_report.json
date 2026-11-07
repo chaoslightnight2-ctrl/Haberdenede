@@ -1,16 +1,49 @@
 {
-  "run_id": "42292047756",
-  "generated_at": "2026-11-07T00:03:15.719199+03:00",
+  "run_id": "42320328789",
+  "generated_at": "2026-11-07T03:48:10.436086+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "Ts8kRV3UkXM",
+      "youtube_url": "https://youtu.be/Ts8kRV3UkXM",
+      "publish_at_local": "2026-11-07T19:00:00+03:00",
+      "publish_at_utc": "2026-11-07T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "06 Kasım 2026'da Türkiye, Lübnan'da BM varlığını savundu",
+      "narration": "Lübnanda BM varlığı sürdürülmeli Türkiye uyarıyor Türkiye Lübnandaki BM askeri varlığının sürdürülmesi gerektiğini vurguladı Jean Pierre Lacroix BMnin Lübnanda güvenlik ve insani risklerin artabileceğine dikkat çekti Panelde Türkiye dahil uluslararası ortakların Lübnana mali ve güvenlik desteği sağlaması gerektiği belirtildi Türkiyeden Haber kanalına abone ol",
+      "description": "Panelde Türkiye, Lübnan'daki BM askeri varlığının devam etmesi gerektiğini belirtti. Sizce bölgedeki istikrar için uluslararası destek yeterli mi?",
+      "visual_query": "turkey urging bm presence",
+      "tags": [
+        "Türkiye",
+        "Lübnan",
+        "BM",
+        "güvenlik",
+        "uluslararası işbirliği"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "TRT World Forum 2026'da \"Türkiye: Bölgesel Güçten Bölgeler Arası Bir Aktöre\" paneli düzenlendi",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-07T00:52:35.285806+00:00",
+      "source_modified_at": "2026-11-06T21:19:26.19",
+      "run_id": "42320328789"
+    }
+  ],
   "errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister announces raise"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
   "daily_existing_count": 0

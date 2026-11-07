@@ -5263,6 +5263,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "06 Kasım 2026'da Türkiye, Lübnan'da BM varlığını savundu",
+      "summary": "İstanbul'da düzenlenen TRT World Forum 2026 kapsamında \"Türkiye: Bölgesel Güçten Bölgeler Arası Bir Aktöre\" adlı panel düzenlendi.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/trt-world-forum-2026da-turkiye-bolgesel-gucten-bolgeler-arasi-bir-aktore-paneli-duzenlendi/4114540",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-06T18:48:12+03:00",
+      "fingerprint": "605882c75e21949ae68f93ac0ebf57abb5777cca",
+      "viral_score": 71.58,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-07T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/Ts8kRV3UkXM",
+      "video_id": "Ts8kRV3UkXM",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-07T04:00:23.468286+03:00",
+      "publish_at_utc": "2026-11-07T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "TRT World Forum 2026'da \"Türkiye: Bölgesel Güçten Bölgeler Arası Bir Aktöre\" paneli düzenlendi",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/trt-world-forum-2026da-turkiye-bolgesel-gucten-bolgeler-arasi-bir-aktore-paneli-duzenlendi/4114540",
+      "source_modified_at": "2026-11-06T21:19:26.19",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
