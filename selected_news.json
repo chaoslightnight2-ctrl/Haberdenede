@@ -194,7 +194,62 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Türkiye seramik ihracatında dünya 5 si oldu Ticaret Bakanı Ömer Bolat UNICERA İstanbul fuarında Türkiyenin yıllık 1 virgül 3 milyar dolarlık seramik ihracatı yaptığını ve dünya çapında seramik karoda 5inci genel seramik ürünlerinde ise ilk 10 içinde olduğunu belirtti Fuarda 6 salonda gerçekleşen sergiye yerli ve yabancı ziyaretçilerin yoğun ilgisi gösterdiği ve sektör temsilcilerinin memnuniyetini dile getirdiği kaydedildi Bakan Bolat sektörün her zaman yanlarında olacağını ve fuarın prestijini artırmak için gerekli tüm destekleri sağlayacaklarını sözlerine ekledi Türkiyeden Haber kanalına abone ol"
+      "script": "Türkiye seramik ihracatında dünya 5 si oldu Ticaret Bakanı Ömer Bolat UNICERA İstanbul fuarında Türkiyenin yıllık 1 virgül 3 milyar dolarlık seramik ihracatı yaptığını ve dünya çapında seramik karoda 5inci genel seramik ürünlerinde ise ilk 10 içinde olduğunu belirtti Fuarda 6 salonda gerçekleşen sergiye yerli ve yabancı ziyaretçilerin yoğun ilgisi gösterdiği ve sektör temsilcilerinin memnuniyetini dile getirdiği kaydedildi Bakan Bolat sektörün her zaman yanlarında olacağını ve fuarın prestijini artırmak için gerekli tüm destekleri sağlayacaklarını sözlerine ekledi Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_4.mp3",
+      "background_path": "output/background_4.mp4",
+      "video_path": "output/short_4.mp4",
+      "video_id": "LEflZXe4dBg",
+      "youtube_url": "https://youtu.be/LEflZXe4dBg",
+      "publish_at_local": "2026-11-07T21:00:00+03:00",
+      "publish_at_utc": "2026-11-07T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "06 Kasım 2026'da BIST 100, 149,33 puan yükseldi",
+      "summary": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 1,32 değer kazanarak 11.482,60 puandan tamamladı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4114518",
+      "source": "Anadolu Ajansı Ekonomi",
+      "source_name": "",
+      "query": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-06T18:24:45+03:00",
+      "fingerprint": "de5b6ee871258604958f445c6681430488ac211e",
+      "direct_source": true,
+      "viral_score": 64.95,
+      "topic_bucket": "ekonomi_yasam",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4114518",
+      "source_headline": "Borsa günü yükselişle tamamladı",
+      "source_modified_at": "2026-11-06T18:26:07.65",
+      "source_checked_at": "2026-11-07T01:09:21.537426+00:00",
+      "article_score": 57,
+      "article_text": "Tunahan Kükürt 06 Kasım 2026•Güncelleme: 06 Kasım 2026 BIST 100 endeksi, önceki kapanışa göre 149,33 puan artarken, toplam işlem hacmi 134,8 milyar lira oldu. Bankacılık endeksi yüzde 1,94, holding endeksi yüzde 1,01 değer kazandı. Sektör endeksleri arasında en çok kazandıran yüzde 5,39 ile metal eşya makina, en fazla kaybettiren ise yüzde 2,03 ile iletişim oldu. Küresel piyasalarda, Asya ve Avrupa borsalarındaki satışların ardından ABD'de teknoloji hisseleri toparlanırken, ekimde tarım dışı istihdamın tahminleri aşması ABD Merkez Bankasının (Fed) aralıkta faiz artıracağına ilişkin beklentileri güçlendirdi. Analistler, gelecek hafta yurt içinde sanayi üretimi, Türkiye Cumhuriyet Merkez Bankası (TCMB) Enflasyon Raporu, cari denge ve TCMB Piyasa Katılımcıları Anketi'nin, yurt dışında ise ABD ve Çin'de enflasyon ile Avro Bölgesi'nde büyüme verileri başta olmak üzere yoğun veri gündeminin takip edileceğini belirterek, teknik açıdan BIST 100 endeksinde 11.600 ve 11.700 puanın direnç, 11.400 ve 11.300 puanın destek konumunda olduğunu kaydetti",
+      "model_source_context": "Tunahan Kükürt 06 Kasım 2026•Güncelleme: 06 Kasım 2026 BIST 100 endeksi, önceki kapanışa göre 149,33 puan artarken, toplam işlem hacmi 134,8 milyar lira oldu. Bankacılık endeksi yüzde 1,94, holding endeksi yüzde 1,01 değer kazandı. Sektör endeksleri arasında en çok kazandıran yüzde 5,39 ile metal eşya makina, en fazla kaybettiren ise yüzde 2,03 ile iletişim oldu. Küresel piyasalarda, Asya ve Avrupa borsalarındaki satışların ardından ABD'de teknoloji hisseleri toparlanırken, ekimde tarım dışı istihdamın tahminleri aşması ABD Merkez Bankasının (Fed) aralıkta faiz artıracağına ilişkin beklentileri güçlendirdi. Analistler, gelecek hafta yurt içinde sanayi üretimi, Türkiye Cumhuriyet Merkez Bankası (TCMB) Enflasyon Raporu, cari denge ve TCMB Piyasa Katılımcıları Anketi'nin, yurt dışında ise ABD ve Çin'de enflasyon ile Avro Bölgesi'nde büyüme verileri başta olmak üzere yoğun veri gündeminin takip edileceğini belirterek, teknik açıdan BIST 100 endeksinde 11.600 ve 11.700 puanın direnç, 11.400 ve 11.300 puanın destek konumunda olduğunu kaydetti",
+      "shorts_hook": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı",
+      "quality_hook": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı",
+      "quality_narration": "BIST 100 endeksi, önceki kapanışa göre 149,33 puan artarak yükseldi. Metal eşya makina sektörü yüzde 5,39 ile en çok kazanan iken, iletişim sektörü yüzde 2,03 düşüş gösterdi. Toplam işlem hacmi 134,8 milyar lira olarak kaydedildi.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "BIST 100 endeksi, önceki kapanışa göre 149,33 puan artarak yükseldi.",
+        "Metal eşya makina sektörü yüzde 5,39 ile en çok kazanan iken, iletişim sektörü yüzde 2,03 düşüş gösterdi.",
+        "Toplam işlem hacmi 134,8 milyar lira olarak kaydedildi."
+      ],
+      "youtube_description": "BIST 100 endeksi 149,33 puan artarak 06 Kasım 2026'da yükseldi; siz bu yükselişi nasıl değerlendiriyorsunuz?",
+      "visual_query": "stock chart rising",
+      "spoken_text": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı BIST 100 endeksi önceki kapanışa göre 149 virgül 33 puan artarak yükseldi Metal eşya makina sektörü yüzde 5 virgül 39 ile en çok kazanan iken iletişim sektörü yüzde 2 virgül 03 düşüş gösterdi Toplam işlem hacmi 134 virgül 8 milyar lira olarak kaydedildi Türkiyeden Haber kanalına abone ol",
+      "tts_text": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı. BIST 100 endeksi önceki kapanışa göre 149 virgül 33 puan artarak yükseldi. Metal eşya makina sektörü yüzde 5 virgül 39 ile en çok kazanan iken iletişim sektörü yüzde 2 virgül 03 düşüş gösterdi. Toplam işlem hacmi 134 virgül 8 milyar lira olarak kaydedildi. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "bist",
+        "hisse",
+        "ekonomi",
+        "piyasa",
+        "sektör"
+      ],
+      "youtube_hashtags": "#shorts #bist #ekonomi",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı BIST 100 endeksi önceki kapanışa göre 149 virgül 33 puan artarak yükseldi Metal eşya makina sektörü yüzde 5 virgül 39 ile en çok kazanan iken iletişim sektörü yüzde 2 virgül 03 düşüş gösterdi Toplam işlem hacmi 134 virgül 8 milyar lira olarak kaydedildi Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
