@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-07T00:52:35.285806+00:00",
       "source_modified_at": "2026-11-06T21:19:26.19",
+      "run_id": "42320328789",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "LEflZXe4dBg",
+      "youtube_url": "https://youtu.be/LEflZXe4dBg",
+      "publish_at_local": "2026-11-07T21:00:00+03:00",
+      "publish_at_utc": "2026-11-07T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Türkiye seramik ihracatında 5’inci, 1,3 Milyar Dolar",
+      "narration": "Türkiye seramik ihracatında dünya 5 si oldu Ticaret Bakanı Ömer Bolat UNICERA İstanbul fuarında Türkiyenin yıllık 1 virgül 3 milyar dolarlık seramik ihracatı yaptığını ve dünya çapında seramik karoda 5inci genel seramik ürünlerinde ise ilk 10 içinde olduğunu belirtti Fuarda 6 salonda gerçekleşen sergiye yerli ve yabancı ziyaretçilerin yoğun ilgisi gösterdiği ve sektör temsilcilerinin memnuniyetini dile getirdiği kaydedildi Bakan Bolat sektörün her zaman yanlarında olacağını ve fuarın prestijini artırmak için gerekli tüm destekleri sağlayacaklarını sözlerine ekledi Türkiyeden Haber kanalına abone ol",
+      "description": "Ticaret Bakanı Bolat, UNICERA İstanbul’da Türkiye’nin seramik ihracatının 1,3 milyar dolar olduğunu ve dünya çapında karoda 5’inci, genel ürünlerde ilk 10’da olduğunu duyurdu. Sizce bu başarı sektöre nasıl yansıyacak?",
+      "visual_query": "ceramic fair visit",
+      "tags": [
+        "seramik ihracatı",
+        "Türkiye seramik",
+        "seramik fuarı",
+        "ekonomi",
+        "ticaret bakanı"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Bakan Bolat: Türkiye, dünyada seramik karoda 5'inci, genel seramik ürünlerinde ilk 10'un içinde",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-07T01:00:28.377434+00:00",
+      "source_modified_at": "2026-11-06T19:36:30.463",
       "run_id": "42320328789"
     }
   ],

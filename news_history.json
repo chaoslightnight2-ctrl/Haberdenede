@@ -5284,7 +5284,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/trt-world-forum-2026da-turkiye-bolgesel-gucten-bolgeler-arasi-bir-aktore-paneli-duzenlendi/4114540",
       "source_modified_at": "2026-11-06T21:19:26.19",
       "audience_bucket": "other",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türkiye seramik ihracatında 5’inci, 1,3 Milyar Dolar",
+      "summary": "Ticaret Bakanı Ömer Bolat, Türkiye'nin yıllık 1,3 milyar dolarlık seramik ihraç ettiğini belirterek, \"Dünyada özellikle seramik karoda 5'inci. Genel seramik ürünlerinde de ilk 10'un içinde.\" dedi.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/bakan-bolat-turkiye-dunyada-seramik-karoda-5inci-genel-seramik-urunlerinde-ilk-10un-icinde/4114530",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-06T18:38:25+03:00",
+      "fingerprint": "0917df7047b3cf79b4c86e981739f9f6e1f6ff43",
+      "viral_score": 68.32,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-07T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/LEflZXe4dBg",
+      "video_id": "LEflZXe4dBg",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-07T04:09:13.531149+03:00",
+      "publish_at_utc": "2026-11-07T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bakan Bolat: Türkiye, dünyada seramik karoda 5'inci, genel seramik ürünlerinde ilk 10'un içinde",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/bakan-bolat-turkiye-dunyada-seramik-karoda-5inci-genel-seramik-urunlerinde-ilk-10un-icinde/4114530",
+      "source_modified_at": "2026-11-06T19:36:30.463",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
