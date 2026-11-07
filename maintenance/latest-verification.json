@@ -1,19 +1,110 @@
 {
-  "source_run": "42292047756",
-  "verified_at": "2026-11-06T21:04:26.792389+00:00",
-  "videos": [],
+  "source_run": "42320328789",
+  "verified_at": "2026-11-07T01:17:18.249822+00:00",
+  "videos": [
+    {
+      "index": 3,
+      "video_id": "Ts8kRV3UkXM",
+      "youtube_url": "https://youtu.be/Ts8kRV3UkXM",
+      "title": "06 Kasım 2026'da Türkiye, Lübnan'da BM varlığını savundu",
+      "narration": "Lübnanda BM varlığı sürdürülmeli Türkiye uyarıyor Türkiye Lübnandaki BM askeri varlığının sürdürülmesi gerektiğini vurguladı Jean Pierre Lacroix BMnin Lübnanda güvenlik ve insani risklerin artabileceğine dikkat çekti Panelde Türkiye dahil uluslararası ortakların Lübnana mali ve güvenlik desteği sağlaması gerektiği belirtildi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-07T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-07T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 28.9,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/Ts8kRV3UkXM.jpg"
+    },
+    {
+      "index": 4,
+      "video_id": "LEflZXe4dBg",
+      "youtube_url": "https://youtu.be/LEflZXe4dBg",
+      "title": "Türkiye seramik ihracatında 5’inci, 1,3 Milyar Dolar",
+      "narration": "Türkiye seramik ihracatında dünya 5 si oldu Ticaret Bakanı Ömer Bolat UNICERA İstanbul fuarında Türkiyenin yıllık 1 virgül 3 milyar dolarlık seramik ihracatı yaptığını ve dünya çapında seramik karoda 5inci genel seramik ürünlerinde ise ilk 10 içinde olduğunu belirtti Fuarda 6 salonda gerçekleşen sergiye yerli ve yabancı ziyaretçilerin yoğun ilgisi gösterdiği ve sektör temsilcilerinin memnuniyetini dile getirdiği kaydedildi Bakan Bolat sektörün her zaman yanlarında olacağını ve fuarın prestijini artırmak için gerekli tüm destekleri sağlayacaklarını sözlerine ekledi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-07T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-07T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 41.466667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/LEflZXe4dBg.jpg"
+    },
+    {
+      "index": 5,
+      "video_id": "9UWVh33ZPoE",
+      "youtube_url": "https://youtu.be/9UWVh33ZPoE",
+      "title": "06 Kasım 2026'da BIST 100, 149,33 puan yükseldi",
+      "narration": "BIST 100 yükselişi bugün yatırımcıları heyecanlandırdı BIST 100 endeksi önceki kapanışa göre 149 virgül 33 puan artarak yükseldi Metal eşya makina sektörü yüzde 5 virgül 39 ile en çok kazanan iken iletişim sektörü yüzde 2 virgül 03 düşüş gösterdi Toplam işlem hacmi 134 virgül 8 milyar lira olarak kaydedildi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-07T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-07T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.266667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/9UWVh33ZPoE.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [
     {
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister announces raise"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
+  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
