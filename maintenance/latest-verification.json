@@ -1,10 +1,39 @@
 {
-  "source_run": "42429162289",
-  "verified_at": "2026-11-08T00:21:22.864306+00:00",
-  "videos": [],
+  "source_run": "42488977807",
+  "verified_at": "2026-11-08T14:32:49.682537+00:00",
+  "videos": [
+    {
+      "index": 3,
+      "video_id": "l-4jtcgaccE",
+      "youtube_url": "https://youtu.be/l-4jtcgaccE",
+      "title": "İki HÜRKUŞ‑II uçağı yeni üslerine başarıyla geldi",
+      "narration": "HÜRKUŞ II uçakları yeni üslerine sorunsuz ulaştı Milli Savunma Bakanlığı iki HÜRKUŞ II uçağının TUSAŞ tesislerinden gönderilip yeni üslerine başarıyla ulaştığını duyurdu Uçaklar üs komutanlığındaki personel tarafından coşkuyla karşılandı Paylaşılan mesajda göklerdeki güç kararlılık ve milli gururun vurgulanarak geleceğin pilotlarının yetiştirilmesinin önemi belirtildi Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-08T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-08T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 29.566667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/l-4jtcgaccE.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
@@ -18,7 +47,6 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
