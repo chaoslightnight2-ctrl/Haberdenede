@@ -5353,7 +5353,8 @@
       "resolved_url": "https://www.trthaber.com/haber/gundem/yerli-ve-milli-egitim-ucaklari-hurkus-ii-yeni-gorev-yerlerine-ulasti-962598.html",
       "source_modified_at": "",
       "audience_bucket": "technology_science",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
