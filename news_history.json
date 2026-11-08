@@ -5332,6 +5332,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İki HÜRKUŞ‑II uçağı yeni üslerine başarıyla geldi",
+      "summary": "Milli Savunma Bakanlığı, yerli ve milli eğitim uçağı HÜRKUŞII'nin yeni görev yerine intikal görüntülerini paylaştı. İki HÜRKUŞII, TUSAŞ tesislerinden İzmir Çiğli'deki 2'nci Ana Jet Üs ve Uluslararası Uçuş Eğitim Merkezi Komutanlığında görev yerine başarıyla ulaştı.",
+      "url": "https://www.trthaber.com/haber/gundem/yerli-ve-milli-egitim-ucaklari-hurkus-ii-yeni-gorev-yerlerine-ulasti-962598.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-08T15:42:00+03:00",
+      "fingerprint": "e04d95d53a3936fb1f56b34860a42bdd46808737",
+      "viral_score": 78.44,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-08T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/l-4jtcgaccE",
+      "video_id": "l-4jtcgaccE",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-08T17:23:07.503790+03:00",
+      "publish_at_utc": "2026-11-08T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Yerli ve milli eğitim uçakları HÜRKUŞ-II yeni görev yerlerine ulaştı",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/yerli-ve-milli-egitim-ucaklari-hurkus-ii-yeni-gorev-yerlerine-ulasti-962598.html",
+      "source_modified_at": "",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }

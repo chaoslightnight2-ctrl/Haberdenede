@@ -1,11 +1,39 @@
 {
-  "run_id": "42429162289",
-  "generated_at": "2026-11-08T03:19:51.843592+03:00",
+  "run_id": "42488977807",
+  "generated_at": "2026-11-08T17:17:13.091575+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "l-4jtcgaccE",
+      "youtube_url": "https://youtu.be/l-4jtcgaccE",
+      "publish_at_local": "2026-11-08T19:00:00+03:00",
+      "publish_at_utc": "2026-11-08T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "İki HÜRKUŞ‑II uçağı yeni üslerine başarıyla geldi",
+      "narration": "HÜRKUŞ II uçakları yeni üslerine sorunsuz ulaştı Milli Savunma Bakanlığı iki HÜRKUŞ II uçağının TUSAŞ tesislerinden gönderilip yeni üslerine başarıyla ulaştığını duyurdu Uçaklar üs komutanlığındaki personel tarafından coşkuyla karşılandı Paylaşılan mesajda göklerdeki güç kararlılık ve milli gururun vurgulanarak geleceğin pilotlarının yetiştirilmesinin önemi belirtildi Türkiyeden Haber kanalına abone ol",
+      "description": "HÜRKUŞ‑II uçakları yeni üslerine ulaştı, milli gururumuzu yansıtıyor. Sizce bu gelişme yerli savunma sanayimize ne kadar katkı sağlar?",
+      "visual_query": "hurkus ii aircraft landing",
+      "tags": [
+        "HÜRKUŞ",
+        "yerli savunma",
+        "Türk havacılığı",
+        "TUSAŞ",
+        "millet savunma"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Yerli ve milli eğitim uçakları HÜRKUŞ-II yeni görev yerlerine ulaştı",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-08T14:18:08.611166+00:00",
+      "source_modified_at": "",
+      "run_id": "42488977807"
+    }
+  ],
   "errors": [
     {
       "index": 1,
