@@ -1,11 +1,39 @@
 {
-  "run_id": "42541447038",
-  "generated_at": "2026-11-09T03:41:24.033509+03:00",
+  "run_id": "42664798839",
+  "generated_at": "2026-11-09T20:28:34.645948+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "29Z30dDTKiU",
+      "youtube_url": "https://youtu.be/29Z30dDTKiU",
+      "publish_at_local": "2026-11-09T23:00:00+03:00",
+      "publish_at_utc": "2026-11-09T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "COP31’da Antalya’da Ücretsiz Müze Ziyareti",
+      "narration": "COP31 katılımcılarına Antalyada ücretsiz müze ziyareti Bakan Mehmet Nuri Ersoy COP31 katılımcılarına Antalyadaki müze ve ören yerlerini ücretsiz ziyaret etme imkanı sağlanacağını duyurdu Side Ören Yerinde gece müzeciliği uygulamasının sürdürüleceği ve 18 Kasımda Turizm ve Kültürel Miras Günü etkinliklerinin düzenleneceği belirtildi Ersoy 17 19 Kasım tarihleri arasında yaklaşık 15 davetliyi özel bir tanıtım gezisine alarak EXPO alanını yıl boyunca aktif bir MICE destinasyonu hâline getirmeyi hedeflediklerini söyledi Türkiyeden Haber kanalına abone ol",
+      "description": "Bakan Ersoy, COP31 katılımcılarına Antalya’daki müzeleri ücretsiz gezme fırsatı sundu ve EXPO alanını yıl boyu aktif bir turizm merkezi yapma planını açıkladı. Sizce bu uygulama Antalya’nın uluslararası turizm profilini nasıl etkiler?",
+      "visual_query": "museum visit antalya",
+      "tags": [
+        "COP31",
+        "Antalya turizm",
+        "ücretsiz müze",
+        "iklim konferansı",
+        "MICE destinasyonu"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "COP31 katılımcılarına müze ve ören yerleri ücretsiz",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-09T17:29:38.924005+00:00",
+      "source_modified_at": "",
+      "run_id": "42664798839"
+    }
+  ],
   "errors": [
     {
       "index": 1,

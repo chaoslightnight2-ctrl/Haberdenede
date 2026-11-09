@@ -5355,6 +5355,28 @@
       "audience_bucket": "technology_science",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31’da Antalya’da Ücretsiz Müze Ziyareti",
+      "summary": "Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Antalya'nın ev sahipliği yapacağı COP31 için sürdürülebilir turizmden kültürel mirasa, sanat etkinliklerinden iklim okuryazarlığına uzanan kapsamlı program hazırladıklarını açıkladı.",
+      "url": "https://www.trthaber.com/haber/kultur-sanat/cop31-katilimcilarina-muze-ve-oren-yerleri-ucretsiz-962682.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-09T13:18:00+03:00",
+      "fingerprint": "362953369c858d933bad74ab0955cfdd795438fc",
+      "viral_score": 59.49,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-09T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/29Z30dDTKiU",
+      "video_id": "29Z30dDTKiU",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-09T20:42:27.918498+03:00",
+      "publish_at_utc": "2026-11-09T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "COP31 katılımcılarına müze ve ören yerleri ücretsiz",
+      "resolved_url": "https://www.trthaber.com/haber/kultur-sanat/cop31-katilimcilarina-muze-ve-oren-yerleri-ucretsiz-962682.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
