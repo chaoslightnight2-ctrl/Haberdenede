@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-09T17:42:30.476529+00:00",
       "source_modified_at": "",
+      "run_id": "42664798839",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "DXhx31q3tMs",
+      "youtube_url": "https://youtu.be/DXhx31q3tMs",
+      "publish_at_local": "2026-11-10T21:00:00+03:00",
+      "publish_at_utc": "2026-11-10T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "COP31: Türkiye tarım projeleri gelirleri %40 artırdı",
+      "narration": "Türkiyenin tarım projeleri çiftçi gelirlerini yüzde 40 artırdı COP31 kapsamında yayımlanan rapora göre Türkiyedeki tarım projeleri çiftçi gelirlerini yüzde kırk artırdı Birleşmiş Milletler Uluslararası Tarımsal Kalkınma Fonu IFAD ve Tarım ve Orman Bakanlığı bu projeleri hayata geçirdi Rapor şiddetli El Niño olayının beş ila altı yıl içinde 11 trilyon dolarlık küresel gıda kaybına yol açabileceğini uyarıyor Türkiyeden Haber kanalına abone ol",
+      "description": "COP31 raporunda Türkiye'nin tarım projelerinin çiftçi gelirlerini yüzde kırk artırdığı bildirildi. Sizce bu model diğer ülkelere de uygulanmalı mı?",
+      "visual_query": "farmer income increase",
+      "tags": [
+        "tarım",
+        "çiftçi",
+        "gelir",
+        "COP31",
+        "El Niño"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "COP31'de 11 trilyon dolarlık El Niño uyarısı: Küresel gıda güvenliği tehlikede",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-09T17:53:57.662957+00:00",
+      "source_modified_at": "",
       "run_id": "42664798839"
     }
   ],
