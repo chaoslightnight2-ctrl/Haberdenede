@@ -5376,7 +5376,30 @@
       "resolved_url": "https://www.trthaber.com/haber/kultur-sanat/cop31-katilimcilarina-muze-ve-oren-yerleri-ucretsiz-962682.html",
       "source_modified_at": "",
       "audience_bucket": "economy_life",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Altın fiyatı %1,2 artışla 6,64 milyon TL'ye yükseldi",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon 640 bin liraya çıktı.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962702.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-09T16:42:00+03:00",
+      "fingerprint": "db0f0237ecbcd826c50f74091cc65fcb7a19db4b",
+      "viral_score": 37.93,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-10T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/45LqQpINZmA",
+      "video_id": "45LqQpINZmA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-09T20:53:54.271331+03:00",
+      "publish_at_utc": "2026-11-10T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Altın fiyatlarında son durum",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962702.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
