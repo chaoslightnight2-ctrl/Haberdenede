@@ -5424,6 +5424,28 @@
       "audience_bucket": "nature",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31'de Türkiye İklim Okulu: Atölyelerle Gelecek",
+      "summary": "Milli Eğitim Bakanlığı'nca COP31 kapsamında oluşturulan \"Türkiye İklim Okulu\" ziyaretçilere kapılarını açtı. İklim eğitimi ve sürdürülebilirlik alanındaki iyi uygulamaların ulusal ve uluslararası düzeyde paylaşılmasını amaçlayan okul, COP31 boyunca farklı kurum ve kuruluşların katkılarıyla düzenlenecek etkinliklere ev sahipliği yapacak.",
+      "url": "https://www.trthaber.com/haber/gundem/mebin-turkiye-iklim-okulu-cop31de-kapilarini-acti-962733.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-10T00:39:00+03:00",
+      "fingerprint": "c2082485ecded30112237d7304bcd94ef4b72f44",
+      "viral_score": 73.8,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-10T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/a3qNIB5vIRQ",
+      "video_id": "a3qNIB5vIRQ",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-10T04:36:44.187974+03:00",
+      "publish_at_utc": "2026-11-10T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "MEB'in 'Türkiye İklim Okulu' COP31'de kapılarını açtı",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/mebin-turkiye-iklim-okulu-cop31de-kapilarini-acti-962733.html",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "direct_change"
     }
   ]
 }
