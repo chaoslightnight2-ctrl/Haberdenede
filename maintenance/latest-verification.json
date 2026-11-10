@@ -1,19 +1,19 @@
 {
-  "source_run": "42664798839",
-  "verified_at": "2026-11-09T18:02:46.561881+00:00",
+  "source_run": "42736154324",
+  "verified_at": "2026-11-10T01:37:46.963554+00:00",
   "videos": [
     {
       "index": 3,
-      "video_id": "29Z30dDTKiU",
-      "youtube_url": "https://youtu.be/29Z30dDTKiU",
-      "title": "COP31’da Antalya’da Ücretsiz Müze Ziyareti",
-      "narration": "COP31 katılımcılarına Antalyada ücretsiz müze ziyareti Bakan Mehmet Nuri Ersoy COP31 katılımcılarına Antalyadaki müze ve ören yerlerini ücretsiz ziyaret etme imkanı sağlanacağını duyurdu Side Ören Yerinde gece müzeciliği uygulamasının sürdürüleceği ve 18 Kasımda Turizm ve Kültürel Miras Günü etkinliklerinin düzenleneceği belirtildi Ersoy 17 19 Kasım tarihleri arasında yaklaşık 15 davetliyi özel bir tanıtım gezisine alarak EXPO alanını yıl boyunca aktif bir MICE destinasyonu hâline getirmeyi hedeflediklerini söyledi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-09T20:00:00Z",
+      "video_id": "a3qNIB5vIRQ",
+      "youtube_url": "https://youtu.be/a3qNIB5vIRQ",
+      "title": "COP31'de Türkiye İklim Okulu: Atölyelerle Gelecek",
+      "narration": "Türkiye İklim Okulunda sürdürülebilir atölyeler büyük ilgi topladı MEB Antalyada COP31 Yeşil Bölgesinde Türkiye İklim Okulunu açtı ve ilk gününde teknoloji yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü Ziyaretçiler Atığa Yeni Hayat Ver Doğayla Üretiyorum ve İklim Dostu Şehrimi Tasarlıyorum gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi İklimi Uzaydan Okumak konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-10T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-09T20:00:00Z",
+        "publishAt": "2026-11-10T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,73 +23,17 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 40.1,
+        "duration": 37.066667,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/29Z30dDTKiU.jpg"
-    },
-    {
-      "index": 4,
-      "video_id": "45LqQpINZmA",
-      "youtube_url": "https://youtu.be/45LqQpINZmA",
-      "title": "Altın fiyatı %1,2 artışla 6,64 milyon TL'ye yükseldi",
-      "narration": "Altın fiyatı yüzde 1 virgül 2 yükseldi yatırımcıları heyecanlandırdı Altın kilogram fiyatı gün sonunda yüzde 1 virgül 2 artışla 6640000 TLye yükseldi Günün en düşük seviyesi 6560000 TL en yüksek seviyesi ise 6655000 TL olarak kaydedildi Toplam işlem hacmi 1461639061 virgül 35 TL işlem miktarı 220 virgül 89 kilogram olarak gerçekleşti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-10T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-10T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.133333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/45LqQpINZmA.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "DXhx31q3tMs",
-      "youtube_url": "https://youtu.be/DXhx31q3tMs",
-      "title": "COP31: Türkiye tarım projeleri gelirleri %40 artırdı",
-      "narration": "Türkiyenin tarım projeleri çiftçi gelirlerini yüzde 40 artırdı COP31 kapsamında yayımlanan rapora göre Türkiyedeki tarım projeleri çiftçi gelirlerini yüzde kırk artırdı Birleşmiş Milletler Uluslararası Tarımsal Kalkınma Fonu IFAD ve Tarım ve Orman Bakanlığı bu projeleri hayata geçirdi Rapor şiddetli El Niño olayının beş ila altı yıl içinde 11 trilyon dolarlık küresel gıda kaybına yol açabileceğini uyarıyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-10T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-10T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 32.166667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/DXhx31q3tMs.jpg"
+      "preview": "maintenance/previews/a3qNIB5vIRQ.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
@@ -103,7 +47,8 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
-  "target_count": 3,
+  "public_listing_error": "HTTPError",
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": true
 }
