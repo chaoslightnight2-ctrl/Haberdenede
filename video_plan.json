@@ -1,33 +1,4 @@
 {
-  "generated_at": "2026-11-10T04:30:32.169500+03:00",
-  "videos": [
-    {
-      "video_id": "a3qNIB5vIRQ",
-      "youtube_url": "https://youtu.be/a3qNIB5vIRQ",
-      "publish_at_local": "2026-11-10T23:00:00+03:00",
-      "publish_at_utc": "2026-11-10T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 3,
-      "title": "COP31'de Türkiye İklim Okulu: Atölyelerle Gelecek",
-      "narration": "Türkiye İklim Okulunda sürdürülebilir atölyeler büyük ilgi topladı MEB Antalyada COP31 Yeşil Bölgesinde Türkiye İklim Okulunu açtı ve ilk gününde teknoloji yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü Ziyaretçiler Atığa Yeni Hayat Ver Doğayla Üretiyorum ve İklim Dostu Şehrimi Tasarlıyorum gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi İklimi Uzaydan Okumak konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı Türkiyeden Haber kanalına abone ol",
-      "description": "MEB, Antalya'da COP31 kapsamında 'Türkiye İklim Okulu'nu açtı; ziyaretçiler teknoloji ve iklim atölyelerinde sürdürülebilir beceriler kazandı. Siz de bu tür eğitimlerin yaygınlaşmasını ister misiniz?",
-      "visual_query": "students workshop climate",
-      "tags": [
-        "iklim eğitimi",
-        "COP31",
-        "sürdürülebilir yaşam",
-        "MEB etkinlikleri",
-        "çevre atölyeleri"
-      ],
-      "video_path": "output/short_3.mp4",
-      "source_headline": "MEB'in 'Türkiye İklim Okulu' COP31'de kapılarını açtı",
-      "audience_bucket": "health_education",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-10T01:31:34.258078+00:00",
-      "source_modified_at": "",
-      "run_id": "42736154324",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ]
+  "generated_at": "2026-11-11T00:48:50.504160+03:00",
+  "videos": []
 }
