@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:30:32.169500+03:00",
+  "generated_at": "2026-11-11T00:48:50.504160+03:00",
   "selected_news": [
     {
       "title": "Mehmet Şimşek, Aralık’ta emeklilere zam vaat ediyor",
@@ -15,7 +15,7 @@
       "resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNVpkak9KMjRVa3JrLWx5bkowaGRZUnVhZ09VdkxlVllVZHlHRFVEWmRmUEVNZGplWFhMRTMwRHlSc2stSGIzQXNsQXlMZE1YdVNTX29JOTQzUmpNQmZEYkVNQzdPYWpEZ1IteGVaRnBERS16eVVkUEdPeDNPVmtUNm90UFpjTm1wMGdrNXZB?oc=5&hl=tr&gl=TR&ceid=TR:tr",
       "source_headline": "Bakan Şimşek'ten emekliye seyyanen zam açıklaması",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-10T01:30:33.416072+00:00",
+      "source_checked_at": "2026-11-10T21:48:51.698405+00:00",
       "article_score": 30,
       "article_text": "Hazine ve Maliye Bakanı Mehmet Şimşek yaptığı açıklamada şu ifadeleri kullandı \"Emeklilerimizin alım güçlerini desteklemesi amacıyla yürüttüğümüz teknik çalışma henüz tamamlanmadı Düzenleme tüm emeklilerimizi kapsayacaktır. Yapılacak artışın emeklilerimizin yaş ve prim ödeme gün sayısına göre farklılaşmasının doğru olacağını düşünüyoruz Nihai çalışma büyük ihtimalle Aralık içerisinde yapılır ve bütçeden hemen sonra takdirinize getirilir diye düşünüyorum\" Hazine ve Maliye Bakanı Mehmet Şimşek, fon krizinde listelerin açıklanmasını tercih ettiğini açıkladı “- Bu listelerin açıklanıp açıklanmaması hususunda benim bir engelim yok. Ben şahsen mümkünse açıklanmasını tercih ederim. Şu ana kadar hazinenin bir kuruş kaynağı ödemelerde kullanılmadı.”",
       "content_quality": "article_text",
@@ -92,53 +92,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Enerji bağımsızlığı hedefi 2040da tamamen gerçekleşecek Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar 2040 yılına kadar Türkiyenin enerji ithalatını tamamen ortadan kaldırarak enerji bağımsızlığına ulaşacağını duyurdu Bakan 2002 yılında sadece 5 ilde bulunan doğal gazın bugün 81 ilde hizmet verdiğini ve Çamlıyayla ilçesine 2027 kışında doğal gazın getirileceğini vurguladı Ayrıca enerji ithalatının yüzde 68den yüzde 48e düşürülmesi planını açıkladı ve 2030 yılına kadar ithal enerjiye sıfır bağımlılık hedeflediğini belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "23:00"
-    },
-    {
-      "title": "COP31'de Türkiye İklim Okulu: Atölyelerle Gelecek",
-      "summary": "Milli Eğitim Bakanlığı'nca COP31 kapsamında oluşturulan \"Türkiye İklim Okulu\" ziyaretçilere kapılarını açtı. İklim eğitimi ve sürdürülebilirlik alanındaki iyi uygulamaların ulusal ve uluslararası düzeyde paylaşılmasını amaçlayan okul, COP31 boyunca farklı kurum ve kuruluşların katkılarıyla düzenlenecek etkinliklere ev sahipliği yapacak.",
-      "url": "https://www.trthaber.com/haber/gundem/mebin-turkiye-iklim-okulu-cop31de-kapilarini-acti-962733.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-10T00:39:00+03:00",
-      "fingerprint": "c2082485ecded30112237d7304bcd94ef4b72f44",
-      "direct_source": true,
-      "viral_score": 73.8,
-      "topic_bucket": "iklim_enerji",
-      "resolved_url": "https://www.trthaber.com/haber/gundem/mebin-turkiye-iklim-okulu-cop31de-kapilarini-acti-962733.html",
-      "source_headline": "MEB'in 'Türkiye İklim Okulu' COP31'de kapılarını açtı",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-10T01:31:34.258078+00:00",
-      "article_score": 122,
-      "article_text": "Milli Eğitim Bakanlığı'ndan (MEB) yapılan açıklamaya göre, Türkiye'nin ev sahipliğinde Antalya'da gerçekleştirilen ve TRT`nin ev sahibi yayıncı kuruluşu olduğu Birleşmiş Milletler İklim Değişikliği Çerçeve Sözleşmesi'nin 31. Taraflar Konferansı'nın (COP31) Yeşil Bölge'sinde hayata geçirilen \"Türkiye İklim Okulu\", öğrenci, öğretmen, akademisyen ve sivil toplum kuruluşlarının temsilcileri ile farklı sektörlerden uzmanları bir araya getirdi \"Yaşayan bir okul\" anlayışıyla tasarlanan alanda, iklim değişikliğiyle mücadelede eğitimin rolünü ön plana çıkaran etkinlikler düzenlendi Ziyaretçilere, iklim değişikliği, çevre bilinci ve sürdürülebilir yaşam konularında bilgi edinmenin yanı sıra çeşitli uygulamaları deneyimleme imkanı sunuldu \"Türkiye İklim Okulu\"nun ilk gününde teknoloji alanı, yaşayan okul alanı ve iklim deneyimi alanı ziyaretçilerden ilgi gördü Gün boyunca gerçekleştirilen atölye çalışmalarında ziyaretçiler, çevre dostu yaşam becerilerini geliştirmeye yönelik etkinliklere katıldı \"Atığa Yeni Hayat Ver\", \"Doğayla Üretiyorum ve Tohum Topu Yapımı\", \"İklim Dostu Şehrimi Tasarlıyorum\" gibi pek çok başlıkta düzenlenen etkinliklerde geri dönüşüm, doğal üretim ve sürdürülebilir yaşam konuları uygulamalı çalışmalarla ele alındı Çocuklar, \"İklim Dostu Şehrimi Tasarlıyorum\" etkinliğinde çevre dostu şehir modelleri oluşturarak kent yaşamında karşılaşılan çevre sorunlarına yönelik çözüm önerileri geliştirdi. Temsili şehir tasarımları üzerinden sürdürülebilir ulaşım, yeşil alanlar ve çevre dostu yaşam konularında farkındalık oluşturuldu Sıfır Atık Kütüphanesi'nde ise geri dönüşüm ve yeniden kullanım örnekleri ziyaretçilerle buluşturuldu Teraryum atölyesinde de katılımcılar, cam kaplar içerisinde minyatür bitki ekosistemleri oluşturarak doğanın döngüsünü ve ekolojik dengenin önemini uygulamalı olarak deneyimledi Ayrıca \"Muz Lifi Dokuma Atölyesi\" ile doğal malzemelerin değerlendirilmesine yönelik uygulamalara yer verildi Düzenlenen konferans ve panellerde ise iklim değişikliği, sürdürülebilirlik, yeşil dönüşüm ve eğitimin bu süreçteki rolü ele alındı \"İklimi Uzaydan Okumak: Uydular Bize Su Kaynaklarımız Hakkında Ne Söylüyor?\" başlıklı konferansta, uydu teknolojilerinin su kaynaklarının izlenmesindeki rolüne ilişkin bilgiler paylaşıldı \"Geleceğin Yeşil Meslekleri\" başlıklı panelde, yeşil dönüşüm sürecinde öne çıkan meslek alanları ve geleceğin iş gücünde ihtiyaç duyulacak yetkinlikler değerlendirildi \"İklim İçin Eğitimden Eyleme: Eğitimcilerin Öncülüğünde İklim Bilgisinden Toplumsal Dönüşüme\" başlıklı panelde ise iklim değişikliğiyle mücadelede eğitimin önemi ve eğitimcilerin toplumsal dönüşümdeki rolü ele alındı İklim eğitimi ve sürdürülebilirlik alanındaki iyi uygulamaların ulusal ve uluslararası düzeyde paylaşılmasını amaçlayan \"Türkiye İklim Okulu\", COP31 boyunca farklı kurum ve kuruluşların katkılarıyla düzenlenecek etkinliklere ev sahipliği yapacak Öğrencilerin ve gençlerin iklim değişikliğiyle mücadeleye yönelik çalışmalarını uluslararası paydaşlarla buluşturacak okulda, konferans süresince söyleşiler, proje sunumları ve uygulamalı atölyeler gerçekleştirilmeye devam edecek",
-      "content_quality": "article_text",
-      "model_source_context": "Milli Eğitim Bakanlığı'ndan (MEB) yapılan açıklamaya göre, Türkiye'nin ev sahipliğinde Antalya'da gerçekleştirilen ve TRT`nin ev sahibi yayıncı kuruluşu olduğu Birleşmiş Milletler İklim Değişikliği Çerçeve Sözleşmesi'nin 31. Taraflar Konferansı'nın (COP31) Yeşil Bölge'sinde hayata geçirilen \"Türkiye İklim Okulu\", öğrenci, öğretmen, akademisyen ve sivil toplum kuruluşlarının temsilcileri ile farklı sektörlerden uzmanları bir araya getirdi \"Yaşayan bir okul\" anlayışıyla tasarlanan alanda, iklim değişikliğiyle mücadelede eğitimin rolünü ön plana çıkaran etkinlikler düzenlendi Ziyaretçilere, iklim değişikliği, çevre bilinci ve sürdürülebilir yaşam konularında bilgi edinmenin yanı sıra çeşitli uygulamaları deneyimleme imkanı sunuldu \"Türkiye İklim Okulu\"nun ilk gününde teknoloji alanı, yaşayan okul alanı ve iklim deneyimi alanı ziyaretçilerden ilgi gördü Gün boyunca gerçekleştirilen atölye çalışmalarında ziyaretçiler, çevre dostu yaşam becerilerini geliştirmeye yönelik etkinliklere katıldı \"Atığa Yeni Hayat Ver\", \"Doğayla Üretiyorum ve Tohum Topu Yapımı\", \"İklim Dostu Şehrimi Tasarlıyorum\" gibi pek çok başlıkta düzenlenen etkinliklerde geri dönüşüm, doğal üretim ve sürdürülebilir yaşam konuları uygulamalı çalışmalarla ele alındı Çocuklar, \"İklim Dostu Şehrimi Tasarlıyorum\" etkinliğinde çevre dostu şehir modelleri oluşturarak kent yaşamında karşılaşılan çevre sorunlarına yönelik çözüm önerileri geliştirdi. Temsili şehir tasarımları üzerinden sürdürülebilir ulaşım, yeşil alanlar ve çevre dostu yaşam konularında farkındalık oluşturuldu Sıfır Atık Kütüphanesi'nde ise geri dönüşüm ve yeniden kullanım örnekleri ziyaretçilerle buluşturuldu Teraryum atölyesinde de katılımcılar, cam kaplar içerisinde minyatür bitki ekosistemleri oluşturarak doğanın döngüsünü ve ekolojik dengenin önemini uygulamalı olarak deneyimledi Ayrıca \"Muz Lifi Dokuma Atölyesi\" ile doğal malzemelerin değerlendirilmesine yönelik uygulamalara yer verildi Düzenlenen konferans ve panellerde ise iklim değişikliği, sürdürülebilirlik, yeşil dönüşüm ve eğitimin bu süreçteki rolü ele alındı \"İklimi Uzaydan Okumak: Uydular Bize Su Kaynaklarımız Hakkında Ne Söylüyor?\" başlıklı konferansta, uydu teknolojilerinin su kaynaklarının izlenmesindeki rolüne ilişkin bilgiler paylaşıldı \"Geleceğin Yeşil Meslekleri\" başlıklı panelde, yeşil dönüşüm sürecinde öne çıkan meslek alanları ve geleceğin iş gücünde ihtiyaç duyulacak yetkinlikler değerlendirildi \"İklim İçin Eğitimden Eyleme: Eğitimcilerin Öncülüğünde İklim Bilgisinden Toplumsal Dönüşüme\" başlıklı panelde ise iklim değişikliğiyle mücadelede eğitimin önemi ve eğitimcilerin toplumsal dönüşümdeki rolü ele alındı İklim eğitimi ve sürdürülebilirlik alanındaki iyi uygulamaların ulusal ve uluslararası düzeyde paylaşılmasını amaçlayan \"Türkiye İklim Okulu\", COP31 boyunca farklı kurum ve kuruluşların katkılarıyla düzenlenecek etkinliklere ev sahipliği yapacak Öğrencilerin ve gençlerin iklim değişikliğiyle mücadeleye yönelik çalışmalarını uluslararası paydaşlarla buluşturacak okulda, konferans süresince söyleşiler, proje sunumları ve uygulamalı atölyeler gerçekleştirilmeye devam edecek",
-      "shorts_hook": "Türkiye İklim Okulu'nda sürdürülebilir atölyeler büyük ilgi topladı",
-      "quality_hook": "Türkiye İklim Okulu'nda sürdürülebilir atölyeler büyük ilgi topladı",
-      "quality_narration": "MEB, Antalya'da COP31 Yeşil Bölge'sinde 'Türkiye İklim Okulu'nu açtı ve ilk gününde teknoloji, yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü. Ziyaretçiler, 'Atığa Yeni Hayat Ver', 'Doğayla Üretiyorum' ve 'İklim Dostu Şehrimi Tasarlıyorum' gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi. 'İklimi Uzaydan Okumak' konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "MEB, Antalya'da COP31 Yeşil Bölge'sinde 'Türkiye İklim Okulu'nu açtı ve ilk gününde teknoloji, yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü.",
-        "Ziyaretçiler, 'Atığa Yeni Hayat Ver', 'Doğayla Üretiyorum' ve 'İklim Dostu Şehrimi Tasarlıyorum' gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi.",
-        "'İklimi Uzaydan Okumak' konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı."
-      ],
-      "youtube_description": "MEB, Antalya'da COP31 kapsamında 'Türkiye İklim Okulu'nu açtı; ziyaretçiler teknoloji ve iklim atölyelerinde sürdürülebilir beceriler kazandı. Siz de bu tür eğitimlerin yaygınlaşmasını ister misiniz?",
-      "visual_query": "students workshop climate",
-      "spoken_text": "Türkiye İklim Okulunda sürdürülebilir atölyeler büyük ilgi topladı MEB Antalyada COP31 Yeşil Bölgesinde Türkiye İklim Okulunu açtı ve ilk gününde teknoloji yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü Ziyaretçiler Atığa Yeni Hayat Ver Doğayla Üretiyorum ve İklim Dostu Şehrimi Tasarlıyorum gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi İklimi Uzaydan Okumak konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Türkiye İklim Okulunda sürdürülebilir atölyeler büyük ilgi topladı. MEB Antalyada COP31 Yeşil Bölgesinde Türkiye İklim Okulunu açtı ve ilk gününde teknoloji yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü. Ziyaretçiler Atığa Yeni Hayat Ver Doğayla Üretiyorum ve İklim Dostu Şehrimi Tasarlıyorum gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi. İklimi Uzaydan Okumak konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "iklim eğitimi",
-        "COP31",
-        "sürdürülebilir yaşam",
-        "MEB etkinlikleri",
-        "çevre atölyeleri"
-      ],
-      "youtube_hashtags": "#shorts #iklim #eğitim",
-      "audience_bucket": "health_education",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "Türkiye İklim Okulunda sürdürülebilir atölyeler büyük ilgi topladı MEB Antalyada COP31 Yeşil Bölgesinde Türkiye İklim Okulunu açtı ve ilk gününde teknoloji yaşayan okul ve iklim deneyimi alanları yoğun ilgi gördü Ziyaretçiler Atığa Yeni Hayat Ver Doğayla Üretiyorum ve İklim Dostu Şehrimi Tasarlıyorum gibi atölyelerde geri dönüşüm ve sürdürülebilir yaşam becerileri edindi İklimi Uzaydan Okumak konferansında uydu teknolojisinin su kaynakları izleme potansiyeli tartışıldı Türkiyeden Haber kanalına abone ol"
+      "scheduled_slot": "23:00",
+      "_ready_to_resume": true
     }
   ]
 }
