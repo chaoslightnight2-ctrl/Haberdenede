@@ -1,11 +1,39 @@
 {
-  "run_id": "42936766689",
-  "generated_at": "2026-11-11T04:10:02.834960+03:00",
+  "run_id": "43107282507",
+  "generated_at": "2026-11-12T00:56:15.332529+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "FKZc3__PrrI",
+      "youtube_url": "https://youtu.be/FKZc3__PrrI",
+      "publish_at_local": "2026-11-12T19:00:00+03:00",
+      "publish_at_utc": "2026-11-12T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "İstanbul Havalimanı’nın 4. Pistiyle %25 Yakıt Tasarrufu",
+      "narration": "İstanbul Havalimanının yeni pisti yakıt tasarrufu sağladı Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu İstanbul Havalimanının dördüncü pistinin hizmete alındığını duyurdu Doğu yönlü uçuşlarda yüzde 25 yakıt tasarrufu sağlandığını ve iki ayda karbon emisyonunun 2 bin ton azaldığını belirtti Bakan bu gelişmenin havalimanının operasyonel kapasitesini artırırken sürdürülebilir bir gelecek hedefini desteklediğini vurguladı Türkiyeden Haber kanalına abone ol",
+      "description": "İstanbul Havalimanı’nın dördüncü pisti, doğu yönlü uçuşlarda yüzde 25 yakıt tasarrufu ve iki ayda 2 bin ton CO₂ azalması sağladı. Sizce bu tür yatırımlar çevreye ne kadar katkı sağlar?",
+      "visual_query": "airport runway fuel",
+      "tags": [
+        "İstanbul Havalimanı",
+        "4. pist",
+        "yakıt tasarrufu",
+        "karbon emisyonu",
+        "ulaştırma yatırımları"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "İstanbul Havalimanı'nın 4. pistiyle uçuşlarda yüzde 25 yakıt tasarrufu",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-11T21:57:19.477951+00:00",
+      "source_modified_at": "",
+      "run_id": "43107282507"
+    }
+  ],
   "errors": [
     {
       "index": 1,

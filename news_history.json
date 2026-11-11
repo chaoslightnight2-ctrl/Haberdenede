@@ -5447,6 +5447,28 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul Havalimanı’nın 4. Pistiyle %25 Yakıt Tasarrufu",
+      "summary": "İstanbul Havalimanı'nın eylülde hizmete alınan 4. pisti sayesinde doğu yönlü uçuşlarda yüzde 25 yakıt tasarrufu sağlandığı ve 2 ayda karbon emisyonunun 2 bin ton azaltıldığı öğrenildi.",
+      "url": "https://www.trthaber.com/haber/turkiye/istanbul-havalimaninin-4-pistiyle-ucuslarda-yuzde-25-yakit-tasarrufu-962939.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-11T13:43:00+03:00",
+      "fingerprint": "a5f0dee160ef42066d83d22cd0067e6f0370aa9d",
+      "viral_score": 46.02,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-12T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/FKZc3__PrrI",
+      "video_id": "FKZc3__PrrI",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-12T01:04:06.601800+03:00",
+      "publish_at_utc": "2026-11-12T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İstanbul Havalimanı'nın 4. pistiyle uçuşlarda yüzde 25 yakıt tasarrufu",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbul-havalimaninin-4-pistiyle-ucuslarda-yuzde-25-yakit-tasarrufu-962939.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
