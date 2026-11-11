@@ -1,10 +1,67 @@
 {
-  "source_run": "42936766689",
-  "verified_at": "2026-11-11T01:11:43.131125+00:00",
-  "videos": [],
+  "source_run": "43107282507",
+  "verified_at": "2026-11-11T22:21:11.819635+00:00",
+  "videos": [
+    {
+      "index": 3,
+      "video_id": "FKZc3__PrrI",
+      "youtube_url": "https://youtu.be/FKZc3__PrrI",
+      "title": "İstanbul Havalimanı’nın 4. Pistiyle %25 Yakıt Tasarrufu",
+      "narration": "İstanbul Havalimanının yeni pisti yakıt tasarrufu sağladı Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu İstanbul Havalimanının dördüncü pistinin hizmete alındığını duyurdu Doğu yönlü uçuşlarda yüzde 25 yakıt tasarrufu sağlandığını ve iki ayda karbon emisyonunun 2 bin ton azaldığını belirtti Bakan bu gelişmenin havalimanının operasyonel kapasitesini artırırken sürdürülebilir bir gelecek hedefini desteklediğini vurguladı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-12T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-12T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.633333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/FKZc3__PrrI.jpg"
+    },
+    {
+      "index": 4,
+      "video_id": "CJzeE_TSmWo",
+      "youtube_url": "https://youtu.be/CJzeE_TSmWo",
+      "title": "Altın kilogram fiyatı %0,8 düşerek 6,525,000 TL oldu",
+      "narration": "Altın fiyatı yüzde 0 virgül 8 düştü yeni düşük seviyede Altın kilogram fiyatı gün sonunda yüzde 0 virgül 8 düşerek 6525000 lira oldu İşlem hacmi 4904486383 virgül 83 lira miktarı 755 virgül 21 kilogram olarak gerçekleşti En çok işlem yapan kurumlar arasında Yapı ve Kredi Bankası ve Ziraat Bankası yer aldı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-12T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-12T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 32.166667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/CJzeE_TSmWo.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 2,
+  "processed_count": 2,
   "complete": false,
   "generation_errors": [
     {
@@ -18,7 +75,6 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
