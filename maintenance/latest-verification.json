@@ -1,6 +1,6 @@
 {
-  "source_run": "42908508922",
-  "verified_at": "2026-11-10T21:50:33.090923+00:00",
+  "source_run": "42936766689",
+  "verified_at": "2026-11-11T01:11:43.131125+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -18,6 +18,7 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
+  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
