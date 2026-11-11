@@ -5468,7 +5468,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbul-havalimaninin-4-pistiyle-ucuslarda-yuzde-25-yakit-tasarrufu-962939.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Altın kilogram fiyatı %0,8 düşerek 6,525,000 TL oldu",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon 525 bin liraya geriledi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-962954.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-11T16:49:00+03:00",
+      "fingerprint": "164184547289e7351a3561d490557d1c102b731a",
+      "viral_score": 44.98,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-12T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/CJzeE_TSmWo",
+      "video_id": "CJzeE_TSmWo",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-12T01:11:38.941561+03:00",
+      "publish_at_utc": "2026-11-12T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Altın günü düşüşle kapattı",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-962954.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
