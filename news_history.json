@@ -5493,6 +5493,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Yenişehir'de 15.00'da G.Ç. bıçakla yaralandı, 4 gözaltı",
+      "summary": "Lisede dehşet! 1 öğrenci yaralandı; 4 gözaltı CNN Türk",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmo4UkthbGltUGZjYTNDZGNyNmo3RE9tRjlIY08td0c3YW10M3J2MmdBeGU0WFZwd0JGYTR4TEJ2bTVmMHR3S3VKNFBTTFg1elc3YUhLNmhGYnpLSU5fem14VHFTajZNQm9KVTlmVEVaYlU1V0VIT1ZCelVBTmZpOC1FUzEyTEpQajZYNm5wb2ctZDR2?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-11T21:21:26+03:00",
+      "fingerprint": "031b22e8af3923f0b865586bbad0a58cd9f0770e",
+      "viral_score": 67.45,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-12T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/s4V51LbgPlk",
+      "video_id": "s4V51LbgPlk",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-12T05:15:06.588020+03:00",
+      "publish_at_utc": "2026-11-12T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Lisede dehşet! 1 öğrenci yaralandı; 4 gözaltı",
+      "resolved_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmo4UkthbGltUGZjYTNDZGNyNmo3RE9tRjlIY08td0c3YW10M3J2MmdBeGU0WFZwd0JGYTR4TEJ2bTVmMHR3S3VKNFBTTFg1elc3YUhLNmhGYnpLSU5fem14VHFTajZNQm9KVTlmVEVaYlU1V0VIT1ZCelVBTmZpOC1FUzEyTEpQajZYNm5wb2ctZDR2?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
