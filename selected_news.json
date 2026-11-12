@@ -92,7 +92,52 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Enerji bağımsızlığı hedefi 2040da tamamen gerçekleşecek Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar 2040 yılına kadar Türkiyenin enerji ithalatını tamamen ortadan kaldırarak enerji bağımsızlığına ulaşacağını duyurdu Bakan 2002 yılında sadece 5 ilde bulunan doğal gazın bugün 81 ilde hizmet verdiğini ve Çamlıyayla ilçesine 2027 kışında doğal gazın getirileceğini vurguladı Ayrıca enerji ithalatının yüzde 68den yüzde 48e düşürülmesi planını açıkladı ve 2030 yılına kadar ithal enerjiye sıfır bağımlılık hedeflediğini belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "23:00"
+    },
+    {
+      "title": "Yenişehir'de 15.00'da G.Ç. bıçakla yaralandı, 4 gözaltı",
+      "summary": "Lisede dehşet! 1 öğrenci yaralandı; 4 gözaltı CNN Türk",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmo4UkthbGltUGZjYTNDZGNyNmo3RE9tRjlIY08td0c3YW10M3J2MmdBeGU0WFZwd0JGYTR4TEJ2bTVmMHR3S3VKNFBTTFg1elc3YUhLNmhGYnpLSU5fem14VHFTajZNQm9KVTlmVEVaYlU1V0VIT1ZCelVBTmZpOC1FUzEyTEpQajZYNm5wb2ctZDR2?oc=5",
+      "query": "Türkiye gündem günün gelişmeleri",
+      "source": "Google News RSS",
+      "published_at": "2026-11-11T21:21:26+03:00",
+      "fingerprint": "031b22e8af3923f0b865586bbad0a58cd9f0770e",
+      "viral_score": 67.45,
+      "topic_bucket": "adliye_toplum",
+      "source_name": "cnn türk",
+      "resolved_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmo4UkthbGltUGZjYTNDZGNyNmo3RE9tRjlIY08td0c3YW10M3J2MmdBeGU0WFZwd0JGYTR4TEJ2bTVmMHR3S3VKNFBTTFg1elc3YUhLNmhGYnpLSU5fem14VHFTajZNQm9KVTlmVEVaYlU1V0VIT1ZCelVBTmZpOC1FUzEyTEpQajZYNm5wb2ctZDR2?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_headline": "Lisede dehşet! 1 öğrenci yaralandı; 4 gözaltı",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-12T02:12:04.011828+00:00",
+      "article_score": 69,
+      "article_text": "aynı lisede eğitim gören öğrenciler arasında 'yan bakma' meselesi nedeniyle çıkan tartışma, okul çıkışında bıçaklı kavgaya dönüştü. Kavgada G.Ç.(17) yaralanırken, olaya ilişkin 4 kişi gözaltına alındı. Olay, saat 15.00 sıralarında Yenişehir Mahallesi’nde meydana geldi. İddiaya göre, Hezarfen Mesleki ve Teknik Anadolu Lisesi’nde öğrenim gören G.Ç. ile S.E.T. (17) arasında okulda ‘yan bakma’ nedeniyle tartışma çıktı. 17 YAŞINDAKİ ÖĞRENCİ BIÇAKLA YARALANDI Okul çıkışında buluşan öğrenciler arasında, okula yaklaşık 500 metre uzaklıkta kavga çıktı. Kavga sırasında G.Ç., bıçakla yaralandı. Yaralı halde okul bahçesine gelen öğrenciyi gören görevli polis memuru durumu ekiplere bildirdi. İhbar üzerine olay yerine sağlık ve polis ekipleri sevk edildi. Sağlık ekiplerinin kontrollerinde kavgada kaburgasından ve elinden hafif yaralandığı belirlenen G.Ç. ambulansla Marmara Eğitim ve Araştırma Hastanesi’ne kaldırıldı. TABURCU EDİLDİ Hastanede tedavisi tamamlanan G.Ç. taburcu edildi. 4 GÖZALTI Olaya ilişkin çalışma başlatan Pendik Asayiş Büro Amirliği ekipleri, G.Ç.’yi bıçakla yaraladığı belirlenen Y.E.T. (14), yanında bıçak bulunduran S.E.T. (17) ile olay yerinde bulunan H.S. (17) ve T.Ö.’yü (15) tespit etti. Polis ekipleri, 4 şüpheliyi olayda kullanılan bıçaklarla birlikte yakaladı",
+      "content_quality": "article_text",
+      "model_source_context": "aynı lisede eğitim gören öğrenciler arasında 'yan bakma' meselesi nedeniyle çıkan tartışma, okul çıkışında bıçaklı kavgaya dönüştü. Kavgada G.Ç.(17) yaralanırken, olaya ilişkin 4 kişi gözaltına alındı. Olay, saat 15.00 sıralarında Yenişehir Mahallesi’nde meydana geldi. İddiaya göre, Hezarfen Mesleki ve Teknik Anadolu Lisesi’nde öğrenim gören G.Ç. ile S.E.T. (17) arasında okulda ‘yan bakma’ nedeniyle tartışma çıktı. 17 YAŞINDAKİ ÖĞRENCİ BIÇAKLA YARALANDI Okul çıkışında buluşan öğrenciler arasında, okula yaklaşık 500 metre uzaklıkta kavga çıktı. Kavga sırasında G.Ç., bıçakla yaralandı. Yaralı halde okul bahçesine gelen öğrenciyi gören görevli polis memuru durumu ekiplere bildirdi. İhbar üzerine olay yerine sağlık ve polis ekipleri sevk edildi. Sağlık ekiplerinin kontrollerinde kavgada kaburgasından ve elinden hafif yaralandığı belirlenen G.Ç. ambulansla Marmara Eğitim ve Araştırma Hastanesi’ne kaldırıldı. TABURCU EDİLDİ Hastanede tedavisi tamamlanan G.Ç. taburcu edildi. 4 GÖZALTI Olaya ilişkin çalışma başlatan Pendik Asayiş Büro Amirliği ekipleri, G.Ç.’yi bıçakla yaraladığı belirlenen Y.E.T. (14), yanında bıçak bulunduran S.E.T. (17) ile olay yerinde bulunan H.S. (17) ve T.Ö.’yü (15) tespit etti. Polis ekipleri, 4 şüpheliyi olayda kullanılan bıçaklarla birlikte yakaladı",
+      "shorts_hook": "Yenişehir'de bıçaklı kavga, 4 kişi gözaltı",
+      "quality_hook": "Yenişehir'de bıçaklı kavga, 4 kişi gözaltı",
+      "quality_narration": "Saat 15.00'te Yenişehir Mahallesi'nde Hezarfen Mesleki ve Teknik Anadolu Lisesi'nde 'yan bakma' tartışması bıçaklı kavgaya dönüştü. 17 yaşındaki G.Ç., bıçakla yaralanarak Marmara Eğitim ve Araştırma Hastanesi'ne kaldırıldı ve taburcu edildi. Olayda Y.E.T., S.E.T., H.S. ve T.Ö. adlı dört şüpheli, bıçaklarla birlikte gözaltına alındı.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Saat 15.00'te Yenişehir Mahallesi'nde Hezarfen Mesleki ve Teknik Anadolu Lisesi'nde 'yan bakma' tartışması bıçaklı kavgaya dönüştü.",
+        "17 yaşındaki G.Ç., bıçakla yaralanarak Marmara Eğitim ve Araştırma Hastanesi'ne kaldırıldı ve taburcu edildi.",
+        "Olayda Y.E.T., S.E.T., H.S. ve T.Ö. adlı dört şüpheli, bıçaklarla birlikte gözaltına alındı."
+      ],
+      "youtube_description": "Yenişehir'de 15.00'da bir tartışma bıçaklı kavgaya dönüştü, 17 yaşındaki G.Ç. yaralandı ve dört kişi gözaltına alındı. Sizce okullarda bu tür olayların önlenmesi için ne yapılmalı?",
+      "visual_query": "student knife fight",
+      "spoken_text": "Yenişehirde bıçaklı kavga 4 kişi gözaltı Saat 15 virgül 00te Yenişehir Mahallesinde Hezarfen Mesleki ve Teknik Anadolu Lisesinde yan bakma tartışması bıçaklı kavgaya dönüştü 17 yaşındaki G Ç bıçakla yaralanarak Marmara Eğitim ve Araştırma Hastanesine kaldırıldı ve taburcu edildi Olayda Y E T S E T H S ve T Ö adlı dört şüpheli bıçaklarla birlikte gözaltına alındı Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Yenişehirde bıçaklı kavga 4 kişi gözaltı. Saat 15 virgül 00te Yenişehir Mahallesinde Hezarfen Mesleki ve Teknik Anadolu Lisesinde yan bakma tartışması bıçaklı kavgaya dönüştü. 17 yaşındaki G Ç bıçakla yaralanarak Marmara Eğitim ve Araştırma Hastanesine kaldırıldı ve taburcu edildi. Olayda Y E T S E T H S ve T Ö adlı dört şüpheli bıçaklarla birlikte gözaltına alındı. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "lisede şiddet",
+        "bıçaklı kavga",
+        "gözaltı",
+        "Yenişehir",
+        "öğrenci yaralanma"
+      ],
+      "youtube_hashtags": "#shorts #haber #gündem",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Yenişehirde bıçaklı kavga 4 kişi gözaltı Saat 15 virgül 00te Yenişehir Mahallesinde Hezarfen Mesleki ve Teknik Anadolu Lisesinde yan bakma tartışması bıçaklı kavgaya dönüştü 17 yaşındaki G Ç bıçakla yaralanarak Marmara Eğitim ve Araştırma Hastanesine kaldırıldı ve taburcu edildi Olayda Y E T S E T H S ve T Ö adlı dört şüpheli bıçaklarla birlikte gözaltına alındı Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
