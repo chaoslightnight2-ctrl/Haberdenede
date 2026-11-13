@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-13T21:59:58.004641+00:00",
       "source_modified_at": "",
+      "run_id": "43515268367",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "-gfFBJjmlK8",
+      "youtube_url": "https://youtu.be/-gfFBJjmlK8",
+      "publish_at_local": "2026-11-14T21:00:00+03:00",
+      "publish_at_utc": "2026-11-14T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "BIST 100 31,63 puan yükseldi, hacim 114,2 milyar",
+      "narration": "BIST 100 endeksi bugün 31 virgül 63 puan yükseldi BIST 100 endeksi önceki kapanışa göre 31 virgül 63 puan artarak günü pozitif tamamladı Toplam işlem hacmi 114 virgül 2 milyar lira olarak kaydedildi ve orman kağıt basım sektörü yüzde 2 virgül 52 ile en çok kazandı Bankacılık endeksi yüzde 0 virgül 69 değer kaybederken metal eşya makina sektörü yüzde 1 virgül 60 düşüş gösterdi Türkiyeden Haber kanalına abone ol",
+      "description": "BIST 100'ün yükselişi ve yüksek işlem hacmi piyasayı canlandırdı. Sizce bu artış uzun vadeli bir trend mi?",
+      "visual_query": "stock chart rising",
+      "tags": [
+        "borsa",
+        "bist100",
+        "işlemhacmi",
+        "sektörendeksleri",
+        "ekonomi"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Borsa günü yükselişle tamamladı",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-13T22:08:23.784151+00:00",
+      "source_modified_at": "2026-11-13T18:25:45.91",
       "run_id": "43515268367"
     }
   ],

@@ -5560,7 +5560,30 @@
       "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-baedeki-trafik-kazasinda-hayatini-kaybedenler-icin-taziye-mesaji-963217.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "BIST 100 31,63 puan yükseldi, hacim 114,2 milyar",
+      "summary": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 0,27 değer kazanarak 11.842,82 puandan tamamladı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4124427",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-13T18:24:55+03:00",
+      "fingerprint": "9dcf8757209237457d01f0ac7bf9b81bfa51e687",
+      "viral_score": 69.47,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-14T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/-gfFBJjmlK8",
+      "video_id": "-gfFBJjmlK8",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-14T01:16:40.740447+03:00",
+      "publish_at_utc": "2026-11-14T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Borsa günü yükselişle tamamladı",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/4124427",
+      "source_modified_at": "2026-11-13T18:25:45.91",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
