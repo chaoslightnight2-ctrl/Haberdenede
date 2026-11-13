@@ -1,39 +1,10 @@
 {
-  "source_run": "43347059885",
-  "verified_at": "2026-11-13T02:09:15.354168+00:00",
-  "videos": [
-    {
-      "index": 3,
-      "video_id": "U1nug3cNFZo",
-      "youtube_url": "https://youtu.be/U1nug3cNFZo",
-      "title": "COP31 Trafik Tedbiri D‑400 Antalya‑Serik’te Sonlandı",
-      "narration": "COP31 trafik tedbiri D 400te sona erdi Valilik COP31 kapsamında Antalya Serik yönündeki D 400 dubalama sisteminin 13 Kasım 2026 saat 00 virgül 00de sona erdiğini duyurdu 06 virgül 00 22 virgül 00 saatleri arasında 3 500 kg üzeri yük taşıyan kamyonetler şehirlerarası otobüsler ve yarım otobüsler Taşağıl Köprülü Kavşağından itibaren D 400ü ve Antalya merkezine gidiş yolu kullanamayacak Diğer trafik tedbirlerinin ise uygulanmaya devam edeceği belirtildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-13T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-13T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 41.366667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/U1nug3cNFZo.jpg"
-    }
-  ],
+  "source_run": "43451883022",
+  "verified_at": "2026-11-13T15:24:39.547153+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -47,8 +18,7 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
-  "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 2,
   "published_count": 0,
   "accepted_complete": false
 }
