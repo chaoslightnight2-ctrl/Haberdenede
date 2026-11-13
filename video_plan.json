@@ -1,4 +1,33 @@
 {
-  "generated_at": "2026-11-13T01:15:14.909207+03:00",
-  "videos": []
+  "generated_at": "2026-11-13T04:45:34.884058+03:00",
+  "videos": [
+    {
+      "video_id": "U1nug3cNFZo",
+      "youtube_url": "https://youtu.be/U1nug3cNFZo",
+      "publish_at_local": "2026-11-13T19:00:00+03:00",
+      "publish_at_utc": "2026-11-13T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "COP31 Trafik Tedbiri D‑400 Antalya‑Serik’te Sonlandı",
+      "narration": "COP31 trafik tedbiri D 400te sona erdi Valilik COP31 kapsamında Antalya Serik yönündeki D 400 dubalama sisteminin 13 Kasım 2026 saat 00 virgül 00de sona erdiğini duyurdu 06 virgül 00 22 virgül 00 saatleri arasında 3 500 kg üzeri yük taşıyan kamyonetler şehirlerarası otobüsler ve yarım otobüsler Taşağıl Köprülü Kavşağından itibaren D 400ü ve Antalya merkezine gidiş yolu kullanamayacak Diğer trafik tedbirlerinin ise uygulanmaya devam edeceği belirtildi Türkiyeden Haber kanalına abone ol",
+      "description": "Antalya‑Serik yönündeki dubalama sistemi 13 Kasım’da kapatıldı, ancak ağır tonajlı araçlar ve otobüsler için 06‑22 saatleri arasında kısıtlamalar sürdürüyor. Sizce bu önlem şehir trafiğini ne kadar rahatlatır ve uzun vadede faydalı olur?",
+      "visual_query": "cars on highway",
+      "tags": [
+        "COP31",
+        "trafik",
+        "Antalya",
+        "D-400",
+        "dubalama"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "COP31 kapsamında Antalya-Serik istikametinde gidiş-geliş şeklinde sürdürülen trafik uygulaması sona erdi",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-13T01:46:47.648065+00:00",
+      "source_modified_at": "2026-11-13T01:44:47.117",
+      "run_id": "43347059885",
+      "processing_status": "readback_scope_unavailable"
+    }
+  ]
 }

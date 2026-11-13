@@ -5537,7 +5537,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/gundem/cop31-kapsaminda-antalya-serik-istikametinde-gidis-gelis-seklinde-surdurulen-trafik-uygulamasi-sona-erdi/4123530",
       "source_modified_at": "2026-11-13T01:44:47.117",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
