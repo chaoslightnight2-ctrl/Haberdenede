@@ -5516,6 +5516,28 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31 Trafik Tedbiri D‑400 Antalya‑Serik’te Sonlandı",
+      "summary": "Antalya Valiliği, COP31 Zirvesi kapsamında D-400 kara yolunun Antalya-Serik istikametinde dubalama sistemiyle gidiş-geliş şeklinde sürdürülen trafik uygulamasının, 13 Kasım saat 00.00 itibarıyla sona erdirildiğini bildirdi.",
+      "url": "https://www.aa.com.tr/tr/gundem/cop31-kapsaminda-antalya-serik-istikametinde-gidis-gelis-seklinde-surdurulen-trafik-uygulamasi-sona-erdi/4123530",
+      "source": "Anadolu Ajansı Güncel",
+      "published_at": "2026-11-13T01:11:24+03:00",
+      "fingerprint": "f5cc44675b1f43fc98a67ee89e2addfcfc122267",
+      "viral_score": 65.26,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-13T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/U1nug3cNFZo",
+      "video_id": "U1nug3cNFZo",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-13T04:57:58.180866+03:00",
+      "publish_at_utc": "2026-11-13T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "COP31 kapsamında Antalya-Serik istikametinde gidiş-geliş şeklinde sürdürülen trafik uygulaması sona erdi",
+      "resolved_url": "https://www.aa.com.tr/tr/gundem/cop31-kapsaminda-antalya-serik-istikametinde-gidis-gelis-seklinde-surdurulen-trafik-uygulamasi-sona-erdi/4123530",
+      "source_modified_at": "2026-11-13T01:44:47.117",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }
