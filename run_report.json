@@ -59,7 +59,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-13T22:08:23.784151+00:00",
       "source_modified_at": "2026-11-13T18:25:45.91",
-      "run_id": "43515268367"
+      "run_id": "43515268367",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -72,6 +73,16 @@
       "index": 2,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister announces energy independence"
+    },
+    {
+      "index": 5,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: reactor start"
+    },
+    {
+      "source": "Bu hafta yatırım araçlarının performansı",
+      "stage": "generation",
+      "error": "visual_query yalnızca İngilizce arama kelimeleri içermeli"
     }
   ],
   "daily_existing_count": 0
