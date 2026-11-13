@@ -5539,6 +5539,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "BAE'de Zincirleme Trafik Kazası: 14 Ölü, 30 Yaralı",
+      "summary": "Dışişleri Bakanlığı, Birleşik Arap Emirlikleri'nde BAE meydana gelen zincirleme trafik kazasında hayatını kaybedenler için derin üzüntü duyulduğunu belirterek, ölenlerin yakınlarına ve BAE halkına başsağlığı dileğinde bulundu.",
+      "url": "https://www.trthaber.com/haber/gundem/turkiyeden-baedeki-trafik-kazasinda-hayatini-kaybedenler-icin-taziye-mesaji-963217.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-13T20:41:00+03:00",
+      "fingerprint": "a8210738f6cd406e238b97d276fbe5a0b1f6dc75",
+      "viral_score": 87.1,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-14T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/ruwyN1dLMOM",
+      "video_id": "ruwyN1dLMOM",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-14T01:08:17.912290+03:00",
+      "publish_at_utc": "2026-11-14T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye'den BAE'deki trafik kazasında hayatını kaybedenler için taziye mesajı",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/turkiyeden-baedeki-trafik-kazasinda-hayatini-kaybedenler-icin-taziye-mesaji-963217.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }

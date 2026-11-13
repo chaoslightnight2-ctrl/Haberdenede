@@ -1,11 +1,39 @@
 {
-  "run_id": "43451883022",
-  "generated_at": "2026-11-13T18:22:57.113468+03:00",
-  "target_count": 2,
+  "run_id": "43515268367",
+  "generated_at": "2026-11-14T00:58:53.533665+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "ruwyN1dLMOM",
+      "youtube_url": "https://youtu.be/ruwyN1dLMOM",
+      "publish_at_local": "2026-11-14T19:00:00+03:00",
+      "publish_at_utc": "2026-11-14T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "BAE'de Zincirleme Trafik Kazası: 14 Ölü, 30 Yaralı",
+      "narration": "BAEde zincirleme kazada 14 ölü 30 yaralı Dışişleri Bakanlığı BAEde zincirleme bir trafik kazasında 14 kişinin hayatını kaybettiğini ve 30 kişinin yaralandığını belirtti BAE İçişleri Bakanlığı kazada 23 aracın karıştığını ve yetkililerin nedenini araştırdığını duyurdu Türk yetkilileri ölenlerin yakınlarına ve Birleşik Arap Emirlikleri halkına başsağlığı diledi Türkiyeden Haber kanalına abone ol",
+      "description": "BAE'de 23 aracın karıştığı kazada 14 kişi hayatını kaybetti, 30 yaralandı. Bu tür kazaların önlenmesi için neler yapılmalı?",
+      "visual_query": "car crash uae",
+      "tags": [
+        "trafik kazası",
+        "BAE",
+        "ölüm",
+        "yaralanma",
+        "dışişleri bakanlığı"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Türkiye'den BAE'deki trafik kazasında hayatını kaybedenler için taziye mesajı",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-13T21:59:58.004641+00:00",
+      "source_modified_at": "",
+      "run_id": "43515268367"
+    }
+  ],
   "errors": [
     {
       "index": 1,
@@ -18,5 +46,5 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 0
 }
