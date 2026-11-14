@@ -1,59 +1,13 @@
 {
-  "source_run": "43540095429",
-  "verified_at": "2026-11-14T01:28:57.441510+00:00",
-  "videos": [
-    {
-      "index": 4,
-      "video_id": "OgQzTSkxkA0",
-      "youtube_url": "https://youtu.be/OgQzTSkxkA0",
-      "title": "Altın kilogram fiyatı %0,91 düşerek 6,321,000 TL oldu",
-      "narration": "Altın fiyatı bugün yüzde 0 virgül 91 düştü detaylar burada Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 91 düşüşle 6321000 TL olarak kaydedildi İşlem hacmi 4442655722 virgül 70 TL ve 350 virgül 24 kilogram olarak gerçekleşti En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-14T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-14T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.3,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/OgQzTSkxkA0.jpg"
-    }
-  ],
+  "source_run": "43603219207",
+  "verified_at": "2026-11-14T14:09:55.622299+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister announces raise"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister announces energy independence"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: reactor start"
-    }
-  ],
-  "public_listing_error": "HTTPError",
-  "target_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
