@@ -1,56 +1,12 @@
 {
-  "run_id": "43540095429",
-  "generated_at": "2026-11-14T04:22:20.666045+03:00",
-  "target_count": 1,
+  "run_id": "43603219207",
+  "generated_at": "2026-11-14T17:08:55.140461+03:00",
+  "target_count": 0,
   "dry_run": false,
   "private_recovery": false,
   "complete": true,
-  "videos": [
-    {
-      "video_id": "OgQzTSkxkA0",
-      "youtube_url": "https://youtu.be/OgQzTSkxkA0",
-      "publish_at_local": "2026-11-14T23:00:00+03:00",
-      "publish_at_utc": "2026-11-14T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "Altın kilogram fiyatı %0,91 düşerek 6,321,000 TL oldu",
-      "narration": "Altın fiyatı bugün yüzde 0 virgül 91 düştü detaylar burada Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 91 düşüşle 6321000 TL olarak kaydedildi İşlem hacmi 4442655722 virgül 70 TL ve 350 virgül 24 kilogram olarak gerçekleşti En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
-      "description": "Standart altının kilogram fiyatı %0,91 düşerek 6,321,000 TL'ye geriledi. Sizce bu düşüş yatırımcıları nasıl etkileyecek?",
-      "visual_query": "gold price drop",
-      "tags": [
-        "altın fiyatı",
-        "kilogram altın",
-        "borsa",
-        "yatırım",
-        "döviz"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "Altın bugünü de düşüşle kapattı",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-14T01:23:39.292469+00:00",
-      "source_modified_at": "",
-      "run_id": "43540095429",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
-  "errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister announces raise"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister announces energy independence"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: reactor start"
-    }
-  ],
-  "daily_existing_count": 2
+  "videos": [],
+  "errors": [],
+  "daily_existing_count": 3,
+  "daily_target_satisfied": true
 }
