@@ -138,7 +138,54 @@
       "audience_bucket": "nature",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Akkuyuda nükleer reaktör birkaç hafta içinde çalışmaya başlayacak Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar Akkuyu Nükleer Güç Santralinde ilk reaktörün fiziksel başlatmasını birkaç hafta içinde gerçekleştireceklerini duyurdu Bakan 2035e kadar ekonomilerin yüzde 35ini elektrifikasyon hedefiyle nükleer enerjinin kritik rol oynayacağını vurguladı Türkiye 2050 yılına kadar toplam 20 gigavatlık nükleer kurulu güç kapasitesine ulaşmayı ve elektrik ihtiyacının yüzde 10 12sini temiz kaynaklardan karşılamayı planlıyor Türkiyeden Haber kanalına abone ol"
+      "script": "Akkuyuda nükleer reaktör birkaç hafta içinde çalışmaya başlayacak Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar Akkuyu Nükleer Güç Santralinde ilk reaktörün fiziksel başlatmasını birkaç hafta içinde gerçekleştireceklerini duyurdu Bakan 2035e kadar ekonomilerin yüzde 35ini elektrifikasyon hedefiyle nükleer enerjinin kritik rol oynayacağını vurguladı Türkiye 2050 yılına kadar toplam 20 gigavatlık nükleer kurulu güç kapasitesine ulaşmayı ve elektrik ihtiyacının yüzde 10 12sini temiz kaynaklardan karşılamayı planlıyor Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "23:00"
+    },
+    {
+      "title": "Altın kilogram fiyatı %0,91 düşerek 6,321,000 TL oldu",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon 321 bin liraya geriledi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-bugunu-de-dususle-kapatti-963200.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-11-13T17:17:00+03:00",
+      "fingerprint": "b21e4e4a737e9259a0162f5fbe3955d2d796a309",
+      "direct_source": true,
+      "viral_score": 40.23,
+      "topic_bucket": "ekonomi_yasam",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-bugunu-de-dususle-kapatti-963200.html",
+      "source_headline": "Altın bugünü de düşüşle kapattı",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-14T01:23:39.292469+00:00",
+      "article_score": 38,
+      "article_text": "Altın piyasasında en düşük 6 milyon 245 bin lirayı, en yüksek 6 milyon 330 bin 500 lirayı gören standart altının kilogram fiyatı, günün sonunda yüzde 0,91 düşüşle 6 milyon 321 bin lira oldu Standart altının kilogram fiyatı dün günü 6 milyon 379 bin liradan tamamlamıştı KMKTP'de altında toplam işlem hacmi 4 milyar 442 milyon 655 bin 722,70 lira, işlem miktarı ise 350,24 kilogram oldu Tüm metallerde toplam işlem hacmi ise 4 milyar 603 milyon 71 bin 510,81 lira olarak gerçekleşti Altın borsasında bugün en fazla işlem yapan kurumlar, NMGlobal Kıymetli Madenler, Kuveyt Türk Katılım Bankası, Uğuras Kıymetli Madenler, Ahlatcı Döviz ve Kıymetli Madenler ile EHG Yetkili Müessese olarak sıralandı",
+      "content_quality": "article_text",
+      "model_source_context": "Altın piyasasında en düşük 6 milyon 245 bin lirayı, en yüksek 6 milyon 330 bin 500 lirayı gören standart altının kilogram fiyatı, günün sonunda yüzde 0,91 düşüşle 6 milyon 321 bin lira oldu Standart altının kilogram fiyatı dün günü 6 milyon 379 bin liradan tamamlamıştı KMKTP'de altında toplam işlem hacmi 4 milyar 442 milyon 655 bin 722,70 lira, işlem miktarı ise 350,24 kilogram oldu Tüm metallerde toplam işlem hacmi ise 4 milyar 603 milyon 71 bin 510,81 lira olarak gerçekleşti Altın borsasında bugün en fazla işlem yapan kurumlar, NMGlobal Kıymetli Madenler, Kuveyt Türk Katılım Bankası, Uğuras Kıymetli Madenler, Ahlatcı Döviz ve Kıymetli Madenler ile EHG Yetkili Müessese olarak sıralandı",
+      "shorts_hook": "Altın fiyatı bugün %0,91 düştü, detaylar burada",
+      "quality_hook": "Altın fiyatı bugün %0,91 düştü, detaylar burada",
+      "quality_narration": "Standart altının kilogram fiyatı, gün sonunda %0,91 düşüşle 6,321,000 TL olarak kaydedildi. İşlem hacmi 4,442,655,722,70 TL ve 350,24 kilogram olarak gerçekleşti. En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Standart altının kilogram fiyatı, gün sonunda %0,91 düşüşle 6,321,000 TL olarak kaydedildi.",
+        "İşlem hacmi 4,442,655,722,70 TL ve 350,24 kilogram olarak gerçekleşti.",
+        "En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı."
+      ],
+      "youtube_description": "Standart altının kilogram fiyatı %0,91 düşerek 6,321,000 TL'ye geriledi. Sizce bu düşüş yatırımcıları nasıl etkileyecek?",
+      "visual_query": "gold price drop",
+      "spoken_text": "Altın fiyatı bugün yüzde 0 virgül 91 düştü detaylar burada Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 91 düşüşle 6321000 TL olarak kaydedildi İşlem hacmi 4442655722 virgül 70 TL ve 350 virgül 24 kilogram olarak gerçekleşti En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Altın fiyatı bugün yüzde 0 virgül 91 düştü detaylar burada. Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 91 düşüşle 6321000 TL olarak kaydedildi. İşlem hacmi 4442655722 virgül 70 TL ve 350 virgül 24 kilogram olarak gerçekleşti. En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "altın fiyatı",
+        "kilogram altın",
+        "borsa",
+        "yatırım",
+        "döviz"
+      ],
+      "youtube_hashtags": "#shorts #ekonomi #altın",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Altın fiyatı bugün yüzde 0 virgül 91 düştü detaylar burada Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 91 düşüşle 6321000 TL olarak kaydedildi İşlem hacmi 4442655722 virgül 70 TL ve 350 virgül 24 kilogram olarak gerçekleşti En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
