@@ -1,47 +1,19 @@
 {
-  "source_run": "43515268367",
-  "verified_at": "2026-11-13T22:29:08.180647+00:00",
+  "source_run": "43540095429",
+  "verified_at": "2026-11-14T01:28:57.441510+00:00",
   "videos": [
     {
-      "index": 3,
-      "video_id": "ruwyN1dLMOM",
-      "youtube_url": "https://youtu.be/ruwyN1dLMOM",
-      "title": "BAE'de Zincirleme Trafik Kazası: 14 Ölü, 30 Yaralı",
-      "narration": "BAEde zincirleme kazada 14 ölü 30 yaralı Dışişleri Bakanlığı BAEde zincirleme bir trafik kazasında 14 kişinin hayatını kaybettiğini ve 30 kişinin yaralandığını belirtti BAE İçişleri Bakanlığı kazada 23 aracın karıştığını ve yetkililerin nedenini araştırdığını duyurdu Türk yetkilileri ölenlerin yakınlarına ve Birleşik Arap Emirlikleri halkına başsağlığı diledi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-14T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-14T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 30.966667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/ruwyN1dLMOM.jpg"
-    },
-    {
       "index": 4,
-      "video_id": "-gfFBJjmlK8",
-      "youtube_url": "https://youtu.be/-gfFBJjmlK8",
-      "title": "BIST 100 31,63 puan yükseldi, hacim 114,2 milyar",
-      "narration": "BIST 100 endeksi bugün 31 virgül 63 puan yükseldi BIST 100 endeksi önceki kapanışa göre 31 virgül 63 puan artarak günü pozitif tamamladı Toplam işlem hacmi 114 virgül 2 milyar lira olarak kaydedildi ve orman kağıt basım sektörü yüzde 2 virgül 52 ile en çok kazandı Bankacılık endeksi yüzde 0 virgül 69 değer kaybederken metal eşya makina sektörü yüzde 1 virgül 60 düşüş gösterdi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-14T18:00:00Z",
+      "video_id": "OgQzTSkxkA0",
+      "youtube_url": "https://youtu.be/OgQzTSkxkA0",
+      "title": "Altın kilogram fiyatı %0,91 düşerek 6,321,000 TL oldu",
+      "narration": "Altın fiyatı bugün yüzde 0 virgül 91 düştü detaylar burada Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 91 düşüşle 6321000 TL olarak kaydedildi İşlem hacmi 4442655722 virgül 70 TL ve 350 virgül 24 kilogram olarak gerçekleşti En yoğun işlem yapan kurumlar arasında NMGlobal Kıymetli Madenler ve Kuveyt Türk Katılım Bankası yer aldı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-14T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-14T18:00:00Z",
+        "publishAt": "2026-11-14T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -51,17 +23,17 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 34.7,
+        "duration": 35.3,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/-gfFBJjmlK8.jpg"
+      "preview": "maintenance/previews/OgQzTSkxkA0.jpg"
     }
   ],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
@@ -75,18 +47,13 @@
       "error": "No described asset matches scene 0: minister announces energy independence"
     },
     {
-      "index": 5,
+      "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: reactor start"
-    },
-    {
-      "source": "Bu hafta yatırım araçlarının performansı",
-      "stage": "generation",
-      "error": "visual_query yalnızca İngilizce arama kelimeleri içermeli"
     }
   ],
   "public_listing_error": "HTTPError",
-  "target_count": 3,
+  "target_count": 1,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
