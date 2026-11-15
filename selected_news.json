@@ -241,7 +241,62 @@
       "audience_bucket": "health_education",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "COP31de Türkiye İklim Okulunda sıfır atık mutfağı MEB COP31 kapsamında Türkiye İklim Okulunda şeflerin katılımıyla Sürdürülebilir Gastronomi temalı atölye düzenledi Atölyelerde bayat ekmekten fasulye paçası ve narenciye kabuğundan pankek yapılarak gıda atığının yeniden değerlendirilmesi gösterildi Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır da okulu ziyaret ederek atölye çalışmaları hakkında bilgi aldı Türkiyeden Haber kanalına abone ol"
+      "script": "COP31de Türkiye İklim Okulunda sıfır atık mutfağı MEB COP31 kapsamında Türkiye İklim Okulunda şeflerin katılımıyla Sürdürülebilir Gastronomi temalı atölye düzenledi Atölyelerde bayat ekmekten fasulye paçası ve narenciye kabuğundan pankek yapılarak gıda atığının yeniden değerlendirilmesi gösterildi Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır da okulu ziyaret ederek atölye çalışmaları hakkında bilgi aldı Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "21:00",
+      "audio_path": "output/voiceover_5.mp3",
+      "background_path": "output/background_5.mp4",
+      "video_path": "output/short_5.mp4",
+      "video_id": "xqa3of89wnM",
+      "youtube_url": "https://youtu.be/xqa3of89wnM",
+      "publish_at_local": "2026-11-16T21:00:00+03:00",
+      "publish_at_utc": "2026-11-16T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Ergani Trafik Kazasını Silah Saydı, 28 Yıl Hapis",
+      "summary": "Diyarbakır'da Emsal Karar: Mahkeme Trafik Kazasında Otomobili 'Silah' Saydı! Gazete Kritik",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYTI3cWJ3dllKUVpkTDFTY1dBWjN4OVdsRlVscHN1ZHFFeXM2dW9xR3dYUjRHMWdiMEJZWFpLbXZ0bzlxQUtheHVnTE9sYnRVM3B3aTJwbkdLU1hIZk9NbUdVLVFfdDBncnYxMl90bHoxc0RBa1JfZGNPY3lHczYzSlBjdVQ3dklvMTVUWlhsSkxEMXkyN2dtSnh4MU5YN0dyTmlkUmUyMXkwbzcteVBvemNLQVc?oc=5",
+      "query": "Türkiye adliye hukuk mahkeme karar",
+      "source": "Google News RSS",
+      "published_at": "2026-11-15T13:12:11+03:00",
+      "fingerprint": "a30584ef4f673bc75cc38abc0caf7daaca5f513f",
+      "viral_score": 77.64,
+      "topic_bucket": "adliye_toplum",
+      "source_name": "gazete kritik",
+      "resolved_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYTI3cWJ3dllKUVpkTDFTY1dBWjN4OVdsRlVscHN1ZHFFeXM2dW9xR3dYUjRHMWdiMEJZWFpLbXZ0bzlxQUtheHVnTE9sYnRVM3B3aTJwbkdLU1hIZk9NbUdVLVFfdDBncnYxMl90bHoxc0RBa1JfZGNPY3lHczYzSlBjdVQ3dklvMTVUWlhsSkxEMXkyN2dtSnh4MU5YN0dyTmlkUmUyMXkwbzcteVBvemNLQVc?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_headline": "Diyarbakır'da Emsal Karar: Mahkeme Trafik Kazasında Otomobili 'Silah' Saydı!",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-15T20:45:10.084085+00:00",
+      "article_score": 107,
+      "article_text": "Diyarbakır'da meydana gelen ölümlü bir trafik kazasının yargı sürecinden, sürücüleri yakından ilgilendiren ve Türk hukuk sisteminde nadir görülen emsal bir karar çıktı. Ergani Ağır Ceza Mahkemesi, kural tanımaz sürüşün ölümle sonuçlandığı dosyada, aracı silah kapsamında değerlendirerek cezayı artırdı. Kaldırımdaki Öğrencilere Çarpmıştı Olay, 14 Nisan tarihinde Diyarbakır'ın Ergani ilçesindeki Hastane Caddesi'nde yaşandı. Ehliyetsiz olduğu belirlenen 18 yaşındaki Muhammed Mustafa Can, idaresindeki otomobille okul yolunda kaldırımda yürüyen öğrencilerin arasına daldı. Feci kazada ağır yaralanan 17 yaşındaki lise öğrencisi Muhammed Ali Kalkan, kaldırıldığı hastanede verdiği dört günlük yaşam mücadelesini kaybederken, 11 yaşındaki Ahmet Çınar Üstü ise yaralı olarak kurtuldu. Mahkeme \"Olası Kast\" ve \"Silah\" Dedi Tutuklu yargılanan sanık, savunmasında ehliyetinin olmadığını, aracı izinsiz aldığını ve olay esnasında yola aniden bir çocuğun çıkması üzerine direksiyonu kırdığını iddia etse de mahkeme heyeti bu savunmayı, kamera kayıtları ve tanık ifadeleri doğrultusunda inandırıcı bulmadı. Mahkeme; sanığın gündüz vakti, okul çevresinde ve yayaların yoğun olduğu bir bölgede süratli seyrettiğini, drift attığını ve ölümle sonuçlanabilecek bir tabloyu öngörmesine rağmen aracı kullanmaya (\"olursa olsun\" diyerek) devam ettiğini vurguladı. Toplam 28 Yıl 4 Ay Hapis Cezası Karar duruşmasında sanık Can'a, 17 yaşındaki gencin ölümü sebebiyle \"olası kastla çocuğu öldürme\" suçundan önce müebbet, iyi hal indirimleriyle birlikte 25 yıl hapis cezası verildi. Dosyanın en dikkat çeken kısmı ise yaralanan 11 yaşındaki Ahmet Çınar Üstü için verilen hüküm oldu. Mahkeme, yaralama eylemini değerlendirirken sanığın altındaki otomobili \"silah\" olarak kabul etti. Bu suçtan da sanığa ayrıca 3 yıl 4 ay 25 gün hapis cezası verildi. Toplamda 28 yıl 4 ay 25 gün hapis cezasına çarptırılan sanığın dosyası, itirazlar üzerine incelenmek üzere Diyarbakır Bölge Adliye Mahkemesi'ne sevk edildi",
+      "content_quality": "article_text",
+      "model_source_context": "Diyarbakır'da meydana gelen ölümlü bir trafik kazasının yargı sürecinden, sürücüleri yakından ilgilendiren ve Türk hukuk sisteminde nadir görülen emsal bir karar çıktı. Ergani Ağır Ceza Mahkemesi, kural tanımaz sürüşün ölümle sonuçlandığı dosyada, aracı silah kapsamında değerlendirerek cezayı artırdı. Kaldırımdaki Öğrencilere Çarpmıştı Olay, 14 Nisan tarihinde Diyarbakır'ın Ergani ilçesindeki Hastane Caddesi'nde yaşandı. Ehliyetsiz olduğu belirlenen 18 yaşındaki Muhammed Mustafa Can, idaresindeki otomobille okul yolunda kaldırımda yürüyen öğrencilerin arasına daldı. Feci kazada ağır yaralanan 17 yaşındaki lise öğrencisi Muhammed Ali Kalkan, kaldırıldığı hastanede verdiği dört günlük yaşam mücadelesini kaybederken, 11 yaşındaki Ahmet Çınar Üstü ise yaralı olarak kurtuldu. Mahkeme \"Olası Kast\" ve \"Silah\" Dedi Tutuklu yargılanan sanık, savunmasında ehliyetinin olmadığını, aracı izinsiz aldığını ve olay esnasında yola aniden bir çocuğun çıkması üzerine direksiyonu kırdığını iddia etse de mahkeme heyeti bu savunmayı, kamera kayıtları ve tanık ifadeleri doğrultusunda inandırıcı bulmadı. Mahkeme; sanığın gündüz vakti, okul çevresinde ve yayaların yoğun olduğu bir bölgede süratli seyrettiğini, drift attığını ve ölümle sonuçlanabilecek bir tabloyu öngörmesine rağmen aracı kullanmaya (\"olursa olsun\" diyerek) devam ettiğini vurguladı. Toplam 28 Yıl 4 Ay Hapis Cezası Karar duruşmasında sanık Can'a, 17 yaşındaki gencin ölümü sebebiyle \"olası kastla çocuğu öldürme\" suçundan önce müebbet, iyi hal indirimleriyle birlikte 25 yıl hapis cezası verildi. Dosyanın en dikkat çeken kısmı ise yaralanan 11 yaşındaki Ahmet Çınar Üstü için verilen hüküm oldu. Mahkeme, yaralama eylemini değerlendirirken sanığın altındaki otomobili \"silah\" olarak kabul etti. Bu suçtan da sanığa ayrıca 3 yıl 4 ay 25 gün hapis cezası verildi. Toplamda 28 yıl 4 ay 25 gün hapis cezasına çarptırılan sanığın dosyası, itirazlar üzerine incelenmek üzere Diyarbakır Bölge Adliye Mahkemesi'ne sevk edildi",
+      "shorts_hook": "Ergani Mahkemesi, trafik kazasını silah olarak nitelendi",
+      "quality_hook": "Ergani Mahkemesi, trafik kazasını silah olarak nitelendi",
+      "quality_narration": "Ergani Ağır Ceza Mahkemesi, 14 Nisan’da Hastane Caddesi’nde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi. 18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can, 17 yaşındaki öğrenci Muhammed Ali Kalkan’ı öldürürken 11 yaşındaki Ahmet Çınar Üstü’nü yaraladı. Mahkeme, sanığın “olası kastla çocuğu öldürme” suçundan 25 yıl, silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Ergani Ağır Ceza Mahkemesi, 14 Nisan’da Hastane Caddesi’nde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi.",
+        "18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can, 17 yaşındaki öğrenci Muhammed Ali Kalkan’ı öldürürken 11 yaşındaki Ahmet Çınar Üstü’nü yaraladı.",
+        "Mahkeme, sanığın “olası kastla çocuğu öldürme” suçundan 25 yıl, silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı."
+      ],
+      "youtube_description": "Mahkeme, kazayı silah olarak değerlendirerek ağır ceza verdi. Sizce bu karar diğer trafik davalarına örnek olur mu?",
+      "visual_query": "car crash courtroom",
+      "spoken_text": "Ergani Mahkemesi trafik kazasını silah olarak nitelendi Ergani Ağır Ceza Mahkemesi 14 Nisanda Hastane Caddesinde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi 18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can 17 yaşındaki öğrenci Muhammed Ali Kalkanı öldürürken 11 yaşındaki Ahmet Çınar Üstünü yaraladı Mahkeme sanığın olası kastla çocuğu öldürme suçundan 25 yıl silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Ergani Mahkemesi trafik kazasını silah olarak nitelendi. Ergani Ağır Ceza Mahkemesi 14 Nisanda Hastane Caddesinde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi. 18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can 17 yaşındaki öğrenci Muhammed Ali Kalkanı öldürürken 11 yaşındaki Ahmet Çınar Üstünü yaraladı. Mahkeme sanığın olası kastla çocuğu öldürme suçundan 25 yıl silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "trafik kazası",
+        "silah sayma",
+        "Ergani",
+        "hapis cezası",
+        "adli karar"
+      ],
+      "youtube_hashtags": "#shorts #adliye #trafik",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Ergani Mahkemesi trafik kazasını silah olarak nitelendi Ergani Ağır Ceza Mahkemesi 14 Nisanda Hastane Caddesinde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi 18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can 17 yaşındaki öğrenci Muhammed Ali Kalkanı öldürürken 11 yaşındaki Ahmet Çınar Üstünü yaraladı Mahkeme sanığın olası kastla çocuğu öldürme suçundan 25 yıl silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
