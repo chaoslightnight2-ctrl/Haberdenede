@@ -1,13 +1,30 @@
 {
-  "source_run": "43634688274",
-  "verified_at": "2026-11-14T19:56:59.464437+00:00",
+  "source_run": "43660519950",
+  "verified_at": "2026-11-15T01:08:50.992592+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
   "processed_count": 0,
-  "complete": true,
-  "generation_errors": [],
-  "target_count": 0,
+  "complete": false,
+  "generation_errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister announces raise"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister announces energy independence"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: reactor start"
+    }
+  ],
+  "public_listing_error": "HTTPError",
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
