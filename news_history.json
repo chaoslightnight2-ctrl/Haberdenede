@@ -5608,6 +5608,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Almanya'da genç mühendisler savunma şirketleriyle buluştu",
+      "summary": "Türkiye'nin savunma sanayii alanında yürüttüğü milli projeler ve teknolojik gelişim nedeniyle Avrupa'da eğitim gören ve önde gelen küresel şirketlerde çalışan Türk mühendisleri rotalarını kendi vatanlarına çeviriyor.",
+      "url": "https://www.trthaber.com/haber/savunma/milli-projeler-turk-muhendislerin-rotasini-turkiyeye-cevirdi-963348.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-15T16:18:00+03:00",
+      "fingerprint": "901363e01e00034250a43e403360cbb82bfded1e",
+      "viral_score": 73.6,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-16T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/saFsDv86Qd4",
+      "video_id": "saFsDv86Qd4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-15T23:38:38.263171+03:00",
+      "publish_at_utc": "2026-11-16T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Milli projeler Türk mühendislerin rotasını Türkiye'ye çevirdi",
+      "resolved_url": "https://www.trthaber.com/haber/savunma/milli-projeler-turk-muhendislerin-rotasini-turkiyeye-cevirdi-963348.html",
+      "source_modified_at": "",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question"
     }
   ]
 }

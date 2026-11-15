@@ -1,11 +1,39 @@
 {
-  "run_id": "43725972677",
-  "generated_at": "2026-11-15T17:45:21.750643+03:00",
+  "run_id": "43757797324",
+  "generated_at": "2026-11-15T23:24:27.718990+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "saFsDv86Qd4",
+      "youtube_url": "https://youtu.be/saFsDv86Qd4",
+      "publish_at_local": "2026-11-16T19:00:00+03:00",
+      "publish_at_utc": "2026-11-16T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Almanya'da genç mühendisler savunma şirketleriyle buluştu",
+      "narration": "Almanyada genç mühendisler savunma sanayiyle buluştu Cumhurbaşkanlığı Savunma Sanayii Başkanlığı Almanyanın Münih ve Stuttgart şehirlerinde Milli Yetkinlik Hamlesi kapsamında teknoloji ve yetkinlik buluşmaları düzenledi Bu buluşmalarda genç mühendisler ASELSAN TUSAŞ ROKETSAN ve HAVELSAN gibi savunma sanayi şirketlerinin üst düzey temsilcileriyle görüşerek staj ve kariyer fırsatları hakkında bilgi aldı ROKETSANda lider mühendis Hasan Karaali yapay zeka odaklı çok disiplinli tasarım optimizasyonu projelerini ve İngilteredeki doktora deneyimini Türkiyeye taşıdığını belirtti Türkiyeden Haber kanalına abone ol",
+      "description": "Almanya'da düzenlenen buluşmada genç mühendisler, savunma sanayi temsilcileriyle kariyer fırsatları konuştu. Siz de benzer bir deneyim yaşamak ister misiniz?",
+      "visual_query": "young engineers meeting",
+      "tags": [
+        "savunma sanayi",
+        "genç mühendis",
+        "uluslararası staj",
+        "teknoloji buluşması",
+        "Milli Yetkinlik Hamlesi"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Milli projeler Türk mühendislerin rotasını Türkiye'ye çevirdi",
+      "audience_bucket": "technology_science",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-15T20:25:45.859063+00:00",
+      "source_modified_at": "",
+      "run_id": "43757797324"
+    }
+  ],
   "errors": [
     {
       "index": 1,
@@ -21,11 +49,6 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: reactor start"
-    },
-    {
-      "source": "Milli projeler Türk mühendislerin rotasını Türkiye'ye çevirdi",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 0
