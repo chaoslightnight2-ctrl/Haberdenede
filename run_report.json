@@ -1,6 +1,6 @@
 {
-  "run_id": "43660519950",
-  "generated_at": "2026-11-15T03:55:43.345777+03:00",
+  "run_id": "43725972677",
+  "generated_at": "2026-11-15T17:45:21.750643+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
@@ -21,6 +21,11 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: reactor start"
+    },
+    {
+      "source": "Milli projeler Türk mühendislerin rotasını Türkiye'ye çevirdi",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 0
