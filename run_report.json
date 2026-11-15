@@ -59,6 +59,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-15T20:38:40.810413+00:00",
       "source_modified_at": "",
+      "run_id": "43757797324",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "OYZDZjL2PSw",
+      "youtube_url": "https://youtu.be/OYZDZjL2PSw",
+      "publish_at_local": "2026-11-16T23:00:00+03:00",
+      "publish_at_utc": "2026-11-16T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 6,
+      "title": "Ergani Trafik Kazasını Silah Saydı, 28 Yıl Hapis",
+      "narration": "Ergani Mahkemesi trafik kazasını silah olarak nitelendi Ergani Ağır Ceza Mahkemesi 14 Nisanda Hastane Caddesinde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi 18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can 17 yaşındaki öğrenci Muhammed Ali Kalkanı öldürürken 11 yaşındaki Ahmet Çınar Üstünü yaraladı Mahkeme sanığın olası kastla çocuğu öldürme suçundan 25 yıl silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı Türkiyeden Haber kanalına abone ol",
+      "description": "Mahkeme, kazayı silah olarak değerlendirerek ağır ceza verdi. Sizce bu karar diğer trafik davalarına örnek olur mu?",
+      "visual_query": "car crash courtroom",
+      "tags": [
+        "trafik kazası",
+        "silah sayma",
+        "Ergani",
+        "hapis cezası",
+        "adli karar"
+      ],
+      "video_path": "output/short_6.mp4",
+      "source_headline": "Diyarbakır'da Emsal Karar: Mahkeme Trafik Kazasında Otomobili 'Silah' Saydı!",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-15T20:45:10.084085+00:00",
+      "source_modified_at": "",
       "run_id": "43757797324"
     }
   ],

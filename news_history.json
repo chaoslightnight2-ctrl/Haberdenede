@@ -5652,7 +5652,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/turkiye-iklim-okulu-gastronomi-ve-sifir-atik-etkinlikleriyle-cop31de-ilgi-odagi-oldu-963359.html",
       "source_modified_at": "",
       "audience_bucket": "health_education",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Ergani Trafik Kazasını Silah Saydı, 28 Yıl Hapis",
+      "summary": "Diyarbakır'da Emsal Karar: Mahkeme Trafik Kazasında Otomobili 'Silah' Saydı! Gazete Kritik",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYTI3cWJ3dllKUVpkTDFTY1dBWjN4OVdsRlVscHN1ZHFFeXM2dW9xR3dYUjRHMWdiMEJZWFpLbXZ0bzlxQUtheHVnTE9sYnRVM3B3aTJwbkdLU1hIZk9NbUdVLVFfdDBncnYxMl90bHoxc0RBa1JfZGNPY3lHczYzSlBjdVQ3dklvMTVUWlhsSkxEMXkyN2dtSnh4MU5YN0dyTmlkUmUyMXkwbzcteVBvemNLQVc?oc=5",
+      "source": "Google News RSS",
+      "published_at": "2026-11-15T13:12:11+03:00",
+      "fingerprint": "a30584ef4f673bc75cc38abc0caf7daaca5f513f",
+      "viral_score": 77.64,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-16T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/OYZDZjL2PSw",
+      "video_id": "OYZDZjL2PSw",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-16T00:01:05.011957+03:00",
+      "publish_at_utc": "2026-11-16T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Diyarbakır'da Emsal Karar: Mahkeme Trafik Kazasında Otomobili 'Silah' Saydı!",
+      "resolved_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYTI3cWJ3dllKUVpkTDFTY1dBWjN4OVdsRlVscHN1ZHFFeXM2dW9xR3dYUjRHMWdiMEJZWFpLbXZ0bzlxQUtheHVnTE9sYnRVM3B3aTJwbkdLU1hIZk9NbUdVLVFfdDBncnYxMl90bHoxc0RBa1JfZGNPY3lHczYzSlBjdVQ3dklvMTVUWlhsSkxEMXkyN2dtSnh4MU5YN0dyTmlkUmUyMXkwbzcteVBvemNLQVc?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
