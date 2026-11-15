@@ -1,6 +1,6 @@
 {
-  "source_run": "43660519950",
-  "verified_at": "2026-11-15T01:08:50.992592+00:00",
+  "source_run": "43725972677",
+  "verified_at": "2026-11-15T14:49:04.941035+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -21,9 +21,13 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: reactor start"
+    },
+    {
+      "source": "Milli projeler Türk mühendislerin rotasını Türkiye'ye çevirdi",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "public_listing_error": "HTTPError",
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
