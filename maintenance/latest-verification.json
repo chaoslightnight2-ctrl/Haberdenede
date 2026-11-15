@@ -1,10 +1,95 @@
 {
-  "source_run": "43725972677",
-  "verified_at": "2026-11-15T14:49:04.941035+00:00",
-  "videos": [],
+  "source_run": "43757797324",
+  "verified_at": "2026-11-15T21:02:15.957065+00:00",
+  "videos": [
+    {
+      "index": 4,
+      "video_id": "saFsDv86Qd4",
+      "youtube_url": "https://youtu.be/saFsDv86Qd4",
+      "title": "Almanya'da genç mühendisler savunma şirketleriyle buluştu",
+      "narration": "Almanyada genç mühendisler savunma sanayiyle buluştu Cumhurbaşkanlığı Savunma Sanayii Başkanlığı Almanyanın Münih ve Stuttgart şehirlerinde Milli Yetkinlik Hamlesi kapsamında teknoloji ve yetkinlik buluşmaları düzenledi Bu buluşmalarda genç mühendisler ASELSAN TUSAŞ ROKETSAN ve HAVELSAN gibi savunma sanayi şirketlerinin üst düzey temsilcileriyle görüşerek staj ve kariyer fırsatları hakkında bilgi aldı ROKETSANda lider mühendis Hasan Karaali yapay zeka odaklı çok disiplinli tasarım optimizasyonu projelerini ve İngilteredeki doktora deneyimini Türkiyeye taşıdığını belirtti Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-16T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-16T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 42.3,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/saFsDv86Qd4.jpg"
+    },
+    {
+      "index": 5,
+      "video_id": "xqa3of89wnM",
+      "youtube_url": "https://youtu.be/xqa3of89wnM",
+      "title": "COP31'de Türkiye İklim Okulu'nda Sıfır Atık Gastronomi",
+      "narration": "COP31de Türkiye İklim Okulunda sıfır atık mutfağı MEB COP31 kapsamında Türkiye İklim Okulunda şeflerin katılımıyla Sürdürülebilir Gastronomi temalı atölye düzenledi Atölyelerde bayat ekmekten fasulye paçası ve narenciye kabuğundan pankek yapılarak gıda atığının yeniden değerlendirilmesi gösterildi Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır da okulu ziyaret ederek atölye çalışmaları hakkında bilgi aldı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-16T18:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-16T18:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 33.8,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/xqa3of89wnM.jpg"
+    },
+    {
+      "index": 6,
+      "video_id": "OYZDZjL2PSw",
+      "youtube_url": "https://youtu.be/OYZDZjL2PSw",
+      "title": "Ergani Trafik Kazasını Silah Saydı, 28 Yıl Hapis",
+      "narration": "Ergani Mahkemesi trafik kazasını silah olarak nitelendi Ergani Ağır Ceza Mahkemesi 14 Nisanda Hastane Caddesinde gerçekleşen ölümcül kazada aracı silah sayarak 28 yıl 4 ay 25 gün hapis cezası verdi 18 yaşındaki ehliyetsiz sürücü Muhammed Mustafa Can 17 yaşındaki öğrenci Muhammed Ali Kalkanı öldürürken 11 yaşındaki Ahmet Çınar Üstünü yaraladı Mahkeme sanığın olası kastla çocuğu öldürme suçundan 25 yıl silah suçundan ise 3 yıl 4 ay 25 gün hapis cezası almasını onayladı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-16T20:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-16T20:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 39.566667,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/OYZDZjL2PSw.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 3,
+  "processed_count": 3,
   "complete": false,
   "generation_errors": [
     {
@@ -21,14 +106,9 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: reactor start"
-    },
-    {
-      "source": "Milli projeler Türk mühendislerin rotasını Türkiye'ye çevirdi",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "target_count": 3,
   "published_count": 0,
-  "accepted_complete": false
+  "accepted_complete": true
 }
