@@ -5677,6 +5677,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul Havalimanı 7,85 milyon yolcuyla en işlek",
+      "summary": "İstanbul Havalimanı eylül ayında yolcu sayısında, Sabiha Gökçen Havalimanı ise yıllık 40 milyonun üzerinde yolcuya hizmet veren havalimanları kategorisinde büyüme oranında Avrupa'da ilk sırada yer aldı.",
+      "url": "https://www.trthaber.com/haber/ekonomi/istanbulun-havalimanlari-yolcu-sayisi-ve-buyumede-avrupa-zirvesinde-963585.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-17T17:17:00+03:00",
+      "fingerprint": "3eb2bb37c61850948f6819fb6826d5e3455d0c72",
+      "viral_score": 66.84,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-17T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/WmrZldOnGbI",
+      "video_id": "WmrZldOnGbI",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-17T20:06:34.758572+03:00",
+      "publish_at_utc": "2026-11-17T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İstanbul'un havalimanları yolcu sayısı ve büyümede Avrupa zirvesinde",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/istanbulun-havalimanlari-yolcu-sayisi-ve-buyumede-avrupa-zirvesinde-963585.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }
