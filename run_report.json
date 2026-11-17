@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-17T16:53:08.407960+00:00",
       "source_modified_at": "",
+      "run_id": "44130596512",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "LPFGo4mvAVI",
+      "youtube_url": "https://youtu.be/LPFGo4mvAVI",
+      "publish_at_local": "2026-11-17T23:00:00+03:00",
+      "publish_at_utc": "2026-11-17T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Altın fiyatı 6.314.000 TL'ye yükseldi, hacim rekor",
+      "narration": "Altın fiyatı hafif yükseldi işlem hacmi rekor seviyede Standart altının kilogram fiyatı gün sonunda 6314000 TL olarak yüzde 0 virgül 02 artış gösterdi İşlem hacmi 8773216097 virgül 76 TLye ulaşırken toplam işlem miktarı 1395 virgül 98 kilogram oldu En fazla işlem yapan kurumlar arasında Yapı ve Kredi Bankası ve Zirve Değerli Madenler yer aldı Türkiyeden Haber kanalına abone ol",
+      "description": "Altın kilogram fiyatı 6.314.000 TL'ye çıktı ve işlem hacmi 8,77 milyar TL'ye ulaştı. Sizce bu yükseliş ne kadar sürecek?",
+      "visual_query": "gold price rising",
+      "tags": [
+        "altın fiyatı",
+        "kilogram altın",
+        "borsa",
+        "işlem hacmi",
+        "ekonomi"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Altın fiyatlarında son durum",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-17T17:06:37.015755+00:00",
+      "source_modified_at": "",
       "run_id": "44130596512"
     }
   ],
