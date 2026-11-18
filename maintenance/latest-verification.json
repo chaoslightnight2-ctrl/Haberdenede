@@ -1,67 +1,10 @@
 {
-  "source_run": "44130596512",
-  "verified_at": "2026-11-17T17:25:17.195644+00:00",
-  "videos": [
-    {
-      "index": 1,
-      "video_id": "WmrZldOnGbI",
-      "youtube_url": "https://youtu.be/WmrZldOnGbI",
-      "title": "İstanbul Havalimanı 7,85 milyon yolcuyla en işlek",
-      "narration": "İstanbul Havalimanı Avrupanın en işlek havalimanı oldu İstanbul Havalimanı eylülde 7 virgül 85 milyon yolcu taşıyarak Avrupanın en işlek havalimanı konumuna geldi Bu rakam bir önceki yılın aynı dönemine göre yüzde 2 virgül 8 artış gösteriyor Sabiha Gökçen ise 4 virgül 79 milyon yolcuyla yüzde 8 virgül 4 büyüme sağlayarak Avrupanın en hızlı büyüyen havalimanı oldu Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-17T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-17T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 32.0,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/WmrZldOnGbI.jpg"
-    },
-    {
-      "index": 2,
-      "video_id": "LPFGo4mvAVI",
-      "youtube_url": "https://youtu.be/LPFGo4mvAVI",
-      "title": "Altın fiyatı 6.314.000 TL'ye yükseldi, hacim rekor",
-      "narration": "Altın fiyatı hafif yükseldi işlem hacmi rekor seviyede Standart altının kilogram fiyatı gün sonunda 6314000 TL olarak yüzde 0 virgül 02 artış gösterdi İşlem hacmi 8773216097 virgül 76 TLye ulaşırken toplam işlem miktarı 1395 virgül 98 kilogram oldu En fazla işlem yapan kurumlar arasında Yapı ve Kredi Bankası ve Zirve Değerli Madenler yer aldı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-17T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-17T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 35.666667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/LPFGo4mvAVI.jpg"
-    }
-  ],
+  "source_run": "44211825038",
+  "verified_at": "2026-11-18T00:58:12.314506+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [],
   "target_count": 3,
