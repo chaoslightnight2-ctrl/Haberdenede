@@ -1,12 +1,47 @@
 {
-  "source_run": "44347078379",
-  "verified_at": "2026-11-18T16:42:11.054458+00:00",
-  "videos": [],
+  "source_run": "44428222672",
+  "verified_at": "2026-11-19T00:27:30.480852+00:00",
+  "videos": [
+    {
+      "index": 1,
+      "video_id": "_H8OL6n_nJ0",
+      "youtube_url": "https://youtu.be/_H8OL6n_nJ0",
+      "title": "Radyo Oyunu Yazarlığı Eğitimi 15 Aralık'ta Bitiyor",
+      "narration": "Radyo oyunu eğitimi 15 Aralıkta sona eriyor TRT Akademi radyo oyunu yazarlığı ve dramaturji eğitimini 15 Aralıkta tamamlayacak Program sonunda başarılı katılımcılar TRT onaylı sertifika alacak Eğitim seslendirme efekt ve müzik uygulamalarıyla 18 bölümden oluşuyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-19T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-19T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 24.933333,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/_H8OL6n_nJ0.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
-  "generation_errors": [],
+  "generation_errors": [
+    {
+      "source": "Son dakika haberler: Adıyaman'da bir binaya asılı Türk bayrağını selamladığı sırada otomobilin çarptığı kişi yaralandı - Habertürk",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "target_count": 3,
   "published_count": 0,
   "accepted_complete": false
