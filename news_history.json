@@ -5746,6 +5746,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Irak'tan Türkiye'ye eski boru hattıyla petrol sevkiyatı",
+      "summary": "Hürmüz Boğazı'ndaki güvenlik krizi, Irak'ın enerji ihracatında alternatif güzergah arayışını hızlandırırken Bağdat, Suriye üzerinden Akdeniz'e ve Türkiye üzerinden Ceyhan Limanı'na uzanan eski petrol hatlarını yeniden gündemine aldı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/irak-hurmuz-bogazinda-yasanan-kriz-nedeniyle-petrol-ihracatinda-alternatif-guzergahlara-yoneliyor/4130113",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-19T11:06:57+03:00",
+      "fingerprint": "649dbba4fe94439981aa0e812d718edcf1204e10",
+      "viral_score": 80.5,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-19T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/crQQtBMA_Q4",
+      "video_id": "crQQtBMA_Q4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-19T19:39:47.526038+03:00",
+      "publish_at_utc": "2026-11-19T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Irak, Hürmüz Boğazı'nda yaşanan kriz nedeniyle petrol ihracatında alternatif güzergahlara yöneliyor",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/irak-hurmuz-bogazinda-yasanan-kriz-nedeniyle-petrol-ihracatinda-alternatif-guzergahlara-yoneliyor/4130113",
+      "source_modified_at": "2026-11-19T11:08:33.77",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question"
     }
   ]
 }

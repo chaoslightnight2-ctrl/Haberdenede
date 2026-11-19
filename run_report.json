@@ -1,10 +1,39 @@
 {
-  "run_id": "44444190592",
-  "generated_at": "2026-11-19T05:26:12.377665+03:00",
+  "run_id": "44567176644",
+  "generated_at": "2026-11-19T19:32:59.359547+03:00",
   "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": []
+  "videos": [
+    {
+      "video_id": "crQQtBMA_Q4",
+      "youtube_url": "https://youtu.be/crQQtBMA_Q4",
+      "publish_at_local": "2026-11-19T21:00:00+03:00",
+      "publish_at_utc": "2026-11-19T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Irak'tan Türkiye'ye eski boru hattıyla petrol sevkiyatı",
+      "narration": "Irak eski boru hattıyla Türkiyeye petrol taşıyor Irak Petrol Bakanı Basim Muhammed Hudayyır eski boru hattı üzerinden Türkiyeye ham petrol sevkiyatına yeniden başladığını duyurdu Hudayyır günlük taşıma miktarının ilerleyen süreçte 500 bin varile çıkarılmasının hedeflendiğini belirtti Katarlı UCC Holding SOMO ile yaptığı anlaşma kapsamında günde 120 150 bin varil ham petrolü kara yolu ile Suriyeye taşıyarak Banyas Limanına yönlendiriyor Türkiyeden Haber kanalına abone ol",
+      "description": "Irak, eski boru hattı üzerinden Türkiye’ye ham petrol taşıyarak ihracat rotasını çeşitlendirmeyi hedefliyor. Sizce bu adım bölgedeki enerji güvenliğini nasıl etkiler?",
+      "visual_query": "oil pipeline transport",
+      "tags": [
+        "Irak petrol",
+        "Türkiye enerji",
+        "boru hattı",
+        "alternatif ihracat",
+        "Kuzey rotası"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Irak, Hürmüz Boğazı'nda yaşanan kriz nedeniyle petrol ihracatında alternatif güzergahlara yöneliyor",
+      "audience_bucket": "nature",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-19T16:33:29.426996+00:00",
+      "source_modified_at": "2026-11-19T11:08:33.77",
+      "run_id": "44567176644"
+    }
+  ],
+  "errors": [],
+  "daily_existing_count": 1
 }
