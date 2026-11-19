@@ -31,9 +31,16 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-19T00:21:48.816588+00:00",
       "source_modified_at": "",
-      "run_id": "44428222672"
+      "run_id": "44428222672",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Son dakika haberler: Adıyaman'da bir binaya asılı Türk bayrağını selamladığı sırada otomobilin çarptığı kişi yaralandı - Habertürk",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+    }
+  ],
   "daily_existing_count": 0
 }
