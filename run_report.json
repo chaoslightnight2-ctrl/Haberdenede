@@ -1,10 +1,39 @@
 {
-  "run_id": "44347078379",
-  "generated_at": "2026-11-18T19:40:55.692577+03:00",
+  "run_id": "44428222672",
+  "generated_at": "2026-11-19T03:21:22.160249+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
-  "errors": []
+  "videos": [
+    {
+      "video_id": "_H8OL6n_nJ0",
+      "youtube_url": "https://youtu.be/_H8OL6n_nJ0",
+      "publish_at_local": "2026-11-19T19:00:00+03:00",
+      "publish_at_utc": "2026-11-19T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 1,
+      "title": "Radyo Oyunu Yazarlığı Eğitimi 15 Aralık'ta Bitiyor",
+      "narration": "Radyo oyunu eğitimi 15 Aralıkta sona eriyor TRT Akademi radyo oyunu yazarlığı ve dramaturji eğitimini 15 Aralıkta tamamlayacak Program sonunda başarılı katılımcılar TRT onaylı sertifika alacak Eğitim seslendirme efekt ve müzik uygulamalarıyla 18 bölümden oluşuyor Türkiyeden Haber kanalına abone ol",
+      "description": "TRT Akademi, radyo oyunu yazarlığı ve dramaturji eğitimini 15 Aralık'ta tamamlayacak ve katılımcılar sertifika alacak. Siz de radyo drama dünyasına ilgi duyuyor musunuz?",
+      "visual_query": "radio recording session",
+      "tags": [
+        "radyo eğitimi",
+        "dramaturji",
+        "TRT Akademi",
+        "radyo oyunu",
+        "sertifika"
+      ],
+      "video_path": "output/short_1.mp4",
+      "source_headline": "Radyo tiyatrosu dünyasına yolculuk başlıyor",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-19T00:21:48.816588+00:00",
+      "source_modified_at": "",
+      "run_id": "44428222672"
+    }
+  ],
+  "errors": [],
+  "daily_existing_count": 0
 }

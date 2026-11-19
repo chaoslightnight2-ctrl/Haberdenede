@@ -5723,6 +5723,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Radyo Oyunu Yazarlığı Eğitimi 15 Aralık'ta Bitiyor",
+      "summary": "TRT Akademi, radyo dramasına ilgi duyan ve bu alanda kendini geliştirmek isteyenler için \"Radyo Oyunu Yazarlığı ve DramaturjiEğitimi\" düzenliyor. TRT Ankara Radyosunda yüz yüze gerçekleştirilecek 46 saatlik program 7 Aralık 2026da başlıyor.",
+      "url": "https://www.trthaber.com/haber/trt-akademi/radyo-tiyatrosu-dunyasina-yolculuk-basliyor-963711.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-18T17:24:00+03:00",
+      "fingerprint": "f77929af3126a44cba0548c011228fe91116277f",
+      "viral_score": 46.06,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-19T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/_H8OL6n_nJ0",
+      "video_id": "_H8OL6n_nJ0",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-19T03:26:22.512335+03:00",
+      "publish_at_utc": "2026-11-19T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Radyo tiyatrosu dünyasına yolculuk başlıyor",
+      "resolved_url": "https://www.trthaber.com/haber/trt-akademi/radyo-tiyatrosu-dunyasina-yolculuk-basliyor-963711.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }
