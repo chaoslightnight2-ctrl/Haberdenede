@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-19T16:33:29.426996+00:00",
       "source_modified_at": "2026-11-19T11:08:33.77",
+      "run_id": "44567176644",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "3hly51lVLhw",
+      "youtube_url": "https://youtu.be/3hly51lVLhw",
+      "publish_at_local": "2026-11-19T23:00:00+03:00",
+      "publish_at_utc": "2026-11-19T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 2,
+      "title": "Berlin’de Bolat, ticareti 52 milyar dolara yükseltti",
+      "narration": "Bolat Berlinde Almanya Türk ticaret rakamlarını açıkladı Bakan Bolat Berlinde Almanya Türk Otomotiv Zirvesinde Almanya Ekonomi ve Enerji Bakanı Katherina Reiche ile resmi görüşme gerçekleştirdi Geçen yıl iki ülke arasındaki dış ticaret hacmi 52 milyar dolara ulaşmış bunun 22 milyar doları Türkiyenin ihracatı 30 milyar doları Almanyanın Türkiyeye ihracatı olarak kaydedildi Almanyada 8 binin üzerindeki Türk firmasının toplamda yaklaşık 26 milyar dolarlık yatırımı bulunuyor Türkiyeden Haber kanalına abone ol",
+      "description": "Berlin’deki oturumda Bolat, Almanya‑Türkiye dış ticaretinin 52 milyar dolara ulaştığını açıkladı. Sizce bu artış iki ülkenin ekonomik ilişkilerini nasıl etkiler?",
+      "visual_query": "minister meeting berlin",
+      "tags": [
+        "Almanya",
+        "Türkiye",
+        "ticaret",
+        "dış ticaret",
+        "ekonomi"
+      ],
+      "video_path": "output/short_2.mp4",
+      "source_headline": "Ticaret Bakanı Bolat, AB'nin korumacı adımlarına karşı yoğun diplomasi yürüttüklerini belirtti",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-19T16:39:51.924907+00:00",
+      "source_modified_at": "2026-11-19T15:12:00.893",
       "run_id": "44567176644"
     }
   ],

@@ -5767,7 +5767,30 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/irak-hurmuz-bogazinda-yasanan-kriz-nedeniyle-petrol-ihracatinda-alternatif-guzergahlara-yoneliyor/4130113",
       "source_modified_at": "2026-11-19T11:08:33.77",
       "audience_bucket": "nature",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Berlin’de Bolat, ticareti 52 milyar dolara yükseltti",
+      "summary": "Ticaret Bakanı Ömer Bolat, \"Türkiye'deki otomotiv sanayisinde Avrupalıların 25 milyar dolarlık yatırımı var. Yatırımda, üretimde, ihracatta ve ithalatta yaklaşık yüzde 75'lik bir paya sahipler.\" dedi.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-bolat-abnin-korumaci-adimlarina-karsi-yogun-diplomasi-yuruttuklerini-belirtti/4130794",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-19T14:57:17+03:00",
+      "fingerprint": "58390b07e24c71edc09113eaf6bb57ac08cd1fba",
+      "viral_score": 72.64,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-19T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/3hly51lVLhw",
+      "video_id": "3hly51lVLhw",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-19T19:48:49.224770+03:00",
+      "publish_at_utc": "2026-11-19T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Ticaret Bakanı Bolat, AB'nin korumacı adımlarına karşı yoğun diplomasi yürüttüklerini belirtti",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/ticaret-bakani-bolat-abnin-korumaci-adimlarina-karsi-yogun-diplomasi-yuruttuklerini-belirtti/4130794",
+      "source_modified_at": "2026-11-19T15:12:00.893",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
