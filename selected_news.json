@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T05:10:50.064027+03:00",
+  "generated_at": "2026-11-20T19:10:25.682967+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-20T02:10:50.579965+00:00",
+      "source_checked_at": "2026-11-20T16:10:26.219025+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -90,7 +90,8 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol"
+      "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
+      "_ready_to_resume": true
     }
   ]
 }
