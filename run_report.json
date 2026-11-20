@@ -31,6 +31,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-20T00:40:27.950361+00:00",
       "source_modified_at": "",
+      "run_id": "44647121905",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "EbAOKAcuIS8",
+      "youtube_url": "https://youtu.be/EbAOKAcuIS8",
+      "publish_at_local": "2026-11-20T21:00:00+03:00",
+      "publish_at_utc": "2026-11-20T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Türkiye, Suudi Arabistan ve Singapur'la hava anlaşması",
+      "narration": "Türkiye Suudi Arabistan ve Singapurla yeni hava anlaşması imzaladı Türkiye ICAO 7 Dünya Hava Ulaştırma Konferansında Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14ten 21e çıkarıldı Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı Türkiyeden Haber kanalına abone ol",
+      "description": "Türkiye, Suudi Arabistan ve Singapur'la hava ulaşımını güçlendirecek anlaşmalar imzaladı. Bu düzenlemeler seyahat ve ticareti nasıl etkiler, siz ne düşünüyorsunuz?",
+      "visual_query": "plane signing agreement",
+      "tags": [
+        "hava ulaşımı",
+        "uluslararası anlaşma",
+        "Türkiye havacılık",
+        "Suudi Arabistan",
+        "Singapur"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Suudi Arabistan ve Singapur’la hava ulaşımı mutabakatı",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-20T00:47:50.174045+00:00",
+      "source_modified_at": "",
       "run_id": "44647121905"
     }
   ],
