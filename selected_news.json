@@ -92,7 +92,62 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Altın fiyatı yüzde 0 virgül 49 düştü kilogramı 6 virgül 12 milyon Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 49 düşerek 6 milyon 120 bin lira oldu Gün içinde en düşük seviye 6 milyon 100 bin lira en yüksek seviye ise 6 milyon 220 bin lira olarak kaydedildi Toplam işlem hacmi 18 milyar 637 milyon 463 bin 745 virgül 87 lira işlem miktarı 3 bin 49 virgül 75 kilogram olarak gerçekleşti Türkiyeden Haber kanalına abone ol"
+      "script": "Altın fiyatı yüzde 0 virgül 49 düştü kilogramı 6 virgül 12 milyon Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 49 düşerek 6 milyon 120 bin lira oldu Gün içinde en düşük seviye 6 milyon 100 bin lira en yüksek seviye ise 6 milyon 220 bin lira olarak kaydedildi Toplam işlem hacmi 18 milyar 637 milyon 463 bin 745 virgül 87 lira işlem miktarı 3 bin 49 virgül 75 kilogram olarak gerçekleşti Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_2.mp3",
+      "background_path": "output/background_2.mp4",
+      "video_path": "output/short_2.mp4",
+      "video_id": "SywNHuFUAsA",
+      "youtube_url": "https://youtu.be/SywNHuFUAsA",
+      "publish_at_local": "2026-11-20T19:00:00+03:00",
+      "publish_at_utc": "2026-11-20T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "Türkiye, Suudi Arabistan ve Singapur'la hava anlaşması",
+      "summary": "Türkiye ile Suudi Arabistan ve Singapur arasındaki hava ulaşımını güçlendirecek mutabakatlar imzalandı Canlı Gaste",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSHNZeU43bW8tMENTd0RNUlFRTzJxYlJRMnZZWW44YUI1RUc3dElJLXktRmlQbWh6emVkampWeE5WOEZPQlVYcUdRaHluVGpSQ3R2Z0dRZ1h2RzZVbzFRZ2FMcUl3WE9vUktmNzBaTmZtT1A0N3ZicFdNSnhaZ1ZFUlhaTlN0bnltWUFoSUVBQU1FT2dDcGY3Q2dhTTRKc3lnMTJqakt1WW5XajJlZ0tzTk9UUW9VV2NLZW9BUEJYOElnOTNqZjJjZzJzaFpRV1JtNkxv?oc=5",
+      "query": "Türkiye şehirler yerel haber altyapı",
+      "source": "Google News RSS",
+      "published_at": "2026-11-19T22:34:26+03:00",
+      "fingerprint": "a00c662996ef79f96af84444c39a24a92b0579f8",
+      "viral_score": 62.92,
+      "topic_bucket": "dünya_diplomasi",
+      "source_name": "canlı gaste",
+      "resolved_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSHNZeU43bW8tMENTd0RNUlFRTzJxYlJRMnZZWW44YUI1RUc3dElJLXktRmlQbWh6emVkampWeE5WOEZPQlVYcUdRaHluVGpSQ3R2Z0dRZ1h2RzZVbzFRZ2FMcUl3WE9vUktmNzBaTmZtT1A0N3ZicFdNSnhaZ1ZFUlhaTlN0bnltWUFoSUVBQU1FT2dDcGY3Q2dhTTRKc3lnMTJqakt1WW5XajJlZ0tzTk9UUW9VV2NLZW9BUEJYOElnOTNqZjJjZzJzaFpRV1JtNkxv?oc=5&hl=tr&gl=TR&ceid=TR:tr",
+      "source_headline": "Suudi Arabistan ve Singapur’la hava ulaşımı mutabakatı",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-20T00:47:50.174045+00:00",
+      "article_score": 43,
+      "article_text": "Ekonomi Haberleri — Ulaştırma ve Altyapı Bakanlığınca Türkiye ile Suudi Arabistan ve Singapur arasındaki hava ulaşımı bağlantılarını güçlendirecek önemli mutabakatlara imza atıldığı belirtilerek, \"Bu düzenlemelerle hava yolu işletmelerine daha fazla esneklik sağlıyor, iki ülkeyle hava ulaşımı bağlantılarımızı ve seyahat seçeneklerini geliştirmeyi hedefliyoruz.\" ifadeleri kullanıldı. Bakanlığın sosyal medya hesabından yapılan paylaşımda, Türkiye ile Suudi Arabistan ve Singapur arasındaki hava ulaşımı bağlantılarını güçlendirecek önemli mutabakatlara imza atıldığı bildirilerek, şunlar kaydedildi: \"Montreal'de düzenlenen ICAO 7. Dünya Hava Ulaştırma Konferansı kapsamında ülkemiz adına Sivil Havacılık Genel Müdürümüz Kemal Yüksek, Suudi Arabistan adına GACA Başkanı Sayın Abdulaziz bin Abdullah Al-Duailej, Singapur adına ise CAAS Genel Müdürü Sayın Han Kok Juan mutabakat zaptlarını imzaladı. Suudi Arabistan ile haftalık tarifeli kargo seferi hakkını 14'ten 21'e çıkarırken, Singapur ile tarifeli yolcu seferi haklarını artırdık. Bu düzenlemelerle hava yolu işletmelerine daha fazla esneklik sağlıyor, iki ülkeyle hava ulaşımı bağlantılarımızı ve seyahat seçeneklerini geliştirmeyi hedefliyoruz.\"",
+      "content_quality": "article_text",
+      "model_source_context": "Ekonomi Haberleri — Ulaştırma ve Altyapı Bakanlığınca Türkiye ile Suudi Arabistan ve Singapur arasındaki hava ulaşımı bağlantılarını güçlendirecek önemli mutabakatlara imza atıldığı belirtilerek, \"Bu düzenlemelerle hava yolu işletmelerine daha fazla esneklik sağlıyor, iki ülkeyle hava ulaşımı bağlantılarımızı ve seyahat seçeneklerini geliştirmeyi hedefliyoruz.\" ifadeleri kullanıldı. Bakanlığın sosyal medya hesabından yapılan paylaşımda, Türkiye ile Suudi Arabistan ve Singapur arasındaki hava ulaşımı bağlantılarını güçlendirecek önemli mutabakatlara imza atıldığı bildirilerek, şunlar kaydedildi: \"Montreal'de düzenlenen ICAO 7. Dünya Hava Ulaştırma Konferansı kapsamında ülkemiz adına Sivil Havacılık Genel Müdürümüz Kemal Yüksek, Suudi Arabistan adına GACA Başkanı Sayın Abdulaziz bin Abdullah Al-Duailej, Singapur adına ise CAAS Genel Müdürü Sayın Han Kok Juan mutabakat zaptlarını imzaladı. Suudi Arabistan ile haftalık tarifeli kargo seferi hakkını 14'ten 21'e çıkarırken, Singapur ile tarifeli yolcu seferi haklarını artırdık. Bu düzenlemelerle hava yolu işletmelerine daha fazla esneklik sağlıyor, iki ülkeyle hava ulaşımı bağlantılarımızı ve seyahat seçeneklerini geliştirmeyi hedefliyoruz.\"",
+      "shorts_hook": "Türkiye, Suudi Arabistan ve Singapur'la yeni hava anlaşması imzaladı",
+      "quality_hook": "Türkiye, Suudi Arabistan ve Singapur'la yeni hava anlaşması imzaladı",
+      "quality_narration": "Türkiye, ICAO 7. Dünya Hava Ulaştırma Konferansı'nda Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı. Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14'ten 21'e çıkarıldı. Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Türkiye, ICAO 7. Dünya Hava Ulaştırma Konferansı'nda Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı.",
+        "Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14'ten 21'e çıkarıldı.",
+        "Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı."
+      ],
+      "youtube_description": "Türkiye, Suudi Arabistan ve Singapur'la hava ulaşımını güçlendirecek anlaşmalar imzaladı. Bu düzenlemeler seyahat ve ticareti nasıl etkiler, siz ne düşünüyorsunuz?",
+      "visual_query": "plane signing agreement",
+      "spoken_text": "Türkiye Suudi Arabistan ve Singapurla yeni hava anlaşması imzaladı Türkiye ICAO 7 Dünya Hava Ulaştırma Konferansında Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14ten 21e çıkarıldı Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Türkiye Suudi Arabistan ve Singapurla yeni hava anlaşması imzaladı. Türkiye ICAO 7 Dünya Hava Ulaştırma Konferansında Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı. Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14ten 21e çıkarıldı. Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "hava ulaşımı",
+        "uluslararası anlaşma",
+        "Türkiye havacılık",
+        "Suudi Arabistan",
+        "Singapur"
+      ],
+      "youtube_hashtags": "#shorts #havacılık #uluslararası",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Türkiye Suudi Arabistan ve Singapurla yeni hava anlaşması imzaladı Türkiye ICAO 7 Dünya Hava Ulaştırma Konferansında Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14ten 21e çıkarıldı Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
