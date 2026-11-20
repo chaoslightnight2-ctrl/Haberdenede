@@ -1,39 +1,10 @@
 {
-  "source_run": "44770194186",
-  "verified_at": "2026-11-20T16:17:51.332432+00:00",
-  "videos": [
-    {
-      "index": 3,
-      "video_id": "yMEJL1Rw_X4",
-      "youtube_url": "https://youtu.be/yMEJL1Rw_X4",
-      "title": "Ekoturizm Alanları Yıllık 2,5 Milyar Lira Katkı Sağlıyor",
-      "narration": "Ekoturizmden yıllık 2 virgül 5 milyar lira kazanç OGMnin 2021 2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı ülke ekonomisine yıllık yaklaşık 2 virgül 5 milyar lira katkı sağlıyor Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi Plan 2024 2028 döneminde alan sayısını 200e çıkararak katkıyı artırmayı hedefliyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-20T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-20T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.133333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/yMEJL1Rw_X4.jpg"
-    }
-  ],
+  "source_run": "44830766809",
+  "verified_at": "2026-11-20T22:52:47.845105+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -45,9 +16,19 @@
       "index": 2,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: court decision review"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister denying allegations"
+    },
+    {
+      "source": "Prof. Dr. Sevim Aydın, Ankara'da son yolculuğuna uğurlandı",
+      "stage": "generation",
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "target_count": 1,
+  "target_count": 3,
   "published_count": 0,
-  "accepted_complete": true
+  "accepted_complete": false
 }
