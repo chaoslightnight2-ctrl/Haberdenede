@@ -59,7 +59,8 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-20T00:47:50.174045+00:00",
       "source_modified_at": "",
-      "run_id": "44647121905"
+      "run_id": "44647121905",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -67,6 +68,16 @@
       "index": 1,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minibus crash tem"
+    },
+    {
+      "index": 4,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: court decision review"
+    },
+    {
+      "source": "EYT'lileri ilgilendiren karar: Emeklilik hayali Yargıtay'a takıldı - Yeni Şafak",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "daily_existing_count": 0
