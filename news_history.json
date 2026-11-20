@@ -5791,6 +5791,28 @@
       "source_modified_at": "2026-11-19T15:12:00.893",
       "audience_bucket": "economy_life",
       "hook_style": "direct_change"
+    },
+    {
+      "title": "Altın kilogram fiyatı %0,49 düştü, 6,12 milyon TL",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon 120 bin lira oldu.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963842.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-19T16:45:00+03:00",
+      "fingerprint": "0f5d638298e07c8f3baa9cf55f0ce4d4994c4eda",
+      "viral_score": 26.6,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-20T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/SywNHuFUAsA",
+      "video_id": "SywNHuFUAsA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-20T03:47:47.916772+03:00",
+      "publish_at_utc": "2026-11-20T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Altın fiyatlarında son durum",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963842.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
