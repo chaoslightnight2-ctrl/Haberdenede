@@ -90,7 +90,54 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
-      "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol"
+      "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "23:00"
+    },
+    {
+      "title": "Ekoturizm Alanları Yıllık 2,5 Milyar Lira Katkı Sağlıyor",
+      "summary": "Tarım ve Orman Bakanlığına bağlı Orman Genel Müdürlüğü OGM tarafından hizmete alınan ekoturizm alanlarının sayısı 155'e yükselirken, bu alanlar kırsal kalkınmaya ve ülke ekonomisine yıllık yaklaşık 2,5 milyar lira katkı sunuyor.",
+      "url": "https://www.trthaber.com/haber/ekonomi/turkiyede-ekoturizm-alanlarindan-ekonomiye-25-milyon-lira-katki-963993.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-11-20T18:43:00+03:00",
+      "fingerprint": "39382fbd54e833833590bb62039da098f324f6fa",
+      "direct_source": true,
+      "viral_score": 80.24,
+      "topic_bucket": "ekonomi_yasam",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/turkiyede-ekoturizm-alanlarindan-ekonomiye-25-milyon-lira-katki-963993.html",
+      "source_headline": "Türkiye'de ekoturizm alanlarından ekonomiye 2,5 milyon lira katkı",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-20T16:11:27.465470+00:00",
+      "article_score": 94,
+      "article_text": "Doğal hayatla ve doğal kaynaklarla uyumlu sürdürülebilir turizm faaliyetini ifade eden ekoturizme, dünyanın birçok yerinde olduğu gibi Türkiye'de de ilgi giderek büyüyor İnsanların, yeşil alanlarda vakit geçirme isteğinin artması dolayısıyla ekoturizmin yaygınlaştırılması ve yeni yönetim alanlarının planlanarak, ülke turizmine kazandırılması için kapsamlı çalışmalar yapılıyor. OGM öncülüğünde yürütülen ve 2021-2025 yıllarını kapsayan \"Ekoturizm Eylem Planı\" ile oluşturulan alanlardaki doğal ve kültürel kaynaklar turizme kazandırılarak, yöre halkına da katkı sağlanıyor Bu doğrultuda, ormanlar hakkında bilinçlendirme, doğa ve orman sevgisini artırma ve orman köylüsüne katkı sağlama amacıyla tesis edilen ekoturizm alanlarında, dinlenme alanları, seyir terasları, yönlendirme ve bilgilendirme tabelaları, ahşap köprüler, çeşme, kanopi köprüsü, yaban hayatı gözlem ünitesi, yöresel ürünler sergi standı, at dinlenme alanları gibi kalıcı olmayan yapı ve tesisler yapılıyor. Yapılan düzenlemeler kapsamında, alanların çevresiyle beraber cazibe merkezi haline getirilmesi sağlanıyor Söz konusu alanların statüsüne, fiziki imkanlarına ve dönemsel kurallarına bağlı olarak piknik ile İdare tarafından belirlenen ve gecelemeye izin verilen konaklama noktalarında kamp etkinliği de yapılabiliyor. Öte yandan, doğa yürüyüşü, bisiklet, kaykay, skuter, paten, at biniciliği gibi aktivitelerin gerçekleştirilebildiği ormanlarda, ziyaretçilere sağlık ve estetik değerleriyle birlikte, çevrenin tarihi ve kültürel değerlerini de deneyimleme fırsatı da sunuluyor İlk defa 2017'de 2 yerde oluşturulan ekoturizm alanlarının sayısı, şu an itibarıyla 155'e ulaştı. Eylem planı dahilinde bu alanların yaygınlaştırılması çalışmaları devam ederken, 2024-2028 yıllarını kapsayan 12'nci Kalkınma Planı sonunda sayının 200'e çıkarılması öngörülüyor Bugüne kadar yapılan çalışmalarla, ülke turizmine kazandırılan 155 ekoturizm alanı sayesinde, kırsal kalkınmaya ve ülke ekonomisine yıllık yaklaşık 2,5 milyar lira katkı sağlandığı tahmin ediliyor. Bu rotalara gelen ziyaretçilerin sayısının da yaklaşık 6 milyon kişi olduğu tahmin ediliyor \"Yeşil Nefes\" ve \"Orman Vatandır\" sloganlarıyla, ekoturizm alanlarının geniş kitlelere anlatılması ve tanıtılması amacıyla faaliyetler gerçekleştiriliyor Ayrıca sosyal medya, televizyon, kamu spotu, turizm paydaşları ve yöre tanıtıcı program ve aktiviteleri de devam ederken, böylece ziyaretçilerin sayısının artırılması da hedefleniyor OGM tarafından hazırlanan \"Benim Ormanım\" mobil uygulamasıyla vatandaşlar orman parkları ve ekoturizm rotalarını keşfederken, ziyaret edecekleri yerler hakkında bilgi alıp, alanın özellikleri, yapılabilecek aktiviteler, anlık hava durumu, yol ve rota tarifleri gibi hizmetlerden de yararlanabiliyor",
+      "content_quality": "article_text",
+      "model_source_context": "Doğal hayatla ve doğal kaynaklarla uyumlu sürdürülebilir turizm faaliyetini ifade eden ekoturizme, dünyanın birçok yerinde olduğu gibi Türkiye'de de ilgi giderek büyüyor İnsanların, yeşil alanlarda vakit geçirme isteğinin artması dolayısıyla ekoturizmin yaygınlaştırılması ve yeni yönetim alanlarının planlanarak, ülke turizmine kazandırılması için kapsamlı çalışmalar yapılıyor. OGM öncülüğünde yürütülen ve 2021-2025 yıllarını kapsayan \"Ekoturizm Eylem Planı\" ile oluşturulan alanlardaki doğal ve kültürel kaynaklar turizme kazandırılarak, yöre halkına da katkı sağlanıyor Bu doğrultuda, ormanlar hakkında bilinçlendirme, doğa ve orman sevgisini artırma ve orman köylüsüne katkı sağlama amacıyla tesis edilen ekoturizm alanlarında, dinlenme alanları, seyir terasları, yönlendirme ve bilgilendirme tabelaları, ahşap köprüler, çeşme, kanopi köprüsü, yaban hayatı gözlem ünitesi, yöresel ürünler sergi standı, at dinlenme alanları gibi kalıcı olmayan yapı ve tesisler yapılıyor. Yapılan düzenlemeler kapsamında, alanların çevresiyle beraber cazibe merkezi haline getirilmesi sağlanıyor Söz konusu alanların statüsüne, fiziki imkanlarına ve dönemsel kurallarına bağlı olarak piknik ile İdare tarafından belirlenen ve gecelemeye izin verilen konaklama noktalarında kamp etkinliği de yapılabiliyor. Öte yandan, doğa yürüyüşü, bisiklet, kaykay, skuter, paten, at biniciliği gibi aktivitelerin gerçekleştirilebildiği ormanlarda, ziyaretçilere sağlık ve estetik değerleriyle birlikte, çevrenin tarihi ve kültürel değerlerini de deneyimleme fırsatı da sunuluyor İlk defa 2017'de 2 yerde oluşturulan ekoturizm alanlarının sayısı, şu an itibarıyla 155'e ulaştı. Eylem planı dahilinde bu alanların yaygınlaştırılması çalışmaları devam ederken, 2024-2028 yıllarını kapsayan 12'nci Kalkınma Planı sonunda sayının 200'e çıkarılması öngörülüyor Bugüne kadar yapılan çalışmalarla, ülke turizmine kazandırılan 155 ekoturizm alanı sayesinde, kırsal kalkınmaya ve ülke ekonomisine yıllık yaklaşık 2,5 milyar lira katkı sağlandığı tahmin ediliyor. Bu rotalara gelen ziyaretçilerin sayısının da yaklaşık 6 milyon kişi olduğu tahmin ediliyor \"Yeşil Nefes\" ve \"Orman Vatandır\" sloganlarıyla, ekoturizm alanlarının geniş kitlelere anlatılması ve tanıtılması amacıyla faaliyetler gerçekleştiriliyor Ayrıca sosyal medya, televizyon, kamu spotu, turizm paydaşları ve yöre tanıtıcı program ve aktiviteleri de devam ederken, böylece ziyaretçilerin sayısının artırılması da hedefleniyor OGM tarafından hazırlanan \"Benim Ormanım\" mobil uygulamasıyla vatandaşlar orman parkları ve ekoturizm rotalarını keşfederken, ziyaret edecekleri yerler hakkında bilgi alıp, alanın özellikleri, yapılabilecek aktiviteler, anlık hava durumu, yol ve rota tarifleri gibi hizmetlerden de yararlanabiliyor",
+      "shorts_hook": "Ekoturizmden yıllık 2,5 milyar lira kazanç!",
+      "quality_hook": "Ekoturizmden yıllık 2,5 milyar lira kazanç!",
+      "quality_narration": "OGM'nin 2021-2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı, ülke ekonomisine yıllık yaklaşık 2,5 milyar lira katkı sağlıyor. Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi. Plan, 2024-2028 döneminde alan sayısını 200’e çıkararak katkıyı artırmayı hedefliyor.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "OGM'nin 2021-2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı, ülke ekonomisine yıllık yaklaşık 2,5 milyar lira katkı sağlıyor.",
+        "Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi.",
+        "Plan, 2024-2028 döneminde alan sayısını 200’e çıkararak katkıyı artırmayı hedefliyor."
+      ],
+      "youtube_description": "Ekoturizm alanları 155'e ulaşarak yılda 2,5 milyar lira kazandırıyor ve 6 milyon ziyaretçi çekiyor. Siz de doğa turizmiyle ekonomiye katkı sağlamak ister misiniz?",
+      "visual_query": "forest tourists walking",
+      "spoken_text": "Ekoturizmden yıllık 2 virgül 5 milyar lira kazanç OGMnin 2021 2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı ülke ekonomisine yıllık yaklaşık 2 virgül 5 milyar lira katkı sağlıyor Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi Plan 2024 2028 döneminde alan sayısını 200e çıkararak katkıyı artırmayı hedefliyor Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Ekoturizmden yıllık 2 virgül 5 milyar lira kazanç. OGMnin 2021 2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı ülke ekonomisine yıllık yaklaşık 2 virgül 5 milyar lira katkı sağlıyor. Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi. Plan 2024 2028 döneminde alan sayısını 200e çıkararak katkıyı artırmayı hedefliyor. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "ekoturizm",
+        "doğa turizmi",
+        "kırsal kalkınma",
+        "turizm ekonomisi",
+        "sürdürülebilir turizm"
+      ],
+      "youtube_hashtags": "#shorts #ekoturizm #turizm",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Ekoturizmden yıllık 2 virgül 5 milyar lira kazanç OGMnin 2021 2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı ülke ekonomisine yıllık yaklaşık 2 virgül 5 milyar lira katkı sağlıyor Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi Plan 2024 2028 döneminde alan sayısını 200e çıkararak katkıyı artırmayı hedefliyor Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
