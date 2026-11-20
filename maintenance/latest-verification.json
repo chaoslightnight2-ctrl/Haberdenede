@@ -1,67 +1,10 @@
 {
-  "source_run": "44647121905",
-  "verified_at": "2026-11-20T00:53:17.565000+00:00",
-  "videos": [
-    {
-      "index": 2,
-      "video_id": "SywNHuFUAsA",
-      "youtube_url": "https://youtu.be/SywNHuFUAsA",
-      "title": "Altın kilogram fiyatı %0,49 düştü, 6,12 milyon TL",
-      "narration": "Altın fiyatı yüzde 0 virgül 49 düştü kilogramı 6 virgül 12 milyon Standart altının kilogram fiyatı gün sonunda yüzde 0 virgül 49 düşerek 6 milyon 120 bin lira oldu Gün içinde en düşük seviye 6 milyon 100 bin lira en yüksek seviye ise 6 milyon 220 bin lira olarak kaydedildi Toplam işlem hacmi 18 milyar 637 milyon 463 bin 745 virgül 87 lira işlem miktarı 3 bin 49 virgül 75 kilogram olarak gerçekleşti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-20T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-20T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 38.0,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/SywNHuFUAsA.jpg"
-    },
-    {
-      "index": 3,
-      "video_id": "EbAOKAcuIS8",
-      "youtube_url": "https://youtu.be/EbAOKAcuIS8",
-      "title": "Türkiye, Suudi Arabistan ve Singapur'la hava anlaşması",
-      "narration": "Türkiye Suudi Arabistan ve Singapurla yeni hava anlaşması imzaladı Türkiye ICAO 7 Dünya Hava Ulaştırma Konferansında Suudi Arabistan ve Singapur temsilcileriyle hava ulaşım mutabakatlarını imzaladı Suudi Arabistan ile haftalık tarifeli kargo seferi hakkı 14ten 21e çıkarıldı Singapur ile tarifeli yolcu seferi hakları artırılarak havayolu şirketlerine esneklik sağlandı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-20T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-20T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 31.133333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/EbAOKAcuIS8.jpg"
-    }
-  ],
+  "source_run": "44658808333",
+  "verified_at": "2026-11-20T02:17:20.409250+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -70,17 +13,17 @@
       "error": "No described asset matches scene 0: minibus crash tem"
     },
     {
-      "index": 4,
+      "index": 2,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: court decision review"
     },
     {
-      "source": "EYT'lileri ilgilendiren karar: Emeklilik hayali Yargıtay'a takıldı - Yeni Şafak",
+      "source": "Türkiye'den Suudi Arabistan ve Singapur ile hava ulaşımında mutabakat",
       "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "target_count": 3,
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": false
 }
