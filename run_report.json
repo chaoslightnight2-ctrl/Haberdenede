@@ -1,11 +1,39 @@
 {
-  "run_id": "44658808333",
-  "generated_at": "2026-11-20T05:10:50.064027+03:00",
+  "run_id": "44770194186",
+  "generated_at": "2026-11-20T19:10:25.682967+03:00",
   "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "yMEJL1Rw_X4",
+      "youtube_url": "https://youtu.be/yMEJL1Rw_X4",
+      "publish_at_local": "2026-11-20T23:00:00+03:00",
+      "publish_at_utc": "2026-11-20T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 3,
+      "title": "Ekoturizm Alanları Yıllık 2,5 Milyar Lira Katkı Sağlıyor",
+      "narration": "Ekoturizmden yıllık 2 virgül 5 milyar lira kazanç OGMnin 2021 2025 Ekoturizm Eylem Planı kapsamında oluşturulan 155 ekoturizm alanı ülke ekonomisine yıllık yaklaşık 2 virgül 5 milyar lira katkı sağlıyor Bu alanlara gelen ziyaretçi sayısı ise tahmini 6 milyon kişi olarak kaydedildi Plan 2024 2028 döneminde alan sayısını 200e çıkararak katkıyı artırmayı hedefliyor Türkiyeden Haber kanalına abone ol",
+      "description": "Ekoturizm alanları 155'e ulaşarak yılda 2,5 milyar lira kazandırıyor ve 6 milyon ziyaretçi çekiyor. Siz de doğa turizmiyle ekonomiye katkı sağlamak ister misiniz?",
+      "visual_query": "forest tourists walking",
+      "tags": [
+        "ekoturizm",
+        "doğa turizmi",
+        "kırsal kalkınma",
+        "turizm ekonomisi",
+        "sürdürülebilir turizm"
+      ],
+      "video_path": "output/short_3.mp4",
+      "source_headline": "Türkiye'de ekoturizm alanlarından ekonomiye 2,5 milyon lira katkı",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-20T16:11:27.465470+00:00",
+      "source_modified_at": "",
+      "run_id": "44770194186"
+    }
+  ],
   "errors": [
     {
       "index": 1,
@@ -16,11 +44,6 @@
       "index": 2,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: court decision review"
-    },
-    {
-      "source": "Türkiye'den Suudi Arabistan ve Singapur ile hava ulaşımında mutabakat",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 2

@@ -5837,6 +5837,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Ekoturizm Alanları Yıllık 2,5 Milyar Lira Katkı Sağlıyor",
+      "summary": "Tarım ve Orman Bakanlığına bağlı Orman Genel Müdürlüğü OGM tarafından hizmete alınan ekoturizm alanlarının sayısı 155'e yükselirken, bu alanlar kırsal kalkınmaya ve ülke ekonomisine yıllık yaklaşık 2,5 milyar lira katkı sunuyor.",
+      "url": "https://www.trthaber.com/haber/ekonomi/turkiyede-ekoturizm-alanlarindan-ekonomiye-25-milyon-lira-katki-963993.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-20T18:43:00+03:00",
+      "fingerprint": "39382fbd54e833833590bb62039da098f324f6fa",
+      "viral_score": 80.24,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-20T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/yMEJL1Rw_X4",
+      "video_id": "yMEJL1Rw_X4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-20T19:15:45.551022+03:00",
+      "publish_at_utc": "2026-11-20T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Türkiye'de ekoturizm alanlarından ekonomiye 2,5 milyon lira katkı",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/turkiyede-ekoturizm-alanlarindan-ekonomiye-25-milyon-lira-katki-963993.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
