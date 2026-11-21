@@ -5860,6 +5860,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Cubtale, Kadın Girişimciden 40 Bin Dolar Hibe Kazandı",
+      "summary": "iyzico ve Endeavor'ın desteğiyle Türkiye'de ilk kez düzenlenen Prosus FoundHER Challenge Demo Day İstanbul'da tamamlanırken, dereceye giren girişimler toplam 100 bin dolarlık hibe desteğin sahibi oldu.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/prosus-foundher-challenge-turkiyenin-kazananlari-belli-oldu/4132103",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-20T15:04:47+03:00",
+      "fingerprint": "d01f8a454f936c46627a24160a05329c2dc2c0d4",
+      "viral_score": 61.49,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-21T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/dbhVfWBdw3I",
+      "video_id": "dbhVfWBdw3I",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-21T05:16:22.042735+03:00",
+      "publish_at_utc": "2026-11-21T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Prosus FoundHER Challenge Türkiye'nin kazananları belli oldu",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/prosus-foundher-challenge-turkiyenin-kazananlari-belli-oldu/4132103",
+      "source_modified_at": "2026-11-20T15:09:47.19",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change"
     }
   ]
 }

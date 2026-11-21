@@ -1,11 +1,39 @@
 {
-  "run_id": "44830766809",
-  "generated_at": "2026-11-21T01:40:45.705883+03:00",
+  "run_id": "44853649397",
+  "generated_at": "2026-11-21T05:04:17.234660+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "dbhVfWBdw3I",
+      "youtube_url": "https://youtu.be/dbhVfWBdw3I",
+      "publish_at_local": "2026-11-21T19:00:00+03:00",
+      "publish_at_utc": "2026-11-21T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Cubtale, Kadın Girişimciden 40 Bin Dolar Hibe Kazandı",
+      "narration": "Cubtale 40 bin dolar hibe kazandı anne bebek sağlığına yöneldi Prosus FoundHER Challenge Demo Day İstanbulda gerçekleşti ve 190dan fazla başvuru arasından finalistler belirlendi Finalde Duygu Karaoğlan Altopun kurduğu Cubtale anne ve bebek sağlığına yönelik cihaz ve uygulamasıyla birincilik elde ederek 40 bin dolar karşılıksız hibe aldı Jüri üyeleri arasında iyzico CEOsu Orkun Saitoğlu ve Endeavor Türkiye Genel Sekreteri Aslı Kurul Türkmen gibi sektör liderleri yer aldı Türkiyeden Haber kanalına abone ol",
+      "description": "İstanbul’da düzenlenen Prosus FoundHER Challenge’da Cubtale birincilik kazandı, 40 bin dolar hibe aldı. Kadın girişimcilerin bu başarısı sizce ekosistemi nasıl etkiler?",
+      "visual_query": "woman entrepreneur presenting",
+      "tags": [
+        "kadın girişimciler",
+        "teknoloji",
+        "startup",
+        "hibe",
+        "anne bebek"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Prosus FoundHER Challenge Türkiye'nin kazananları belli oldu",
+      "audience_bucket": "technology_science",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-21T02:08:58.314772+00:00",
+      "source_modified_at": "2026-11-20T15:09:47.19",
+      "run_id": "44853649397"
+    }
+  ],
   "errors": [
     {
       "index": 1,
@@ -21,11 +49,6 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister denying allegations"
-    },
-    {
-      "source": "Prof. Dr. Sevim Aydın, Ankara'da son yolculuğuna uğurlandı",
-      "stage": "generation",
-      "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
   "daily_existing_count": 0
