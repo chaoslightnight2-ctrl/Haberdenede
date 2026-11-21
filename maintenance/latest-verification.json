@@ -1,114 +1,13 @@
 {
-  "source_run": "44853649397",
-  "verified_at": "2026-11-21T02:34:31.872307+00:00",
-  "videos": [
-    {
-      "index": 4,
-      "video_id": "dbhVfWBdw3I",
-      "youtube_url": "https://youtu.be/dbhVfWBdw3I",
-      "title": "Cubtale, Kadın Girişimciden 40 Bin Dolar Hibe Kazandı",
-      "narration": "Cubtale 40 bin dolar hibe kazandı anne bebek sağlığına yöneldi Prosus FoundHER Challenge Demo Day İstanbulda gerçekleşti ve 190dan fazla başvuru arasından finalistler belirlendi Finalde Duygu Karaoğlan Altopun kurduğu Cubtale anne ve bebek sağlığına yönelik cihaz ve uygulamasıyla birincilik elde ederek 40 bin dolar karşılıksız hibe aldı Jüri üyeleri arasında iyzico CEOsu Orkun Saitoğlu ve Endeavor Türkiye Genel Sekreteri Aslı Kurul Türkmen gibi sektör liderleri yer aldı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-21T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-21T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 36.8,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/dbhVfWBdw3I.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "F2A1bEEql0s",
-      "youtube_url": "https://youtu.be/F2A1bEEql0s",
-      "title": "Prof. Dr. Sevim Aydın'ın Ankara Cenazesi Yetkililerle",
-      "narration": "Ankarada Prof Dr Aydının cenazesi büyük ilgi gördü Prof Dr Sevim Aydının cenazesi Ankara Ahmet Hamdi Akseki Camisinde toplandı Eski Başbakan Binali Yıldırım Sağlık Bakanı Kemal Memişoğlu ve Ulaştırma Bakanı Abdulkadir Uraloğlu gibi yüksek düzeyli yetkililer törene katıldı Namazın ardından naaş Karşıyaka Mezarlığına defnedildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-21T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-21T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.566667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/F2A1bEEql0s.jpg"
-    },
-    {
-      "index": 6,
-      "video_id": "-KAeKx5AOmk",
-      "youtube_url": "https://youtu.be/-KAeKx5AOmk",
-      "title": "COP31'de Türkiye'nin 2035 Elektrik Payı ve 2040 Vizyonu",
-      "narration": "Türkiye 20 milyon EV hedefiyle enerji dönüşümüne hız verdi Elder Genel Sekreteri Fakir Hüseyin Erdoğan COP31de Türkiyenin 2035e kadar elektrik tüketiminin yüzde 35e çıkması hedefini vurguladı Erdoğan 2040 Milli Enerji Vizyonu kapsamında 140 GWh batarya depolama 15 GW interkonneksiyon ve 20 milyon elektrikli araç hedeflendiğini belirtti Ayrıca EPDKnın 2026 tarifesinde dağıtım şirketleri için 18 virgül 5 milyar dolar yatırım tavanı ve 2035 2040 arasında 52 milyar dolar ek yatırım planlandığını açıkladı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-21T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-21T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 43.633333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/-KAeKx5AOmk.jpg"
-    }
-  ],
+  "source_run": "44918636441",
+  "verified_at": "2026-11-21T15:22:03.742077+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 3,
-  "processed_count": 3,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minibus crash tem"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: court decision review"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister denying allegations"
-    }
-  ],
-  "target_count": 3,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
