@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-21T02:08:58.314772+00:00",
       "source_modified_at": "2026-11-20T15:09:47.19",
+      "run_id": "44853649397",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "F2A1bEEql0s",
+      "youtube_url": "https://youtu.be/F2A1bEEql0s",
+      "publish_at_local": "2026-11-21T21:00:00+03:00",
+      "publish_at_utc": "2026-11-21T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Prof. Dr. Sevim Aydın'ın Ankara Cenazesi Yetkililerle",
+      "narration": "Ankarada Prof Dr Aydının cenazesi büyük ilgi gördü Prof Dr Sevim Aydının cenazesi Ankara Ahmet Hamdi Akseki Camisinde toplandı Eski Başbakan Binali Yıldırım Sağlık Bakanı Kemal Memişoğlu ve Ulaştırma Bakanı Abdulkadir Uraloğlu gibi yüksek düzeyli yetkililer törene katıldı Namazın ardından naaş Karşıyaka Mezarlığına defnedildi Türkiyeden Haber kanalına abone ol",
+      "description": "Prof. Dr. Sevim Aydın, Kulu'da trafik kazasında yaşamını yitirdi; cenazesi Ankara'da çok sayıda bakan ve siyasetçi katıldı. Bu tür törenlerde devlet temsilcilerinin varlığı sizce ne kadar anlam taşıyor?",
+      "visual_query": "funeral ceremony ankara",
+      "tags": [
+        "prof.dr.sevimaydın",
+        "ankara",
+        "cenaze",
+        "politikadestek",
+        "trafikkazası"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Prof. Dr. Sevim Aydın, Ankara'da son yolculuğuna uğurlandı",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-21T02:16:24.627481+00:00",
+      "source_modified_at": "",
       "run_id": "44853649397"
     }
   ],
