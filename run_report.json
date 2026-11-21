@@ -1,12 +1,27 @@
 {
-  "run_id": "44918636441",
-  "generated_at": "2026-11-21T18:21:12.735353+03:00",
-  "target_count": 0,
+  "run_id": "44952547450",
+  "generated_at": "2026-11-22T00:38:50.789906+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
+  "complete": false,
   "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minibus crash tem"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: court decision review"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister denying allegations"
+    }
+  ],
+  "daily_existing_count": 0
 }
