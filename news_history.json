@@ -5904,7 +5904,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/prof-dr-sevim-aydin-ankarada-son-yolculuguna-ugurlandi-963994.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31'de Türkiye'nin 2035 Elektrik Payı ve 2040 Vizyonu",
+      "summary": "Elder Genel Sekreteri Erdoğan, COP31 kapsamında ele alınan elektrifikasyon hedefi ile Türkiye'nin 2040 Milli Enerji Vizyonu doğrultusundaki şebeke yatırımlarına ilişkin değerlendirmelerde bulundu.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/elder-genel-sekreteri-erdogan-cop31deki-elektrifikasyon-hedeflerini-ve-2040-vizyonunu-degerlendirdi/4132362",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-20T17:55:31+03:00",
+      "fingerprint": "15797025222dd60859377b24a58238cd064071d2",
+      "viral_score": 56.04,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-21T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/-KAeKx5AOmk",
+      "video_id": "-KAeKx5AOmk",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-21T05:33:33.550427+03:00",
+      "publish_at_utc": "2026-11-21T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Elder Genel Sekreteri Erdoğan, COP31'deki elektrifikasyon hedeflerini ve 2040 vizyonunu değerlendirdi",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/elder-genel-sekreteri-erdogan-cop31deki-elektrifikasyon-hedeflerini-ve-2040-vizyonunu-degerlendirdi/4132362",
+      "source_modified_at": "2026-11-20T18:00:21",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change"
     }
   ]
 }

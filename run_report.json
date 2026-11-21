@@ -59,6 +59,34 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-21T02:16:24.627481+00:00",
       "source_modified_at": "",
+      "run_id": "44853649397",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "-KAeKx5AOmk",
+      "youtube_url": "https://youtu.be/-KAeKx5AOmk",
+      "publish_at_local": "2026-11-21T23:00:00+03:00",
+      "publish_at_utc": "2026-11-21T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 6,
+      "title": "COP31'de Türkiye'nin 2035 Elektrik Payı ve 2040 Vizyonu",
+      "narration": "Türkiye 20 milyon EV hedefiyle enerji dönüşümüne hız verdi Elder Genel Sekreteri Fakir Hüseyin Erdoğan COP31de Türkiyenin 2035e kadar elektrik tüketiminin yüzde 35e çıkması hedefini vurguladı Erdoğan 2040 Milli Enerji Vizyonu kapsamında 140 GWh batarya depolama 15 GW interkonneksiyon ve 20 milyon elektrikli araç hedeflendiğini belirtti Ayrıca EPDKnın 2026 tarifesinde dağıtım şirketleri için 18 virgül 5 milyar dolar yatırım tavanı ve 2035 2040 arasında 52 milyar dolar ek yatırım planlandığını açıkladı Türkiyeden Haber kanalına abone ol",
+      "description": "Erdoğan, COP31'de elektrik tüketiminin %35'e çıkması ve 2040'a kadar 20 milyon EV hedefi gibi büyük adımları açıkladı. Sizce bu yatırımlar Türkiye'nin enerji bağımsızlığını ne kadar hızlandırır?",
+      "visual_query": "electric grid modernization",
+      "tags": [
+        "COP31",
+        "elektrifikasyon",
+        "enerji vizyonu",
+        "elektrikli araç",
+        "yeni yatırım"
+      ],
+      "video_path": "output/short_6.mp4",
+      "source_headline": "Elder Genel Sekreteri Erdoğan, COP31'deki elektrifikasyon hedeflerini ve 2040 vizyonunu değerlendirdi",
+      "audience_bucket": "nature",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-21T02:23:33.803387+00:00",
+      "source_modified_at": "2026-11-20T18:00:21",
       "run_id": "44853649397"
     }
   ],
