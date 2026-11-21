@@ -5927,7 +5927,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/elder-genel-sekreteri-erdogan-cop31deki-elektrifikasyon-hedeflerini-ve-2040-vizyonunu-degerlendirdi/4132362",
       "source_modified_at": "2026-11-20T18:00:21",
       "audience_bucket": "nature",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
