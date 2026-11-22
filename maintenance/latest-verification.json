@@ -1,10 +1,39 @@
 {
-  "source_run": "45037329951",
-  "verified_at": "2026-11-22T15:18:32.398605+00:00",
-  "videos": [],
+  "source_run": "45070052845",
+  "verified_at": "2026-11-22T21:14:46.214291+00:00",
+  "videos": [
+    {
+      "index": 4,
+      "video_id": "W9oD3ZJKmNA",
+      "youtube_url": "https://youtu.be/W9oD3ZJKmNA",
+      "title": "Esenler'de Doğal Gaz Zehirlenmesi: 16 Kişi Hastanede",
+      "narration": "Pendikte doğal gaz zehirlenmesi 16 kişiyi etkiledi Esenler Mahallesi Sedir Sokakta 9 katlı bir binada doğal gaz zehirlenmesi şüphesiyle ihbar yapıldı ve polis sağlık itfaiye ile İGDAŞ ekipleri olay yerine sevk edildi İlk incelemede 4 kişi ambulansla hastaneye kaldırıldı ardından kendi imkanlarıyla giden 12 kişiyle toplam hastaneye kaldırılanların sayısı 16ya yükseldi Ekipler binayı tahliye edip giriş çıkışları kapattı kalan aileleri bahçeye yönlendirdi ve binadaki sayaçları sökerek karbonmonoksit ölçümü yaptı çalışmalar hâlâ sürüyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-23T16:00:00Z",
+      "upload_status": "youtube_processed",
+      "youtube_status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "private",
+        "publishAt": "2026-11-23T16:00:00Z",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": true,
+        "madeForKids": false,
+        "selfDeclaredMadeForKids": false
+      },
+      "processing_status": "succeeded",
+      "publication_status": "scheduled_wait",
+      "media_check": {
+        "duration": 41.4,
+        "width": 1080,
+        "height": 1920,
+        "audio_codec": "aac"
+      },
+      "preview": "maintenance/previews/W9oD3ZJKmNA.jpg"
+    }
+  ],
   "errors": [],
-  "accepted_count": 0,
-  "processed_count": 0,
+  "accepted_count": 1,
+  "processed_count": 1,
   "complete": false,
   "generation_errors": [
     {
@@ -21,6 +50,11 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister denying allegations"
+    },
+    {
+      "source": "Emekliye zam, fon soruşturması, terörsüz Türkiye: Kabine'nin gündemi yoğun - Sözcü Gazetesi",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "target_count": 3,
