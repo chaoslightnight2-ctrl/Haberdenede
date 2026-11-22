@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:38:50.789906+03:00",
+  "generated_at": "2026-11-22T04:06:29.712898+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-21T21:38:51.355808+00:00",
+      "source_checked_at": "2026-11-22T01:06:30.096817+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -91,7 +91,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "19:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Ticaret Bakanı Bolat, 7-8 Ekim iddialarını kesin olarak reddetti",
@@ -138,7 +139,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "19:00",
+      "_ready_to_resume": true
     }
   ]
 }
