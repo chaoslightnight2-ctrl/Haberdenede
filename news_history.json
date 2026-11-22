@@ -5929,6 +5929,28 @@
       "audience_bucket": "nature",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Esenler'de Doğal Gaz Zehirlenmesi: 16 Kişi Hastanede",
+      "summary": "İstanbul Pendik'te, 9 katlı binada oturan 16 kişi doğal gaz zehirlenmesi şüphesiyle hastanede tedavi altına alındı.",
+      "url": "https://www.trthaber.com/haber/turkiye/pendikte-dogal-gaz-zehirlenmesi-16-kisi-hastaneye-kaldirildi-964129.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-22T13:13:00+03:00",
+      "fingerprint": "2776f64f4c7dcd629b71b14fd1f8780475356654",
+      "viral_score": 44.55,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-23T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/W9oD3ZJKmNA",
+      "video_id": "W9oD3ZJKmNA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-23T00:13:13.927541+03:00",
+      "publish_at_utc": "2026-11-23T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Pendik'te doğal gaz zehirlenmesi: 16 kişi hastaneye kaldırıldı",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/pendikte-dogal-gaz-zehirlenmesi-16-kisi-hastaneye-kaldirildi-964129.html",
+      "source_modified_at": "",
+      "audience_bucket": "health_education",
+      "hook_style": "concrete_question"
     }
   ]
 }
