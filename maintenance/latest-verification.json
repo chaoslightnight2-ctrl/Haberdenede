@@ -1,6 +1,6 @@
 {
-  "source_run": "44969762146",
-  "verified_at": "2026-11-22T01:07:32.220148+00:00",
+  "source_run": "45037329951",
+  "verified_at": "2026-11-22T15:18:32.398605+00:00",
   "videos": [],
   "errors": [],
   "accepted_count": 0,
@@ -13,9 +13,14 @@
       "error": "No described asset matches scene 0: minibus crash tem"
     },
     {
-      "source": "Yargıtay, 18 yaş sigortalı kararını 1999'da bozdu",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: court decision review"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister denying allegations"
     }
   ],
   "target_count": 3,
