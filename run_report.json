@@ -31,7 +31,8 @@
       "hook_style": "concrete_question",
       "source_checked_at": "2026-11-22T21:07:31.526873+00:00",
       "source_modified_at": "",
-      "run_id": "45070052845"
+      "run_id": "45070052845",
+      "processing_status": "readback_scope_unavailable"
     }
   ],
   "errors": [
@@ -49,6 +50,11 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister denying allegations"
+    },
+    {
+      "source": "Emekliye zam, fon soruşturması, terörsüz Türkiye: Kabine'nin gündemi yoğun - Sözcü Gazetesi",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
   "daily_existing_count": 0
