@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:29:29.719016+03:00",
+  "generated_at": "2026-11-23T22:21:24.913985+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-23T01:29:30.255680+00:00",
+      "source_checked_at": "2026-11-23T19:21:25.300655+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -91,7 +91,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
+      "scheduled_slot": "21:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Ticaret Bakanı Bolat, 7-8 Ekim iddialarını kesin olarak reddetti",
@@ -138,53 +139,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
-    },
-    {
-      "title": "Yusufeli Barajı 4 Yaşında: 16,7 Milyar Lira Katkı",
-      "summary": "Tarım ve Orman Bakanı Yumaklı, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik ve ekonomimize sağladığı 16,7 milyar lirayı aşan katkıyla ülkemizin gururu olmaya devam ediyor.\" ifadesini kullandı.",
-      "url": "https://www.aa.com.tr/tr/ekonomi/yusufeli-barajindan-turkiye-ekonomisine-16-7-milyar-lirayi-asan-katki/4133562",
-      "source": "Anadolu Ajansı Ekonomi",
-      "source_name": "",
-      "query": "Anadolu Ajansı Ekonomi",
-      "published_at": "2026-11-22T15:11:37+03:00",
-      "fingerprint": "484b3adffa888f87543317aa11c628580d120d30",
-      "direct_source": true,
-      "viral_score": 58.69,
-      "topic_bucket": "ekonomi_yasam",
-      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/yusufeli-barajindan-turkiye-ekonomisine-16-7-milyar-lirayi-asan-katki/4133562",
-      "source_headline": "Yusufeli Barajı'ndan Türkiye ekonomisine 16,7 milyar lirayı aşan katkı",
-      "source_modified_at": "2026-11-22T15:19:50.15",
-      "source_checked_at": "2026-11-23T01:30:52.473833+00:00",
-      "article_score": 65,
-      "article_text": "Mert Davut 22 Kasım 2026•Güncelleme: 22 Kasım 2026 Tarım ve Orman Bakanı İbrahim Yumaklı, Yusufeli Barajı ve Hidroelektrik Santrali'nin (HES) 4 yaşında olduğunu belirterek, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik ve ekonomimize sağladığı 16,7 milyar lirayı aşan katkıyla ülkemizin gururu olmaya devam ediyor.\" ifadesini kullandı. Yumaklı, NSosyal medya hesabından yaptığı paylaşımda baraja ilişkin bilgi verdi. Yusufeli Barajı'nın \"mühendislik harikası\" olarak 4 yaşına girdiğine işaret eden Yumaklı, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik ve ekonomimize sağladığı 16,7 milyar lirayı aşan katkıyla ülkemizin gururu olmaya devam ediyor.\" değerlendirmesinde bulundu. Sınıfında dünyanın 5'inci en yüksek barajı Yumaklı'nın paylaşımında yer verdiği videoda Yusufeli Barajı ve HES'ine ilişkin bilgi de aktarıldı. Buna göre Türkiye'nin en yüksek gövdeli barajı olarak ülke enerjisine güç katmaya devam eden Yusufeli, sınıfında da dünyanın 5'inci en yükseği olarak dikkati çekiyor. Söz konusu barajda 22 Kasım 2022'de su tutulurken Kasım 2023'te ilk enerji üretimi yapıldı ve Mart 2024'te tam kapasiteyle enerji üretimine başlandı",
-      "content_quality": "article_text",
-      "model_source_context": "Mert Davut 22 Kasım 2026•Güncelleme: 22 Kasım 2026 Tarım ve Orman Bakanı İbrahim Yumaklı, Yusufeli Barajı ve Hidroelektrik Santrali'nin (HES) 4 yaşında olduğunu belirterek, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik ve ekonomimize sağladığı 16,7 milyar lirayı aşan katkıyla ülkemizin gururu olmaya devam ediyor.\" ifadesini kullandı. Yumaklı, NSosyal medya hesabından yaptığı paylaşımda baraja ilişkin bilgi verdi. Yusufeli Barajı'nın \"mühendislik harikası\" olarak 4 yaşına girdiğine işaret eden Yumaklı, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik ve ekonomimize sağladığı 16,7 milyar lirayı aşan katkıyla ülkemizin gururu olmaya devam ediyor.\" değerlendirmesinde bulundu. Sınıfında dünyanın 5'inci en yüksek barajı Yumaklı'nın paylaşımında yer verdiği videoda Yusufeli Barajı ve HES'ine ilişkin bilgi de aktarıldı. Buna göre Türkiye'nin en yüksek gövdeli barajı olarak ülke enerjisine güç katmaya devam eden Yusufeli, sınıfında da dünyanın 5'inci en yükseği olarak dikkati çekiyor. Söz konusu barajda 22 Kasım 2022'de su tutulurken Kasım 2023'te ilk enerji üretimi yapıldı ve Mart 2024'te tam kapasiteyle enerji üretimine başlandı",
-      "shorts_hook": "Yusufeli Barajı dört yaşında, ekonomik dev katkı sağlıyor",
-      "quality_hook": "Yusufeli Barajı dört yaşında, ekonomik dev katkı sağlıyor",
-      "quality_narration": "Tarım ve Orman Bakanı İbrahim Yumaklı, Yusufeli Barajı’nın dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti. Bakan, barajın yıllık 5,6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16,7 milyar liradan fazla katkı sağladığını vurguladı. Baraj, dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Tarım ve Orman Bakanı İbrahim Yumaklı, Yusufeli Barajı’nın dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti.",
-        "Bakan, barajın yıllık 5,6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16,7 milyar liradan fazla katkı sağladığını vurguladı.",
-        "Baraj, dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor."
-      ],
-      "youtube_description": "Yusufeli Barajı, 275 metre yüksekliği ve yıllık 5,6 milyar kWh üretimiyle 16,7 milyar lira üzerindeki ekonomik katkısını sürdürüyor. Sizce bu tür mega projeler ülke enerjisine ne kadar daha güç katabilir?",
-      "visual_query": "dam generating electricity",
-      "spoken_text": "Yusufeli Barajı dört yaşında ekonomik dev katkı sağlıyor Tarım ve Orman Bakanı İbrahim Yumaklı Yusufeli Barajının dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti Bakan barajın yıllık 5 virgül 6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16 virgül 7 milyar liradan fazla katkı sağladığını vurguladı Baraj dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Yusufeli Barajı dört yaşında ekonomik dev katkı sağlıyor. Tarım ve Orman Bakanı İbrahim Yumaklı Yusufeli Barajının dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti. Bakan barajın yıllık 5 virgül 6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16 virgül 7 milyar liradan fazla katkı sağladığını vurguladı. Baraj dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "Yusufeli Barajı",
-        "hidroelektrik",
-        "ekonomik katkı",
-        "enerji üretimi",
-        "Türkiye enerji"
-      ],
-      "youtube_hashtags": "#shorts #ekonomi #enerji",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "Yusufeli Barajı dört yaşında ekonomik dev katkı sağlıyor Tarım ve Orman Bakanı İbrahim Yumaklı Yusufeli Barajının dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti Bakan barajın yıllık 5 virgül 6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16 virgül 7 milyar liradan fazla katkı sağladığını vurguladı Baraj dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor Türkiyeden Haber kanalına abone ol"
+      "scheduled_slot": "21:00",
+      "_ready_to_resume": true
     }
   ]
 }
