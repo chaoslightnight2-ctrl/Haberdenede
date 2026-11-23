@@ -1,39 +1,10 @@
 {
-  "source_run": "45094787500",
-  "verified_at": "2026-11-23T01:48:54.291300+00:00",
-  "videos": [
-    {
-      "index": 4,
-      "video_id": "XGu6g3qrW2E",
-      "youtube_url": "https://youtu.be/XGu6g3qrW2E",
-      "title": "Yusufeli Barajı 4 Yaşında: 16,7 Milyar Lira Katkı",
-      "narration": "Yusufeli Barajı dört yaşında ekonomik dev katkı sağlıyor Tarım ve Orman Bakanı İbrahim Yumaklı Yusufeli Barajının dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti Bakan barajın yıllık 5 virgül 6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16 virgül 7 milyar liradan fazla katkı sağladığını vurguladı Baraj dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-23T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-23T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 34.8,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/XGu6g3qrW2E.jpg"
-    }
-  ],
+  "source_run": "45246619807",
+  "verified_at": "2026-11-23T19:22:36.202113+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 1,
-  "processed_count": 1,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -42,17 +13,12 @@
       "error": "No described asset matches scene 0: minibus crash tem"
     },
     {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: court decision review"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister denying allegations"
+      "source": "Yargıtay, 18 yaş sigortalı kararını 1999'da bozdu",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "target_count": 2,
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": false
 }
