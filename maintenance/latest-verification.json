@@ -1,19 +1,19 @@
 {
-  "source_run": "45070052845",
-  "verified_at": "2026-11-22T21:14:46.214291+00:00",
+  "source_run": "45094787500",
+  "verified_at": "2026-11-23T01:48:54.291300+00:00",
   "videos": [
     {
       "index": 4,
-      "video_id": "W9oD3ZJKmNA",
-      "youtube_url": "https://youtu.be/W9oD3ZJKmNA",
-      "title": "Esenler'de Doğal Gaz Zehirlenmesi: 16 Kişi Hastanede",
-      "narration": "Pendikte doğal gaz zehirlenmesi 16 kişiyi etkiledi Esenler Mahallesi Sedir Sokakta 9 katlı bir binada doğal gaz zehirlenmesi şüphesiyle ihbar yapıldı ve polis sağlık itfaiye ile İGDAŞ ekipleri olay yerine sevk edildi İlk incelemede 4 kişi ambulansla hastaneye kaldırıldı ardından kendi imkanlarıyla giden 12 kişiyle toplam hastaneye kaldırılanların sayısı 16ya yükseldi Ekipler binayı tahliye edip giriş çıkışları kapattı kalan aileleri bahçeye yönlendirdi ve binadaki sayaçları sökerek karbonmonoksit ölçümü yaptı çalışmalar hâlâ sürüyor Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-23T16:00:00Z",
+      "video_id": "XGu6g3qrW2E",
+      "youtube_url": "https://youtu.be/XGu6g3qrW2E",
+      "title": "Yusufeli Barajı 4 Yaşında: 16,7 Milyar Lira Katkı",
+      "narration": "Yusufeli Barajı dört yaşında ekonomik dev katkı sağlıyor Tarım ve Orman Bakanı İbrahim Yumaklı Yusufeli Barajının dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti Bakan barajın yıllık 5 virgül 6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16 virgül 7 milyar liradan fazla katkı sağladığını vurguladı Baraj dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-23T18:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-23T16:00:00Z",
+        "publishAt": "2026-11-23T18:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,12 +23,12 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 41.4,
+        "duration": 34.8,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/W9oD3ZJKmNA.jpg"
+      "preview": "maintenance/previews/XGu6g3qrW2E.jpg"
     }
   ],
   "errors": [],
@@ -50,14 +50,9 @@
       "index": 3,
       "stage": "render_or_upload",
       "error": "No described asset matches scene 0: minister denying allegations"
-    },
-    {
-      "source": "Emekliye zam, fon soruşturması, terörsüz Türkiye: Kabine'nin gündemi yoğun - Sözcü Gazetesi",
-      "stage": "generation",
-      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "target_count": 3,
+  "target_count": 2,
   "published_count": 0,
   "accepted_complete": false
 }
