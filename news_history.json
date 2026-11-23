@@ -5952,6 +5952,28 @@
       "audience_bucket": "health_education",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Yusufeli Barajı 4 Yaşında: 16,7 Milyar Lira Katkı",
+      "summary": "Tarım ve Orman Bakanı Yumaklı, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik ve ekonomimize sağladığı 16,7 milyar lirayı aşan katkıyla ülkemizin gururu olmaya devam ediyor.\" ifadesini kullandı.",
+      "url": "https://www.aa.com.tr/tr/ekonomi/yusufeli-barajindan-turkiye-ekonomisine-16-7-milyar-lirayi-asan-katki/4133562",
+      "source": "Anadolu Ajansı Ekonomi",
+      "published_at": "2026-11-22T15:11:37+03:00",
+      "fingerprint": "484b3adffa888f87543317aa11c628580d120d30",
+      "viral_score": 58.69,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-23T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/XGu6g3qrW2E",
+      "video_id": "XGu6g3qrW2E",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-23T04:36:35.153630+03:00",
+      "publish_at_utc": "2026-11-23T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Yusufeli Barajı'ndan Türkiye ekonomisine 16,7 milyar lirayı aşan katkı",
+      "resolved_url": "https://www.aa.com.tr/tr/ekonomi/yusufeli-barajindan-turkiye-ekonomisine-16-7-milyar-lirayi-asan-katki/4133562",
+      "source_modified_at": "2026-11-22T15:19:50.15",
+      "audience_bucket": "economy_life",
+      "hook_style": "direct_change"
     }
   ]
 }
