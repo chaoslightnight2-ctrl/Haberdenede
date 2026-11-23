@@ -5973,7 +5973,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/ekonomi/yusufeli-barajindan-turkiye-ekonomisine-16-7-milyar-lirayi-asan-katki/4133562",
       "source_modified_at": "2026-11-22T15:19:50.15",
       "audience_bucket": "economy_life",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }
