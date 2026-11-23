@@ -1,40 +1,11 @@
 {
-  "run_id": "45094787500",
-  "generated_at": "2026-11-23T04:29:29.719016+03:00",
-  "target_count": 2,
+  "run_id": "45246619807",
+  "generated_at": "2026-11-23T22:21:24.913985+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [
-    {
-      "video_id": "XGu6g3qrW2E",
-      "youtube_url": "https://youtu.be/XGu6g3qrW2E",
-      "publish_at_local": "2026-11-23T21:00:00+03:00",
-      "publish_at_utc": "2026-11-23T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "Yusufeli Barajı 4 Yaşında: 16,7 Milyar Lira Katkı",
-      "narration": "Yusufeli Barajı dört yaşında ekonomik dev katkı sağlıyor Tarım ve Orman Bakanı İbrahim Yumaklı Yusufeli Barajının dört yaşında olduğunu ve 275 metre gövde yüksekliğine sahip olduğunu belirtti Bakan barajın yıllık 5 virgül 6 milyar kilovatsaat elektrik ürettiğini ve ekonomiye 16 virgül 7 milyar liradan fazla katkı sağladığını vurguladı Baraj dünya çapında beşinci en yüksek baraj olarak enerji üretiminde ülkemize güç katmaya devam ediyor Türkiyeden Haber kanalına abone ol",
-      "description": "Yusufeli Barajı, 275 metre yüksekliği ve yıllık 5,6 milyar kWh üretimiyle 16,7 milyar lira üzerindeki ekonomik katkısını sürdürüyor. Sizce bu tür mega projeler ülke enerjisine ne kadar daha güç katabilir?",
-      "visual_query": "dam generating electricity",
-      "tags": [
-        "Yusufeli Barajı",
-        "hidroelektrik",
-        "ekonomik katkı",
-        "enerji üretimi",
-        "Türkiye enerji"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "Yusufeli Barajı'ndan Türkiye ekonomisine 16,7 milyar lirayı aşan katkı",
-      "audience_bucket": "economy_life",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-23T01:30:52.473833+00:00",
-      "source_modified_at": "2026-11-22T15:19:50.15",
-      "run_id": "45094787500",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [
     {
       "index": 1,
@@ -42,15 +13,10 @@
       "error": "No described asset matches scene 0: minibus crash tem"
     },
     {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: court decision review"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister denying allegations"
+      "source": "Yargıtay, 18 yaş sigortalı kararını 1999'da bozdu",
+      "stage": "generation",
+      "error": "Updated publisher article unavailable; stale RSS cannot replace it"
     }
   ],
-  "daily_existing_count": 1
+  "daily_existing_count": 2
 }
