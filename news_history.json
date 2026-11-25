@@ -5996,7 +5996,30 @@
       "resolved_url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question"
+      "hook_style": "concrete_question",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "COP31'de ANTRAY Tramvayı Günlük 130 Bin Yolcu Taşıdı",
+      "summary": "Antalya'da düzenlenen Birleşmiş Milletler (BM) İklim Değişikliği Çerçeve Sözleşmesi 31. Taraflar Konferansı (COP31) süresinde, hafif raylı sistem ANTRAY günlük ortalama 130 bin yolcuya hizmet verdi.",
+      "url": "https://www.aa.com.tr/tr/gundem/antray-cop31de-gunde-130-bin-yolcu-tasidi/4137869",
+      "source": "Anadolu Ajansı Güncel",
+      "published_at": "2026-11-25T20:46:05+03:00",
+      "fingerprint": "2751f09eda1e4a0277adf4c61f9cb1cde80581b8",
+      "viral_score": 63.66,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-26T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/D7huSDLR-m4",
+      "video_id": "D7huSDLR-m4",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-25T21:16:40.956791+03:00",
+      "publish_at_utc": "2026-11-26T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "ANTRAY, COP31'de günde 130 bin yolcu taşıdı",
+      "resolved_url": "https://www.aa.com.tr/tr/gundem/antray-cop31de-gunde-130-bin-yolcu-tasidi/4137869",
+      "source_modified_at": "2026-11-25T20:47:23.89",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }
