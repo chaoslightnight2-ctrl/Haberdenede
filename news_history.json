@@ -6019,7 +6019,8 @@
       "resolved_url": "https://www.aa.com.tr/tr/gundem/antray-cop31de-gunde-130-bin-yolcu-tasidi/4137869",
       "source_modified_at": "2026-11-25T20:47:23.89",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
     }
   ]
 }

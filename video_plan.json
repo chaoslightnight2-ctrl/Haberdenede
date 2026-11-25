@@ -1,4 +1,61 @@
 {
-  "generated_at": "2026-11-25T07:02:15.183487+03:00",
-  "videos": []
+  "generated_at": "2026-11-25T20:57:51.196195+03:00",
+  "videos": [
+    {
+      "video_id": "Ed8Gui959_8",
+      "youtube_url": "https://youtu.be/Ed8Gui959_8",
+      "publish_at_local": "2026-11-25T23:00:00+03:00",
+      "publish_at_utc": "2026-11-25T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Bağdat'ta Kalkınma Yolu Mutabakatı İlerleiyor",
+      "narration": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi Türkiyeden Haber kanalına abone ol",
+      "description": "Ulaştırma ve Altyapı Bakanı Uraloğlu, Bağdat'ta Kalkınma Yolu projesinin mutabakat zaptının anlaşmaya dönüşmekte olduğunu duyurdu. Bu altyapı hamlesi bölgesel ticareti nasıl etkiler, siz ne düşünüyorsunuz?",
+      "visual_query": "minister discusses agreement",
+      "tags": [
+        "Kalkınma Yolu",
+        "Ulaştırma Bakanı",
+        "Bağdat",
+        "İrak",
+        "Lojistik"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Bakan Uraloğlu: Kalkınma Yolu ile Hicaz Yolu birbirine rakip değil, birbirini destekliyor",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-25T17:59:06.903422+00:00",
+      "source_modified_at": "",
+      "run_id": "45670066050",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "D7huSDLR-m4",
+      "youtube_url": "https://youtu.be/D7huSDLR-m4",
+      "publish_at_local": "2026-11-26T19:00:00+03:00",
+      "publish_at_utc": "2026-11-26T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "COP31'de ANTRAY Tramvayı Günlük 130 Bin Yolcu Taşıdı",
+      "narration": "COP31de tramvayla 130 bin yolcu taşındı Antalya Ulaşım AŞ COP31 ziyaretçilerine tramvayla hızlı ve güvenli ulaşım sağladı Sabah 05 virgül 00den itibaren 5 dakikalık sefer aralıklarıyla günlük ortalama 130 bin yolcu taşındı COP31 alanı ile Antalya Havalimanı arasında ilave tramvay ring seferleri düzenlendi Türkiyeden Haber kanalına abone ol",
+      "description": "ANTRAY, COP31 ziyaretçilerine kesintisiz tramvay hizmeti sundu. Sizce bu ulaşım modeli gelecekteki büyük etkinliklerde kullanılmalı mı?",
+      "visual_query": "tramway passengers moving",
+      "tags": [
+        "COP31",
+        "tramvay",
+        "Antalya",
+        "ulaşım",
+        "toplu taşıma"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "ANTRAY, COP31'de günde 130 bin yolcu taşıdı",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-25T18:10:20.883427+00:00",
+      "source_modified_at": "2026-11-25T20:47:23.89",
+      "run_id": "45670066050",
+      "processing_status": "readback_scope_unavailable"
+    }
+  ]
 }
