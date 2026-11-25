@@ -138,7 +138,53 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
+      "scheduled_slot": "23:00"
+    },
+    {
+      "title": "Bağdat'ta Kalkınma Yolu Mutabakatı İlerleiyor",
+      "summary": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Kalkınma Yolu Projesi'nde Irak ile her konuda mutabakata varıldığını belirterek, hattın Türkiye'ye 70 binin üzerinde istihdam ve 10 yılda yaklaşık 60 milyar dolarlık ekonomik girdi sağlayacağını aktardı.",
+      "url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-11-25T13:38:00+03:00",
+      "fingerprint": "d1fca3207ef8063ab130562e3aea28b4e2b90eb4",
+      "direct_source": true,
+      "viral_score": 71.24,
+      "topic_bucket": "ulaşım_şehir",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
+      "source_headline": "Bakan Uraloğlu: Kalkınma Yolu ile Hicaz Yolu birbirine rakip değil, birbirini destekliyor",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-25T17:59:06.903422+00:00",
+      "article_score": 54,
+      "article_text": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında temaslarda bulunduğu Irak'ın başkenti Bağdat'ta basın mensuplarının sorularını yanıtladı Buradaki temaslarında öncelikli gündemin Kalkınma Yolu projesi olduğunu söyleyen Uraloğlu, daha önce imzalanan mutabakat zaptının anlaşmaya dönüştürülmesi aşamasına gelindiğini ifade etti Fuar vesilesiyle Bağdat’ta bulunduklarını aktaran Uraloğlu, gün içinde başbakan ve bakanla, akşam ise başbakan yardımcısıyla görüşmeler yapacaklarını kaydetti Uraloğlu, heyetlerin günlerdir Bağdat’ta yürüttüğü çalışmalarda her konuda mutabakata varıldığını ve metin haline getirilen sürecin kısa sürede anlaşmaya evrilmesini beklediklerini dile getirdi “Doğru yönetilmesi halinde Irak’ta 'taş koyma' (temel atma) merasiminin yapılabileceği, yılın bitimine bir ay kalmasına rağmen önemli mesafe alındı” diyen Uraloğlu, Kalkınma Yolu’nun Türkiye için 70 binin üzerinde istihdam sağlaması ve 10 yıllık periyotta yaklaşık 60-61,5 milyar dolarlık ekonomik girdi oluşturmasının öngörüldüğünü söyledi Uraloğlu, “Uluslararası taşıma koridorlarının yalnızca transit geçiş olarak görülmemesi gerekiyor. Güzergah boyunca organize sanayi bölgeleri, lojistik merkezler ve limanların kurulması üretim ve ihracata katkı sunacak” diye konuştu Hicaz Demiryolu’ndaki son duruma ve koridorlar arasındaki rekabet iddialarına da değinen Uraloğlu, “Bu hatlar, birbirine rakip değil, aksine birbirini destekliyor” dedi Taşınması gereken yükün oldukça fazla olduğunu ifade eden Uraloğlu, \"Hem Kalkınma Yolu hem de modernize edilmiş Hicaz Demiryolu erken tamamlansaydı Hürmüz Boğazı dünya gündeminde bu kadar yoğun yer tutmayabilirdi\" değerlendirmesinde bulundu",
+      "content_quality": "article_text",
+      "model_source_context": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında temaslarda bulunduğu Irak'ın başkenti Bağdat'ta basın mensuplarının sorularını yanıtladı Buradaki temaslarında öncelikli gündemin Kalkınma Yolu projesi olduğunu söyleyen Uraloğlu, daha önce imzalanan mutabakat zaptının anlaşmaya dönüştürülmesi aşamasına gelindiğini ifade etti Fuar vesilesiyle Bağdat’ta bulunduklarını aktaran Uraloğlu, gün içinde başbakan ve bakanla, akşam ise başbakan yardımcısıyla görüşmeler yapacaklarını kaydetti Uraloğlu, heyetlerin günlerdir Bağdat’ta yürüttüğü çalışmalarda her konuda mutabakata varıldığını ve metin haline getirilen sürecin kısa sürede anlaşmaya evrilmesini beklediklerini dile getirdi “Doğru yönetilmesi halinde Irak’ta 'taş koyma' (temel atma) merasiminin yapılabileceği, yılın bitimine bir ay kalmasına rağmen önemli mesafe alındı” diyen Uraloğlu, Kalkınma Yolu’nun Türkiye için 70 binin üzerinde istihdam sağlaması ve 10 yıllık periyotta yaklaşık 60-61,5 milyar dolarlık ekonomik girdi oluşturmasının öngörüldüğünü söyledi Uraloğlu, “Uluslararası taşıma koridorlarının yalnızca transit geçiş olarak görülmemesi gerekiyor. Güzergah boyunca organize sanayi bölgeleri, lojistik merkezler ve limanların kurulması üretim ve ihracata katkı sunacak” diye konuştu Hicaz Demiryolu’ndaki son duruma ve koridorlar arasındaki rekabet iddialarına da değinen Uraloğlu, “Bu hatlar, birbirine rakip değil, aksine birbirini destekliyor” dedi Taşınması gereken yükün oldukça fazla olduğunu ifade eden Uraloğlu, \"Hem Kalkınma Yolu hem de modernize edilmiş Hicaz Demiryolu erken tamamlansaydı Hürmüz Boğazı dünya gündeminde bu kadar yoğun yer tutmayabilirdi\" değerlendirmesinde bulundu",
+      "shorts_hook": "Bağdat'ta Kalkınma Yolu mutabakatı ilerliyor, bakan Uraloğlu",
+      "quality_hook": "Bağdat'ta Kalkınma Yolu mutabakatı ilerliyor, bakan Uraloğlu",
+      "quality_narration": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Bağdat'ta düzenlenen Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti. Bakan, projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60‑61,5 milyar dolar ekonomik girdi sağlayacağını vurguladı. Uraloğlu, Hicaz Demiryolu ile Kalkınma Yolu'nun birbirine rakip değil, aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Bağdat'ta düzenlenen Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti.",
+        "Bakan, projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60‑61,5 milyar dolar ekonomik girdi sağlayacağını vurguladı.",
+        "Uraloğlu, Hicaz Demiryolu ile Kalkınma Yolu'nun birbirine rakip değil, aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi."
+      ],
+      "youtube_description": "Ulaştırma ve Altyapı Bakanı Uraloğlu, Bağdat'ta Kalkınma Yolu projesinin mutabakat zaptının anlaşmaya dönüşmekte olduğunu duyurdu. Bu altyapı hamlesi bölgesel ticareti nasıl etkiler, siz ne düşünüyorsunuz?",
+      "visual_query": "minister discusses agreement",
+      "spoken_text": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu. Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti. Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı. Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "Kalkınma Yolu",
+        "Ulaştırma Bakanı",
+        "Bağdat",
+        "İrak",
+        "Lojistik"
+      ],
+      "youtube_hashtags": "#shorts #ulaşım #ekonomi",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
