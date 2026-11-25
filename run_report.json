@@ -1,11 +1,39 @@
 {
-  "run_id": "45543918637",
-  "generated_at": "2026-11-25T07:02:15.183487+03:00",
+  "run_id": "45670066050",
+  "generated_at": "2026-11-25T20:57:51.196195+03:00",
   "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "Ed8Gui959_8",
+      "youtube_url": "https://youtu.be/Ed8Gui959_8",
+      "publish_at_local": "2026-11-25T23:00:00+03:00",
+      "publish_at_utc": "2026-11-25T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Bağdat'ta Kalkınma Yolu Mutabakatı İlerleiyor",
+      "narration": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi Türkiyeden Haber kanalına abone ol",
+      "description": "Ulaştırma ve Altyapı Bakanı Uraloğlu, Bağdat'ta Kalkınma Yolu projesinin mutabakat zaptının anlaşmaya dönüşmekte olduğunu duyurdu. Bu altyapı hamlesi bölgesel ticareti nasıl etkiler, siz ne düşünüyorsunuz?",
+      "visual_query": "minister discusses agreement",
+      "tags": [
+        "Kalkınma Yolu",
+        "Ulaştırma Bakanı",
+        "Bağdat",
+        "İrak",
+        "Lojistik"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Bakan Uraloğlu: Kalkınma Yolu ile Hicaz Yolu birbirine rakip değil, birbirini destekliyor",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-25T17:59:06.903422+00:00",
+      "source_modified_at": "",
+      "run_id": "45670066050"
+    }
+  ],
   "errors": [
     {
       "index": 1,

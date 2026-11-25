@@ -5975,6 +5975,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Bağdat'ta Kalkınma Yolu Mutabakatı İlerleiyor",
+      "summary": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Kalkınma Yolu Projesi'nde Irak ile her konuda mutabakata varıldığını belirterek, hattın Türkiye'ye 70 binin üzerinde istihdam ve 10 yılda yaklaşık 60 milyar dolarlık ekonomik girdi sağlayacağını aktardı.",
+      "url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-25T13:38:00+03:00",
+      "fingerprint": "d1fca3207ef8063ab130562e3aea28b4e2b90eb4",
+      "viral_score": 71.24,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-25T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/Ed8Gui959_8",
+      "video_id": "Ed8Gui959_8",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-25T21:10:15.874212+03:00",
+      "publish_at_utc": "2026-11-25T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bakan Uraloğlu: Kalkınma Yolu ile Hicaz Yolu birbirine rakip değil, birbirini destekliyor",
+      "resolved_url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "concrete_question"
     }
   ]
 }
