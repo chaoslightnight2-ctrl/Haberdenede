@@ -6021,6 +6021,28 @@
       "audience_bucket": "transport_cities",
       "hook_style": "direct_change",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Şehit Hava Astsubay Gürdağ'ın Antalya'daki Yolculuğu",
+      "summary": "Eskişehir'de eğitim uçuşu sırasında kaza kırıma uğrayan helikopterde şehit düşen Hava Piyade Astsubay Kıdemli Çavuş Mehmet Alp Gürdağ'ın cenazesi, Antalya'da toprağa verildi.",
+      "url": "https://www.trthaber.com/haber/turkiye/sehit-hava-astsubay-gurdag-antalyada-son-yolculuguna-ugurlandi-964557.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-26T16:28:00+03:00",
+      "fingerprint": "5872a85c1bbb0377154098423d8363aabbe795a4",
+      "viral_score": 75.17,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-26T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/J8GCbreSREA",
+      "video_id": "J8GCbreSREA",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-26T20:51:41.053151+03:00",
+      "publish_at_utc": "2026-11-26T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Şehit Hava Astsubay Gürdağ, Antalya'da son yolculuğuna uğurlandı",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/sehit-hava-astsubay-gurdag-antalyada-son-yolculuguna-ugurlandi-964557.html",
+      "source_modified_at": "",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change"
     }
   ]
 }

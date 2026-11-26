@@ -1,11 +1,39 @@
 {
-  "run_id": "45748908250",
-  "generated_at": "2026-11-26T06:27:10.324411+03:00",
+  "run_id": "45869920066",
+  "generated_at": "2026-11-26T20:42:52.060449+03:00",
   "target_count": 2,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [],
+  "videos": [
+    {
+      "video_id": "J8GCbreSREA",
+      "youtube_url": "https://youtu.be/J8GCbreSREA",
+      "publish_at_local": "2026-11-26T23:00:00+03:00",
+      "publish_at_utc": "2026-11-26T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Şehit Hava Astsubay Gürdağ'ın Antalya'daki Yolculuğu",
+      "narration": "Şehit Hava Astsubay Gürdağın cenazesi Antalyada toplandı Gürdağın Türk bayrağına sarılı naaşı ikindi vakti Uncalı Kent Mezarlığı Camisine getirildi Sağlık Bakanı Kemal Memişoğlu Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı Cenaze namazının ardından şehidin naaşı Antalya Garnizon Şehitliğine defnedildi Türkiyeden Haber kanalına abone ol",
+      "description": "Şehit Hava Astsubay Gürdağ, Antalya'da saygıyla uğurlandı. Sizce bu tür törenler toplumsal dayanışmayı nasıl etkiler?",
+      "visual_query": "soldier funeral flag",
+      "tags": [
+        "şehit",
+        "Antalya",
+        "cenaze",
+        "garnizon",
+        "askeri"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Şehit Hava Astsubay Gürdağ, Antalya'da son yolculuğuna uğurlandı",
+      "audience_bucket": "transport_cities",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-26T17:44:03.627097+00:00",
+      "source_modified_at": "",
+      "run_id": "45869920066"
+    }
+  ],
   "errors": [
     {
       "index": 1,
