@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:57:51.196195+03:00",
+  "generated_at": "2026-11-26T04:46:34.137959+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-25T17:57:51.613079+00:00",
+      "source_checked_at": "2026-11-26T01:46:34.568383+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -91,7 +91,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "23:00"
+      "scheduled_slot": "23:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Ticaret Bakanı Bolat, 7-8 Ekim iddialarını kesin olarak reddetti",
@@ -138,109 +139,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "23:00"
-    },
-    {
-      "title": "Bağdat'ta Kalkınma Yolu Mutabakatı İlerleiyor",
-      "summary": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Kalkınma Yolu Projesi'nde Irak ile her konuda mutabakata varıldığını belirterek, hattın Türkiye'ye 70 binin üzerinde istihdam ve 10 yılda yaklaşık 60 milyar dolarlık ekonomik girdi sağlayacağını aktardı.",
-      "url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-25T13:38:00+03:00",
-      "fingerprint": "d1fca3207ef8063ab130562e3aea28b4e2b90eb4",
-      "direct_source": true,
-      "viral_score": 71.24,
-      "topic_bucket": "ulaşım_şehir",
-      "resolved_url": "https://www.trthaber.com/haber/gundem/bakan-uraloglu-kalkinma-yolu-ile-hicaz-yolu-birbirine-rakip-degil-birbirini-destekliyor-964436.html",
-      "source_headline": "Bakan Uraloğlu: Kalkınma Yolu ile Hicaz Yolu birbirine rakip değil, birbirini destekliyor",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-25T17:59:06.903422+00:00",
-      "article_score": 54,
-      "article_text": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında temaslarda bulunduğu Irak'ın başkenti Bağdat'ta basın mensuplarının sorularını yanıtladı Buradaki temaslarında öncelikli gündemin Kalkınma Yolu projesi olduğunu söyleyen Uraloğlu, daha önce imzalanan mutabakat zaptının anlaşmaya dönüştürülmesi aşamasına gelindiğini ifade etti Fuar vesilesiyle Bağdat’ta bulunduklarını aktaran Uraloğlu, gün içinde başbakan ve bakanla, akşam ise başbakan yardımcısıyla görüşmeler yapacaklarını kaydetti Uraloğlu, heyetlerin günlerdir Bağdat’ta yürüttüğü çalışmalarda her konuda mutabakata varıldığını ve metin haline getirilen sürecin kısa sürede anlaşmaya evrilmesini beklediklerini dile getirdi “Doğru yönetilmesi halinde Irak’ta 'taş koyma' (temel atma) merasiminin yapılabileceği, yılın bitimine bir ay kalmasına rağmen önemli mesafe alındı” diyen Uraloğlu, Kalkınma Yolu’nun Türkiye için 70 binin üzerinde istihdam sağlaması ve 10 yıllık periyotta yaklaşık 60-61,5 milyar dolarlık ekonomik girdi oluşturmasının öngörüldüğünü söyledi Uraloğlu, “Uluslararası taşıma koridorlarının yalnızca transit geçiş olarak görülmemesi gerekiyor. Güzergah boyunca organize sanayi bölgeleri, lojistik merkezler ve limanların kurulması üretim ve ihracata katkı sunacak” diye konuştu Hicaz Demiryolu’ndaki son duruma ve koridorlar arasındaki rekabet iddialarına da değinen Uraloğlu, “Bu hatlar, birbirine rakip değil, aksine birbirini destekliyor” dedi Taşınması gereken yükün oldukça fazla olduğunu ifade eden Uraloğlu, \"Hem Kalkınma Yolu hem de modernize edilmiş Hicaz Demiryolu erken tamamlansaydı Hürmüz Boğazı dünya gündeminde bu kadar yoğun yer tutmayabilirdi\" değerlendirmesinde bulundu",
-      "content_quality": "article_text",
-      "model_source_context": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında temaslarda bulunduğu Irak'ın başkenti Bağdat'ta basın mensuplarının sorularını yanıtladı Buradaki temaslarında öncelikli gündemin Kalkınma Yolu projesi olduğunu söyleyen Uraloğlu, daha önce imzalanan mutabakat zaptının anlaşmaya dönüştürülmesi aşamasına gelindiğini ifade etti Fuar vesilesiyle Bağdat’ta bulunduklarını aktaran Uraloğlu, gün içinde başbakan ve bakanla, akşam ise başbakan yardımcısıyla görüşmeler yapacaklarını kaydetti Uraloğlu, heyetlerin günlerdir Bağdat’ta yürüttüğü çalışmalarda her konuda mutabakata varıldığını ve metin haline getirilen sürecin kısa sürede anlaşmaya evrilmesini beklediklerini dile getirdi “Doğru yönetilmesi halinde Irak’ta 'taş koyma' (temel atma) merasiminin yapılabileceği, yılın bitimine bir ay kalmasına rağmen önemli mesafe alındı” diyen Uraloğlu, Kalkınma Yolu’nun Türkiye için 70 binin üzerinde istihdam sağlaması ve 10 yıllık periyotta yaklaşık 60-61,5 milyar dolarlık ekonomik girdi oluşturmasının öngörüldüğünü söyledi Uraloğlu, “Uluslararası taşıma koridorlarının yalnızca transit geçiş olarak görülmemesi gerekiyor. Güzergah boyunca organize sanayi bölgeleri, lojistik merkezler ve limanların kurulması üretim ve ihracata katkı sunacak” diye konuştu Hicaz Demiryolu’ndaki son duruma ve koridorlar arasındaki rekabet iddialarına da değinen Uraloğlu, “Bu hatlar, birbirine rakip değil, aksine birbirini destekliyor” dedi Taşınması gereken yükün oldukça fazla olduğunu ifade eden Uraloğlu, \"Hem Kalkınma Yolu hem de modernize edilmiş Hicaz Demiryolu erken tamamlansaydı Hürmüz Boğazı dünya gündeminde bu kadar yoğun yer tutmayabilirdi\" değerlendirmesinde bulundu",
-      "shorts_hook": "Bağdat'ta Kalkınma Yolu mutabakatı ilerliyor, bakan Uraloğlu",
-      "quality_hook": "Bağdat'ta Kalkınma Yolu mutabakatı ilerliyor, bakan Uraloğlu",
-      "quality_narration": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Bağdat'ta düzenlenen Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti. Bakan, projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60‑61,5 milyar dolar ekonomik girdi sağlayacağını vurguladı. Uraloğlu, Hicaz Demiryolu ile Kalkınma Yolu'nun birbirine rakip değil, aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Bağdat'ta düzenlenen Ulaştırma, Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti.",
-        "Bakan, projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60‑61,5 milyar dolar ekonomik girdi sağlayacağını vurguladı.",
-        "Uraloğlu, Hicaz Demiryolu ile Kalkınma Yolu'nun birbirine rakip değil, aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi."
-      ],
-      "youtube_description": "Ulaştırma ve Altyapı Bakanı Uraloğlu, Bağdat'ta Kalkınma Yolu projesinin mutabakat zaptının anlaşmaya dönüşmekte olduğunu duyurdu. Bu altyapı hamlesi bölgesel ticareti nasıl etkiler, siz ne düşünüyorsunuz?",
-      "visual_query": "minister discusses agreement",
-      "spoken_text": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu. Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti. Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı. Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "Kalkınma Yolu",
-        "Ulaştırma Bakanı",
-        "Bağdat",
-        "İrak",
-        "Lojistik"
-      ],
-      "youtube_hashtags": "#shorts #ulaşım #ekonomi",
-      "audience_bucket": "transport_cities",
-      "hook_style": "concrete_question",
-      "generation_mode": "prompt_first_v1",
-      "script": "Bağdatta Kalkınma Yolu mutabakatı ilerliyor bakan Uraloğlu Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu Bağdatta düzenlenen Ulaştırma Havacılık ve Lojistik Fuarı kapsamında kalkınma yolu projesinin mutabakat zaptının anlaşmaya dönüşme aşamasına geldiğini belirtti Bakan projenin Türkiye için 70 binden fazla istihdam yaratacağını ve 10 yıllık dönemde yaklaşık 60 61 virgül 5 milyar dolar ekonomik girdi sağlayacağını vurguladı Uraloğlu Hicaz Demiryolu ile Kalkınma Yolunun birbirine rakip değil aksine birbirini destekleyecek şekilde ilerlemesinin bölgesel taşımacılık ve ihracata katkı sunacağını söyledi Türkiyeden Haber kanalına abone ol",
       "scheduled_slot": "23:00",
-      "audio_path": "output/voiceover_4.mp3",
-      "background_path": "output/background_4.mp4",
-      "video_path": "output/short_4.mp4",
-      "video_id": "Ed8Gui959_8",
-      "youtube_url": "https://youtu.be/Ed8Gui959_8",
-      "publish_at_local": "2026-11-25T23:00:00+03:00",
-      "publish_at_utc": "2026-11-25T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false
-    },
-    {
-      "title": "COP31'de ANTRAY Tramvayı Günlük 130 Bin Yolcu Taşıdı",
-      "summary": "Antalya'da düzenlenen Birleşmiş Milletler (BM) İklim Değişikliği Çerçeve Sözleşmesi 31. Taraflar Konferansı (COP31) süresinde, hafif raylı sistem ANTRAY günlük ortalama 130 bin yolcuya hizmet verdi.",
-      "url": "https://www.aa.com.tr/tr/gundem/antray-cop31de-gunde-130-bin-yolcu-tasidi/4137869",
-      "source": "Anadolu Ajansı Güncel",
-      "source_name": "",
-      "query": "Anadolu Ajansı Güncel",
-      "published_at": "2026-11-25T20:46:05+03:00",
-      "fingerprint": "2751f09eda1e4a0277adf4c61f9cb1cde80581b8",
-      "direct_source": true,
-      "viral_score": 63.66,
-      "topic_bucket": "ulaşım_şehir",
-      "resolved_url": "https://www.aa.com.tr/tr/gundem/antray-cop31de-gunde-130-bin-yolcu-tasidi/4137869",
-      "source_headline": "ANTRAY, COP31'de günde 130 bin yolcu taşıdı",
-      "source_modified_at": "2026-11-25T20:47:23.89",
-      "source_checked_at": "2026-11-25T18:10:20.883427+00:00",
-      "article_score": 73,
-      "article_text": "Ayşe Şensoy Boztepe 25 Kasım 2026•Güncelleme: 25 Kasım 2026 Büyükşehir Belediyesinden yapılan açıklamaya göre, COP31 için kente gelen ziyaretçiler, belediyenin iştiraki Antalya Ulaşım AŞ tarafından işletilen tramvay ile zirve alanına hızlı, konforlu ve güvenli şekilde ulaştı. Zirve süresince raylı sistem filosunda bulunan tüm tramvay araçları, ulaşım hizmetinin kesintisiz sürdürülmesi amacıyla COP31 hattında görev yaptı. Antalya şehir merkezindeki tramvay duraklarının yanı sıra Pınarlı ANFAŞ, Kurşunlu ve Aksu'da COP31 kapsamında oluşturulan Park Et Devam Et otoparklarına araçlarını bırakan vatandaşlar, tramvayla zirve alanına kolaylıkla ulaştı. Fatih istasyonundan COP31 istasyonuna kadar hizmet veren ANTRAY, zirve süresince trafik yoğunluğundan etkilenmeden ulaşım imkanı sundu. Sabah saat 05.00'ten itibaren 5'er dakikalık sefer aralıklarıyla hizmet veren tramvaylar, zirve süresince günlük ortalama 130 bin yolcuya hizmet verdi. COP31 kapsamında Antalya Havalimanı ile COP31 alanı arasında da ilave tramvay ring seferleri düzenlendi. Havalimanına gelen katılımcılar, tramvay aracılığıyla doğrudan zirve alanına ulaşma imkanı buldu. Tramvaylar ve duraklar, güvenlik kamera merkezinden 7 gün 24 saat kesintisiz takip edildi. Güvenli ulaşım hizmetinin sürdürülmesi için emniyet birimleri ve güvenlik personeli koordineli görev yaptı",
-      "content_quality": "article_text",
-      "model_source_context": "Ayşe Şensoy Boztepe 25 Kasım 2026•Güncelleme: 25 Kasım 2026 Büyükşehir Belediyesinden yapılan açıklamaya göre, COP31 için kente gelen ziyaretçiler, belediyenin iştiraki Antalya Ulaşım AŞ tarafından işletilen tramvay ile zirve alanına hızlı, konforlu ve güvenli şekilde ulaştı. Zirve süresince raylı sistem filosunda bulunan tüm tramvay araçları, ulaşım hizmetinin kesintisiz sürdürülmesi amacıyla COP31 hattında görev yaptı. Antalya şehir merkezindeki tramvay duraklarının yanı sıra Pınarlı ANFAŞ, Kurşunlu ve Aksu'da COP31 kapsamında oluşturulan Park Et Devam Et otoparklarına araçlarını bırakan vatandaşlar, tramvayla zirve alanına kolaylıkla ulaştı. Fatih istasyonundan COP31 istasyonuna kadar hizmet veren ANTRAY, zirve süresince trafik yoğunluğundan etkilenmeden ulaşım imkanı sundu. Sabah saat 05.00'ten itibaren 5'er dakikalık sefer aralıklarıyla hizmet veren tramvaylar, zirve süresince günlük ortalama 130 bin yolcuya hizmet verdi. COP31 kapsamında Antalya Havalimanı ile COP31 alanı arasında da ilave tramvay ring seferleri düzenlendi. Havalimanına gelen katılımcılar, tramvay aracılığıyla doğrudan zirve alanına ulaşma imkanı buldu. Tramvaylar ve duraklar, güvenlik kamera merkezinden 7 gün 24 saat kesintisiz takip edildi. Güvenli ulaşım hizmetinin sürdürülmesi için emniyet birimleri ve güvenlik personeli koordineli görev yaptı",
-      "shorts_hook": "COP31'de tramvayla 130 bin yolcu taşındı",
-      "quality_hook": "COP31'de tramvayla 130 bin yolcu taşındı",
-      "quality_narration": "Antalya Ulaşım AŞ, COP31 ziyaretçilerine tramvayla hızlı ve güvenli ulaşım sağladı. Sabah 05.00'den itibaren 5 dakikalık sefer aralıklarıyla günlük ortalama 130 bin yolcu taşındı. COP31 alanı ile Antalya Havalimanı arasında ilave tramvay ring seferleri düzenlendi.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Antalya Ulaşım AŞ, COP31 ziyaretçilerine tramvayla hızlı ve güvenli ulaşım sağladı.",
-        "Sabah 05.00'den itibaren 5 dakikalık sefer aralıklarıyla günlük ortalama 130 bin yolcu taşındı.",
-        "COP31 alanı ile Antalya Havalimanı arasında ilave tramvay ring seferleri düzenlendi."
-      ],
-      "youtube_description": "ANTRAY, COP31 ziyaretçilerine kesintisiz tramvay hizmeti sundu. Sizce bu ulaşım modeli gelecekteki büyük etkinliklerde kullanılmalı mı?",
-      "visual_query": "tramway passengers moving",
-      "spoken_text": "COP31de tramvayla 130 bin yolcu taşındı Antalya Ulaşım AŞ COP31 ziyaretçilerine tramvayla hızlı ve güvenli ulaşım sağladı Sabah 05 virgül 00den itibaren 5 dakikalık sefer aralıklarıyla günlük ortalama 130 bin yolcu taşındı COP31 alanı ile Antalya Havalimanı arasında ilave tramvay ring seferleri düzenlendi Türkiyeden Haber kanalına abone ol",
-      "tts_text": "COP31de tramvayla 130 bin yolcu taşındı. Antalya Ulaşım AŞ COP31 ziyaretçilerine tramvayla hızlı ve güvenli ulaşım sağladı. Sabah 05 virgül 00den itibaren 5 dakikalık sefer aralıklarıyla günlük ortalama 130 bin yolcu taşındı. COP31 alanı ile Antalya Havalimanı arasında ilave tramvay ring seferleri düzenlendi. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "COP31",
-        "tramvay",
-        "Antalya",
-        "ulaşım",
-        "toplu taşıma"
-      ],
-      "youtube_hashtags": "#shorts #çevre #ulaşım",
-      "audience_bucket": "transport_cities",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "COP31de tramvayla 130 bin yolcu taşındı Antalya Ulaşım AŞ COP31 ziyaretçilerine tramvayla hızlı ve güvenli ulaşım sağladı Sabah 05 virgül 00den itibaren 5 dakikalık sefer aralıklarıyla günlük ortalama 130 bin yolcu taşındı COP31 alanı ile Antalya Havalimanı arasında ilave tramvay ring seferleri düzenlendi Türkiyeden Haber kanalına abone ol"
+      "_ready_to_resume": true
     }
   ]
 }
