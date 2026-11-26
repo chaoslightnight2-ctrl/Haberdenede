@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-26T17:44:03.627097+00:00",
       "source_modified_at": "",
+      "run_id": "45869920066",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "zxLETcUyjL8",
+      "youtube_url": "https://youtu.be/zxLETcUyjL8",
+      "publish_at_local": "2026-11-27T19:00:00+03:00",
+      "publish_at_utc": "2026-11-27T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Türkiye‑Bulgaristan ticaret hacmi 2025'te 9 milyar avroya ulaştı",
+      "narration": "Türkiye Bulgaristan ticaret hacmi 9 milyar avroya ulaştı Sofyada düzenlenen İşin Sanatı Forumunda Türkiyenin Sofya Büyükelçisi Mehmet Sait Uyanık iki ülke arasındaki ikili ticaret hacminin 2025te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti Uyanık Bulgaristandaki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim istihdam ve sanayi gelişimine katkı sağladığını vurguladı Forumda ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi Türkiyeden Haber kanalına abone ol",
+      "description": "İki ülke arasındaki ticaret artışı sizce bölgesel işbirliğini nasıl etkiler?",
+      "visual_query": "diplomat handshake trade",
+      "tags": [
+        "Türkiye Bulgaristan ticaret",
+        "İşin Sanatı Forumu",
+        "Türk yatırımları",
+        "uluslararası işbirliği",
+        "ekonomik ilişkiler"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Bulgaristan ve Türkiye iş dünyası Sofya'da buluştu",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-26T17:51:43.251540+00:00",
+      "source_modified_at": "",
       "run_id": "45869920066"
     }
   ],

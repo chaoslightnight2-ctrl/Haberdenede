@@ -6042,7 +6042,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/sehit-hava-astsubay-gurdag-antalyada-son-yolculuguna-ugurlandi-964557.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Türkiye‑Bulgaristan ticaret hacmi 2025'te 9 milyar avroya ulaştı",
+      "summary": "BulgarTürk Ticaret ve Sanayi Odası BULTİŞAD ile Dış Ekonomik İlişkiler Kurulunun DEİK işbirliğinde Sofya'da gerçekleştirilen forumda, iki ülke arasındaki ekonomik ilişkilerin geliştirilmesi, yeni yatırım olanakları ve stratejik işbirlikleri ele alındı.",
+      "url": "https://www.trthaber.com/haber/ekonomi/bulgaristan-ve-turkiye-is-dunyasi-sofyada-bulustu-964551.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-26T15:53:00+03:00",
+      "fingerprint": "0877284d62a02b43895c7fad72b17d2891d5cd4e",
+      "viral_score": 65.24,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-27T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/zxLETcUyjL8",
+      "video_id": "zxLETcUyjL8",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-26T21:02:18.422854+03:00",
+      "publish_at_utc": "2026-11-27T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Bulgaristan ve Türkiye iş dünyası Sofya'da buluştu",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/bulgaristan-ve-turkiye-is-dunyasi-sofyada-bulustu-964551.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }
