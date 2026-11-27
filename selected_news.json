@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T20:42:52.060449+03:00",
+  "generated_at": "2026-11-27T04:44:20.497175+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-26T17:42:52.479940+00:00",
+      "source_checked_at": "2026-11-27T01:44:20.958676+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -91,7 +91,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "23:00"
+      "scheduled_slot": "23:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Ticaret Bakanı Bolat, 7-8 Ekim iddialarını kesin olarak reddetti",
@@ -138,109 +139,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "23:00"
-    },
-    {
-      "title": "Şehit Hava Astsubay Gürdağ'ın Antalya'daki Yolculuğu",
-      "summary": "Eskişehir'de eğitim uçuşu sırasında kaza kırıma uğrayan helikopterde şehit düşen Hava Piyade Astsubay Kıdemli Çavuş Mehmet Alp Gürdağ'ın cenazesi, Antalya'da toprağa verildi.",
-      "url": "https://www.trthaber.com/haber/turkiye/sehit-hava-astsubay-gurdag-antalyada-son-yolculuguna-ugurlandi-964557.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-26T16:28:00+03:00",
-      "fingerprint": "5872a85c1bbb0377154098423d8363aabbe795a4",
-      "direct_source": true,
-      "viral_score": 75.17,
-      "topic_bucket": "adliye_toplum",
-      "resolved_url": "https://www.trthaber.com/haber/turkiye/sehit-hava-astsubay-gurdag-antalyada-son-yolculuguna-ugurlandi-964557.html",
-      "source_headline": "Şehit Hava Astsubay Gürdağ, Antalya'da son yolculuğuna uğurlandı",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-26T17:44:03.627097+00:00",
-      "article_score": 39,
-      "article_text": "Gürdağ'ın Türk bayrağına sarılı naaşı, cenaze töreni için ikindi vakti Uncalı Kent Mezarlığı Camisi'ne getirildi Cenaze töreninde Gürdağ'ın annesi Naime, babası Süleyman ve eşi Alaksandra Gürdağ, gözyaşı döktü Törene şehidin yakınlarının yanı sıra Sağlık Bakanı Kemal Memişoğlu, Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, milletvekilleri, Antalya Valisi Hulusi Şahin, Milli Savunma Bakan Yardımcısı Bilal Durdalı, Garnizon Komutanı Tümgeneral Yusuf Diker, İl Emniyet Müdürü Sabit Akın Zaimoğlu, İl Jandarma Komutanı Tümgeneral Hüseyin Bekmez, siyasi parti temsilcileri ile kurum amirleri, askeri erkan ve vatandaşlar katıldı Gürdağ'ın naaşı, kılınan cenaze namazının ardından Antalya Garnizon Şehitliği'ne defnedildi",
-      "content_quality": "article_text",
-      "model_source_context": "Gürdağ'ın Türk bayrağına sarılı naaşı, cenaze töreni için ikindi vakti Uncalı Kent Mezarlığı Camisi'ne getirildi Cenaze töreninde Gürdağ'ın annesi Naime, babası Süleyman ve eşi Alaksandra Gürdağ, gözyaşı döktü Törene şehidin yakınlarının yanı sıra Sağlık Bakanı Kemal Memişoğlu, Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, milletvekilleri, Antalya Valisi Hulusi Şahin, Milli Savunma Bakan Yardımcısı Bilal Durdalı, Garnizon Komutanı Tümgeneral Yusuf Diker, İl Emniyet Müdürü Sabit Akın Zaimoğlu, İl Jandarma Komutanı Tümgeneral Hüseyin Bekmez, siyasi parti temsilcileri ile kurum amirleri, askeri erkan ve vatandaşlar katıldı Gürdağ'ın naaşı, kılınan cenaze namazının ardından Antalya Garnizon Şehitliği'ne defnedildi",
-      "shorts_hook": "Şehit Hava Astsubay Gürdağ'ın cenazesi Antalya'da toplandı",
-      "quality_hook": "Şehit Hava Astsubay Gürdağ'ın cenazesi Antalya'da toplandı",
-      "quality_narration": "Gürdağ'ın Türk bayrağına sarılı naaşı, ikindi vakti Uncalı Kent Mezarlığı Camisi'ne getirildi. Sağlık Bakanı Kemal Memişoğlu, Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı. Cenaze namazının ardından, şehidin naaşı Antalya Garnizon Şehitliği'ne defnedildi.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Gürdağ'ın Türk bayrağına sarılı naaşı, ikindi vakti Uncalı Kent Mezarlığı Camisi'ne getirildi.",
-        "Sağlık Bakanı Kemal Memişoğlu, Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı.",
-        "Cenaze namazının ardından, şehidin naaşı Antalya Garnizon Şehitliği'ne defnedildi."
-      ],
-      "youtube_description": "Şehit Hava Astsubay Gürdağ, Antalya'da saygıyla uğurlandı. Sizce bu tür törenler toplumsal dayanışmayı nasıl etkiler?",
-      "visual_query": "soldier funeral flag",
-      "spoken_text": "Şehit Hava Astsubay Gürdağın cenazesi Antalyada toplandı Gürdağın Türk bayrağına sarılı naaşı ikindi vakti Uncalı Kent Mezarlığı Camisine getirildi Sağlık Bakanı Kemal Memişoğlu Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı Cenaze namazının ardından şehidin naaşı Antalya Garnizon Şehitliğine defnedildi Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Şehit Hava Astsubay Gürdağın cenazesi Antalyada toplandı. Gürdağın Türk bayrağına sarılı naaşı ikindi vakti Uncalı Kent Mezarlığı Camisine getirildi. Sağlık Bakanı Kemal Memişoğlu Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı. Cenaze namazının ardından şehidin naaşı Antalya Garnizon Şehitliğine defnedildi. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "şehit",
-        "Antalya",
-        "cenaze",
-        "garnizon",
-        "askeri"
-      ],
-      "youtube_hashtags": "#shorts #gürdağ #antalyacenaze",
-      "audience_bucket": "transport_cities",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "Şehit Hava Astsubay Gürdağın cenazesi Antalyada toplandı Gürdağın Türk bayrağına sarılı naaşı ikindi vakti Uncalı Kent Mezarlığı Camisine getirildi Sağlık Bakanı Kemal Memişoğlu Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı Cenaze namazının ardından şehidin naaşı Antalya Garnizon Şehitliğine defnedildi Türkiyeden Haber kanalına abone ol",
       "scheduled_slot": "23:00",
-      "audio_path": "output/voiceover_4.mp3",
-      "background_path": "output/background_4.mp4",
-      "video_path": "output/short_4.mp4",
-      "video_id": "J8GCbreSREA",
-      "youtube_url": "https://youtu.be/J8GCbreSREA",
-      "publish_at_local": "2026-11-26T23:00:00+03:00",
-      "publish_at_utc": "2026-11-26T20:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false
-    },
-    {
-      "title": "Türkiye‑Bulgaristan ticaret hacmi 2025'te 9 milyar avroya ulaştı",
-      "summary": "BulgarTürk Ticaret ve Sanayi Odası BULTİŞAD ile Dış Ekonomik İlişkiler Kurulunun DEİK işbirliğinde Sofya'da gerçekleştirilen forumda, iki ülke arasındaki ekonomik ilişkilerin geliştirilmesi, yeni yatırım olanakları ve stratejik işbirlikleri ele alındı.",
-      "url": "https://www.trthaber.com/haber/ekonomi/bulgaristan-ve-turkiye-is-dunyasi-sofyada-bulustu-964551.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-26T15:53:00+03:00",
-      "fingerprint": "0877284d62a02b43895c7fad72b17d2891d5cd4e",
-      "direct_source": true,
-      "viral_score": 65.24,
-      "topic_bucket": "dünya_diplomasi",
-      "resolved_url": "https://www.trthaber.com/haber/ekonomi/bulgaristan-ve-turkiye-is-dunyasi-sofyada-bulustu-964551.html",
-      "source_headline": "Bulgaristan ve Türkiye iş dünyası Sofya'da buluştu",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-26T17:51:43.251540+00:00",
-      "article_score": 73,
-      "article_text": "Bulgaristan ve Türkiye arasındaki ekonomik ve ticari işbirliğinin geliştirilmesi amacıyla iki ülkenin iş dünyası temsilcileri, yatırımcılar, diplomatlar ve sanatçılar, Sofya’da düzenlenen \"İşin Sanatı Forumu\"nda bir araya geldi Etkinliğe, Bulgaristan Başbakan Yardımcısı ve Ekonomi, Yatırımlar ve Sanayi Bakanı Aleksandar Pulev, Bulgaristan Kültür Bakanı Evtim Miloshev, Bulgaristan'ın Ankara Büyükelçisi Anguel Tcholakov, Türkiye'nin Sofya Büyükelçisi Mehmet Sait Uyanık, BULTİŞAD Yönetim Kurulu Başkanı Burhan Nemutlu ve BULTİŞAD Kurucusu ve Onursal Başkanı Fikret İnce katıldı Uyanık, forumda yaptığı konuşmada, Türkiye ile Bulgaristan arasındaki ikili ticaret hacminin 2025'te 9 milyar avroya ulaştığını ve iki ülkenin belirlediği 10 milyar avroluk hedefe yaklaştığını söyledi Bulgaristan'daki Türk yatırımlarının yaklaşık 3 milyar avroya ulaştığını aktaran Uyanık, bu yatırımların üretim, istihdam ve sanayinin gelişmesine katkı sağladığını dile getirdi Uyanık, iki ülke arasındaki işbirliğinin yeni aşamasında ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürünlerin, teknolojilerin ve fikirlerin geliştirilmesine odaklanılması gerektiğini vurgulayarak, sanat, tasarım ve sanayi arasındaki ilişkinin yeni iş fırsatları oluşturabileceğini kaydetti Forum kapsamında teknoloji transferi ile yatırım ve kamu-özel sektör işbirliği konularında yuvarlak masa toplantıları düzenlendi Etkinliğin sanat programı kapsamında Türkiye ve Bulgaristan'dan sanatçıların eserlerinin yer aldığı çağdaş sanat sergisi ziyaretçilere açıldı İki ülkeden sanatçıların eserlerini bir araya getiren program, ödül töreni ve sanat eserlerinin açık artırmayla satışa sunulmasıyla devam etti",
-      "content_quality": "article_text",
-      "model_source_context": "Bulgaristan ve Türkiye arasındaki ekonomik ve ticari işbirliğinin geliştirilmesi amacıyla iki ülkenin iş dünyası temsilcileri, yatırımcılar, diplomatlar ve sanatçılar, Sofya’da düzenlenen \"İşin Sanatı Forumu\"nda bir araya geldi Etkinliğe, Bulgaristan Başbakan Yardımcısı ve Ekonomi, Yatırımlar ve Sanayi Bakanı Aleksandar Pulev, Bulgaristan Kültür Bakanı Evtim Miloshev, Bulgaristan'ın Ankara Büyükelçisi Anguel Tcholakov, Türkiye'nin Sofya Büyükelçisi Mehmet Sait Uyanık, BULTİŞAD Yönetim Kurulu Başkanı Burhan Nemutlu ve BULTİŞAD Kurucusu ve Onursal Başkanı Fikret İnce katıldı Uyanık, forumda yaptığı konuşmada, Türkiye ile Bulgaristan arasındaki ikili ticaret hacminin 2025'te 9 milyar avroya ulaştığını ve iki ülkenin belirlediği 10 milyar avroluk hedefe yaklaştığını söyledi Bulgaristan'daki Türk yatırımlarının yaklaşık 3 milyar avroya ulaştığını aktaran Uyanık, bu yatırımların üretim, istihdam ve sanayinin gelişmesine katkı sağladığını dile getirdi Uyanık, iki ülke arasındaki işbirliğinin yeni aşamasında ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürünlerin, teknolojilerin ve fikirlerin geliştirilmesine odaklanılması gerektiğini vurgulayarak, sanat, tasarım ve sanayi arasındaki ilişkinin yeni iş fırsatları oluşturabileceğini kaydetti Forum kapsamında teknoloji transferi ile yatırım ve kamu-özel sektör işbirliği konularında yuvarlak masa toplantıları düzenlendi Etkinliğin sanat programı kapsamında Türkiye ve Bulgaristan'dan sanatçıların eserlerinin yer aldığı çağdaş sanat sergisi ziyaretçilere açıldı İki ülkeden sanatçıların eserlerini bir araya getiren program, ödül töreni ve sanat eserlerinin açık artırmayla satışa sunulmasıyla devam etti",
-      "shorts_hook": "Türkiye‑Bulgaristan ticaret hacmi 9 milyar avroya ulaştı",
-      "quality_hook": "Türkiye‑Bulgaristan ticaret hacmi 9 milyar avroya ulaştı",
-      "quality_narration": "Sofya’da düzenlenen İşin Sanatı Forumu’nda Türkiye’nin Sofya Büyükelçisi Mehmet Sait Uyanık, iki ülke arasındaki ikili ticaret hacminin 2025’te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti. Uyanık, Bulgaristan’daki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim, istihdam ve sanayi gelişimine katkı sağladığını vurguladı. Forumda, ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün, teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Sofya’da düzenlenen İşin Sanatı Forumu’nda Türkiye’nin Sofya Büyükelçisi Mehmet Sait Uyanık, iki ülke arasındaki ikili ticaret hacminin 2025’te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti.",
-        "Uyanık, Bulgaristan’daki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim, istihdam ve sanayi gelişimine katkı sağladığını vurguladı.",
-        "Forumda, ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün, teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi."
-      ],
-      "youtube_description": "İki ülke arasındaki ticaret artışı sizce bölgesel işbirliğini nasıl etkiler?",
-      "visual_query": "diplomat handshake trade",
-      "spoken_text": "Türkiye Bulgaristan ticaret hacmi 9 milyar avroya ulaştı Sofyada düzenlenen İşin Sanatı Forumunda Türkiyenin Sofya Büyükelçisi Mehmet Sait Uyanık iki ülke arasındaki ikili ticaret hacminin 2025te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti Uyanık Bulgaristandaki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim istihdam ve sanayi gelişimine katkı sağladığını vurguladı Forumda ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Türkiye Bulgaristan ticaret hacmi 9 milyar avroya ulaştı. Sofyada düzenlenen İşin Sanatı Forumunda Türkiyenin Sofya Büyükelçisi Mehmet Sait Uyanık iki ülke arasındaki ikili ticaret hacminin 2025te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti. Uyanık Bulgaristandaki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim istihdam ve sanayi gelişimine katkı sağladığını vurguladı. Forumda ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "Türkiye Bulgaristan ticaret",
-        "İşin Sanatı Forumu",
-        "Türk yatırımları",
-        "uluslararası işbirliği",
-        "ekonomik ilişkiler"
-      ],
-      "youtube_hashtags": "#shorts #ekonomi #diplomasi",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "generation_mode": "prompt_first_v1",
-      "script": "Türkiye Bulgaristan ticaret hacmi 9 milyar avroya ulaştı Sofyada düzenlenen İşin Sanatı Forumunda Türkiyenin Sofya Büyükelçisi Mehmet Sait Uyanık iki ülke arasındaki ikili ticaret hacminin 2025te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti Uyanık Bulgaristandaki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim istihdam ve sanayi gelişimine katkı sağladığını vurguladı Forumda ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi Türkiyeden Haber kanalına abone ol"
+      "_ready_to_resume": true
     }
   ]
 }
