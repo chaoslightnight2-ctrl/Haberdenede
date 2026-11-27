@@ -1,19 +1,19 @@
 {
-  "source_run": "45869920066",
-  "verified_at": "2026-11-26T18:03:37.123816+00:00",
+  "source_run": "45924175647",
+  "verified_at": "2026-11-27T02:09:09.554500+00:00",
   "videos": [
     {
       "index": 4,
-      "video_id": "J8GCbreSREA",
-      "youtube_url": "https://youtu.be/J8GCbreSREA",
-      "title": "Şehit Hava Astsubay Gürdağ'ın Antalya'daki Yolculuğu",
-      "narration": "Şehit Hava Astsubay Gürdağın cenazesi Antalyada toplandı Gürdağın Türk bayrağına sarılı naaşı ikindi vakti Uncalı Kent Mezarlığı Camisine getirildi Sağlık Bakanı Kemal Memişoğlu Kültür ve Turizm Bakanı Mehmet Nuri Ersoy ve Antalya Valisi Hulusi Şahin gibi üst düzey yetkililer törene katıldı Cenaze namazının ardından şehidin naaşı Antalya Garnizon Şehitliğine defnedildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-26T20:00:00Z",
+      "video_id": "KRB3RZbnbAw",
+      "youtube_url": "https://youtu.be/KRB3RZbnbAw",
+      "title": "Şehit Albay Mehmet Çöl, Antalya'da uğurlandı",
+      "narration": "Şehit pilotun son yolculuğu Antalyada gerçekleşti Şehit Albay Mehmet Çölün cenazesi Antalya Korkutelideki Bayatbademler Mahallesinde baba evinin önüne getirildi Antalya Müftüsü Aydın Yığmanın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy Vali Hulusi Şahin milletvekilleri parti il başkanları askeri erkan ve çok sayıda vatandaş katıldı Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-27T18:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-26T20:00:00Z",
+        "publishAt": "2026-11-27T18:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -23,25 +23,25 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 30.566667,
+        "duration": 33.133333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/J8GCbreSREA.jpg"
+      "preview": "maintenance/previews/KRB3RZbnbAw.jpg"
     },
     {
       "index": 5,
-      "video_id": "zxLETcUyjL8",
-      "youtube_url": "https://youtu.be/zxLETcUyjL8",
-      "title": "Türkiye‑Bulgaristan ticaret hacmi 2025'te 9 milyar avroya ulaştı",
-      "narration": "Türkiye Bulgaristan ticaret hacmi 9 milyar avroya ulaştı Sofyada düzenlenen İşin Sanatı Forumunda Türkiyenin Sofya Büyükelçisi Mehmet Sait Uyanık iki ülke arasındaki ikili ticaret hacminin 2025te 9 milyar avroya ulaştığını ve 10 milyar avroluk hedefe yaklaştığını belirtti Uyanık Bulgaristandaki Türk yatırımlarının yaklaşık 3 milyar avroya denk geldiğini ve bu yatırımların üretim istihdam ve sanayi gelişimine katkı sağladığını vurguladı Forumda ticaret ve yatırımların artırılmasının yanı sıra katma değeri yüksek ürün teknoloji ve fikirlerin geliştirilmesine odaklanılması gerektiği de dile getirildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-27T16:00:00Z",
+      "video_id": "yBCxUu79I3A",
+      "youtube_url": "https://youtu.be/yBCxUu79I3A",
+      "title": "Altın kilogram fiyatı 6 milyon liraya düştü",
+      "narration": "Altın fiyatı 6 milyon liraya geriledi detaylar burada Altın kilogram fiyatı gün sonunda yüzde 0 virgül 2 düşüşle 6 milyon lira oldu Gün içinde fiyat en düşük 5 virgül 75 milyon en yüksek 6 virgül 1 milyon lira seviyelerine ulaştı Toplam işlem hacmi 10 898 338 236 virgül 03 lira ve 1 856 virgül 67 kilogram altın gerçekleşti Türkiyeden Haber kanalına abone ol",
+      "publish_at": "2026-11-27T20:00:00Z",
       "upload_status": "youtube_processed",
       "youtube_status": {
         "uploadStatus": "processed",
         "privacyStatus": "private",
-        "publishAt": "2026-11-27T16:00:00Z",
+        "publishAt": "2026-11-27T20:00:00Z",
         "license": "youtube",
         "embeddable": true,
         "publicStatsViewable": true,
@@ -51,12 +51,12 @@
       "processing_status": "succeeded",
       "publication_status": "scheduled_wait",
       "media_check": {
-        "duration": 43.566667,
+        "duration": 33.133333,
         "width": 1080,
         "height": 1920,
         "audio_codec": "aac"
       },
-      "preview": "maintenance/previews/zxLETcUyjL8.jpg"
+      "preview": "maintenance/previews/yBCxUu79I3A.jpg"
     }
   ],
   "errors": [],
