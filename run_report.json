@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-27T01:45:35.568009+00:00",
       "source_modified_at": "",
+      "run_id": "45924175647",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "yBCxUu79I3A",
+      "youtube_url": "https://youtu.be/yBCxUu79I3A",
+      "publish_at_local": "2026-11-27T23:00:00+03:00",
+      "publish_at_utc": "2026-11-27T20:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "Altın kilogram fiyatı 6 milyon liraya düştü",
+      "narration": "Altın fiyatı 6 milyon liraya geriledi detaylar burada Altın kilogram fiyatı gün sonunda yüzde 0 virgül 2 düşüşle 6 milyon lira oldu Gün içinde fiyat en düşük 5 virgül 75 milyon en yüksek 6 virgül 1 milyon lira seviyelerine ulaştı Toplam işlem hacmi 10 898 338 236 virgül 03 lira ve 1 856 virgül 67 kilogram altın gerçekleşti Türkiyeden Haber kanalına abone ol",
+      "description": "Altın fiyatı gün sonunda 6 milyon liraya geriledi. Bu düşüş yatırımcıları nasıl etkiler sizce?",
+      "visual_query": "gold price falling",
+      "tags": [
+        "altın fiyatı",
+        "kg altın",
+        "borsa",
+        "yatırım",
+        "ekonomi"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "Altın günü düşüşle kapattı",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-27T01:53:22.138462+00:00",
+      "source_modified_at": "",
       "run_id": "45924175647"
     }
   ],

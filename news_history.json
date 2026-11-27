@@ -6088,7 +6088,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/hava-pilot-albay-mehmet-col-antalyada-son-yolculuguna-ugurlandi-964554.html",
       "source_modified_at": "",
       "audience_bucket": "transport_cities",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Altın kilogram fiyatı 6 milyon liraya düştü",
+      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon liraya geriledi.",
+      "url": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-964559.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-26T17:01:00+03:00",
+      "fingerprint": "9cf7834adf4975b828f4b57e96b593d6c875cfd9",
+      "viral_score": 39.21,
+      "scheduled_slot": "23:00",
+      "publish_at_local": "2026-11-27T23:00:00+03:00",
+      "youtube_url": "https://youtu.be/yBCxUu79I3A",
+      "video_id": "yBCxUu79I3A",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-27T05:07:38.883372+03:00",
+      "publish_at_utc": "2026-11-27T20:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Altın günü düşüşle kapattı",
+      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-964559.html",
+      "source_modified_at": "",
+      "audience_bucket": "economy_life",
+      "hook_style": "concrete_question"
     }
   ]
 }
