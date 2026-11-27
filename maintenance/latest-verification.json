@@ -1,86 +1,13 @@
 {
-  "source_run": "45924175647",
-  "verified_at": "2026-11-27T02:09:09.554500+00:00",
-  "videos": [
-    {
-      "index": 4,
-      "video_id": "KRB3RZbnbAw",
-      "youtube_url": "https://youtu.be/KRB3RZbnbAw",
-      "title": "Şehit Albay Mehmet Çöl, Antalya'da uğurlandı",
-      "narration": "Şehit pilotun son yolculuğu Antalyada gerçekleşti Şehit Albay Mehmet Çölün cenazesi Antalya Korkutelideki Bayatbademler Mahallesinde baba evinin önüne getirildi Antalya Müftüsü Aydın Yığmanın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy Vali Hulusi Şahin milletvekilleri parti il başkanları askeri erkan ve çok sayıda vatandaş katıldı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-27T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-27T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.133333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/KRB3RZbnbAw.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "yBCxUu79I3A",
-      "youtube_url": "https://youtu.be/yBCxUu79I3A",
-      "title": "Altın kilogram fiyatı 6 milyon liraya düştü",
-      "narration": "Altın fiyatı 6 milyon liraya geriledi detaylar burada Altın kilogram fiyatı gün sonunda yüzde 0 virgül 2 düşüşle 6 milyon lira oldu Gün içinde fiyat en düşük 5 virgül 75 milyon en yüksek 6 virgül 1 milyon lira seviyelerine ulaştı Toplam işlem hacmi 10 898 338 236 virgül 03 lira ve 1 856 virgül 67 kilogram altın gerçekleşti Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-27T20:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-27T20:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 33.133333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/yBCxUu79I3A.jpg"
-    }
-  ],
+  "source_run": "45934887573",
+  "verified_at": "2026-11-27T03:35:28.419186+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
-  "complete": false,
-  "generation_errors": [
-    {
-      "index": 1,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minibus crash tem"
-    },
-    {
-      "index": 2,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: court decision review"
-    },
-    {
-      "index": 3,
-      "stage": "render_or_upload",
-      "error": "No described asset matches scene 0: minister denying allegations"
-    }
-  ],
-  "target_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
+  "complete": true,
+  "generation_errors": [],
+  "target_count": 0,
   "published_count": 0,
   "accepted_complete": true
 }
