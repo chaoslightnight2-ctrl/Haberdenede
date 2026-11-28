@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T04:27:31.298483+03:00",
+  "generated_at": "2026-11-28T06:11:44.323152+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-28T01:27:31.960650+00:00",
+      "source_checked_at": "2026-11-28T03:11:44.735544+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -91,7 +91,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
+      "scheduled_slot": "19:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Ticaret Bakanı Bolat, 7-8 Ekim iddialarını kesin olarak reddetti",
@@ -138,108 +139,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "19:00"
-    },
-    {
-      "title": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
-      "summary": "İstanbul Kuzey Marmara Otoyolu'nda drift atarak trafik güvenliğini tehlikeye düşüren sürücü yakalandı. Sürücüye 165 bin lira idari para cezası uygulandı ve ehliyetine 60 gün süre el kondu.",
-      "url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-27T23:58:00+03:00",
-      "fingerprint": "2033f060f85deeea9cd8253a794a4ea056d2ab05",
-      "direct_source": true,
-      "viral_score": 64.78,
-      "topic_bucket": "adliye_toplum",
-      "resolved_url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
-      "source_headline": "Kuzey Marmara Otoyolu'nda drift atan sürücüye 165 bin lira ceza",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-28T01:28:49.380317+00:00",
-      "article_score": 33,
-      "article_text": "Jandarma Genel Komutanlığının sosyal medya hesabından yapılan açıklamada, sürücünün trafik güvenliğini tehlikeye düşürdüğü anlara ilişkin görüntüler paylaşılarak, şüphelinin Otoyol Jandarması tarafından yürütülen çalışmalar sonucunda tespit edilip yakalandığı belirtildi Sürücüye 165 bin lira idari para cezası uygulandığı ifade edilen açıklamada, sürücünün ehliyetinin 60 gün süreyle geri alındığı ve olayla ilgili adli işlem başlatıldığı kaydedildi Açıklamada, trafik güvenliğini tehlikeye atan, can ve mal güvenliğini hiçe sayan davranışlara karşı denetim ve mücadelenin kararlılıkla sürdürüleceği bildirildi",
-      "content_quality": "article_text",
-      "model_source_context": "Jandarma Genel Komutanlığının sosyal medya hesabından yapılan açıklamada, sürücünün trafik güvenliğini tehlikeye düşürdüğü anlara ilişkin görüntüler paylaşılarak, şüphelinin Otoyol Jandarması tarafından yürütülen çalışmalar sonucunda tespit edilip yakalandığı belirtildi Sürücüye 165 bin lira idari para cezası uygulandığı ifade edilen açıklamada, sürücünün ehliyetinin 60 gün süreyle geri alındığı ve olayla ilgili adli işlem başlatıldığı kaydedildi Açıklamada, trafik güvenliğini tehlikeye atan, can ve mal güvenliğini hiçe sayan davranışlara karşı denetim ve mücadelenin kararlılıkla sürdürüleceği bildirildi",
-      "shorts_hook": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
-      "quality_hook": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
-      "quality_narration": "Jandarma Genel Komutanlığı, drift yapan sürücünün görüntülerini sosyal medyada paylaştı. Otoyol Jandarması, sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti. Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Jandarma Genel Komutanlığı, drift yapan sürücünün görüntülerini sosyal medyada paylaştı.",
-        "Otoyol Jandarması, sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti.",
-        "Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı."
-      ],
-      "youtube_description": "Jandarma, drift yapan sürücüyü yakalayıp 165 bin lira ceza kesti, ehliyetini 60 gün askıya aldı. Sizce trafik denetimleri bu tür tehlikeli sürüşleri yeterince önlüyor mu?",
-      "visual_query": "driver drifting highway",
-      "spoken_text": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza. Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı. Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti. Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "trafik",
-        "kaza",
-        "otoyol",
-        "ceza",
-        "jandarma"
-      ],
-      "youtube_hashtags": "#shorts #trafik #güvenlik",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
       "scheduled_slot": "19:00",
-      "audio_path": "output/voiceover_4.mp3",
-      "background_path": "output/background_4.mp4",
-      "video_path": "output/short_4.mp4",
-      "video_id": "O1G4yfk2SL8",
-      "youtube_url": "https://youtu.be/O1G4yfk2SL8",
-      "publish_at_local": "2026-11-28T19:00:00+03:00",
-      "publish_at_utc": "2026-11-28T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false
-    },
-    {
-      "title": "İstanbul'da 4 Katlı Binada Patlama ve Yangın Bir Yaralı",
-      "summary": "İstanbul Küçükçekmece'de 4 katlı binanın bodrum katında patlama meydana geldi. Yaralanan 1 kişi hastaneye kaldırıldı.",
-      "url": "https://www.trthaber.com/haber/turkiye/istanbulda-4-katli-binada-patlama-964684.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-27T20:06:00+03:00",
-      "fingerprint": "232d1094928c909844fe4a7a89bafe3202978ffa",
-      "direct_source": true,
-      "viral_score": 52.59,
-      "topic_bucket": "afet_güvenlik",
-      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbulda-4-katli-binada-patlama-964684.html",
-      "source_headline": "İstanbul'da 4 katlı binada patlama",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-28T01:35:47.982513+00:00",
-      "article_score": 32,
-      "article_text": "Mehmet Akif Mahallesi'nde bir binanın bodrum katındaki dairede henüz bilinmeyen nedenle patlama meydana geldi Patlamanın ardından dairede yangın çıkarken, evde bulunan bir kişi yaralandı Yangın nedeniyle üst katlarda oturanlar binada mahsur kaldı. İhbar üzerine olay yerine çok sayıda polis, sağlık ve itfaiye ekibi sevk edildi Yaralı, sağlık ekiplerinin müdahalesinin ardından ambulansla hastaneye götürüldü. Binada mahsur kalanlar tahliye edilirken, itfaiye ekiplerinin müdahalesiyle yangın söndürüldü Dairede hasara yol açan patlama ve yangına ilişkin ekiplerin çalışmaları sürüyor",
-      "content_quality": "article_text",
-      "model_source_context": "Mehmet Akif Mahallesi'nde bir binanın bodrum katındaki dairede henüz bilinmeyen nedenle patlama meydana geldi Patlamanın ardından dairede yangın çıkarken, evde bulunan bir kişi yaralandı Yangın nedeniyle üst katlarda oturanlar binada mahsur kaldı. İhbar üzerine olay yerine çok sayıda polis, sağlık ve itfaiye ekibi sevk edildi Yaralı, sağlık ekiplerinin müdahalesinin ardından ambulansla hastaneye götürüldü. Binada mahsur kalanlar tahliye edilirken, itfaiye ekiplerinin müdahalesiyle yangın söndürüldü Dairede hasara yol açan patlama ve yangına ilişkin ekiplerin çalışmaları sürüyor",
-      "shorts_hook": "İstanbul'da 4 katlı binada patlama ve yangın",
-      "quality_hook": "İstanbul'da 4 katlı binada patlama ve yangın",
-      "quality_narration": "Mehmet Akif Mahallesi'nde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı. Patlamanın ardından çıkan yangın, üst katlarda oturanları mahsur bıraktı; bir kişi yaralanarak hastaneye kaldırıldı ve polis, sağlık, itfaiye ekipleri olay yerine sevk edildi.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Mehmet Akif Mahallesi'nde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı.",
-        "Patlamanın ardından çıkan yangın, üst katlarda oturanları mahsur bıraktı; bir kişi yaralanarak hastaneye kaldırıldı ve polis, sağlık, itfaiye ekipleri olay yerine sevk edildi."
-      ],
-      "youtube_description": "Mehmet Akif Mahallesi'nde bir dairede patlama ve yangın çıktı, bir kişi yaralandı ve çok sayıda ekip müdahale etti. Sizce bu tür olayların önlenmesi için neler yapılmalı?",
-      "visual_query": "building explosion fire",
-      "spoken_text": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol",
-      "tts_text": "İstanbulda 4 katlı binada patlama ve yangın. Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı. Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "İstanbul",
-        "patlama",
-        "yangın",
-        "acil durum",
-        "güvenlik"
-      ],
-      "youtube_hashtags": "#shorts #İstanbul #AcilDurum",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "generation_mode": "prompt_first_v1",
-      "script": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol"
+      "_ready_to_resume": true
     }
   ]
 }
