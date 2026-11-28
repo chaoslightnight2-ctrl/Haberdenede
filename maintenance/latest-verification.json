@@ -1,67 +1,10 @@
 {
-  "source_run": "46093127011",
-  "verified_at": "2026-11-28T01:49:04.643289+00:00",
-  "videos": [
-    {
-      "index": 4,
-      "video_id": "O1G4yfk2SL8",
-      "youtube_url": "https://youtu.be/O1G4yfk2SL8",
-      "title": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
-      "narration": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-28T16:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-28T16:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 28.833333,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/O1G4yfk2SL8.jpg"
-    },
-    {
-      "index": 5,
-      "video_id": "KrOQqB16GPg",
-      "youtube_url": "https://youtu.be/KrOQqB16GPg",
-      "title": "İstanbul'da 4 Katlı Binada Patlama ve Yangın Bir Yaralı",
-      "narration": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol",
-      "publish_at": "2026-11-28T18:00:00Z",
-      "upload_status": "youtube_processed",
-      "youtube_status": {
-        "uploadStatus": "processed",
-        "privacyStatus": "private",
-        "publishAt": "2026-11-28T18:00:00Z",
-        "license": "youtube",
-        "embeddable": true,
-        "publicStatsViewable": true,
-        "madeForKids": false,
-        "selfDeclaredMadeForKids": false
-      },
-      "processing_status": "succeeded",
-      "publication_status": "scheduled_wait",
-      "media_check": {
-        "duration": 26.166667,
-        "width": 1080,
-        "height": 1920,
-        "audio_codec": "aac"
-      },
-      "preview": "maintenance/previews/KrOQqB16GPg.jpg"
-    }
-  ],
+  "source_run": "46101585423",
+  "verified_at": "2026-11-28T03:16:48.702905+00:00",
+  "videos": [],
   "errors": [],
-  "accepted_count": 2,
-  "processed_count": 2,
+  "accepted_count": 0,
+  "processed_count": 0,
   "complete": false,
   "generation_errors": [
     {
@@ -85,7 +28,7 @@
       "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "target_count": 3,
+  "target_count": 1,
   "published_count": 0,
   "accepted_complete": false
 }
