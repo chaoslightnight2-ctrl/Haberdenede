@@ -1,68 +1,11 @@
 {
-  "run_id": "46093127011",
-  "generated_at": "2026-11-28T04:27:31.298483+03:00",
-  "target_count": 3,
+  "run_id": "46101585423",
+  "generated_at": "2026-11-28T06:11:44.323152+03:00",
+  "target_count": 1,
   "dry_run": false,
   "private_recovery": false,
   "complete": false,
-  "videos": [
-    {
-      "video_id": "O1G4yfk2SL8",
-      "youtube_url": "https://youtu.be/O1G4yfk2SL8",
-      "publish_at_local": "2026-11-28T19:00:00+03:00",
-      "publish_at_utc": "2026-11-28T16:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 4,
-      "title": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
-      "narration": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
-      "description": "Jandarma, drift yapan sürücüyü yakalayıp 165 bin lira ceza kesti, ehliyetini 60 gün askıya aldı. Sizce trafik denetimleri bu tür tehlikeli sürüşleri yeterince önlüyor mu?",
-      "visual_query": "driver drifting highway",
-      "tags": [
-        "trafik",
-        "kaza",
-        "otoyol",
-        "ceza",
-        "jandarma"
-      ],
-      "video_path": "output/short_4.mp4",
-      "source_headline": "Kuzey Marmara Otoyolu'nda drift atan sürücüye 165 bin lira ceza",
-      "audience_bucket": "other",
-      "hook_style": "direct_change",
-      "source_checked_at": "2026-11-28T01:28:49.380317+00:00",
-      "source_modified_at": "",
-      "run_id": "46093127011",
-      "processing_status": "readback_scope_unavailable"
-    },
-    {
-      "video_id": "KrOQqB16GPg",
-      "youtube_url": "https://youtu.be/KrOQqB16GPg",
-      "publish_at_local": "2026-11-28T21:00:00+03:00",
-      "publish_at_utc": "2026-11-28T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false,
-      "index": 5,
-      "title": "İstanbul'da 4 Katlı Binada Patlama ve Yangın Bir Yaralı",
-      "narration": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol",
-      "description": "Mehmet Akif Mahallesi'nde bir dairede patlama ve yangın çıktı, bir kişi yaralandı ve çok sayıda ekip müdahale etti. Sizce bu tür olayların önlenmesi için neler yapılmalı?",
-      "visual_query": "building explosion fire",
-      "tags": [
-        "İstanbul",
-        "patlama",
-        "yangın",
-        "acil durum",
-        "güvenlik"
-      ],
-      "video_path": "output/short_5.mp4",
-      "source_headline": "İstanbul'da 4 katlı binada patlama",
-      "audience_bucket": "other",
-      "hook_style": "concrete_question",
-      "source_checked_at": "2026-11-28T01:35:47.982513+00:00",
-      "source_modified_at": "",
-      "run_id": "46093127011",
-      "processing_status": "readback_scope_unavailable"
-    }
-  ],
+  "videos": [],
   "errors": [
     {
       "index": 1,
@@ -85,5 +28,5 @@
       "error": "visual_query 2-7 İngilizce kelime olmalı"
     }
   ],
-  "daily_existing_count": 0
+  "daily_existing_count": 2
 }
