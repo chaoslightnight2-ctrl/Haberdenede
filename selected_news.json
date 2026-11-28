@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T04:44:20.497175+03:00",
+  "generated_at": "2026-11-28T04:27:31.298483+03:00",
   "selected_news": [
     {
       "title": "Bağcılar TEM Otoyolu'nda zincirleme kazada 18 yaralı",
@@ -16,7 +16,7 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/tem-otoyolunda-zincirleme-trafik-kazasi-18-yarali-963862.html",
       "source_headline": "TEM Otoyolu'nda zincirleme trafik kazası: 18 yaralı",
       "source_modified_at": "",
-      "source_checked_at": "2026-11-27T01:44:20.958676+00:00",
+      "source_checked_at": "2026-11-28T01:27:31.960650+00:00",
       "article_score": 36,
       "article_text": "Bağcılar TEM Otoyolu Ankara istikametinde şoförünün direksiyon hakimiyetini kaybettiği midibüs, önündeki otomobile çarptı Çarpmanın şiddetiyle savrulan araç ise önündeki otomobile çarptı. İhbar üzerine olay yerine çok sayıda sağlık ve polis ekipleri sevk edildi Sağlık ekiplerinin kontrollerinde kazada yaralandıkları belirlenen 18 kişi olay yerindeki ilk müdahalenin ardından ambulansla hastaneye kaldırıldı Kaza nedeniyle TEM Otoyolu'nda trafik yoğunluğu oluştu Karayolları Genel Müdürlüğü'ne bağlı ekipler yolda temizlik çalışması gerçekleştirdi. Kazaya karışan araçların yoldan kaldırılmasının ardından trafik akışı ydöndü. Kazaya ilişkin inceleme başlatıldı",
       "content_quality": "article_text",
@@ -91,7 +91,8 @@
       "hook_style": "concrete_question",
       "generation_mode": "prompt_first_v1",
       "script": "Yargıtay 18 yaş öncesi sigortalı emeklilik kararını bozdu Yargıtay 10 Hukuk Dairesi babasının iş yerinde 18 yaşından önce sigortalı gösterilen bir kişinin emeklilik kararını bozdu Mahkeme çalıştığını iddia ettiği döneme ait iş yeri kayıtları bordrolar ve tanık ifadelerinin incelenmesini belgeler bulunamazsa çevredeki iş yerlerinden bilgi toplanmasını istedi Yargıtay ayrıca 18 yaş öncesi çalışmanın kabul edilmesi hâlinde sigorta başlangıç tarihinin 11 Ağustos 1999 olarak alınması ve 25 yıllık sigortalılık süresinin 11 Ağustos 2024te dolacağını belirtti Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
+      "scheduled_slot": "21:00",
+      "_ready_to_resume": true
     },
     {
       "title": "Ticaret Bakanı Bolat, 7-8 Ekim iddialarını kesin olarak reddetti",
@@ -138,109 +139,8 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
-    },
-    {
-      "title": "Şehit Albay Mehmet Çöl, Antalya'da uğurlandı",
-      "summary": "Eskişehir'de eğitim uçuşu sırasında kaza kırıma uğrayan helikopterde şehit düşen Hava Pilot Albay Mehmet Çöl'ün cenazesi, memleketi Antalya'nın Korkuteli ilçesinde toprağa verildi.",
-      "url": "https://www.trthaber.com/haber/turkiye/hava-pilot-albay-mehmet-col-antalyada-son-yolculuguna-ugurlandi-964554.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-26T15:58:00+03:00",
-      "fingerprint": "e171f37f488977d7aa0e0eae83b2ffaa8d675715",
-      "direct_source": true,
-      "viral_score": 64.53,
-      "topic_bucket": "gündem_genel",
-      "resolved_url": "https://www.trthaber.com/haber/turkiye/hava-pilot-albay-mehmet-col-antalyada-son-yolculuguna-ugurlandi-964554.html",
-      "source_headline": "Hava Pilot Albay Mehmet Çöl, Antalya'da son yolculuğuna uğurlandı",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-27T01:45:35.568009+00:00",
-      "article_score": 38,
-      "article_text": "Eskişehir'de eğitim uçuşu sırasında kaza kırıma uğrayan helikopterde şehit düşen Hava Pilot Albay Mehmet Çöl'ün cenazesi, memleketi Antalya'nın Korkuteli ilçesinde toprağa verildi Çöl'ün cenazesi, Bayatbademler Mahallesi'nde baba evinin önüne götürüldü ve burada yakınlarından helallik alındı, ardından mahalledeki mezarlığa getirildi Burada Antalya Müftüsü Aydın Yığman'ın kıldırdığı cenaze namazının ardından şehidin naaşı defnedildi Şehidin annesi Şerife, babası İbrahim, eşi Aynur, çocukları İbrahim ve Masal Çöl ile yakınları gözyaşı döktü Törene, Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Vali Hulusi Şahin, bazı milletvekilleri, parti il başkanları, askeri erkan ve çok sayıda vatandaş katıldı",
-      "content_quality": "article_text",
-      "model_source_context": "Eskişehir'de eğitim uçuşu sırasında kaza kırıma uğrayan helikopterde şehit düşen Hava Pilot Albay Mehmet Çöl'ün cenazesi, memleketi Antalya'nın Korkuteli ilçesinde toprağa verildi Çöl'ün cenazesi, Bayatbademler Mahallesi'nde baba evinin önüne götürüldü ve burada yakınlarından helallik alındı, ardından mahalledeki mezarlığa getirildi Burada Antalya Müftüsü Aydın Yığman'ın kıldırdığı cenaze namazının ardından şehidin naaşı defnedildi Şehidin annesi Şerife, babası İbrahim, eşi Aynur, çocukları İbrahim ve Masal Çöl ile yakınları gözyaşı döktü Törene, Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Vali Hulusi Şahin, bazı milletvekilleri, parti il başkanları, askeri erkan ve çok sayıda vatandaş katıldı",
-      "shorts_hook": "Şehit pilotun son yolculuğu Antalya'da gerçekleşti",
-      "quality_hook": "Şehit pilotun son yolculuğu Antalya'da gerçekleşti",
-      "quality_narration": "Şehit Albay Mehmet Çöl'ün cenazesi, Antalya Korkuteli'deki Bayatbademler Mahallesi'nde baba evinin önüne getirildi. Antalya Müftüsü Aydın Yığman'ın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi. Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Vali Hulusi Şahin, milletvekilleri, parti il başkanları, askeri erkan ve çok sayıda vatandaş katıldı.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Şehit Albay Mehmet Çöl'ün cenazesi, Antalya Korkuteli'deki Bayatbademler Mahallesi'nde baba evinin önüne getirildi.",
-        "Antalya Müftüsü Aydın Yığman'ın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi.",
-        "Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Vali Hulusi Şahin, milletvekilleri, parti il başkanları, askeri erkan ve çok sayıda vatandaş katıldı."
-      ],
-      "youtube_description": "Albay Mehmet Çöl'ün cenazesi Antalya Korkuteli'de baba evinin önünde toplandı, ardından mezarlığa defnedildi. Siz de bu tür törenlerde duygularınızı nasıl ifade ediyorsunuz?",
-      "visual_query": "pilot funeral antalya",
-      "spoken_text": "Şehit pilotun son yolculuğu Antalyada gerçekleşti Şehit Albay Mehmet Çölün cenazesi Antalya Korkutelideki Bayatbademler Mahallesinde baba evinin önüne getirildi Antalya Müftüsü Aydın Yığmanın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy Vali Hulusi Şahin milletvekilleri parti il başkanları askeri erkan ve çok sayıda vatandaş katıldı Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Şehit pilotun son yolculuğu Antalyada gerçekleşti. Şehit Albay Mehmet Çölün cenazesi Antalya Korkutelideki Bayatbademler Mahallesinde baba evinin önüne getirildi. Antalya Müftüsü Aydın Yığmanın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi. Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy Vali Hulusi Şahin milletvekilleri parti il başkanları askeri erkan ve çok sayıda vatandaş katıldı. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "Mehmet Çöl",
-        "Antalya cenaze",
-        "şehit pilot",
-        "Korkuteli töreni",
-        "Türk Silahlı Kuvvetleri"
-      ],
-      "youtube_hashtags": "#shorts #haber #gündem",
-      "audience_bucket": "transport_cities",
-      "hook_style": "direct_change",
-      "generation_mode": "prompt_first_v1",
-      "script": "Şehit pilotun son yolculuğu Antalyada gerçekleşti Şehit Albay Mehmet Çölün cenazesi Antalya Korkutelideki Bayatbademler Mahallesinde baba evinin önüne getirildi Antalya Müftüsü Aydın Yığmanın kıldırdığı cenaze namazının ardından şehidin naaşı mahalle mezarlığına defnedildi Törene Kültür ve Turizm Bakanı Mehmet Nuri Ersoy Vali Hulusi Şahin milletvekilleri parti il başkanları askeri erkan ve çok sayıda vatandaş katıldı Türkiyeden Haber kanalına abone ol",
       "scheduled_slot": "21:00",
-      "audio_path": "output/voiceover_4.mp3",
-      "background_path": "output/background_4.mp4",
-      "video_path": "output/short_4.mp4",
-      "video_id": "KRB3RZbnbAw",
-      "youtube_url": "https://youtu.be/KRB3RZbnbAw",
-      "publish_at_local": "2026-11-27T21:00:00+03:00",
-      "publish_at_utc": "2026-11-27T18:00:00Z",
-      "upload_status": "api_insert_confirmed",
-      "private_recovery": false
-    },
-    {
-      "title": "Altın kilogram fiyatı 6 milyon liraya düştü",
-      "summary": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda KMKTP standart altının kilogram fiyatı, günün sonunda 6 milyon liraya geriledi.",
-      "url": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-964559.html",
-      "source": "TRT Haber",
-      "source_name": "",
-      "query": "TRT Haber",
-      "published_at": "2026-11-26T17:01:00+03:00",
-      "fingerprint": "9cf7834adf4975b828f4b57e96b593d6c875cfd9",
-      "direct_source": true,
-      "viral_score": 39.21,
-      "topic_bucket": "ekonomi_yasam",
-      "resolved_url": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-964559.html",
-      "source_headline": "Altın günü düşüşle kapattı",
-      "source_modified_at": "",
-      "source_checked_at": "2026-11-27T01:53:22.138462+00:00",
-      "article_score": 36,
-      "article_text": "Altın piyasasında en düşük 5 milyon 750 bin lira, en yüksek 6 milyon 100 bin lirayı gören standart altının kilogram fiyatı, günün sonunda yüzde 0,2 düşüşle 6 milyon lira oldu Standart altının kilogram fiyatı dün günü 6 milyon 10 bin liradan tamamlamıştı KMKTP'de altında toplam işlem hacmi 10 milyar 898 milyon 338 bin 236,03 lira, işlem miktarı ise 1856,67 kilogram oldu Tüm metallerde toplam işlem hacmi ise 11 milyar 385 milyon 397 bin 684,16 lira olarak gerçekleşti Altın borsasında bugün en fazla işlem yapan kurumlar, Vakıf Katılım Bankası, Turan Kıymetli Madenler, Türkiye İş Bankası, Say Kıymetli Madenler ile Standart Kıymetli Madenler olarak sıralandı",
-      "content_quality": "article_text",
-      "model_source_context": "Altın piyasasında en düşük 5 milyon 750 bin lira, en yüksek 6 milyon 100 bin lirayı gören standart altının kilogram fiyatı, günün sonunda yüzde 0,2 düşüşle 6 milyon lira oldu Standart altının kilogram fiyatı dün günü 6 milyon 10 bin liradan tamamlamıştı KMKTP'de altında toplam işlem hacmi 10 milyar 898 milyon 338 bin 236,03 lira, işlem miktarı ise 1856,67 kilogram oldu Tüm metallerde toplam işlem hacmi ise 11 milyar 385 milyon 397 bin 684,16 lira olarak gerçekleşti Altın borsasında bugün en fazla işlem yapan kurumlar, Vakıf Katılım Bankası, Turan Kıymetli Madenler, Türkiye İş Bankası, Say Kıymetli Madenler ile Standart Kıymetli Madenler olarak sıralandı",
-      "shorts_hook": "Altın fiyatı 6 milyon liraya geriledi, detaylar burada",
-      "quality_hook": "Altın fiyatı 6 milyon liraya geriledi, detaylar burada",
-      "quality_narration": "Altın kilogram fiyatı gün sonunda %0,2 düşüşle 6 milyon lira oldu. Gün içinde fiyat en düşük 5,75 milyon, en yüksek 6,1 milyon lira seviyelerine ulaştı. Toplam işlem hacmi 10 898 338 236,03 lira ve 1 856,67 kilogram altın gerçekleşti.",
-      "quality_cta": "Türkiyeden Haber kanalına abone ol",
-      "quality_narration_parts": [
-        "Altın kilogram fiyatı gün sonunda %0,2 düşüşle 6 milyon lira oldu.",
-        "Gün içinde fiyat en düşük 5,75 milyon, en yüksek 6,1 milyon lira seviyelerine ulaştı.",
-        "Toplam işlem hacmi 10 898 338 236,03 lira ve 1 856,67 kilogram altın gerçekleşti."
-      ],
-      "youtube_description": "Altın fiyatı gün sonunda 6 milyon liraya geriledi. Bu düşüş yatırımcıları nasıl etkiler sizce?",
-      "visual_query": "gold price falling",
-      "spoken_text": "Altın fiyatı 6 milyon liraya geriledi detaylar burada Altın kilogram fiyatı gün sonunda yüzde 0 virgül 2 düşüşle 6 milyon lira oldu Gün içinde fiyat en düşük 5 virgül 75 milyon en yüksek 6 virgül 1 milyon lira seviyelerine ulaştı Toplam işlem hacmi 10 898 338 236 virgül 03 lira ve 1 856 virgül 67 kilogram altın gerçekleşti Türkiyeden Haber kanalına abone ol",
-      "tts_text": "Altın fiyatı 6 milyon liraya geriledi detaylar burada. Altın kilogram fiyatı gün sonunda yüzde 0 virgül 2 düşüşle 6 milyon lira oldu. Gün içinde fiyat en düşük 5 virgül 75 milyon en yüksek 6 virgül 1 milyon lira seviyelerine ulaştı. Toplam işlem hacmi 10 898 338 236 virgül 03 lira ve 1 856 virgül 67 kilogram altın gerçekleşti. Türkiyeden Haber kanalına abone ol.",
-      "youtube_tags": [
-        "altın fiyatı",
-        "kg altın",
-        "borsa",
-        "yatırım",
-        "ekonomi"
-      ],
-      "youtube_hashtags": "#shorts #altın #ekonomi",
-      "audience_bucket": "economy_life",
-      "hook_style": "concrete_question",
-      "generation_mode": "prompt_first_v1",
-      "script": "Altın fiyatı 6 milyon liraya geriledi detaylar burada Altın kilogram fiyatı gün sonunda yüzde 0 virgül 2 düşüşle 6 milyon lira oldu Gün içinde fiyat en düşük 5 virgül 75 milyon en yüksek 6 virgül 1 milyon lira seviyelerine ulaştı Toplam işlem hacmi 10 898 338 236 virgül 03 lira ve 1 856 virgül 67 kilogram altın gerçekleşti Türkiyeden Haber kanalına abone ol"
+      "_ready_to_resume": true
     }
   ]
 }
