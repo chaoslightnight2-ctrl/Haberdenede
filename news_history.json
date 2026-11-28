@@ -6113,6 +6113,28 @@
       "audience_bucket": "economy_life",
       "hook_style": "concrete_question",
       "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
+      "summary": "İstanbul Kuzey Marmara Otoyolu'nda drift atarak trafik güvenliğini tehlikeye düşüren sürücü yakalandı. Sürücüye 165 bin lira idari para cezası uygulandı ve ehliyetine 60 gün süre el kondu.",
+      "url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-27T23:58:00+03:00",
+      "fingerprint": "2033f060f85deeea9cd8253a794a4ea056d2ab05",
+      "viral_score": 64.78,
+      "scheduled_slot": "19:00",
+      "publish_at_local": "2026-11-28T19:00:00+03:00",
+      "youtube_url": "https://youtu.be/O1G4yfk2SL8",
+      "video_id": "O1G4yfk2SL8",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-28T04:35:44.908392+03:00",
+      "publish_at_utc": "2026-11-28T16:00:00Z",
+      "private_recovery": false,
+      "source_headline": "Kuzey Marmara Otoyolu'nda drift atan sürücüye 165 bin lira ceza",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "direct_change"
     }
   ]
 }

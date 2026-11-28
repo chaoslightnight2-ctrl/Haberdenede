@@ -1,12 +1,55 @@
 {
-  "run_id": "46041863857",
-  "generated_at": "2026-11-27T20:27:22.018988+03:00",
-  "target_count": 0,
+  "run_id": "46093127011",
+  "generated_at": "2026-11-28T04:27:31.298483+03:00",
+  "target_count": 3,
   "dry_run": false,
   "private_recovery": false,
-  "complete": true,
-  "videos": [],
-  "errors": [],
-  "daily_existing_count": 3,
-  "daily_target_satisfied": true
+  "complete": false,
+  "videos": [
+    {
+      "video_id": "O1G4yfk2SL8",
+      "youtube_url": "https://youtu.be/O1G4yfk2SL8",
+      "publish_at_local": "2026-11-28T19:00:00+03:00",
+      "publish_at_utc": "2026-11-28T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 4,
+      "title": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
+      "narration": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
+      "description": "Jandarma, drift yapan sürücüyü yakalayıp 165 bin lira ceza kesti, ehliyetini 60 gün askıya aldı. Sizce trafik denetimleri bu tür tehlikeli sürüşleri yeterince önlüyor mu?",
+      "visual_query": "driver drifting highway",
+      "tags": [
+        "trafik",
+        "kaza",
+        "otoyol",
+        "ceza",
+        "jandarma"
+      ],
+      "video_path": "output/short_4.mp4",
+      "source_headline": "Kuzey Marmara Otoyolu'nda drift atan sürücüye 165 bin lira ceza",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "source_checked_at": "2026-11-28T01:28:49.380317+00:00",
+      "source_modified_at": "",
+      "run_id": "46093127011"
+    }
+  ],
+  "errors": [
+    {
+      "index": 1,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minibus crash tem"
+    },
+    {
+      "index": 2,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: court decision review"
+    },
+    {
+      "index": 3,
+      "stage": "render_or_upload",
+      "error": "No described asset matches scene 0: minister denying allegations"
+    }
+  ],
+  "daily_existing_count": 0
 }
