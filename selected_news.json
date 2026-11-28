@@ -138,7 +138,53 @@
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
       "script": "Bakan Bolat 7 Ekim iddiasını aynı gece çürüttü Ticaret Bakanı Bolat 7 Ekim akşamı kendisine yöneltilen 400 milyon lira yatırıp 800 milyon lira çektiği iddiasını aynı gece net bir şekilde çürüttü 8 Ekimde Merkezi Kayıt Kuruluşunun 170 milyon lira çekildiği yönündeki iftirayı da teknik açıklamasıyla reddetti Bolat 63 yıllık hayatını ve 43 yıllık yöneticilik deneyimini savunarak ilgili kişilere karşı suç duyurusu ve manevi tazminat davası açtığını duyurdu Türkiyeden Haber kanalına abone ol",
-      "scheduled_slot": "21:00"
+      "scheduled_slot": "19:00"
+    },
+    {
+      "title": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
+      "summary": "İstanbul Kuzey Marmara Otoyolu'nda drift atarak trafik güvenliğini tehlikeye düşüren sürücü yakalandı. Sürücüye 165 bin lira idari para cezası uygulandı ve ehliyetine 60 gün süre el kondu.",
+      "url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-11-27T23:58:00+03:00",
+      "fingerprint": "2033f060f85deeea9cd8253a794a4ea056d2ab05",
+      "direct_source": true,
+      "viral_score": 64.78,
+      "topic_bucket": "adliye_toplum",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
+      "source_headline": "Kuzey Marmara Otoyolu'nda drift atan sürücüye 165 bin lira ceza",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-28T01:28:49.380317+00:00",
+      "article_score": 33,
+      "article_text": "Jandarma Genel Komutanlığının sosyal medya hesabından yapılan açıklamada, sürücünün trafik güvenliğini tehlikeye düşürdüğü anlara ilişkin görüntüler paylaşılarak, şüphelinin Otoyol Jandarması tarafından yürütülen çalışmalar sonucunda tespit edilip yakalandığı belirtildi Sürücüye 165 bin lira idari para cezası uygulandığı ifade edilen açıklamada, sürücünün ehliyetinin 60 gün süreyle geri alındığı ve olayla ilgili adli işlem başlatıldığı kaydedildi Açıklamada, trafik güvenliğini tehlikeye atan, can ve mal güvenliğini hiçe sayan davranışlara karşı denetim ve mücadelenin kararlılıkla sürdürüleceği bildirildi",
+      "content_quality": "article_text",
+      "model_source_context": "Jandarma Genel Komutanlığının sosyal medya hesabından yapılan açıklamada, sürücünün trafik güvenliğini tehlikeye düşürdüğü anlara ilişkin görüntüler paylaşılarak, şüphelinin Otoyol Jandarması tarafından yürütülen çalışmalar sonucunda tespit edilip yakalandığı belirtildi Sürücüye 165 bin lira idari para cezası uygulandığı ifade edilen açıklamada, sürücünün ehliyetinin 60 gün süreyle geri alındığı ve olayla ilgili adli işlem başlatıldığı kaydedildi Açıklamada, trafik güvenliğini tehlikeye atan, can ve mal güvenliğini hiçe sayan davranışlara karşı denetim ve mücadelenin kararlılıkla sürdürüleceği bildirildi",
+      "shorts_hook": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
+      "quality_hook": "Kuzey Marmara Otoyolu'nda sürücüye 165 bin lira ceza",
+      "quality_narration": "Jandarma Genel Komutanlığı, drift yapan sürücünün görüntülerini sosyal medyada paylaştı. Otoyol Jandarması, sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti. Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Jandarma Genel Komutanlığı, drift yapan sürücünün görüntülerini sosyal medyada paylaştı.",
+        "Otoyol Jandarması, sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti.",
+        "Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı."
+      ],
+      "youtube_description": "Jandarma, drift yapan sürücüyü yakalayıp 165 bin lira ceza kesti, ehliyetini 60 gün askıya aldı. Sizce trafik denetimleri bu tür tehlikeli sürüşleri yeterince önlüyor mu?",
+      "visual_query": "driver drifting highway",
+      "spoken_text": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
+      "tts_text": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza. Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı. Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti. Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "trafik",
+        "kaza",
+        "otoyol",
+        "ceza",
+        "jandarma"
+      ],
+      "youtube_hashtags": "#shorts #trafik #güvenlik",
+      "audience_bucket": "other",
+      "hook_style": "direct_change",
+      "generation_mode": "prompt_first_v1",
+      "script": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
