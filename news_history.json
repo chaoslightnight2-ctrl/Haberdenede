@@ -6134,7 +6134,30 @@
       "resolved_url": "https://www.trthaber.com/haber/turkiye/kuzey-marmara-otoyolunda-drift-atan-surucuye-165-bin-lira-ceza-964703.html",
       "source_modified_at": "",
       "audience_bucket": "other",
-      "hook_style": "direct_change"
+      "hook_style": "direct_change",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "title": "İstanbul'da 4 Katlı Binada Patlama ve Yangın Bir Yaralı",
+      "summary": "İstanbul Küçükçekmece'de 4 katlı binanın bodrum katında patlama meydana geldi. Yaralanan 1 kişi hastaneye kaldırıldı.",
+      "url": "https://www.trthaber.com/haber/turkiye/istanbulda-4-katli-binada-patlama-964684.html",
+      "source": "TRT Haber",
+      "published_at": "2026-11-27T20:06:00+03:00",
+      "fingerprint": "232d1094928c909844fe4a7a89bafe3202978ffa",
+      "viral_score": 52.59,
+      "scheduled_slot": "21:00",
+      "publish_at_local": "2026-11-28T21:00:00+03:00",
+      "youtube_url": "https://youtu.be/KrOQqB16GPg",
+      "video_id": "KrOQqB16GPg",
+      "upload_status": "api_insert_confirmed",
+      "processed_at": "2026-11-28T04:44:14.106370+03:00",
+      "publish_at_utc": "2026-11-28T18:00:00Z",
+      "private_recovery": false,
+      "source_headline": "İstanbul'da 4 katlı binada patlama",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbulda-4-katli-binada-patlama-964684.html",
+      "source_modified_at": "",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question"
     }
   ]
 }

@@ -31,6 +31,34 @@
       "hook_style": "direct_change",
       "source_checked_at": "2026-11-28T01:28:49.380317+00:00",
       "source_modified_at": "",
+      "run_id": "46093127011",
+      "processing_status": "readback_scope_unavailable"
+    },
+    {
+      "video_id": "KrOQqB16GPg",
+      "youtube_url": "https://youtu.be/KrOQqB16GPg",
+      "publish_at_local": "2026-11-28T21:00:00+03:00",
+      "publish_at_utc": "2026-11-28T18:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false,
+      "index": 5,
+      "title": "İstanbul'da 4 Katlı Binada Patlama ve Yangın Bir Yaralı",
+      "narration": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol",
+      "description": "Mehmet Akif Mahallesi'nde bir dairede patlama ve yangın çıktı, bir kişi yaralandı ve çok sayıda ekip müdahale etti. Sizce bu tür olayların önlenmesi için neler yapılmalı?",
+      "visual_query": "building explosion fire",
+      "tags": [
+        "İstanbul",
+        "patlama",
+        "yangın",
+        "acil durum",
+        "güvenlik"
+      ],
+      "video_path": "output/short_5.mp4",
+      "source_headline": "İstanbul'da 4 katlı binada patlama",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "source_checked_at": "2026-11-28T01:35:47.982513+00:00",
+      "source_modified_at": "",
       "run_id": "46093127011"
     }
   ],
