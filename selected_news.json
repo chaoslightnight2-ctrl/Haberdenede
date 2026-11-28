@@ -184,7 +184,62 @@
       "audience_bucket": "other",
       "hook_style": "direct_change",
       "generation_mode": "prompt_first_v1",
-      "script": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol"
+      "script": "Kuzey Marmara Otoyolunda sürücüye 165 bin lira ceza Jandarma Genel Komutanlığı drift yapan sürücünün görüntülerini sosyal medyada paylaştı Otoyol Jandarması sürücüyü tespit edip yakaladı ve 165 bin lira idari para cezası kesti Sürücünün ehliyetine 60 gün süreyle el konuldu ve olayla ilgili adli işlem başlatıldı Türkiyeden Haber kanalına abone ol",
+      "scheduled_slot": "19:00",
+      "audio_path": "output/voiceover_4.mp3",
+      "background_path": "output/background_4.mp4",
+      "video_path": "output/short_4.mp4",
+      "video_id": "O1G4yfk2SL8",
+      "youtube_url": "https://youtu.be/O1G4yfk2SL8",
+      "publish_at_local": "2026-11-28T19:00:00+03:00",
+      "publish_at_utc": "2026-11-28T16:00:00Z",
+      "upload_status": "api_insert_confirmed",
+      "private_recovery": false
+    },
+    {
+      "title": "İstanbul'da 4 Katlı Binada Patlama ve Yangın Bir Yaralı",
+      "summary": "İstanbul Küçükçekmece'de 4 katlı binanın bodrum katında patlama meydana geldi. Yaralanan 1 kişi hastaneye kaldırıldı.",
+      "url": "https://www.trthaber.com/haber/turkiye/istanbulda-4-katli-binada-patlama-964684.html",
+      "source": "TRT Haber",
+      "source_name": "",
+      "query": "TRT Haber",
+      "published_at": "2026-11-27T20:06:00+03:00",
+      "fingerprint": "232d1094928c909844fe4a7a89bafe3202978ffa",
+      "direct_source": true,
+      "viral_score": 52.59,
+      "topic_bucket": "afet_güvenlik",
+      "resolved_url": "https://www.trthaber.com/haber/turkiye/istanbulda-4-katli-binada-patlama-964684.html",
+      "source_headline": "İstanbul'da 4 katlı binada patlama",
+      "source_modified_at": "",
+      "source_checked_at": "2026-11-28T01:35:47.982513+00:00",
+      "article_score": 32,
+      "article_text": "Mehmet Akif Mahallesi'nde bir binanın bodrum katındaki dairede henüz bilinmeyen nedenle patlama meydana geldi Patlamanın ardından dairede yangın çıkarken, evde bulunan bir kişi yaralandı Yangın nedeniyle üst katlarda oturanlar binada mahsur kaldı. İhbar üzerine olay yerine çok sayıda polis, sağlık ve itfaiye ekibi sevk edildi Yaralı, sağlık ekiplerinin müdahalesinin ardından ambulansla hastaneye götürüldü. Binada mahsur kalanlar tahliye edilirken, itfaiye ekiplerinin müdahalesiyle yangın söndürüldü Dairede hasara yol açan patlama ve yangına ilişkin ekiplerin çalışmaları sürüyor",
+      "content_quality": "article_text",
+      "model_source_context": "Mehmet Akif Mahallesi'nde bir binanın bodrum katındaki dairede henüz bilinmeyen nedenle patlama meydana geldi Patlamanın ardından dairede yangın çıkarken, evde bulunan bir kişi yaralandı Yangın nedeniyle üst katlarda oturanlar binada mahsur kaldı. İhbar üzerine olay yerine çok sayıda polis, sağlık ve itfaiye ekibi sevk edildi Yaralı, sağlık ekiplerinin müdahalesinin ardından ambulansla hastaneye götürüldü. Binada mahsur kalanlar tahliye edilirken, itfaiye ekiplerinin müdahalesiyle yangın söndürüldü Dairede hasara yol açan patlama ve yangına ilişkin ekiplerin çalışmaları sürüyor",
+      "shorts_hook": "İstanbul'da 4 katlı binada patlama ve yangın",
+      "quality_hook": "İstanbul'da 4 katlı binada patlama ve yangın",
+      "quality_narration": "Mehmet Akif Mahallesi'nde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı. Patlamanın ardından çıkan yangın, üst katlarda oturanları mahsur bıraktı; bir kişi yaralanarak hastaneye kaldırıldı ve polis, sağlık, itfaiye ekipleri olay yerine sevk edildi.",
+      "quality_cta": "Türkiyeden Haber kanalına abone ol",
+      "quality_narration_parts": [
+        "Mehmet Akif Mahallesi'nde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı.",
+        "Patlamanın ardından çıkan yangın, üst katlarda oturanları mahsur bıraktı; bir kişi yaralanarak hastaneye kaldırıldı ve polis, sağlık, itfaiye ekipleri olay yerine sevk edildi."
+      ],
+      "youtube_description": "Mehmet Akif Mahallesi'nde bir dairede patlama ve yangın çıktı, bir kişi yaralandı ve çok sayıda ekip müdahale etti. Sizce bu tür olayların önlenmesi için neler yapılmalı?",
+      "visual_query": "building explosion fire",
+      "spoken_text": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol",
+      "tts_text": "İstanbulda 4 katlı binada patlama ve yangın. Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı. Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi. Türkiyeden Haber kanalına abone ol.",
+      "youtube_tags": [
+        "İstanbul",
+        "patlama",
+        "yangın",
+        "acil durum",
+        "güvenlik"
+      ],
+      "youtube_hashtags": "#shorts #İstanbul #AcilDurum",
+      "audience_bucket": "other",
+      "hook_style": "concrete_question",
+      "generation_mode": "prompt_first_v1",
+      "script": "İstanbulda 4 katlı binada patlama ve yangın Mehmet Akif Mahallesinde 4 katlı binanın bodrum katındaki dairede bilinmeyen bir neden patlamaya yol açtı Patlamanın ardından çıkan yangın üst katlarda oturanları mahsur bıraktı bir kişi yaralanarak hastaneye kaldırıldı ve polis sağlık itfaiye ekipleri olay yerine sevk edildi Türkiyeden Haber kanalına abone ol"
     }
   ]
 }
